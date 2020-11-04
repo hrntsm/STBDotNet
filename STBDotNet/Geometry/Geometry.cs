@@ -1,6 +1,6 @@
 using System;
 
-namespace STBDotNet.Elements.Geometry
+namespace STBDotNet.Geometry
 {
     public struct Point:IEquatable<Point>
     {
