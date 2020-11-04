@@ -9,7 +9,7 @@ namespace STBDotNet.Elements.StbModel
         public StoryKind StoryKind { get; set; }
         public int IdDependence { get; set; }
         public string StrengthConcrete { get; set; }
-        public List<NodeId> NodeIds { get; set; }
+        public List<int> NodeIdList { get; set; }
     }
 
     public enum StoryKind

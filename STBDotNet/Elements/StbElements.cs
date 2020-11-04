@@ -5,7 +5,7 @@ using STBDotNet.Elements.StbExtension;
 
 namespace STBDotNet.Elements
 {
-    public class StbElement
+    public class StbElements
     {
         public Version Version { get; set; }
         public Common Common { get; set; }

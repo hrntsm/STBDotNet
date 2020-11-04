@@ -1,4 +1,6 @@
-namespace STBDotNet.Elements.Base
+using STBDotNet.Elements.Base;
+
+namespace STBDotNet.Elements.StbModel
 {
 
     public interface IModel: IGuid

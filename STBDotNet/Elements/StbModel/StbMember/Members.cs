@@ -1,77 +1,75 @@
 using System.Collections.Generic;
 using STBDotNet.Elements.Base;
 
-namespace STBDotNet.Elements.StbModel
+namespace STBDotNet.Elements.StbModel.StbMember
 {
     public class Members
     {
-        public List<Column> Columns { get; set; }
-        public List<Post> Posts { get; set; }
-        public List<Girder> Girders { get; set; }
-        public List<Beam> Beams { get; set; }
-        public List<Brace> Braces { get; set; }
-        public List<Slab> Slabs { get; set; }
-        public List<Wall> Walls { get; set; }
-        public List<Footing> Footings { get; set; }
-        public List<StripFooting> StripFootings { get; set; }
-        public List<Pile> Piles { get; set; }
-        public List<FoundationColumn> FoundationColumns { get; set; }
-        public List<Parapet> Parapets { get; set; }
-        public List<Open> Opens { get; set; }
+        public List<Column> Columns { get; set; } = new List<Column>();
+        public List<Post> Posts { get; set; } = new List<Post>();
+        public List<Girder> Girders { get; set; } = new List<Girder>();
+        public List<Beam> Beams { get; set; } = new List<Beam>();
+        public List<Brace> Braces { get; set; } = new List<Brace>();
+        public List<Slab> Slabs { get; set; } = new List<Slab>();
+        public List<Wall> Walls { get; set; } = new List<Wall>();
+        public List<Footing> Footings { get; set; } = new List<Footing>();
+        public List<StripFooting> StripFootings { get; set; } = new List<StripFooting>();
+        public List<Pile> Piles { get; set; } = new List<Pile>();
+        public List<FoundationColumn> FoundationColumns { get; set; } = new List<FoundationColumn>();
+        public List<Parapet> Parapets { get; set; } = new List<Parapet>();
+        public List<Open> Opens { get; set; } = new List<Open>();
     }
 
-    public class Column:IModel
-    {
-        public string Guid { get; set; }
-        public int Id { get; set; }
-        public string Name { get; set; }
-    }
-
-    public class Post
+    public class Column:FrameBase
     {
     }
 
-    public class Girder
+    public class Post:FrameBase
     {
     }
 
-    public class Beam
+    public class Girder:FrameBase
     {
     }
 
-    public class Brace
+    public class Beam:FrameBase
     {
     }
 
-    public class Slab
+    public class Brace:FrameBase
     {
     }
 
-    public class Wall
+    public class Slab:PlateBase
+    {
+        public double Level { get; set; }
+    }
+
+    public class Wall:PlateBase
     {
     }
 
-    public class Footing
+    public class Footing:MemberBase
     {
     }
 
-    public class StripFooting
+    public class StripFooting:MemberBase
     {
     }
 
-    public class Pile
+    public class Pile:MemberBase
     {
     }
 
-    public class FoundationColumn
+    public class FoundationColumn:MemberBase
     {
     }
 
-    public class Parapet
+    public class Parapet:MemberBase
     {
     }
 
-    public class Open
+    public class Open:MemberBase
     {
     }
 }

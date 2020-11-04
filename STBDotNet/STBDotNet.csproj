@@ -6,7 +6,6 @@
 
     <ItemGroup>
       <Folder Include="Elements\StbModel\StbJoint" />
-      <Folder Include="Elements\StbModel\StbSection" />
       <Folder Include="Serialization" />
     </ItemGroup>
 
