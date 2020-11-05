@@ -1,5 +1,4 @@
 using System.Collections.Generic;
-using STBDotNet.Elements.Base;
 using STBDotNet.Geometry;
 
 namespace STBDotNet.Elements.StbModel
