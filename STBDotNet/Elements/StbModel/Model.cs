@@ -6,7 +6,7 @@ namespace STBDotNet.Elements.StbModel
     public class Model
     {
         public List<Node> Nodes { get; set; }
-        public Axis Axis { get; set; }
+        public Axes Axes { get; set; }
         public List<Story> Stories { get; set; }
         public Members Members { get; set; }
         public Sections Sections { get; set; }

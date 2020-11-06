@@ -1,6 +1,5 @@
 namespace STBDotNet.Elements.StbModel
 {
-
     public interface IModel: IGuid
     {
         public int Id { get; set; }

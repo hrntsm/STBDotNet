@@ -19,56 +19,69 @@ namespace STBDotNet.Elements.StbModel.StbMember
         public List<Open> Opens { get; set; } = new List<Open>();
     }
 
-    public class Column:FrameBase
+    public class Column:FrameBase, IStbTag
     {
+        public string[] StbTag { get; } = {"StbColumn", "StbColumn"};
     }
 
-    public class Post:FrameBase
+    public class Post:FrameBase, IStbTag
     {
+        public string[] StbTag { get; } = {"StbPost", "StbPost"};
     }
 
-    public class Girder:FrameBase
+    public class Girder:FrameBase, IStbTag
     {
+        public string[] StbTag { get; } = {"StbGirder", "StbGirder"};
     }
 
-    public class Beam:FrameBase
+    public class Beam:FrameBase, IStbTag
     {
+        public string[] StbTag { get; } = {"StbBeam", "StbBeam"};
     }
 
-    public class Brace:FrameBase
+    public class Brace:FrameBase, IStbTag
     {
+        public string[] StbTag { get; } = {"StbBrace", "StbBrace"};
     }
 
-    public class Slab:PlateBase
+    public class Slab:PlateBase, IStbTag
     {
+        public string[] StbTag { get; } = {"StbSlab", "StbSlab"};
         public double Level { get; set; }
     }
 
-    public class Wall:PlateBase
+    public class Wall:PlateBase, IStbTag
     {
+        public string[] StbTag { get; } = {"StbWall", "StbWall"};
     }
 
-    public class Footing:MemberBase
+    public class Footing:MemberBase, IStbTag
     {
+        public string[] StbTag { get; } = {"StbFooting", "StbFooting"};
     }
 
-    public class StripFooting:MemberBase
+    public class StripFooting:MemberBase, IStbTag
     {
+        public string[] StbTag { get; } = {"StbStripFooting", "StbStripFooting"};
     }
 
-    public class Pile:MemberBase
+    public class Pile:MemberBase, IStbTag
     {
+        public string[] StbTag { get; } = {"StbPile", "StbPile"};
     }
 
-    public class FoundationColumn:MemberBase
+    public class FoundationColumn:MemberBase, IStbTag
     {
+        public string[] StbTag { get; } = {"StbFoundationColumn", "StbFoundationColumn"};
     }
 
-    public class Parapet:MemberBase
+    public class Parapet:MemberBase, IStbTag
     {
+        public string[] StbTag { get; } = {"StbParapet", "StbParapet"};
     }
 
-    public class Open:MemberBase
+    public class Open:MemberBase, IStbTag
     {
+        public string[] StbTag { get; } = {"StbOpen", "StbOpen"};
     }
 }

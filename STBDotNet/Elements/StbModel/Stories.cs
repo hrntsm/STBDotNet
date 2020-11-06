@@ -7,7 +7,7 @@ namespace STBDotNet.Elements.StbModel
         public double Height { get; set; }
         public StoryKind StoryKind { get; set; }
         public int IdDependence { get; set; }
-        public string StrengthConcrete { get; set; }
+        public StrengthConcrete StrengthConcrete { get; set; }
         public List<int> NodeIdList { get; set; }
     }
 
