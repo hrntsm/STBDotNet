@@ -27,6 +27,4 @@ jobs:
       uses: actions/upload-artifact@v2
       with:
         name: STBDotNet
-        path: |
-          ./
-          *.dll
+        path: STBDotNet/bin/Release/
