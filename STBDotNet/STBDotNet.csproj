@@ -2,11 +2,26 @@
 
     <PropertyGroup>
         <TargetFramework>netstandard2.1</TargetFramework>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <Version>0.1.1</Version>
+        <Authors>hrntsm</Authors>
+        <Company>hrntsm</Company>
+        <PackageLicenseFile>LICENSE</PackageLicenseFile>
+        <PackageProjectUrl>https://github.com/hrntsm/STBDotNet</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/hrntsm/STBDotNet</RepositoryUrl>
+        <Description>STBDotNet is a .NET library for ST-Bridge.</Description>
+        <Copyright>Copyright (c) 2020 hiron</Copyright>
     </PropertyGroup>
 
     <ItemGroup>
       <Folder Include="Elements\StbModel\StbJoint" />
       <Folder Include="Serialization" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Include="..\LICENSE">
+        <Pack>True</Pack>
+      </None>
     </ItemGroup>
 
 </Project>
