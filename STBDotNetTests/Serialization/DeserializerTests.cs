@@ -2,6 +2,7 @@
 using STBDotNet.Serialization;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Text;
 
 namespace STBDotNet.Serialization.Tests
@@ -19,8 +20,9 @@ namespace STBDotNet.Serialization.Tests
         [Test()]
         public void DeserializerTest1()
         {
-            var item = new Deserializer("path");
-            Assert.Equals("path", item.Path);
+            var path = "path";
+            var item = new Deserializer(path);
+            Assert.IsTrue(item.Path == path);
         }
 
         [Test()]
