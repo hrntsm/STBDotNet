@@ -44,8 +44,7 @@ namespace STBDotNet.Serialization
             }
             catch (Exception e)
             {
-                Console.Write(e);
-                throw;
+                throw new ArgumentException(e.Message);
             }
 
             return stbElements;
