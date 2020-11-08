@@ -48,11 +48,10 @@ jobs:
       run: dotnet restore
     - name: Build
       run: dotnet build --configuration Release --no-restore
-    - name: Code Climate Coverage Action
-      uses: paambaati/codeclimate-action@v2.7.4
-      env:
-        CC_TEST_REPORTER_ID: e1836c45a6364d1d57880dd144ca5ad6d123a98de5647ea55d50a7c397fc1b17
+    - name: Codacy Coverage Reporter
+      uses: codacy/codacy-coverage-reporter-action@0.2.0
       with:
-        coverageCommand: dotnet test --collect "Code Coverage"
+        project-token: 878a3546e1ac4365a4640db766d4bf95
+        # coverage-reports: # optional, default is 
         
         
