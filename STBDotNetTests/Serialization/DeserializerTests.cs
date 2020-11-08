@@ -12,13 +12,15 @@ namespace STBDotNet.Serialization.Tests
         [Test()]
         public void DeserializerTest()
         {
-            Assert.Fail();
+            var item = new Deserializer();
+            Assert.IsTrue(item != null);
         }
 
         [Test()]
         public void DeserializerTest1()
         {
-            Assert.Fail();
+            var item = new Deserializer("path");
+            Assert.Equals("path", item.Path);
         }
 
         [Test()]
