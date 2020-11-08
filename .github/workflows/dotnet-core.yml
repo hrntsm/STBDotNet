@@ -44,4 +44,4 @@ jobs:
       uses: codacy/codacy-coverage-reporter-action@0.2.0
       with:
         project-token: 878a3546e1ac4365a4640db766d4bf95
-        coverage-reports: STBDotNetTests/TestResults/dotcover.xml
+        coverage-reports: STBDotNet/STBDotNetTests/TestResults/dotcover.xml
