@@ -8,9 +8,7 @@ on:
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
-
     steps:
     - uses: actions/checkout@v2
     - name: Setup .NET Core
@@ -28,3 +26,21 @@ jobs:
       with:
         name: STBDotNet
         path: STBDotNet/bin/Release/
+  coverage:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Setup .NET Core
+      uses: actions/setup-dotnet@v1
+      with:
+        dotnet-version: 3.1.301
+    - name: Install dependencies
+      run: dotnet restore
+    - name: Build
+      run: dotnet build --configuration Release --no-restore
+    - uses: paambaati/codeclimate-action@v2.2.4
+      env:
+        CC_TEST_REPORTER_ID: e1836c45a6364d1d57880dd144ca5ad6d123a98de5647ea55d50a7c397fc1b17
+      with:
+        coverageCommand: dotnet test --no-restore --verbosity normal
+        
