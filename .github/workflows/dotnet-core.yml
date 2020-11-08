@@ -53,6 +53,6 @@ jobs:
       env:
         CC_TEST_REPORTER_ID: e1836c45a6364d1d57880dd144ca5ad6d123a98de5647ea55d50a7c397fc1b17
       with:
-        coverageCommand: dotnet test
+        coverageCommand: dotnet test /p:CollectCoverage=true /p:CoverletOutput=TestResults/ /p:CoverletOutputFormat=lcov
         
         
