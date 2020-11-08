@@ -1,956 +1,564 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SolutionRoot CoveredStatements="32" TotalStatements="458" CoveragePercent="7" ReportType="Xml" DotCoverVersion="2020.2.4">
-  <Project Name="STBDotNet" CoveredStatements="18" TotalStatements="444" CoveragePercent="4">
-    <Namespace Name="STBDotNet" CoveredStatements="18" TotalStatements="444" CoveragePercent="4">
-      <Namespace Name="Elements" CoveredStatements="2" TotalStatements="400" CoveragePercent="1">
-        <Namespace Name="StbCommon" CoveredStatements="0" TotalStatements="12" CoveragePercent="0">
-          <Type Name="ApplyConditions" CoveredStatements="0" TotalStatements="0" CoveragePercent="0" />
-          <Type Name="Common" CoveredStatements="0" TotalStatements="12" CoveragePercent="0">
-            <AutoProperty Name="ApplyConditionsList:List&lt;ApplyConditions&gt;" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-              <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-            </AutoProperty>
-            <AutoProperty Name="AppName:string" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-              <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-            </AutoProperty>
-            <AutoProperty Name="Guid:string" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-              <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-            </AutoProperty>
-            <AutoProperty Name="ProjectName:string" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-              <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-            </AutoProperty>
-            <AutoProperty Name="ReinforcementStrengthList:List&lt;ReinforcementStrength&gt;" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-              <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-            </AutoProperty>
-            <AutoProperty Name="StrengthConcrete:string" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-              <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-            </AutoProperty>
-          </Type>
-          <Type Name="ReinforcementStrength" CoveredStatements="0" TotalStatements="0" CoveragePercent="0" />
-        </Namespace>
-        <Namespace Name="StbModel" CoveredStatements="0" TotalStatements="378" CoveragePercent="0">
-          <Namespace Name="StbMember" CoveredStatements="0" TotalStatements="119" CoveragePercent="0">
-            <Type Name="Beam" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-              <Constructor Name="Beam()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              <AutoProperty Name="StbTag:string[]" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
-                <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              </AutoProperty>
-            </Type>
-            <Type Name="Brace" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-              <Constructor Name="Brace()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              <AutoProperty Name="StbTag:string[]" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
-                <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              </AutoProperty>
-            </Type>
-            <Type Name="Column" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-              <Constructor Name="Column()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              <AutoProperty Name="StbTag:string[]" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
-                <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              </AutoProperty>
-            </Type>
-            <Type Name="Footing" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-              <Constructor Name="Footing()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              <AutoProperty Name="StbTag:string[]" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
-                <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              </AutoProperty>
-            </Type>
-            <Type Name="FoundationColumn" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-              <Constructor Name="FoundationColumn()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              <AutoProperty Name="StbTag:string[]" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
-                <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              </AutoProperty>
-            </Type>
-            <Type Name="FrameBase" CoveredStatements="0" TotalStatements="6" CoveragePercent="0">
-              <AutoProperty Name="IdNodeEnd:int" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-                <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-                <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              </AutoProperty>
-              <AutoProperty Name="IdNodeStart:int" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-                <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-                <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              </AutoProperty>
-              <AutoProperty Name="Rotate:int" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-                <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-                <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              </AutoProperty>
-            </Type>
-            <Type Name="Girder" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-              <Constructor Name="Girder()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              <AutoProperty Name="StbTag:string[]" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
-                <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              </AutoProperty>
-            </Type>
-            <Type Name="MemberBase" CoveredStatements="0" TotalStatements="10" CoveragePercent="0">
-              <AutoProperty Name="Guid:string" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-                <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-                <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              </AutoProperty>
-              <AutoProperty Name="Id:int" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-                <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-                <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              </AutoProperty>
-              <AutoProperty Name="IdSection:int" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-                <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-                <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              </AutoProperty>
-              <AutoProperty Name="KindFrameStructure:KindFrameStructure" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-                <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-                <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              </AutoProperty>
-              <AutoProperty Name="Name:string" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-                <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-                <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              </AutoProperty>
-            </Type>
-            <Type Name="Members" CoveredStatements="0" TotalStatements="39" CoveragePercent="0">
-              <Constructor Name="Members()" CoveredStatements="0" TotalStatements="13" CoveragePercent="0" />
-              <AutoProperty Name="Beams:List&lt;Beam&gt;" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-                <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-                <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              </AutoProperty>
-              <AutoProperty Name="Braces:List&lt;Brace&gt;" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-                <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-                <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              </AutoProperty>
-              <AutoProperty Name="Columns:List&lt;Column&gt;" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-                <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-                <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              </AutoProperty>
-              <AutoProperty Name="Footings:List&lt;Footing&gt;" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-                <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-                <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              </AutoProperty>
-              <AutoProperty Name="FoundationColumns:List&lt;FoundationColumn&gt;" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-                <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-                <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              </AutoProperty>
-              <AutoProperty Name="Girders:List&lt;Girder&gt;" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-                <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-                <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              </AutoProperty>
-              <AutoProperty Name="Opens:List&lt;Open&gt;" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-                <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-                <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              </AutoProperty>
-              <AutoProperty Name="Parapets:List&lt;Parapet&gt;" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-                <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-                <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              </AutoProperty>
-              <AutoProperty Name="Piles:List&lt;Pile&gt;" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-                <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-                <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              </AutoProperty>
-              <AutoProperty Name="Posts:List&lt;Post&gt;" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-                <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-                <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              </AutoProperty>
-              <AutoProperty Name="Slabs:List&lt;Slab&gt;" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-                <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-                <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              </AutoProperty>
-              <AutoProperty Name="StripFootings:List&lt;StripFooting&gt;" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-                <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-                <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              </AutoProperty>
-              <AutoProperty Name="Walls:List&lt;Wall&gt;" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-                <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-                <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              </AutoProperty>
-            </Type>
-            <Type Name="Open" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-              <Constructor Name="Open()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              <AutoProperty Name="StbTag:string[]" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
-                <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              </AutoProperty>
-            </Type>
-            <Type Name="Parapet" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-              <Constructor Name="Parapet()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              <AutoProperty Name="StbTag:string[]" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
-                <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              </AutoProperty>
-            </Type>
-            <Type Name="Pile" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-              <Constructor Name="Pile()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              <AutoProperty Name="StbTag:string[]" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
-                <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              </AutoProperty>
-            </Type>
-            <Type Name="PlaneOpen" CoveredStatements="0" TotalStatements="16" CoveragePercent="0">
-              <AutoProperty Name="Id:int" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-                <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-                <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              </AutoProperty>
-              <AutoProperty Name="IdSection:int" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-                <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-                <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              </AutoProperty>
-              <AutoProperty Name="LengthX:double" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-                <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-                <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              </AutoProperty>
-              <AutoProperty Name="LengthY:double" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-                <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-                <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              </AutoProperty>
-              <AutoProperty Name="Name:string" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-                <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-                <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              </AutoProperty>
-              <AutoProperty Name="PositionX:double" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-                <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-                <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              </AutoProperty>
-              <AutoProperty Name="PositionY:double" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-                <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-                <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              </AutoProperty>
-              <AutoProperty Name="Rotate:double" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-                <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-                <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              </AutoProperty>
-            </Type>
-            <Type Name="PlateBase" CoveredStatements="0" TotalStatements="12" CoveragePercent="0">
-              <Constructor Name="PlateBase()" CoveredStatements="0" TotalStatements="4" CoveragePercent="0" />
-              <AutoProperty Name="NodeIdOrder:List&lt;int&gt;" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-                <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-                <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              </AutoProperty>
-              <AutoProperty Name="OffsetList:List&lt;PlateOffset&gt;" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-                <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-                <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              </AutoProperty>
-              <AutoProperty Name="Open:List&lt;PlaneOpen&gt;" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-                <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-                <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              </AutoProperty>
-              <AutoProperty Name="OpenIdList:List&lt;int&gt;" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-                <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-                <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              </AutoProperty>
-            </Type>
-            <Type Name="PlateOffset" CoveredStatements="0" TotalStatements="8" CoveragePercent="0">
-              <AutoProperty Name="IdNode:int" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-                <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-                <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              </AutoProperty>
-              <AutoProperty Name="X:double" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-                <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-                <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              </AutoProperty>
-              <AutoProperty Name="Y:double" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-                <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-                <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              </AutoProperty>
-              <AutoProperty Name="Z:double" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-                <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-                <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              </AutoProperty>
-            </Type>
-            <Type Name="Post" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-              <Constructor Name="Post()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              <AutoProperty Name="StbTag:string[]" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
-                <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              </AutoProperty>
-            </Type>
-            <Type Name="Slab" CoveredStatements="0" TotalStatements="4" CoveragePercent="0">
-              <Constructor Name="Slab()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              <AutoProperty Name="Level:double" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-                <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-                <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              </AutoProperty>
-              <AutoProperty Name="StbTag:string[]" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
-                <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              </AutoProperty>
-            </Type>
-            <Type Name="StripFooting" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-              <Constructor Name="StripFooting()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              <AutoProperty Name="StbTag:string[]" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
-                <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              </AutoProperty>
-            </Type>
-            <Type Name="Wall" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-              <Constructor Name="Wall()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              <AutoProperty Name="StbTag:string[]" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
-                <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              </AutoProperty>
-            </Type>
-          </Namespace>
-          <Namespace Name="StbSection" CoveredStatements="0" TotalStatements="127" CoveragePercent="0">
-            <Type Name="BeamRc" CoveredStatements="0" TotalStatements="0" CoveragePercent="0" />
-            <Type Name="BeamS" CoveredStatements="0" TotalStatements="0" CoveragePercent="0" />
-            <Type Name="BeamSrc" CoveredStatements="0" TotalStatements="0" CoveragePercent="0" />
-            <Type Name="BraceS" CoveredStatements="0" TotalStatements="0" CoveragePercent="0" />
-            <Type Name="BuildBox" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-              <Constructor Name="BuildBox()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              <AutoProperty Name="StbTag:string[]" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
-                <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              </AutoProperty>
-            </Type>
-            <Type Name="BuildH" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-              <Constructor Name="BuildH()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              <AutoProperty Name="StbTag:string[]" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
-                <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              </AutoProperty>
-            </Type>
-            <Type Name="ColumnCft" CoveredStatements="0" TotalStatements="0" CoveragePercent="0" />
-            <Type Name="ColumnRc" CoveredStatements="0" TotalStatements="0" CoveragePercent="0" />
-            <Type Name="ColumnS" CoveredStatements="0" TotalStatements="0" CoveragePercent="0" />
-            <Type Name="ColumnSrc" CoveredStatements="0" TotalStatements="0" CoveragePercent="0" />
-            <Type Name="FlatBar" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-              <Constructor Name="FlatBar()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              <AutoProperty Name="StbTag:string[]" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
-                <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              </AutoProperty>
-            </Type>
-            <Type Name="FoundationRc" CoveredStatements="0" TotalStatements="0" CoveragePercent="0" />
-            <Type Name="LipC" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-              <Constructor Name="LipC()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              <AutoProperty Name="StbTag:string[]" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
-                <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              </AutoProperty>
-            </Type>
-            <Type Name="OpenRc" CoveredStatements="0" TotalStatements="0" CoveragePercent="0" />
-            <Type Name="Parapet" CoveredStatements="0" TotalStatements="0" CoveragePercent="0" />
-            <Type Name="PileProduct" CoveredStatements="0" TotalStatements="0" CoveragePercent="0" />
-            <Type Name="PileRc" CoveredStatements="0" TotalStatements="0" CoveragePercent="0" />
-            <Type Name="PileS" CoveredStatements="0" TotalStatements="0" CoveragePercent="0" />
-            <Type Name="Pipe" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-              <Constructor Name="Pipe()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              <AutoProperty Name="StbTag:string[]" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
-                <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              </AutoProperty>
-            </Type>
-            <Type Name="RcSection" CoveredStatements="0" TotalStatements="6" CoveragePercent="0">
-              <AutoProperty Name="BatList:List&lt;double&gt;" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-                <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-                <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              </AutoProperty>
-              <AutoProperty Name="DBarBand:List&lt;string&gt;" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-                <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-                <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              </AutoProperty>
-              <AutoProperty Name="DBarMain:List&lt;string&gt;" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-                <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-                <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              </AutoProperty>
-            </Type>
-            <Type Name="RollBox" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-              <Constructor Name="RollBox()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              <AutoProperty Name="StbTag:string[]" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
-                <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              </AutoProperty>
-            </Type>
-            <Type Name="RollC" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-              <Constructor Name="RollC()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              <AutoProperty Name="StbTag:string[]" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
-                <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              </AutoProperty>
-            </Type>
-            <Type Name="RollH" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-              <Constructor Name="RollH()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              <AutoProperty Name="StbTag:string[]" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
-                <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              </AutoProperty>
-            </Type>
-            <Type Name="RollL" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-              <Constructor Name="RollL()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              <AutoProperty Name="StbTag:string[]" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
-                <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              </AutoProperty>
-            </Type>
-            <Type Name="RollT" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-              <Constructor Name="RollT()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              <AutoProperty Name="StbTag:string[]" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
-                <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              </AutoProperty>
-            </Type>
-            <Type Name="RoundBar" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-              <Constructor Name="RoundBar()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              <AutoProperty Name="StbTag:string[]" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
-                <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              </AutoProperty>
-            </Type>
-            <Type Name="Section" CoveredStatements="0" TotalStatements="38" CoveragePercent="0">
-              <AutoProperty Name="BeamRc:List&lt;BeamRc&gt;" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-                <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-                <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              </AutoProperty>
-              <AutoProperty Name="BeamS:List&lt;BeamS&gt;" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-                <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-                <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              </AutoProperty>
-              <AutoProperty Name="BeamSrc:List&lt;BeamSrc&gt;" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-                <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-                <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              </AutoProperty>
-              <AutoProperty Name="BraceS:List&lt;BraceS&gt;" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-                <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-                <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              </AutoProperty>
-              <AutoProperty Name="ColumnCft:List&lt;ColumnCft&gt;" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-                <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-                <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              </AutoProperty>
-              <AutoProperty Name="ColumnRc:List&lt;ColumnRc&gt;" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-                <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-                <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              </AutoProperty>
-              <AutoProperty Name="ColumnS:List&lt;ColumnS&gt;" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-                <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-                <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              </AutoProperty>
-              <AutoProperty Name="ColumnSrc:List&lt;ColumnSrc&gt;" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-                <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-                <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              </AutoProperty>
-              <AutoProperty Name="FoundationRc:List&lt;FoundationRc&gt;" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-                <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-                <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              </AutoProperty>
-              <AutoProperty Name="OpenRc:List&lt;OpenRc&gt;" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-                <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-                <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              </AutoProperty>
-              <AutoProperty Name="Parapet:List&lt;Parapet&gt;" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-                <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-                <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              </AutoProperty>
-              <AutoProperty Name="PileProduct:List&lt;PileProduct&gt;" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-                <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-                <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              </AutoProperty>
-              <AutoProperty Name="PileRc:List&lt;PileRc&gt;" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-                <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-                <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              </AutoProperty>
-              <AutoProperty Name="PileS:List&lt;PileS&gt;" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-                <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-                <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              </AutoProperty>
-              <AutoProperty Name="SlabDeck:List&lt;SlabDeck&gt;" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-                <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-                <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              </AutoProperty>
-              <AutoProperty Name="SlabPrecast:List&lt;SlabPrecast&gt;" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-                <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-                <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              </AutoProperty>
-              <AutoProperty Name="SlabRc:List&lt;SlabRc&gt;" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-                <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-                <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              </AutoProperty>
-              <AutoProperty Name="Steel:Steel" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-                <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-                <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              </AutoProperty>
-              <AutoProperty Name="WallRc:List&lt;WallRc&gt;" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-                <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-                <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              </AutoProperty>
-            </Type>
-            <Type Name="SectionBase" CoveredStatements="0" TotalStatements="8" CoveragePercent="0">
-              <AutoProperty Name="Floor:string" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-                <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-                <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              </AutoProperty>
-              <AutoProperty Name="Guid:string" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-                <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-                <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              </AutoProperty>
-              <AutoProperty Name="Id:int" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-                <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-                <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              </AutoProperty>
-              <AutoProperty Name="Name:string" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-                <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-                <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              </AutoProperty>
-            </Type>
-            <Type Name="SlabDeck" CoveredStatements="0" TotalStatements="0" CoveragePercent="0" />
-            <Type Name="SlabPrecast" CoveredStatements="0" TotalStatements="0" CoveragePercent="0" />
-            <Type Name="SlabRc" CoveredStatements="0" TotalStatements="0" CoveragePercent="0" />
-            <Type Name="Steel" CoveredStatements="0" TotalStatements="33" CoveragePercent="0">
-              <Constructor Name="Steel()" CoveredStatements="0" TotalStatements="11" CoveragePercent="0" />
-              <AutoProperty Name="BuildBox:List&lt;BuildBox&gt;" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-                <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-                <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              </AutoProperty>
-              <AutoProperty Name="BuildH:List&lt;BuildH&gt;" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-                <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-                <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              </AutoProperty>
-              <AutoProperty Name="FlatBar:List&lt;FlatBar&gt;" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-                <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-                <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              </AutoProperty>
-              <AutoProperty Name="LipC:List&lt;LipC&gt;" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-                <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-                <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              </AutoProperty>
-              <AutoProperty Name="Pipe:List&lt;Pipe&gt;" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-                <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-                <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              </AutoProperty>
-              <AutoProperty Name="RollBox:List&lt;RollBox&gt;" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-                <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-                <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              </AutoProperty>
-              <AutoProperty Name="RollC:List&lt;RollC&gt;" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-                <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-                <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              </AutoProperty>
-              <AutoProperty Name="RollH:List&lt;RollH&gt;" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-                <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-                <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              </AutoProperty>
-              <AutoProperty Name="RollL:List&lt;RollL&gt;" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-                <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-                <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              </AutoProperty>
-              <AutoProperty Name="RollT:List&lt;RollT&gt;" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-                <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-                <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              </AutoProperty>
-              <AutoProperty Name="RoundBar:List&lt;RoundBar&gt;" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-                <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-                <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              </AutoProperty>
-            </Type>
-            <Type Name="SteelSectionBase" CoveredStatements="0" TotalStatements="20" CoveragePercent="0">
-              <AutoProperty Name="Guid:string" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-                <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-                <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              </AutoProperty>
-              <AutoProperty Name="Id:int" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-                <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-                <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              </AutoProperty>
-              <AutoProperty Name="Name:string" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-                <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-                <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              </AutoProperty>
-              <AutoProperty Name="P1:double" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-                <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-                <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              </AutoProperty>
-              <AutoProperty Name="P2:double" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-                <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-                <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              </AutoProperty>
-              <AutoProperty Name="P3:double" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-                <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-                <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              </AutoProperty>
-              <AutoProperty Name="P4:double" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-                <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-                <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              </AutoProperty>
-              <AutoProperty Name="P5:double" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-                <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-                <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              </AutoProperty>
-              <AutoProperty Name="P6:double" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-                <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-                <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              </AutoProperty>
-              <AutoProperty Name="ShapeType:ShapeType" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-                <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-                <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              </AutoProperty>
-            </Type>
-            <Type Name="WallRc" CoveredStatements="0" TotalStatements="0" CoveragePercent="0" />
-          </Namespace>
-          <Type Name="ArcAxes" CoveredStatements="0" TotalStatements="14" CoveragePercent="0">
-            <Constructor Name="ArcAxes()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-            <AutoProperty Name="ArcAxis:List&lt;ArcAxis&gt;" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-              <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-            </AutoProperty>
-            <AutoProperty Name="EndAngle:double" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-              <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-            </AutoProperty>
-            <AutoProperty Name="GroupName:string" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-              <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-            </AutoProperty>
-            <AutoProperty Name="StartAngle:double" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-              <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-            </AutoProperty>
-            <AutoProperty Name="StbTag:string[]" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
-              <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-            </AutoProperty>
-            <AutoProperty Name="X:double" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-              <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-            </AutoProperty>
-            <AutoProperty Name="Y:double" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-              <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-            </AutoProperty>
-          </Type>
-          <Type Name="ArcAxis" CoveredStatements="0" TotalStatements="4" CoveragePercent="0">
-            <Constructor Name="ArcAxis()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-            <AutoProperty Name="Radius:double" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-              <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-            </AutoProperty>
-            <AutoProperty Name="StbTag:string[]" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
-              <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-            </AutoProperty>
-          </Type>
-          <Type Name="Axes" CoveredStatements="0" TotalStatements="8" CoveragePercent="0">
-            <AutoProperty Name="ArcAxes:List&lt;ArcAxes&gt;" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-              <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-            </AutoProperty>
-            <AutoProperty Name="DrawingAxes:DrawingAxes" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-              <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-            </AutoProperty>
-            <AutoProperty Name="ParallelAxes:List&lt;ParallelAxes&gt;" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-              <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-            </AutoProperty>
-            <AutoProperty Name="RadialAxes:List&lt;RadialAxes&gt;" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-              <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-            </AutoProperty>
-          </Type>
-          <Type Name="DrawingArcAxis" CoveredStatements="0" TotalStatements="16" CoveragePercent="0">
-            <Constructor Name="DrawingArcAxis()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-            <AutoProperty Name="EndAngle:double" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-              <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-            </AutoProperty>
-            <AutoProperty Name="GroupName:string" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-              <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-            </AutoProperty>
-            <AutoProperty Name="Name:string" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-              <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-            </AutoProperty>
-            <AutoProperty Name="Radius:double" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-              <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-            </AutoProperty>
-            <AutoProperty Name="StartAngle:double" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-              <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-            </AutoProperty>
-            <AutoProperty Name="StbTag:string[]" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
-              <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-            </AutoProperty>
-            <AutoProperty Name="X:double" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-              <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-            </AutoProperty>
-            <AutoProperty Name="Y:double" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-              <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-            </AutoProperty>
-          </Type>
-          <Type Name="DrawingAxes" CoveredStatements="0" TotalStatements="6" CoveragePercent="0">
-            <Constructor Name="DrawingAxes()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-            <AutoProperty Name="ArcAxis:List&lt;DrawingArcAxis&gt;" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-              <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-            </AutoProperty>
-            <AutoProperty Name="LineAxis:List&lt;DrawingLineAxis&gt;" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-              <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-            </AutoProperty>
-            <AutoProperty Name="StbTag:string[]" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
-              <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-            </AutoProperty>
-          </Type>
-          <Type Name="DrawingLineAxis" CoveredStatements="0" TotalStatements="14" CoveragePercent="0">
-            <Constructor Name="DrawingLineAxis()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-            <AutoProperty Name="EndX:double" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-              <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-            </AutoProperty>
-            <AutoProperty Name="EndY:double" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-              <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-            </AutoProperty>
-            <AutoProperty Name="GroupName:string" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-              <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-            </AutoProperty>
-            <AutoProperty Name="Name:string" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-              <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-            </AutoProperty>
-            <AutoProperty Name="StartX:double" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-              <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-            </AutoProperty>
-            <AutoProperty Name="StartY:double" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-              <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-            </AutoProperty>
-            <AutoProperty Name="StbTag:string[]" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
-              <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-            </AutoProperty>
-          </Type>
-          <Type Name="Joints" CoveredStatements="0" TotalStatements="0" CoveragePercent="0" />
-          <Type Name="Model" CoveredStatements="0" TotalStatements="12" CoveragePercent="0">
-            <AutoProperty Name="Axes:Axes" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-              <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-            </AutoProperty>
-            <AutoProperty Name="Joints:Joints" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-              <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-            </AutoProperty>
-            <AutoProperty Name="Members:Members" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-              <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-            </AutoProperty>
-            <AutoProperty Name="Nodes:List&lt;Node&gt;" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-              <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-            </AutoProperty>
-            <AutoProperty Name="Sections:Sections" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-              <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-            </AutoProperty>
-            <AutoProperty Name="Stories:List&lt;Story&gt;" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-              <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-            </AutoProperty>
-          </Type>
-          <Type Name="ModelBase" CoveredStatements="0" TotalStatements="6" CoveragePercent="0">
-            <AutoProperty Name="Guid:string" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-              <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-            </AutoProperty>
-            <AutoProperty Name="Id:int" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-              <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-            </AutoProperty>
-            <AutoProperty Name="Name:string" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-              <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-            </AutoProperty>
-          </Type>
-          <Type Name="Node" CoveredStatements="0" TotalStatements="12" CoveragePercent="0">
-            <Constructor Name="Node()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-            <AutoProperty Name="Guid:string" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-              <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-            </AutoProperty>
-            <AutoProperty Name="Id:int" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-              <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-            </AutoProperty>
-            <AutoProperty Name="IdMember:int" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-              <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-            </AutoProperty>
-            <AutoProperty Name="NodeKind:NodeKind" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-              <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-            </AutoProperty>
-            <AutoProperty Name="Position:Point" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-              <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-            </AutoProperty>
-            <AutoProperty Name="StbTag:string[]" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
-              <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-            </AutoProperty>
-          </Type>
-          <Type Name="ParallelAxes" CoveredStatements="0" TotalStatements="12" CoveragePercent="0">
-            <Constructor Name="ParallelAxes()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-            <AutoProperty Name="Angle:double" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-              <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-            </AutoProperty>
-            <AutoProperty Name="GroupName:string" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-              <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-            </AutoProperty>
-            <AutoProperty Name="ParallelAxis:List&lt;ParallelAxis&gt;" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-              <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-            </AutoProperty>
-            <AutoProperty Name="StbTag:string[]" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
-              <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-            </AutoProperty>
-            <AutoProperty Name="X:double" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-              <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-            </AutoProperty>
-            <AutoProperty Name="Y:double" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-              <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-            </AutoProperty>
-          </Type>
-          <Type Name="ParallelAxis" CoveredStatements="0" TotalStatements="4" CoveragePercent="0">
-            <Constructor Name="ParallelAxis()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-            <AutoProperty Name="Distance:double" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-              <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-            </AutoProperty>
-            <AutoProperty Name="StbTag:string[]" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
-              <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-            </AutoProperty>
-          </Type>
-          <Type Name="RadialAxes" CoveredStatements="0" TotalStatements="10" CoveragePercent="0">
-            <Constructor Name="RadialAxes()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-            <AutoProperty Name="GroupName:string" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-              <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-            </AutoProperty>
-            <AutoProperty Name="RadialAxis:List&lt;RadialAxis&gt;" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-              <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-            </AutoProperty>
-            <AutoProperty Name="StbTag:string[]" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
-              <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-            </AutoProperty>
-            <AutoProperty Name="X:double" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-              <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-            </AutoProperty>
-            <AutoProperty Name="Y:double" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-              <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-            </AutoProperty>
-          </Type>
-          <Type Name="RadialAxis" CoveredStatements="0" TotalStatements="4" CoveragePercent="0">
-            <Constructor Name="RadialAxis()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-            <AutoProperty Name="Angle:double" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-              <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-            </AutoProperty>
-            <AutoProperty Name="StbTag:string[]" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
-              <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-            </AutoProperty>
-          </Type>
-          <Type Name="Sections" CoveredStatements="0" TotalStatements="0" CoveragePercent="0" />
-          <Type Name="Story" CoveredStatements="0" TotalStatements="10" CoveragePercent="0">
-            <AutoProperty Name="Height:double" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-              <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-            </AutoProperty>
-            <AutoProperty Name="IdDependence:int" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-              <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-            </AutoProperty>
-            <AutoProperty Name="NodeIdList:List&lt;int&gt;" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-              <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-            </AutoProperty>
-            <AutoProperty Name="StoryKind:StoryKind" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-              <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-            </AutoProperty>
-            <AutoProperty Name="StrengthConcrete:StrengthConcrete" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-              <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-              <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-            </AutoProperty>
-          </Type>
-        </Namespace>
-        <Type Name="StbElements" CoveredStatements="2" TotalStatements="10" CoveragePercent="20">
-          <AutoProperty Name="Common:Common" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-            <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-            <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-          </AutoProperty>
-          <AutoProperty Name="Extension:Extension" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-            <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-            <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-          </AutoProperty>
-          <AutoProperty Name="FromIfc:FromIfc" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-            <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-            <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-          </AutoProperty>
-          <AutoProperty Name="Model:Model" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-            <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-            <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-          </AutoProperty>
-          <AutoProperty Name="Version:Version" CoveredStatements="2" TotalStatements="2" CoveragePercent="100">
-            <PropertyGetter CoveredStatements="1" TotalStatements="1" CoveragePercent="100" />
-            <PropertySetter CoveredStatements="1" TotalStatements="1" CoveragePercent="100" />
-          </AutoProperty>
-        </Type>
-      </Namespace>
-      <Namespace Name="Geometry" CoveredStatements="0" TotalStatements="25" CoveragePercent="0">
-        <Type Name="Line" CoveredStatements="0" TotalStatements="7" CoveragePercent="0">
-          <AutoProperty Name="End:Point" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-            <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-            <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-          </AutoProperty>
-          <AutoProperty Name="Start:Point" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-            <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-            <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-          </AutoProperty>
-          <Method Name="Equals(Line):bool" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-          <Method Name="Equals(object):bool" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-          <Method Name="GetHashCode():int" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-        </Type>
-        <Type Name="Mesh" CoveredStatements="0" TotalStatements="9" CoveragePercent="0">
-          <AutoProperty Name="A:Point" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-            <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-            <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-          </AutoProperty>
-          <AutoProperty Name="B:Point" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-            <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-            <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-          </AutoProperty>
-          <AutoProperty Name="C:Point" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-            <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-            <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-          </AutoProperty>
-          <Method Name="Equals(Mesh):bool" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-          <Method Name="Equals(object):bool" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-          <Method Name="GetHashCode():int" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-        </Type>
-        <Type Name="Point" CoveredStatements="0" TotalStatements="9" CoveragePercent="0">
-          <AutoProperty Name="X:double" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-            <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-            <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-          </AutoProperty>
-          <AutoProperty Name="Y:double" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-            <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-            <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-          </AutoProperty>
-          <AutoProperty Name="Z:double" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
-            <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-            <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-          </AutoProperty>
-          <Method Name="Equals(Point):bool" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-          <Method Name="Equals(object):bool" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-          <Method Name="GetHashCode():int" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
-        </Type>
-      </Namespace>
-      <Namespace Name="Serialization" CoveredStatements="16" TotalStatements="19" CoveragePercent="84">
-        <Type Name="Deserializer" CoveredStatements="16" TotalStatements="19" CoveragePercent="84">
-          <Constructor Name="Deserializer()" CoveredStatements="2" TotalStatements="2" CoveragePercent="100" />
-          <Constructor Name="Deserializer(string)" CoveredStatements="3" TotalStatements="3" CoveragePercent="100" />
-          <AutoProperty Name="Path:string" CoveredStatements="1" TotalStatements="1" CoveragePercent="100">
-            <PropertyGetter CoveredStatements="1" TotalStatements="1" CoveragePercent="100" />
-          </AutoProperty>
-          <Method Name="Build():StbElements" CoveredStatements="10" TotalStatements="13" CoveragePercent="77" />
-        </Type>
-      </Namespace>
-    </Namespace>
-  </Project>
-  <Project Name="STBDotNetTests" CoveredStatements="14" TotalStatements="14" CoveragePercent="100">
-    <Namespace Name="STBDotNet.Serialization.Tests" CoveredStatements="14" TotalStatements="14" CoveragePercent="100">
-      <Type Name="DeserializerTests" CoveredStatements="14" TotalStatements="14" CoveragePercent="100">
-        <Method Name="BuildTest():void" CoveredStatements="8" TotalStatements="8" CoveragePercent="100" />
-        <Method Name="DeserializerTest():void" CoveredStatements="3" TotalStatements="3" CoveragePercent="100" />
-        <Method Name="DeserializerTest1():void" CoveredStatements="3" TotalStatements="3" CoveragePercent="100" />
+<Root CoveredStatements="32" TotalStatements="458" CoveragePercent="7" ReportType="NDependXML" DotCoverVersion="2020.2.4">
+  <Assembly Name="STBDotNet" CoveredStatements="18" TotalStatements="444" CoveragePercent="4">
+    <Namespace Name="STBDotNet.Elements" CoveredStatements="2" TotalStatements="10" CoveragePercent="20">
+      <Type Name="StbElements" CoveredStatements="2" TotalStatements="10" CoveragePercent="20">
+        <Method Name="get_Common()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="11" />
+        <Method Name="get_Extension()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="14" />
+        <Method Name="get_FromIfc()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="13" />
+        <Method Name="get_Model()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="12" />
+        <Method Name="get_Version()" CoveredStatements="1" TotalStatements="1" CoveragePercent="100" FirstStatementLine="10" />
+        <Method Name="set_Common(Common)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="11" />
+        <Method Name="set_Extension(Extension)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="14" />
+        <Method Name="set_FromIfc(FromIfc)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="13" />
+        <Method Name="set_Model(Model)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="12" />
+        <Method Name="set_Version(Version)" CoveredStatements="1" TotalStatements="1" CoveragePercent="100" FirstStatementLine="10" />
       </Type>
     </Namespace>
-  </Project>
-</SolutionRoot>
+    <Namespace Name="STBDotNet.Elements.StbCommon" CoveredStatements="0" TotalStatements="12" CoveragePercent="0">
+      <Type Name="ApplyConditions" CoveredStatements="0" TotalStatements="0" CoveragePercent="0" />
+      <Type Name="Common" CoveredStatements="0" TotalStatements="12" CoveragePercent="0">
+        <Method Name="get_ApplyConditionsList()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="13" />
+        <Method Name="get_AppName()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="9" />
+        <Method Name="get_Guid()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="7" />
+        <Method Name="get_ProjectName()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="8" />
+        <Method Name="get_ReinforcementStrengthList()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="12" />
+        <Method Name="get_StrengthConcrete()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="10" />
+        <Method Name="set_ApplyConditionsList(List&lt;ApplyConditions&gt;)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="13" />
+        <Method Name="set_AppName(String)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="9" />
+        <Method Name="set_Guid(String)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="7" />
+        <Method Name="set_ProjectName(String)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="8" />
+        <Method Name="set_ReinforcementStrengthList(List&lt;ReinforcementStrength&gt;)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="12" />
+        <Method Name="set_StrengthConcrete(String)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="10" />
+      </Type>
+      <Type Name="ReinforcementStrength" CoveredStatements="0" TotalStatements="0" CoveragePercent="0" />
+    </Namespace>
+    <Namespace Name="STBDotNet.Elements.StbModel" CoveredStatements="0" TotalStatements="132" CoveragePercent="0">
+      <Type Name="ArcAxes" CoveredStatements="0" TotalStatements="14" CoveragePercent="0">
+        <Method Name=".ctor()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="38" />
+        <Method Name="get_ArcAxis()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="44" />
+        <Method Name="get_EndAngle()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="43" />
+        <Method Name="get_GroupName()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="39" />
+        <Method Name="get_StartAngle()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="42" />
+        <Method Name="get_StbTag()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="38" />
+        <Method Name="get_X()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="40" />
+        <Method Name="get_Y()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="41" />
+        <Method Name="set_ArcAxis(List&lt;ArcAxis&gt;)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="44" />
+        <Method Name="set_EndAngle(Double)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="43" />
+        <Method Name="set_GroupName(String)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="39" />
+        <Method Name="set_StartAngle(Double)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="42" />
+        <Method Name="set_X(Double)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="40" />
+        <Method Name="set_Y(Double)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="41" />
+      </Type>
+      <Type Name="ArcAxis" CoveredStatements="0" TotalStatements="4" CoveragePercent="0">
+        <Method Name=".ctor()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="49" />
+        <Method Name="get_Radius()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="50" />
+        <Method Name="get_StbTag()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="49" />
+        <Method Name="set_Radius(Double)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="50" />
+      </Type>
+      <Type Name="Axes" CoveredStatements="0" TotalStatements="8" CoveragePercent="0">
+        <Method Name="get_ArcAxes()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="8" />
+        <Method Name="get_DrawingAxes()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="10" />
+        <Method Name="get_ParallelAxes()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="7" />
+        <Method Name="get_RadialAxes()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="9" />
+        <Method Name="set_ArcAxes(List&lt;ArcAxes&gt;)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="8" />
+        <Method Name="set_DrawingAxes(DrawingAxes)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="10" />
+        <Method Name="set_ParallelAxes(List&lt;ParallelAxes&gt;)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="7" />
+        <Method Name="set_RadialAxes(List&lt;RadialAxes&gt;)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="9" />
+      </Type>
+      <Type Name="DrawingArcAxis" CoveredStatements="0" TotalStatements="16" CoveragePercent="0">
+        <Method Name=".ctor()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="88" />
+        <Method Name="get_EndAngle()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="95" />
+        <Method Name="get_GroupName()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="91" />
+        <Method Name="get_Name()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="89" />
+        <Method Name="get_Radius()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="90" />
+        <Method Name="get_StartAngle()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="94" />
+        <Method Name="get_StbTag()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="88" />
+        <Method Name="get_X()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="92" />
+        <Method Name="get_Y()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="93" />
+        <Method Name="set_EndAngle(Double)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="95" />
+        <Method Name="set_GroupName(String)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="91" />
+        <Method Name="set_Name(String)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="89" />
+        <Method Name="set_Radius(Double)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="90" />
+        <Method Name="set_StartAngle(Double)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="94" />
+        <Method Name="set_X(Double)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="92" />
+        <Method Name="set_Y(Double)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="93" />
+      </Type>
+      <Type Name="DrawingAxes" CoveredStatements="0" TotalStatements="6" CoveragePercent="0">
+        <Method Name=".ctor()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="70" />
+        <Method Name="get_ArcAxis()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="72" />
+        <Method Name="get_LineAxis()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="71" />
+        <Method Name="get_StbTag()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="70" />
+        <Method Name="set_ArcAxis(List&lt;DrawingArcAxis&gt;)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="72" />
+        <Method Name="set_LineAxis(List&lt;DrawingLineAxis&gt;)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="71" />
+      </Type>
+      <Type Name="DrawingLineAxis" CoveredStatements="0" TotalStatements="14" CoveragePercent="0">
+        <Method Name=".ctor()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="77" />
+        <Method Name="get_EndX()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="82" />
+        <Method Name="get_EndY()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="83" />
+        <Method Name="get_GroupName()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="79" />
+        <Method Name="get_Name()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="78" />
+        <Method Name="get_StartX()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="80" />
+        <Method Name="get_StartY()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="81" />
+        <Method Name="get_StbTag()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="77" />
+        <Method Name="set_EndX(Double)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="82" />
+        <Method Name="set_EndY(Double)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="83" />
+        <Method Name="set_GroupName(String)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="79" />
+        <Method Name="set_Name(String)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="78" />
+        <Method Name="set_StartX(Double)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="80" />
+        <Method Name="set_StartY(Double)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="81" />
+      </Type>
+      <Type Name="Joints" CoveredStatements="0" TotalStatements="0" CoveragePercent="0" />
+      <Type Name="Model" CoveredStatements="0" TotalStatements="12" CoveragePercent="0">
+        <Method Name="get_Axes()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="9" />
+        <Method Name="get_Joints()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="13" />
+        <Method Name="get_Members()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="11" />
+        <Method Name="get_Nodes()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="8" />
+        <Method Name="get_Sections()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="12" />
+        <Method Name="get_Stories()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="10" />
+        <Method Name="set_Axes(Axes)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="9" />
+        <Method Name="set_Joints(Joints)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="13" />
+        <Method Name="set_Members(Members)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="11" />
+        <Method Name="set_Nodes(List&lt;Node&gt;)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="8" />
+        <Method Name="set_Sections(Sections)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="12" />
+        <Method Name="set_Stories(List&lt;Story&gt;)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="10" />
+      </Type>
+      <Type Name="ModelBase" CoveredStatements="0" TotalStatements="6" CoveragePercent="0">
+        <Method Name="get_Guid()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="11" />
+        <Method Name="get_Id()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="12" />
+        <Method Name="get_Name()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="13" />
+        <Method Name="set_Guid(String)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="11" />
+        <Method Name="set_Id(Int32)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="12" />
+        <Method Name="set_Name(String)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="13" />
+      </Type>
+      <Type Name="Node" CoveredStatements="0" TotalStatements="12" CoveragePercent="0">
+        <Method Name=".ctor()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="13" />
+        <Method Name="get_Guid()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="9" />
+        <Method Name="get_Id()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="8" />
+        <Method Name="get_IdMember()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="12" />
+        <Method Name="get_NodeKind()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="11" />
+        <Method Name="get_Position()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="10" />
+        <Method Name="get_StbTag()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="13" />
+        <Method Name="set_Guid(String)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="9" />
+        <Method Name="set_Id(Int32)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="8" />
+        <Method Name="set_IdMember(Int32)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="12" />
+        <Method Name="set_NodeKind(NodeKind)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="11" />
+        <Method Name="set_Position(Point)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="10" />
+      </Type>
+      <Type Name="ParallelAxes" CoveredStatements="0" TotalStatements="12" CoveragePercent="0">
+        <Method Name=".ctor()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="15" />
+        <Method Name="get_Angle()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="19" />
+        <Method Name="get_GroupName()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="16" />
+        <Method Name="get_ParallelAxis()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="20" />
+        <Method Name="get_StbTag()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="15" />
+        <Method Name="get_X()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="17" />
+        <Method Name="get_Y()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="18" />
+        <Method Name="set_Angle(Double)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="19" />
+        <Method Name="set_GroupName(String)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="16" />
+        <Method Name="set_ParallelAxis(List&lt;ParallelAxis&gt;)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="20" />
+        <Method Name="set_X(Double)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="17" />
+        <Method Name="set_Y(Double)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="18" />
+      </Type>
+      <Type Name="ParallelAxis" CoveredStatements="0" TotalStatements="4" CoveragePercent="0">
+        <Method Name=".ctor()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="32" />
+        <Method Name="get_Distance()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="33" />
+        <Method Name="get_StbTag()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="32" />
+        <Method Name="set_Distance(Double)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="33" />
+      </Type>
+      <Type Name="RadialAxes" CoveredStatements="0" TotalStatements="10" CoveragePercent="0">
+        <Method Name=".ctor()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="55" />
+        <Method Name="get_GroupName()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="56" />
+        <Method Name="get_RadialAxis()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="59" />
+        <Method Name="get_StbTag()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="55" />
+        <Method Name="get_X()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="57" />
+        <Method Name="get_Y()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="58" />
+        <Method Name="set_GroupName(String)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="56" />
+        <Method Name="set_RadialAxis(List&lt;RadialAxis&gt;)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="59" />
+        <Method Name="set_X(Double)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="57" />
+        <Method Name="set_Y(Double)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="58" />
+      </Type>
+      <Type Name="RadialAxis" CoveredStatements="0" TotalStatements="4" CoveragePercent="0">
+        <Method Name=".ctor()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="64" />
+        <Method Name="get_Angle()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="65" />
+        <Method Name="get_StbTag()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="64" />
+        <Method Name="set_Angle(Double)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="65" />
+      </Type>
+      <Type Name="Sections" CoveredStatements="0" TotalStatements="0" CoveragePercent="0" />
+      <Type Name="Story" CoveredStatements="0" TotalStatements="10" CoveragePercent="0">
+        <Method Name="get_Height()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="7" />
+        <Method Name="get_IdDependence()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="9" />
+        <Method Name="get_NodeIdList()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="11" />
+        <Method Name="get_StoryKind()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="8" />
+        <Method Name="get_StrengthConcrete()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="10" />
+        <Method Name="set_Height(Double)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="7" />
+        <Method Name="set_IdDependence(Int32)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="9" />
+        <Method Name="set_NodeIdList(List&lt;Int32&gt;)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="11" />
+        <Method Name="set_StoryKind(StoryKind)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="8" />
+        <Method Name="set_StrengthConcrete(StrengthConcrete)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="10" />
+      </Type>
+    </Namespace>
+    <Namespace Name="STBDotNet.Elements.StbModel.StbMember" CoveredStatements="0" TotalStatements="119" CoveragePercent="0">
+      <Type Name="Beam" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
+        <Method Name=".ctor()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="39" />
+        <Method Name="get_StbTag()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="39" />
+      </Type>
+      <Type Name="Brace" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
+        <Method Name=".ctor()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="44" />
+        <Method Name="get_StbTag()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="44" />
+      </Type>
+      <Type Name="Column" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
+        <Method Name=".ctor()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="24" />
+        <Method Name="get_StbTag()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="24" />
+      </Type>
+      <Type Name="Footing" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
+        <Method Name=".ctor()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="60" />
+        <Method Name="get_StbTag()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="60" />
+      </Type>
+      <Type Name="FoundationColumn" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
+        <Method Name=".ctor()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="75" />
+        <Method Name="get_StbTag()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="75" />
+      </Type>
+      <Type Name="FrameBase" CoveredStatements="0" TotalStatements="6" CoveragePercent="0">
+        <Method Name="get_IdNodeEnd()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="18" />
+        <Method Name="get_IdNodeStart()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="17" />
+        <Method Name="get_Rotate()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="19" />
+        <Method Name="set_IdNodeEnd(Int32)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="18" />
+        <Method Name="set_IdNodeStart(Int32)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="17" />
+        <Method Name="set_Rotate(Int32)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="19" />
+      </Type>
+      <Type Name="Girder" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
+        <Method Name=".ctor()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="34" />
+        <Method Name="get_StbTag()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="34" />
+      </Type>
+      <Type Name="MemberBase" CoveredStatements="0" TotalStatements="10" CoveragePercent="0">
+        <Method Name="get_Guid()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="8" />
+        <Method Name="get_Id()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="9" />
+        <Method Name="get_IdSection()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="11" />
+        <Method Name="get_KindFrameStructure()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="12" />
+        <Method Name="get_Name()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="10" />
+        <Method Name="set_Guid(String)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="8" />
+        <Method Name="set_Id(Int32)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="9" />
+        <Method Name="set_IdSection(Int32)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="11" />
+        <Method Name="set_KindFrameStructure(KindFrameStructure)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="12" />
+        <Method Name="set_Name(String)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="10" />
+      </Type>
+      <Type Name="Members" CoveredStatements="0" TotalStatements="39" CoveragePercent="0">
+        <Method Name=".ctor()" CoveredStatements="0" TotalStatements="13" CoveragePercent="0" FirstStatementLine="7" />
+        <Method Name="get_Beams()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="10" />
+        <Method Name="get_Braces()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="11" />
+        <Method Name="get_Columns()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="7" />
+        <Method Name="get_Footings()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="14" />
+        <Method Name="get_FoundationColumns()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="17" />
+        <Method Name="get_Girders()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="9" />
+        <Method Name="get_Opens()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="19" />
+        <Method Name="get_Parapets()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="18" />
+        <Method Name="get_Piles()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="16" />
+        <Method Name="get_Posts()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="8" />
+        <Method Name="get_Slabs()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="12" />
+        <Method Name="get_StripFootings()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="15" />
+        <Method Name="get_Walls()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="13" />
+        <Method Name="set_Beams(List&lt;Beam&gt;)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="10" />
+        <Method Name="set_Braces(List&lt;Brace&gt;)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="11" />
+        <Method Name="set_Columns(List&lt;Column&gt;)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="7" />
+        <Method Name="set_Footings(List&lt;Footing&gt;)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="14" />
+        <Method Name="set_FoundationColumns(List&lt;FoundationColumn&gt;)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="17" />
+        <Method Name="set_Girders(List&lt;Girder&gt;)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="9" />
+        <Method Name="set_Opens(List&lt;Open&gt;)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="19" />
+        <Method Name="set_Parapets(List&lt;Parapet&gt;)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="18" />
+        <Method Name="set_Piles(List&lt;Pile&gt;)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="16" />
+        <Method Name="set_Posts(List&lt;Post&gt;)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="8" />
+        <Method Name="set_Slabs(List&lt;Slab&gt;)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="12" />
+        <Method Name="set_StripFootings(List&lt;StripFooting&gt;)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="15" />
+        <Method Name="set_Walls(List&lt;Wall&gt;)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="13" />
+      </Type>
+      <Type Name="Open" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
+        <Method Name=".ctor()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="85" />
+        <Method Name="get_StbTag()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="85" />
+      </Type>
+      <Type Name="Parapet" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
+        <Method Name=".ctor()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="80" />
+        <Method Name="get_StbTag()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="80" />
+      </Type>
+      <Type Name="Pile" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
+        <Method Name=".ctor()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="70" />
+        <Method Name="get_StbTag()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="70" />
+      </Type>
+      <Type Name="PlaneOpen" CoveredStatements="0" TotalStatements="16" CoveragePercent="0">
+        <Method Name="get_Id()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="40" />
+        <Method Name="get_IdSection()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="42" />
+        <Method Name="get_LengthX()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="45" />
+        <Method Name="get_LengthY()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="46" />
+        <Method Name="get_Name()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="41" />
+        <Method Name="get_PositionX()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="43" />
+        <Method Name="get_PositionY()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="44" />
+        <Method Name="get_Rotate()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="47" />
+        <Method Name="set_Id(Int32)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="40" />
+        <Method Name="set_IdSection(Int32)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="42" />
+        <Method Name="set_LengthX(Double)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="45" />
+        <Method Name="set_LengthY(Double)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="46" />
+        <Method Name="set_Name(String)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="41" />
+        <Method Name="set_PositionX(Double)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="43" />
+        <Method Name="set_PositionY(Double)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="44" />
+        <Method Name="set_Rotate(Double)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="47" />
+      </Type>
+      <Type Name="PlateBase" CoveredStatements="0" TotalStatements="12" CoveragePercent="0">
+        <Method Name=".ctor()" CoveredStatements="0" TotalStatements="4" CoveragePercent="0" FirstStatementLine="24" />
+        <Method Name="get_NodeIdOrder()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="24" />
+        <Method Name="get_OffsetList()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="27" />
+        <Method Name="get_Open()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="26" />
+        <Method Name="get_OpenIdList()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="25" />
+        <Method Name="set_NodeIdOrder(List&lt;Int32&gt;)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="24" />
+        <Method Name="set_OffsetList(List&lt;PlateOffset&gt;)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="27" />
+        <Method Name="set_Open(List&lt;PlaneOpen&gt;)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="26" />
+        <Method Name="set_OpenIdList(List&lt;Int32&gt;)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="25" />
+      </Type>
+      <Type Name="PlateOffset" CoveredStatements="0" TotalStatements="8" CoveragePercent="0">
+        <Method Name="get_IdNode()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="52" />
+        <Method Name="get_X()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="53" />
+        <Method Name="get_Y()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="54" />
+        <Method Name="get_Z()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="55" />
+        <Method Name="set_IdNode(Int32)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="52" />
+        <Method Name="set_X(Double)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="53" />
+        <Method Name="set_Y(Double)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="54" />
+        <Method Name="set_Z(Double)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="55" />
+      </Type>
+      <Type Name="Post" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
+        <Method Name=".ctor()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="29" />
+        <Method Name="get_StbTag()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="29" />
+      </Type>
+      <Type Name="Slab" CoveredStatements="0" TotalStatements="4" CoveragePercent="0">
+        <Method Name=".ctor()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="49" />
+        <Method Name="get_Level()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="50" />
+        <Method Name="get_StbTag()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="49" />
+        <Method Name="set_Level(Double)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="50" />
+      </Type>
+      <Type Name="StripFooting" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
+        <Method Name=".ctor()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="65" />
+        <Method Name="get_StbTag()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="65" />
+      </Type>
+      <Type Name="Wall" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
+        <Method Name=".ctor()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="55" />
+        <Method Name="get_StbTag()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="55" />
+      </Type>
+    </Namespace>
+    <Namespace Name="STBDotNet.Elements.StbModel.StbSection" CoveredStatements="0" TotalStatements="127" CoveragePercent="0">
+      <Type Name="BeamRc" CoveredStatements="0" TotalStatements="0" CoveragePercent="0" />
+      <Type Name="BeamS" CoveredStatements="0" TotalStatements="0" CoveragePercent="0" />
+      <Type Name="BeamSrc" CoveredStatements="0" TotalStatements="0" CoveragePercent="0" />
+      <Type Name="BraceS" CoveredStatements="0" TotalStatements="0" CoveragePercent="0" />
+      <Type Name="BuildBox" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
+        <Method Name=".ctor()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="37" />
+        <Method Name="get_StbTag()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="37" />
+      </Type>
+      <Type Name="BuildH" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
+        <Method Name=".ctor()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="27" />
+        <Method Name="get_StbTag()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="27" />
+      </Type>
+      <Type Name="ColumnCft" CoveredStatements="0" TotalStatements="0" CoveragePercent="0" />
+      <Type Name="ColumnRc" CoveredStatements="0" TotalStatements="0" CoveragePercent="0" />
+      <Type Name="ColumnS" CoveredStatements="0" TotalStatements="0" CoveragePercent="0" />
+      <Type Name="ColumnSrc" CoveredStatements="0" TotalStatements="0" CoveragePercent="0" />
+      <Type Name="FlatBar" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
+        <Method Name=".ctor()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="67" />
+        <Method Name="get_StbTag()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="67" />
+      </Type>
+      <Type Name="FoundationRc" CoveredStatements="0" TotalStatements="0" CoveragePercent="0" />
+      <Type Name="LipC" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
+        <Method Name=".ctor()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="62" />
+        <Method Name="get_StbTag()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="62" />
+      </Type>
+      <Type Name="OpenRc" CoveredStatements="0" TotalStatements="0" CoveragePercent="0" />
+      <Type Name="Parapet" CoveredStatements="0" TotalStatements="0" CoveragePercent="0" />
+      <Type Name="PileProduct" CoveredStatements="0" TotalStatements="0" CoveragePercent="0" />
+      <Type Name="PileRc" CoveredStatements="0" TotalStatements="0" CoveragePercent="0" />
+      <Type Name="PileS" CoveredStatements="0" TotalStatements="0" CoveragePercent="0" />
+      <Type Name="Pipe" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
+        <Method Name=".ctor()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="42" />
+        <Method Name="get_StbTag()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="42" />
+      </Type>
+      <Type Name="RcSection" CoveredStatements="0" TotalStatements="6" CoveragePercent="0">
+        <Method Name="get_BatList()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="17" />
+        <Method Name="get_DBarBand()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="16" />
+        <Method Name="get_DBarMain()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="15" />
+        <Method Name="set_BatList(List&lt;Double&gt;)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="17" />
+        <Method Name="set_DBarBand(List&lt;String&gt;)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="16" />
+        <Method Name="set_DBarMain(List&lt;String&gt;)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="15" />
+      </Type>
+      <Type Name="RollBox" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
+        <Method Name=".ctor()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="32" />
+        <Method Name="get_StbTag()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="32" />
+      </Type>
+      <Type Name="RollC" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
+        <Method Name=".ctor()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="52" />
+        <Method Name="get_StbTag()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="52" />
+      </Type>
+      <Type Name="RollH" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
+        <Method Name=".ctor()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="22" />
+        <Method Name="get_StbTag()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="22" />
+      </Type>
+      <Type Name="RollL" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
+        <Method Name=".ctor()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="57" />
+        <Method Name="get_StbTag()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="57" />
+      </Type>
+      <Type Name="RollT" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
+        <Method Name=".ctor()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="47" />
+        <Method Name="get_StbTag()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="47" />
+      </Type>
+      <Type Name="RoundBar" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
+        <Method Name=".ctor()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="72" />
+        <Method Name="get_StbTag()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="72" />
+      </Type>
+      <Type Name="Section" CoveredStatements="0" TotalStatements="38" CoveragePercent="0">
+        <Method Name="get_BeamRc()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="12" />
+        <Method Name="get_BeamS()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="13" />
+        <Method Name="get_BeamSrc()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="14" />
+        <Method Name="get_BraceS()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="15" />
+        <Method Name="get_ColumnCft()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="11" />
+        <Method Name="get_ColumnRc()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="8" />
+        <Method Name="get_ColumnS()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="9" />
+        <Method Name="get_ColumnSrc()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="10" />
+        <Method Name="get_FoundationRc()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="20" />
+        <Method Name="get_OpenRc()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="24" />
+        <Method Name="get_Parapet()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="25" />
+        <Method Name="get_PileProduct()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="23" />
+        <Method Name="get_PileRc()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="21" />
+        <Method Name="get_PileS()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="22" />
+        <Method Name="get_SlabDeck()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="17" />
+        <Method Name="get_SlabPrecast()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="18" />
+        <Method Name="get_SlabRc()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="16" />
+        <Method Name="get_Steel()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="26" />
+        <Method Name="get_WallRc()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="19" />
+        <Method Name="set_BeamRc(List&lt;BeamRc&gt;)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="12" />
+        <Method Name="set_BeamS(List&lt;BeamS&gt;)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="13" />
+        <Method Name="set_BeamSrc(List&lt;BeamSrc&gt;)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="14" />
+        <Method Name="set_BraceS(List&lt;BraceS&gt;)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="15" />
+        <Method Name="set_ColumnCft(List&lt;ColumnCft&gt;)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="11" />
+        <Method Name="set_ColumnRc(List&lt;ColumnRc&gt;)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="8" />
+        <Method Name="set_ColumnS(List&lt;ColumnS&gt;)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="9" />
+        <Method Name="set_ColumnSrc(List&lt;ColumnSrc&gt;)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="10" />
+        <Method Name="set_FoundationRc(List&lt;FoundationRc&gt;)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="20" />
+        <Method Name="set_OpenRc(List&lt;OpenRc&gt;)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="24" />
+        <Method Name="set_Parapet(List&lt;Parapet&gt;)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="25" />
+        <Method Name="set_PileProduct(List&lt;PileProduct&gt;)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="23" />
+        <Method Name="set_PileRc(List&lt;PileRc&gt;)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="21" />
+        <Method Name="set_PileS(List&lt;PileS&gt;)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="22" />
+        <Method Name="set_SlabDeck(List&lt;SlabDeck&gt;)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="17" />
+        <Method Name="set_SlabPrecast(List&lt;SlabPrecast&gt;)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="18" />
+        <Method Name="set_SlabRc(List&lt;SlabRc&gt;)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="16" />
+        <Method Name="set_Steel(Steel)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="26" />
+        <Method Name="set_WallRc(List&lt;WallRc&gt;)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="19" />
+      </Type>
+      <Type Name="SectionBase" CoveredStatements="0" TotalStatements="8" CoveragePercent="0">
+        <Method Name="get_Floor()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="9" />
+        <Method Name="get_Guid()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="10" />
+        <Method Name="get_Id()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="7" />
+        <Method Name="get_Name()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="8" />
+        <Method Name="set_Floor(String)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="9" />
+        <Method Name="set_Guid(String)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="10" />
+        <Method Name="set_Id(Int32)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="7" />
+        <Method Name="set_Name(String)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="8" />
+      </Type>
+      <Type Name="SlabDeck" CoveredStatements="0" TotalStatements="0" CoveragePercent="0" />
+      <Type Name="SlabPrecast" CoveredStatements="0" TotalStatements="0" CoveragePercent="0" />
+      <Type Name="SlabRc" CoveredStatements="0" TotalStatements="0" CoveragePercent="0" />
+      <Type Name="Steel" CoveredStatements="0" TotalStatements="33" CoveragePercent="0">
+        <Method Name=".ctor()" CoveredStatements="0" TotalStatements="11" CoveragePercent="0" FirstStatementLine="7" />
+        <Method Name="get_BuildBox()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="10" />
+        <Method Name="get_BuildH()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="8" />
+        <Method Name="get_FlatBar()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="16" />
+        <Method Name="get_LipC()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="15" />
+        <Method Name="get_Pipe()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="11" />
+        <Method Name="get_RollBox()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="9" />
+        <Method Name="get_RollC()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="13" />
+        <Method Name="get_RollH()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="7" />
+        <Method Name="get_RollL()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="14" />
+        <Method Name="get_RollT()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="12" />
+        <Method Name="get_RoundBar()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="17" />
+        <Method Name="set_BuildBox(List&lt;BuildBox&gt;)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="10" />
+        <Method Name="set_BuildH(List&lt;BuildH&gt;)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="8" />
+        <Method Name="set_FlatBar(List&lt;FlatBar&gt;)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="16" />
+        <Method Name="set_LipC(List&lt;LipC&gt;)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="15" />
+        <Method Name="set_Pipe(List&lt;Pipe&gt;)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="11" />
+        <Method Name="set_RollBox(List&lt;RollBox&gt;)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="9" />
+        <Method Name="set_RollC(List&lt;RollC&gt;)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="13" />
+        <Method Name="set_RollH(List&lt;RollH&gt;)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="7" />
+        <Method Name="set_RollL(List&lt;RollL&gt;)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="14" />
+        <Method Name="set_RollT(List&lt;RollT&gt;)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="12" />
+        <Method Name="set_RoundBar(List&lt;RoundBar&gt;)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="17" />
+      </Type>
+      <Type Name="SteelSectionBase" CoveredStatements="0" TotalStatements="20" CoveragePercent="0">
+        <Method Name="get_Guid()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="22" />
+        <Method Name="get_Id()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="23" />
+        <Method Name="get_Name()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="24" />
+        <Method Name="get_P1()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="26" />
+        <Method Name="get_P2()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="27" />
+        <Method Name="get_P3()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="28" />
+        <Method Name="get_P4()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="29" />
+        <Method Name="get_P5()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="30" />
+        <Method Name="get_P6()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="31" />
+        <Method Name="get_ShapeType()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="25" />
+        <Method Name="set_Guid(String)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="22" />
+        <Method Name="set_Id(Int32)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="23" />
+        <Method Name="set_Name(String)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="24" />
+        <Method Name="set_P1(Double)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="26" />
+        <Method Name="set_P2(Double)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="27" />
+        <Method Name="set_P3(Double)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="28" />
+        <Method Name="set_P4(Double)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="29" />
+        <Method Name="set_P5(Double)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="30" />
+        <Method Name="set_P6(Double)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="31" />
+        <Method Name="set_ShapeType(ShapeType)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="25" />
+      </Type>
+      <Type Name="WallRc" CoveredStatements="0" TotalStatements="0" CoveragePercent="0" />
+    </Namespace>
+    <Namespace Name="STBDotNet.Geometry" CoveredStatements="0" TotalStatements="25" CoveragePercent="0">
+      <Type Name="Line" CoveredStatements="0" TotalStatements="7" CoveragePercent="0">
+        <Method Name="Equals(Line)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="34" />
+        <Method Name="Equals(Object)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="39" />
+        <Method Name="get_End()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="30" />
+        <Method Name="get_Start()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="29" />
+        <Method Name="GetHashCode()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="44" />
+        <Method Name="set_End(Point)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="30" />
+        <Method Name="set_Start(Point)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="29" />
+      </Type>
+      <Type Name="Mesh" CoveredStatements="0" TotalStatements="9" CoveragePercent="0">
+        <Method Name="Equals(Mesh)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="56" />
+        <Method Name="Equals(Object)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="61" />
+        <Method Name="get_A()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="50" />
+        <Method Name="get_B()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="51" />
+        <Method Name="get_C()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="52" />
+        <Method Name="GetHashCode()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="66" />
+        <Method Name="set_A(Point)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="50" />
+        <Method Name="set_B(Point)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="51" />
+        <Method Name="set_C(Point)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="52" />
+      </Type>
+      <Type Name="Point" CoveredStatements="0" TotalStatements="9" CoveragePercent="0">
+        <Method Name="Equals(Object)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="18" />
+        <Method Name="Equals(Point)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="13" />
+        <Method Name="get_X()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="7" />
+        <Method Name="get_Y()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="8" />
+        <Method Name="get_Z()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="9" />
+        <Method Name="GetHashCode()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="23" />
+        <Method Name="set_X(Double)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="7" />
+        <Method Name="set_Y(Double)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="8" />
+        <Method Name="set_Z(Double)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="9" />
+      </Type>
+    </Namespace>
+    <Namespace Name="STBDotNet.Serialization" CoveredStatements="16" TotalStatements="19" CoveragePercent="84">
+      <Type Name="Deserializer" CoveredStatements="16" TotalStatements="19" CoveragePercent="84">
+        <Method Name=".ctor()" CoveredStatements="2" TotalStatements="2" CoveragePercent="100" FirstStatementLine="12" />
+        <Method Name=".ctor(String)" CoveredStatements="3" TotalStatements="3" CoveragePercent="100" FirstStatementLine="16" />
+        <Method Name="Build()" CoveredStatements="10" TotalStatements="13" CoveragePercent="77" FirstStatementLine="23" />
+        <Method Name="get_Path()" CoveredStatements="1" TotalStatements="1" CoveragePercent="100" FirstStatementLine="10" />
+      </Type>
+    </Namespace>
+  </Assembly>
+  <Assembly Name="STBDotNetTests" CoveredStatements="14" TotalStatements="14" CoveragePercent="100">
+    <Namespace Name="STBDotNet.Serialization.Tests" CoveredStatements="14" TotalStatements="14" CoveragePercent="100">
+      <Type Name="DeserializerTests" CoveredStatements="14" TotalStatements="14" CoveragePercent="100">
+        <Method Name="BuildTest()" CoveredStatements="8" TotalStatements="8" CoveragePercent="100" FirstStatementLine="33" />
+        <Method Name="DeserializerTest()" CoveredStatements="3" TotalStatements="3" CoveragePercent="100" FirstStatementLine="18" />
+        <Method Name="DeserializerTest1()" CoveredStatements="3" TotalStatements="3" CoveragePercent="100" FirstStatementLine="26" />
+      </Type>
+    </Namespace>
+  </Assembly>
+</Root>
