@@ -15,8 +15,6 @@
 
     <ItemGroup>
       <Folder Include="Elements\StbModel\StbJoint" />
-      <Folder Include="Serialization\Deserializer" />
-      <Folder Include="Serialization\Serializer" />
     </ItemGroup>
 
     <ItemGroup>

@@ -44,7 +44,7 @@ namespace STBDotNet.Serialization
             }
             catch (Exception e)
             {
-                throw new ArgumentException(e + "Can't read Stb file, may be the path is wrong.");
+                throw new ArgumentException(e.Message);
             }
 
             return stbElements;
