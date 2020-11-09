@@ -29,10 +29,10 @@ namespace STBDotNet.Elements.StbModel.StbMember
 
     public interface IPlate
     {
-        public List<int> NodeIdOrder { get; set; }
-        public List<int> OpenIdList { get; set; }
-        public List<PlaneOpen> Open { get; set; }
-        public List<PlateOffset> OffsetList { get; set; }
+        List<int> NodeIdOrder { get; set; }
+        List<int> OpenIdList { get; set; }
+        List<PlaneOpen> Open { get; set; }
+        List<PlateOffset> OffsetList { get; set; }
     }
 
     public class PlaneOpen
@@ -57,14 +57,14 @@ namespace STBDotNet.Elements.StbModel.StbMember
     
     public interface IMember
     {
-        public int IdSection { get; set; }
-        public KindFrameStructure KindFrameStructure { get; set; }
+        int IdSection { get; set; }
+        KindFrameStructure KindFrameStructure { get; set; }
     }
 
     public interface IFrame
     {
-        public int IdNodeStart { get; set; }
-        public int IdNodeEnd { get; set; }
+        int IdNodeStart { get; set; }
+        int IdNodeEnd { get; set; }
     }
     
     public enum KindFrameStructure
