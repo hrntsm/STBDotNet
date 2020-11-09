@@ -28,12 +28,12 @@ namespace STBDotNet.Serialization.Tests
         {
             List<string> pathList = new List<string>
             {
-                @"../../../../TestStbFiles/ver1/Sample1.stb",
-                @"../../../../TestStbFiles/ver1/Sample2.stb",
-                @"../../../../TestStbFiles/ver1/Sample3.stb",
-                @"../../../../TestStbFiles/ver1/Sample4.stb",
-                @"../../../../TestStbFiles/ver1/Sample5.stb",
-                @"../../../../TestStbFiles/ver1/Sample6.stb"
+                @"../../../TestStbFiles/ver1/Sample1.stb",
+                @"../../../TestStbFiles/ver1/Sample2.stb",
+                @"../../../TestStbFiles/ver1/Sample3.stb",
+                @"../../../TestStbFiles/ver1/Sample4.stb",
+                @"../../../TestStbFiles/ver1/Sample5.stb",
+                @"../../../TestStbFiles/ver1/Sample6.stb"
             };
 
             foreach (string path in pathList)
