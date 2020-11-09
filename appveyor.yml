@@ -6,11 +6,9 @@ configuration: Debug
 platform: Any CPU
 before_build:
 - cmd: >-
-    git submodule init
-    git submodule update --init --recursive
-    dotnet restore Testable.sln
+    dotnet restore STBDotNet.sln
 build:
-  project: Testable.sln
+  project: STBDotNet.sln
   verbosity: minimal
 
 # Set OpenCover setting according to below URL
@@ -27,13 +25,13 @@ test_script:
     regsvr32 x64\OpenCover.Profiler.dll
 
     & $opencover -target:"c:\Program Files\dotnet\dotnet.exe" `
-    -targetargs:"test -f netcoreapp1.1 -c Debug Testable.Tests/Testable.Tests.csproj" `
+    -targetargs:"test -f netcoreapp1.1 -c Debug STBDotNetTests/STBDotNetTests.csproj" `
     -mergeoutput `
     -hideskipped:File `
     -output:opencoverCoverage.xml `
     -oldStyle `
     -filter:$filter `
-    -searchdirs:Testable.Tests/bin/Debug/netcoreapp1.1 `
+    -searchdirs:STBDotNetTests/bin/Debug/netcoreapp1.1 `
     -register:user
     
     $env:Path = "C:\Python34;C:\Python34\Scripts;$env:Path"
