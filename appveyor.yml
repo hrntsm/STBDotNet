@@ -1,7 +1,7 @@
 version: 0.0.{build}
 pull_requests:
   do_not_increment_build_number: true
-image: Visual Studio 2017
+image: Visual Studio 2019
 configuration: Debug
 platform: Any CPU
 before_build:
@@ -17,31 +17,23 @@ build:
 test_script:
 - ps: >-
     $opencover = (Resolve-Path "~\.nuget\packages\OpenCover\4.7.922\tools\OpenCover.Console.exe").ToString()
-
     $filter = "+[Testable*]* -[*.Tests*]*"
-
     regsvr32 x86\OpenCover.Profiler.dll
-
     regsvr32 x64\OpenCover.Profiler.dll
-
     & $opencover -target:"c:\Program Files\dotnet\dotnet.exe" `
-    -targetargs:"test -f netcoreapp1.1 -c Debug STBDotNetTests/STBDotNetTests.csproj" `
+    -targetargs:"test -f netcoreapp2.1 -c Debug STBDotNetTests/STBDotNetTests.csproj" `
     -mergeoutput `
     -hideskipped:File `
     -output:opencoverCoverage.xml `
     -oldStyle `
     -filter:$filter `
-    -searchdirs:STBDotNetTests/bin/Debug/netcoreapp1.1 `
+    -searchdirs:STBDotNetTests/bin/Debug/netcoreapp2.1 `
     -register:user
     
-    $env:Path = "C:\Python34;C:\Python34\Scripts;$env:Path"
-
+    $env:Path = "C:\Python37;C:\Python37\Scripts;$env:Path"
     python -m pip install --upgrade pip
-
     pip install codecov
-
     &{codecov -f "opencoverCoverage.xml"}
-
 notifications:
 - provider: GitHubPullRequest
   on_build_success: true
