@@ -2,6 +2,7 @@
 
     <PropertyGroup>
         <TargetFramework>netcoreapp3.1</TargetFramework>
+        <DebugType Condition="'$(Configuration)'=='DEBUG'">full</DebugType>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
         <Version>0.1.1</Version>
         <Authors>hrntsm</Authors>
