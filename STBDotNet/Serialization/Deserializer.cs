@@ -32,19 +32,7 @@ namespace STBDotNet.Serialization
                     xmlns = root.Attribute("xmlns") != null
                         ? "{" + (string) root.Attribute("xmlns") + "}"
                         : string.Empty;
-
-                    var tmp = (string) root.Attribute("version");
-                    switch (tmp.Split('.')[0])
-                    {
-                        case "1":
-                            stbElements.Version = Version.Stb1;
-                            break;
-                        case "2":
-                            stbElements.Version = Version.Stb2;
-                            break;
-                        default:
-                            throw new ArgumentException("The STB version is not set");
-                    }
+                    stbElements.Version = GetStbVersion(root);
                 }
             }
             catch (Exception e)
@@ -53,6 +41,20 @@ namespace STBDotNet.Serialization
             }
 
             return stbElements;
+        }
+
+        private static Version GetStbVersion(XElement root)
+        {
+            var tmp = (string)root.Attribute("version");
+            switch (tmp.Split('.')[0])
+            {
+                case "1":
+                    return Version.Stb1;
+                case "2":
+                    return Version.Stb2;
+                default:
+                    throw new ArgumentException("The STB version is not set");
+            }
         }
     }
 }
