@@ -25,7 +25,7 @@ test_script:
     regsvr32 x64\OpenCover.Profiler.dll
 
     & $opencover -target:"c:\Program Files\dotnet\dotnet.exe" `
-    -targetargs:"test -f netcoreapp2.1 -c Debug STBDotNetTests/STBDotNetTests.csproj" `
+    -targetargs:"test -f netcoreapp2.1 -c Debug STBDotNetTests/STBDotNetTests.csproj /noshadow" `
     -mergeoutput `
     -hideskipped:File `
     -output:opencoverCoverage.xml `
