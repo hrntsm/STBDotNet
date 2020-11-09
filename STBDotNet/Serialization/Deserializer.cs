@@ -34,12 +34,17 @@ namespace STBDotNet.Serialization
                         : string.Empty;
 
                     var tmp = (string) root.Attribute("version");
-                    stbElements.Version = tmp.Split('.')[0] switch
+                    switch (tmp.Split('.')[0])
                     {
-                        "1" => Version.Stb1,
-                        "2" => Version.Stb2,
-                        _ => throw new ArgumentException("The STB version is not set")
-                    };
+                        case "1":
+                            stbElements.Version = Version.Stb1;
+                            break;
+                        case "2":
+                            stbElements.Version = Version.Stb2;
+                            break;
+                        default:
+                            throw new ArgumentException("The STB version is not set");
+                    }
                 }
             }
             catch (Exception e)
