@@ -17,9 +17,13 @@ build:
 test_script:
 - ps: >-
     $opencover = (Resolve-Path "~\.nuget\packages\OpenCover\4.7.922\tools\OpenCover.Console.exe").ToString()
+
     $filter = "+[Testable*]* -[*.Tests*]*"
+
     regsvr32 x86\OpenCover.Profiler.dll
+
     regsvr32 x64\OpenCover.Profiler.dll
+
     & $opencover -target:"c:\Program Files\dotnet\dotnet.exe" `
     -targetargs:"test -f netcoreapp2.1 -c Debug STBDotNetTests/STBDotNetTests.csproj" `
     -mergeoutput `
@@ -31,9 +35,13 @@ test_script:
     -register:user
     
     $env:Path = "C:\Python37;C:\Python37\Scripts;$env:Path"
+
     python -m pip install --upgrade pip
+
     pip install codecov
+
     &{codecov -f "opencoverCoverage.xml"}
+
 notifications:
 - provider: GitHubPullRequest
   on_build_success: true
