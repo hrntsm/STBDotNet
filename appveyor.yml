@@ -16,7 +16,7 @@ build:
 
 test_script:
 - ps: >-
-    $opencover = (Resolve-Path "~\.nuget\packages\OpenCover\4.6.519\tools\OpenCover.Console.exe").ToString()
+    $opencover = (Resolve-Path "~\.nuget\packages\OpenCover\4.7.922\tools\OpenCover.Console.exe").ToString()
 
     $filter = "+[Testable*]* -[*.Tests*]*"
 
