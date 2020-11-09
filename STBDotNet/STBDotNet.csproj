@@ -1,7 +1,8 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <TargetFramework>netcoreapp3.1</TargetFramework>
+        <TargetFramework>netcoreapp2.1</TargetFramework>
+        <DebugType Condition="'$(Configuration)'=='DEBUG'">full</DebugType>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
         <Version>0.1.1</Version>
         <Authors>hrntsm</Authors>
@@ -10,7 +11,7 @@
         <PackageProjectUrl>https://github.com/hrntsm/STBDotNet</PackageProjectUrl>
         <RepositoryUrl>https://github.com/hrntsm/STBDotNet</RepositoryUrl>
         <Description>STBDotNet is a .NET library for ST-Bridge.</Description>
-        <Copyright>Copyright (c) 2020 hiron</Copyright>
+        <Copyright>Copyright (c) 2020 hrntsm</Copyright>
     </PropertyGroup>
 
     <ItemGroup>

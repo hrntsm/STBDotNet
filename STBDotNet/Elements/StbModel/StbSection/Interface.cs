@@ -4,40 +4,40 @@ namespace STBDotNet.Elements.StbModel.StbSection
 {
     public interface ISection
     {
-        public int Id { get; set; }
-        public string Floor { get; set; }
+        int Id { get; set; }
+        string Floor { get; set; }
     }
 
     public interface IKindColumn
     {
-        public KindColumn KindColumn { get; set; }
+        KindColumn KindColumn { get; set; }
     }
 
     public interface IStrengthConcrete
     {
-        public StrengthConcrete StrengthConcrete { get; set; }
+        StrengthConcrete StrengthConcrete { get; set; }
     }
 
     public interface IStrengthSteel
     {
-        public StrengthSteel StrengthSteel { get; set; }
+        StrengthSteel StrengthSteel { get; set; }
     }
 
     public interface IBarArrangement
     {
-        public List<string> DBarMain { get; set; }
-        public List<string> DBarBand { get; set; }
-        public List<double> BatList { get; set; }
+        List<string> DBarMain { get; set; }
+        List<string> DBarBand { get; set; }
+        List<double> BatList { get; set; }
     }
     
     public interface ISteelSection
     {
-        public ShapeType ShapeType { get; set; }
-        public double P1 { get; set; }
-        public double P2 { get; set; }
-        public double P3 { get; set; }
-        public double P4 { get; set; }
-        public double P5 { get; set; }
-        public double P6 { get; set; }
+        ShapeType ShapeType { get; set; }
+        double P1 { get; set; }
+        double P2 { get; set; }
+        double P3 { get; set; }
+        double P4 { get; set; }
+        double P5 { get; set; }
+        double P6 { get; set; }
     }
 }

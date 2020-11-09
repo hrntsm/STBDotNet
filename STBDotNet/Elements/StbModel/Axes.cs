@@ -22,9 +22,9 @@ namespace STBDotNet.Elements.StbModel
 
     public interface IAxis
     {
-        public string GroupName { get; set; }
-        public double X { get; set; }
-        public double Y { get; set; }
+        string GroupName { get; set; }
+        double X { get; set; }
+        double Y { get; set; }
     }
 
     public class ParallelAxis:ModelBase, IStbTag
@@ -97,7 +97,7 @@ namespace STBDotNet.Elements.StbModel
 
     public interface IArcAxis:IAxis
     {
-        public double StartAngle { get; set; }
-        public double EndAngle { get; set; }
+        double StartAngle { get; set; }
+        double EndAngle { get; set; }
     }
 }

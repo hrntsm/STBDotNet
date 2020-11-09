@@ -1,0 +1,40 @@
+codecov:
+  notify:
+    require_ci_to_pass: yes
+
+coverage:
+  precision: 2
+  round: down
+  range: "30...80"
+
+  status:
+    project:                   # measuring the overall project coverage
+      default:                 # context, you can create multiple ones with custom titles
+        enabled: yes           # must be yes|true to enable this status
+        target: 75%            # specify the target coverage for each commit status
+                               #   option: "auto" (must increase from parent commit or pull request base)
+                               #   option: "X%" a static target percentage to hit
+        threshold: 5%          # Allow the coverage to drop by X% and posting a success status.
+    patch: yes
+      default:                 # context, you can create multiple ones with custom titles
+        enabled: yes           # must be yes|true to enable this status
+        target: 75%            # specify the target coverage for each commit status
+                               #   option: "auto" (must increase from parent commit or pull request base)
+                               #   option: "X%" a static target percentage to hit
+        threshold: 5%          # Allow the coverage to drop by X% and posting a success status.
+    changes: yes
+    target: 0% # Choose minimum coverage ratio the commit must meet to be considered a success status.
+    threshold: 5% # Allow the coverage to drop by X% and posting a success status.
+
+parsers:
+  gcov:
+    branch_detection:
+      conditional: yes
+      loop: yes
+      method: no
+      macro: no
+
+comment:
+  layout: "header, diff"
+  behavior: default
+  require_changes: no

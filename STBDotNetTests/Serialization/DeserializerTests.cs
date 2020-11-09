@@ -1,9 +1,5 @@
 ﻿using NUnit.Framework;
-using STBDotNet.Serialization;
-using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.Text;
 using STBDotNet.Elements;
 using Version = STBDotNet.Elements.Version;
 
@@ -30,7 +26,7 @@ namespace STBDotNet.Serialization.Tests
         [Test]
         public void BuildTest()
         {
-            List<string> pathList =new List<string>
+            List<string> pathList = new List<string>
             {
                 @"../../../../TestStbFiles/ver1/Sample1.stb",
                 @"../../../../TestStbFiles/ver1/Sample2.stb",
