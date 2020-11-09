@@ -34,7 +34,7 @@ test_script:
     -searchdirs:STBDotNetTests/bin/Debug/netcoreapp1.1 `
     -register:user
     
-    $env:Path = "C:\Python34;C:\Python34\Scripts;$env:Path"
+    $env:Path = "C:\Python37;C:\Python37\Scripts;$env:Path"
 
     python -m pip install --upgrade pip
 
