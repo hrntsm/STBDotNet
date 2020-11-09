@@ -36,3 +36,22 @@ jobs:
       run: dotnet restore
     - name: Test
       run: dotnet test --no-restore --verbosity normal
+  coverage:
+    runs-on: windows-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+          
+      - name: Setup MSBuild.exe
+        uses: microsoft/setup-msbuild@2008f912f56e61277eefaac6d1888b750582aa16
+
+      - name: Setup NuGet
+        uses: NuGet/setup-nuget@v1
+
+      - name: Restore the application
+        run: msbuild STBDotNet.sln /t:Restore /p:Configuration=Debug
+
+      - name: Build the application
+        run: msbuild STBDotNet.sln /p:Configuration=Debug
