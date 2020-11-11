@@ -24,18 +24,6 @@ jobs:
       with:
         name: STBDotNet
         path: STBDotNet/bin/Release/
-  test:
-    runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@v2
-    - name: Setup .NET Core
-      uses: actions/setup-dotnet@v1
-      with:
-        dotnet-version: 2.1
-    - name: Install dependencies
-      run: dotnet restore
-    - name: Test
-      run: dotnet test --no-restore --verbosity normal
   coverage:
     runs-on: windows-latest
     steps:
@@ -56,11 +44,10 @@ jobs:
       - name: Build the application
         run: msbuild STBDotNet.sln /p:Configuration=Debug
         
-      - name: coverager
+      - name: Run OpenCover
         shell: powershell
         run: |
           $opencover = (Resolve-Path "~\.nuget\packages\OpenCover\4.7.922\tools\OpenCover.Console.exe").ToString()
-          $filter = "+[Testable*]* -[*.Tests*]*"
           regsvr32 x86\OpenCover.Profiler.dll
           regsvr32 x64\OpenCover.Profiler.dll
           & $opencover -target:"c:\Program Files\dotnet\dotnet.exe" `
@@ -69,10 +56,12 @@ jobs:
           -hideskipped:File `
           -output:opencoverCoverage.xml `
           -oldStyle `
-          -filter:$filter `
           -searchdirs:STBDotNetTests/bin/Debug/netcoreapp2.1 `
           -register:user
-
+           
+      - name: Upload coverage result
+        shell: powershell
+        run: |
           $env:Path = "C:\Python37;C:\Python37\Scripts;$env:Path"
           python -m pip install --upgrade pip
           pip install codecov
