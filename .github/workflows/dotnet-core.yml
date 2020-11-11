@@ -69,7 +69,6 @@ jobs:
           -hideskipped:File `
           -output:opencoverCoverage.xml `
           -oldStyle `
-          -filter:$filter `
           -searchdirs:STBDotNetTests/bin/Debug/netcoreapp2.1 `
           -register:user
 
