@@ -8,10 +8,10 @@ namespace STBDotNet.Elements
     public class StbElements
     {
         public Version Version { get; set; }
-        public Common Common { get; set; }
-        public Model Model { get; set; }
-        public FromIfc FromIfc { get; set; }
-        public Extension Extension { get; set; }
+        public Common Common { get; set; } = new Common();
+        public Model Model { get; set; } = new Model();
+        public FromIfc FromIfc { get; set; } = new FromIfc();
+        public Extension Extension { get; set; } = new Extension();
     }
     
     public enum Version

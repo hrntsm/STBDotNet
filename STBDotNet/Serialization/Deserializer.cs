@@ -1,13 +1,12 @@
 using System;
 using System.Xml.Linq;
 using STBDotNet.Elements;
-using Version = STBDotNet.Elements.Version;
 
 namespace STBDotNet.Serialization
 {
     public class Deserializer
     {
-        public string Path { get; }
+        public string Path { get; set; }
         
         public Deserializer()
         {
@@ -18,21 +17,22 @@ namespace STBDotNet.Serialization
             Path = path;
         }
 
-        public StbElements Build()
+        public StbElements Elements()
         {
             var stbElements = new StbElements();
             try
             {
                 XDocument xDocument = XDocument.Load(Path);
                 XElement root = xDocument.Root;
-                string xmlns;
 
                 if (root != null)
                 {
-                    xmlns = root.Attribute("xmlns") != null
-                        ? "{" + (string) root.Attribute("xmlns") + "}"
-                        : string.Empty;
-                    stbElements.Version = GetStbVersion(root);
+                    string xmlns = Util.GetXmlNameSpace(root);
+                    stbElements.Version = Util.GetStbVersion(root);
+                    stbElements.Common.Deserialize(xDocument, stbElements.Version, xmlns);
+                    // stbElements.Model.Deserialize(xDocument, stbElements.Version, xmlns);
+                    // stbElements.FromIfc.Deserialize(xDocument, stbElements.Version, xmlns);
+                    // stbElements.Extension.Deserialize(xDocument, stbElements.Version, xmlns);
                 }
             }
             catch (Exception e)
@@ -41,20 +41,6 @@ namespace STBDotNet.Serialization
             }
 
             return stbElements;
-        }
-
-        private static Version GetStbVersion(XElement root)
-        {
-            var tmp = (string)root.Attribute("version");
-            switch (tmp.Split('.')[0])
-            {
-                case "1":
-                    return Version.Stb1;
-                case "2":
-                    return Version.Stb2;
-                default:
-                    throw new ArgumentException("The STB version is not set");
-            }
         }
     }
 }

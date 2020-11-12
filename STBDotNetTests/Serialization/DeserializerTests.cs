@@ -39,7 +39,7 @@ namespace STBDotNet.Serialization.Tests
             foreach (string path in pathList)
             {
                 var item = new Deserializer(path);
-                StbElements elements = item.Build();
+                StbElements elements = item.Elements();
                 Assert.IsTrue(elements.Version == Version.Stb1);
             }
         }
