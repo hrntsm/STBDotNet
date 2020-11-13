@@ -10,6 +10,13 @@ namespace STBDotNet.Serialization
         void Deserialize(XDocument xDocument, Version version, string xmlns);
     }
 
+    public interface IStbElementSerializable
+    {
+        // XElement Serialize();
+        void Deserialize(XElement xElement);
+        void Deserialize(XElement xElement, Version version, string xmlns);
+    }
+
     public abstract class StbSerializable : IStbSerializable
     {
 
@@ -31,8 +38,26 @@ namespace STBDotNet.Serialization
             SetProperties(xDocument, version, xmlns);
         }
 
-        private void SetProperties(XDocument xDocument, Version version, string xmlns)
+        protected virtual void SetProperties(XDocument xDocument, Version version, string xmlns)
         {
         }
     }
+
+    public abstract class StbElementSerializable : IStbElementSerializable
+    {
+        public void Deserialize(XElement xElement)
+        {
+            throw new System.NotImplementedException();
+        }
+
+        public void Deserialize(XElement xElement, Version version, string xmlns)
+        {
+            SetProperties(xElement, version, xmlns);
+        }
+
+        protected virtual void SetProperties(XElement xElement, Version version, string xmlns)
+        {
+        }
+    }
+
 }
