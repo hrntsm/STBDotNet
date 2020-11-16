@@ -1,7 +1,7 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Xml.Linq;
 using STBDotNet.Elements;
-using STBDotNet.Elements.StbCommon;
 using Version = STBDotNet.Elements.Version;
 
 namespace STBDotNet.Serialization
@@ -17,18 +17,23 @@ namespace STBDotNet.Serialization
             return xmlns;
         }
 
-        public static Version GetStbVersion(XElement root)
+        public static IEnumerable<XElement> GetXElements(XDocument xDocument, string xmlns, IReadOnlyList<string> stbTag, Version version)
         {
-            var tmp = (string)root.Attribute("version");
-            switch (tmp.Split('.')[0])
+            string tag;
+            switch (version)
             {
-                case "1":
-                    return Version.Stb1;
-                case "2":
-                    return Version.Stb2;
+                case Version.Stb1:
+                    tag = stbTag[0];
+                    break;
+                case Version.Stb2:
+                    tag = stbTag[1];
+                    break;
                 default:
-                    throw new ArgumentException("The STB version is not set");
+                    throw new ArgumentOutOfRangeException(nameof(version), version, null);
             }
+            IEnumerable<XElement> xElems = xDocument.Root?.Descendants(xmlns + tag);
+
+            return xElems;
         }
 
         public static StrengthConcrete GetStrengthConcrete(string concreteName)

@@ -18,19 +18,7 @@ namespace STBDotNet.Elements.StbCommon
 
         protected override void SetProperties(XDocument xDocument, Version version, string xmlns)
         {
-            string tag;
-            switch (version)
-            {
-                case Version.Stb1:
-                    tag = StbTag[0];
-                    break;
-                case Version.Stb2:
-                    tag = StbTag[1];
-                    break;
-                default:
-                    throw new ArgumentOutOfRangeException(nameof(version), version, null);
-            }
-            IEnumerable<XElement> xElems = xDocument.Root.Descendants(xmlns + tag);
+            IEnumerable<XElement> xElems = Util.GetXElements(xDocument, xmlns, StbTag, version);
 
             foreach (XElement elem in xElems)
             {
@@ -48,7 +36,6 @@ namespace STBDotNet.Elements.StbCommon
                 }
             }
         }
-
     }
 
     public class ReinforcementStrength
