@@ -6,3 +6,30 @@
 [![codecov](https://codecov.io/gh/hrntsm/STBDotNet/branch/develop/graph/badge.svg?token=SMTSZSDXVL)](https://codecov.io/gh/hrntsm/STBDotNet)
 
 STBDotNet is a .NET library for ST-Bridge.
+
+## This library Work in Progress
+
+We are currently developing the following libraries with additional features.
+Load ST-Bridge is already implemented as follows
+https://github.com/hrntsm/STBReader
+
+## What is ST-Bridge
+
+Quote from [building SMART Japan Structural Design Subcommittee](https://en.building-smart.or.jp/meeting/buildall/structural-design/) doing making specifications of ST-Bridge.
+
+> ST Bridge is the standardized format for data sharing in Japan’s structural engineering industry.
+> - Simpler to use than IFC due to the clearly defined the range of use
+> - Integrate Japanese original methods of drawing methodology (Grids, part placement and section annotations, reinforcement information)
+> - Aim for coordination between domestic structural applications, building skeleton surveying applications, 3D Object CAD
+
+## Contact information
+
+[![Twitter](https://img.shields.io/twitter/follow/hiron_rgkr?style=social)](https://twitter.com/hiron_rgkr)
+ - HP : [https://hrntsm.github.io/](https://hrntsm.github.io/)
+ - Mail : support(at)hrntsm.com
+    - change (at) to @
+  
+## License
+
+STBDotNet is licensed under the [MIT](https://github.com/hrntsm/STBDotNet/blob/main/LICENSE) license.  
+Copyright© 2020, hrntsm
