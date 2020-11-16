@@ -36,6 +36,20 @@ namespace STBDotNet.Serialization
             return xElems;
         }
 
+        public static Version GetStbVersion(XElement root)
+        {
+            var tmp = (string)root.Attribute("version");
+            switch (tmp.Split('.')[0])
+            {
+                case "1":
+                    return Version.Stb1;
+                case "2":
+                    return Version.Stb2;
+                default:
+                    throw new ArgumentException("The STB version is not set");
+            }
+        }
+
         public static StrengthConcrete GetStrengthConcrete(string concreteName)
         {
             switch (concreteName)
