@@ -22,10 +22,11 @@ namespace STBDotNet.Elements.StbCommon
 
             foreach (XElement elem in xElems)
             {
+                Guid = (string)elem.Attribute("globalID");
                 ProjectName = (string)elem.Attribute("project_name");
                 AppName = (string) elem.Attribute("app_name");
                 StrengthConcrete = Util.GetStrengthConcrete((string)elem.Attribute("concrete_strength"));
-
+                
                 XElement items = elem.Element("StbReinforcement_Strength_List");
                 IEnumerable<XNode> nodes = items.Nodes();
                 foreach (XNode node in nodes)
