@@ -9,7 +9,7 @@ namespace STBDotNet.Serialization
 {
     public class Deserializer
     {
-        private static string _xmlns;
+        private readonly string _xmlns;
         private readonly StbElements _stbElements;
         private readonly XDocument _xDocument;
         

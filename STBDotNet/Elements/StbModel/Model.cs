@@ -16,15 +16,6 @@ namespace STBDotNet.Elements.StbModel
         public Members Members { get; set; }
         public Sections Sections { get; set; }
         public Joints Joints { get; set; }
-
-        protected override void SetProperties(XDocument xDocument, Version version, string xmlns)
-        {
-            IEnumerable<XElement> xElems = Util.GetXElements(xDocument, xmlns, StbTag, version);
-
-            foreach (XElement elem in xElems)
-            {
-            }
-        }
     }
 
     public class Sections
