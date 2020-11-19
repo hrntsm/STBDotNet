@@ -9,22 +9,16 @@ namespace STBDotNet.Serialization
 {
     public class Deserializer
     {
-        /// <summary>
-        /// ST-Bridge file path
-        /// </summary>
-        public string Path { get; }
-
         private static string _xmlns;
         private readonly StbElements _stbElements;
         private readonly XDocument _xDocument;
         
-        public Deserializer(string path)
+        public Deserializer(string stbFilePath)
         {
-            Path = path;
             _stbElements = new StbElements();
             try
             {
-                _xDocument = XDocument.Load(Path);
+                _xDocument = XDocument.Load(stbFilePath);
                 XElement root = _xDocument.Root;
                 if (root == null)
                 {
@@ -41,11 +35,8 @@ namespace STBDotNet.Serialization
 
         public StbElements Elements()
         {
-            _stbElements.Common.Deserialize(_xDocument, _stbElements.Version, _xmlns);
-            _stbElements.Model.Deserialize(_xDocument, _stbElements.Version, _xmlns);
-            _stbElements.FromIfc.Deserialize(_xDocument, _stbElements.Version, _xmlns);
-            _stbElements.Extensions.Deserialize(_xDocument, _stbElements.Version, _xmlns);
-
+            _stbElements.Deserialize(_xDocument, _stbElements.Version, _xmlns);
+            
             return _stbElements;
         }
 
