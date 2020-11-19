@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ST_BRIDGE version="1.3.00">
-  <StbCommon globalID="" project_name="GS" app_name="Archdata Asin" concrete_strength="FC21">
+  <StbCommon globalID="64F82436-F0EE-43CD-9ABF-4F40ACF9728E" project_name="GS" app_name="Archdata Asin" concrete_strength="FC21">
     <StbReinforcement_Strength_List>
       <StbReinforcement_Strength D="D6" SD="SD295A" />
       <StbReinforcement_Strength D="D8" SD="SD295A" />
