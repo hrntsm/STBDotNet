@@ -43,7 +43,7 @@ namespace STBDotNet.Geometry
         public Point Start { get; set; }
         public Point End { get; set; }
 
-        public Line(Point start, Pont end)
+        public Line(Point start, Point end)
         {
             Start = start;
             End = end;
