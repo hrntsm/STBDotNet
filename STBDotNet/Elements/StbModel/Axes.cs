@@ -1,36 +1,70 @@
+using System;
 using System.Collections.Generic;
+using System.Xml.Linq;
+using STBDotNet.Serialization;
 
 namespace STBDotNet.Elements.StbModel
 {
-    public class Axes
+    public class Axes : StbSerializable
     {
-        public List<ParallelAxes> ParallelAxes { get; set; }
-        public List<ArcAxes> ArcAxes { get; set; }
-        public List<RadialAxes> RadialAxes { get; set; }
-        public DrawingAxes DrawingAxes { get; set; }
+        public List<ParallelAxes> ParallelAxes { get; set; } = new List<ParallelAxes>();
+        public List<ArcAxes> ArcAxes { get; set; } = new List<ArcAxes>();
+        public List<RadialAxes> RadialAxes { get; set; } = new List<RadialAxes>();
+        public DrawingAxes DrawingAxes { get; set; } = new DrawingAxes();
+
+        public void Deserialize(XElement element, Version version, string xmlns)
+        {
+            XElement items = element.Element("StbAxes");
+            IEnumerable<XNode> xNodes = items.Nodes();
+            var XAxes = new ParallelAxes { GroupName = "X_Axis", X = 0d, Y = 0d, Angle = 0d };
+            var YAxes = new ParallelAxes { GroupName = "Y_Axis", X = 0d, Y = 0d, Angle = 0d };
+            
+            foreach (XNode xNode in xNodes)
+            {
+                var xElements = (XElement)xNode;
+                switch (xElements.Name.ToString())
+                {
+                    case "StbX_Axis":
+                        XAxes.ParallelAxis.Add(GetParallelAxis(xElements));
+                        break;
+                    case "StbY_Axis":
+                        YAxes.ParallelAxis.Add(GetParallelAxis(xElements));
+                        break;
+                    default:
+                        throw new ArgumentException("Undefined axis type");
+                }
+            }
+            ParallelAxes.Add(XAxes);
+            ParallelAxes.Add(YAxes);
+        }
+
+        private ParallelAxis GetParallelAxis(XElement xElements)
+        {
+            return new ParallelAxis
+            {
+                Distance = (double)xElements.Attribute("distance"),
+                Name = (string)xElements.Attribute("name"),
+                Id = (int)xElements.Attribute("id"),
+                NodeIdList = Util.GetNodeIdList(xElements.Element("StbNodeid_List"))
+            };
+        }
     }
 
     public class ParallelAxes:IStbTag, IAxis
     {
-        public string[] StbTag { get; } = {"", "StbParallelAxes"};
+        public string[] StbTag { get; } = {"StbAxis", "StbParallelAxes"};
         public string GroupName { get; set; }
         public double X { get; set; }
         public double Y { get; set; }
         public double Angle { get; set; }
-        public List<ParallelAxis> ParallelAxis { get; set; }
-    }
-
-    public interface IAxis
-    {
-        string GroupName { get; set; }
-        double X { get; set; }
-        double Y { get; set; }
+        public List<ParallelAxis> ParallelAxis { get; set; } = new List<ParallelAxis>();
     }
 
     public class ParallelAxis:ModelBase, IStbTag
     {
         public string[] StbTag { get; } = {"StbX_Axis", "StbY_Axis", "StbParallelAxis"};
         public double Distance { get; set; }
+        public List<int> NodeIdList { get; set; }
     }
 
     public class ArcAxes:IArcAxis, IStbTag
@@ -99,5 +133,12 @@ namespace STBDotNet.Elements.StbModel
     {
         double StartAngle { get; set; }
         double EndAngle { get; set; }
+    }
+
+    public interface IAxis
+    {
+        string GroupName { get; set; }
+        double X { get; set; }
+        double Y { get; set; }
     }
 }

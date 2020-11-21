@@ -15,7 +15,6 @@ namespace STBDotNet.Elements
         public FromIfc FromIfc { get; set; } = new FromIfc();
         public Extensions Extensions { get; set; } = new Extensions();
 
-
         protected override void SetProperties(XDocument xDocument, Version version, string xmlns)
         {
             Version = version;

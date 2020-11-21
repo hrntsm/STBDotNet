@@ -50,6 +50,19 @@ namespace STBDotNet.Serialization
             }
         }
 
+        public static List<int> GetNodeIdList(XElement items)
+        {
+            var idList = new List<int>();
+
+            IEnumerable<XNode> nodes = items.Nodes();
+            foreach (XElement node in nodes)
+            {
+                idList.Add((int)node.Attribute("id"));
+            }
+
+            return idList;
+        }
+
         public static StrengthConcrete GetStrengthConcrete(string concreteName)
         {
             switch (concreteName)
