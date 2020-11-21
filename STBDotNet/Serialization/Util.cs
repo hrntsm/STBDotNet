@@ -6,7 +6,7 @@ using Version = STBDotNet.Elements.Version;
 
 namespace STBDotNet.Serialization
 {
-    public class Util
+    public static class Util
     {
         public static string GetXmlNameSpace(XElement root)
         {
