@@ -80,7 +80,7 @@ namespace STBDotNet.Geometry
         public Mesh(Point a, Point b, Point c)
         {
             A = a;
-            B = b,
+            B = b;
             C = c;
         }
 
