@@ -6,7 +6,7 @@ using Version = STBDotNet.Elements.Version;
 
 namespace STBDotNet.Serialization
 {
-    public class Util
+    public static class Util
     {
         public static string GetXmlNameSpace(XElement root)
         {
@@ -48,6 +48,19 @@ namespace STBDotNet.Serialization
                 default:
                     throw new ArgumentException("The STB version is not set");
             }
+        }
+
+        public static List<int> GetNodeIdList(XElement items)
+        {
+            var idList = new List<int>();
+
+            IEnumerable<XNode> nodes = items.Nodes();
+            foreach (XElement node in nodes)
+            {
+                idList.Add((int)node.Attribute("id"));
+            }
+
+            return idList;
         }
 
         public static StrengthConcrete GetStrengthConcrete(string concreteName)

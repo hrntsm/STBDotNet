@@ -5,6 +5,7 @@ using STBDotNet.Elements.StbCommon;
 using STBDotNet.Elements.StbExtension;
 using STBDotNet.Elements.StbFromIfc;
 using STBDotNet.Elements.StbModel;
+using STBDotNet.Geometry;
 
 namespace STBDotNet.Serialization.Tests
 {
@@ -57,8 +58,46 @@ namespace STBDotNet.Serialization.Tests
             foreach (string path in _pathList)
             {
                 var item = new Deserializer(path);
-                item.Model();
+                Model model = item.Model();
+                NodeTest(model.Nodes);
+                StoryTest(model.Stories);
+                AxisTest(model.Axes);
             }
+        }
+
+        private static void NodeTest(IReadOnlyList<Node> nodes)
+        {
+            Assert.IsTrue(nodes[4].Id == 5);
+            Assert.IsTrue(nodes[4].NodeKind == NodeKind.OnGrid);
+            Assert.IsTrue(nodes[4].Position.Equals(new Point(8179d, 0d, 4970d)));
+            Assert.IsTrue(nodes[147].Id == 148);
+            Assert.IsTrue(nodes[147].NodeKind == NodeKind.Other);
+            Assert.IsTrue(nodes[147].Position.Equals(new Point(35100.6015625d, 6560d, 4970d)));
+        }
+
+        private static void StoryTest(List<Story> stories)
+        {
+            Assert.IsTrue(stories[0].Id == 1);
+            Assert.IsTrue(stories[0].Name == "1F");
+            Assert.IsTrue(stories[0].Height == 0d);
+            Assert.IsTrue(stories[0].StoryKind == StoryKind.General);
+            Assert.IsTrue(stories[0].StrengthConcrete == StrengthConcrete.Fc21);
+            Assert.IsTrue(stories[0].NodeIdList[0] == 2);
+            Assert.IsTrue(stories[0].NodeIdList[43] == 146);
+        }
+
+        private static void AxisTest(Axes axes)
+        {
+            Assert.IsTrue(axes.ParallelAxes[0].GroupName == "X_Axis");
+            Assert.IsTrue(axes.ParallelAxes[0].ParallelAxis[0].Id == 3);
+            Assert.IsTrue(axes.ParallelAxes[0].ParallelAxis[0].Name == "31");
+            Assert.IsTrue(axes.ParallelAxes[0].ParallelAxis[0].Distance == 8179d);
+            Assert.IsTrue(axes.ParallelAxes[0].ParallelAxis[0].NodeIdList[0] == 6);
+            Assert.IsTrue(axes.ParallelAxes[1].GroupName == "Y_Axis");
+            Assert.IsTrue(axes.ParallelAxes[1].ParallelAxis[0].Id == 4);
+            Assert.IsTrue(axes.ParallelAxes[1].ParallelAxis[0].Name == "A");
+            Assert.IsTrue(axes.ParallelAxes[1].ParallelAxis[0].Distance == 0d);
+            Assert.IsTrue(axes.ParallelAxes[1].ParallelAxis[0].NodeIdList[0] == 6);
         }
 
         [Test]
