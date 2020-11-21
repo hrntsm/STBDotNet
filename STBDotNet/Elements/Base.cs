@@ -15,16 +15,16 @@ namespace STBDotNet.Elements
 
     public class StbElementBase : StbSerializable
     {
-        private static string[] _stbTag;
+        private static readonly string[] StbTag = {"", ""};
 
         public static string GetStbTag(Version version)
         {
             switch (version)
             {
                 case Version.Stb1:
-                    return _stbTag[0];
+                    return StbTag[0];
                 case Version.Stb2:
-                    return _stbTag[1];
+                    return StbTag[1];
                 default:
                     throw new ArgumentOutOfRangeException(nameof(version), version, null);
             }
