@@ -14,7 +14,14 @@ namespace STBDotNet.Geometry
             Y = y;
             Z = z;
         }
-
+        
+        public Point(Point pt)
+        {
+            X = pt.X;
+            Y = pt.Y;
+            Z = pt.Z;
+        }
+ 
         public bool Equals(Point other)
         {
             return X.Equals(other.X) && Y.Equals(other.Y) && Z.Equals(other.Z);
@@ -35,7 +42,25 @@ namespace STBDotNet.Geometry
     {
         public Point Start { get; set; }
         public Point End { get; set; }
+        public double Length { get; set; }
 
+        public Line(Point start, Point end)
+        {
+            Start = start;
+            End = end;
+            Length = Math.Sqrt(
+                  Math.Pow(End.X - Start.X, 2)
+                + Math.Pow(End.Y - Start.Y, 2)
+                + Math.Pow(End.Z - Start.Z, 2));
+        }
+        
+        public Line(Line ln)
+        {
+            Start = ln.Start;
+            End = ln.End;
+            Length = ln.Length;
+        }
+        
         public bool Equals(Line other)
         {
             return Start.Equals(other.Start) && End.Equals(other.End);
@@ -57,6 +82,20 @@ namespace STBDotNet.Geometry
         public Point A { get; set; }
         public Point B { get; set; }
         public Point C { get; set; }
+        
+        public Mesh(Point a, Point b, Point c)
+        {
+            A = a;
+            B = b;
+            C = c;
+        }
+
+        public Mesh(Mesh mesh)
+        {
+            A = mesh.A;
+            B = mesh.B;
+            C = mesh.C;
+        }
 
         public bool Equals(Mesh other)
         {
