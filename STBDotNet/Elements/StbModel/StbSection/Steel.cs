@@ -2,7 +2,7 @@ using System.Collections.Generic;
 
 namespace STBDotNet.Elements.StbModel.StbSection
 {
-    public class Steel
+    public class Steel : Section
     {
         public List<RollH> RollH { get; set; } = new List<RollH>();
         public List<BuildH> BuildH { get; set; } = new List<BuildH>();

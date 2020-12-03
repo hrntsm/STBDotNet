@@ -1,87 +1,183 @@
 using System.Collections.Generic;
+using System.Xml.Serialization;
 
 namespace STBDotNet.Elements.StbModel.StbMember
 {
     public class Members
     {
-        public List<Column> Columns { get; set; } = new List<Column>();
-        public List<Post> Posts { get; set; } = new List<Post>();
-        public List<Girder> Girders { get; set; } = new List<Girder>();
-        public List<Beam> Beams { get; set; } = new List<Beam>();
-        public List<Brace> Braces { get; set; } = new List<Brace>();
-        public List<Slab> Slabs { get; set; } = new List<Slab>();
-        public List<Wall> Walls { get; set; } = new List<Wall>();
-        public List<Footing> Footings { get; set; } = new List<Footing>();
-        public List<StripFooting> StripFootings { get; set; } = new List<StripFooting>();
-        public List<Pile> Piles { get; set; } = new List<Pile>();
-        public List<FoundationColumn> FoundationColumns { get; set; } = new List<FoundationColumn>();
-        public List<Parapet> Parapets { get; set; } = new List<Parapet>();
-        public List<Open> Opens { get; set; } = new List<Open>();
+        [XmlArray("StbColumns")]
+        [XmlArrayItem("StbColumn")] public List<Column> Columns { get; set; }
+        [XmlArray("StbPosts")]
+        [XmlArrayItem("StbPost")] public List<Post> Posts { get; set; }
+        [XmlArray("StbGirders")]
+        [XmlArrayItem("StbGirder")] public List<Girder> Girders { get; set; }
+        [XmlArray("StbBeams")]
+        [XmlArrayItem("StbBeam")] public List<Beam> Beams { get; set; }
+        [XmlArray("StbBraces")]
+        [XmlArrayItem("StbBrace")] public List<Brace> Braces { get; set; }
+        [XmlArray("StbSlabs")]
+        [XmlArrayItem("StbSlab")] public List<Slab> Slabs { get; set; }
+        [XmlArray("StbWalls")]
+        [XmlArrayItem("StbWall")] public List<Wall> Walls { get; set; }
+        public List<Footing> Footings { get; set; }
+        public List<StripFooting> StripFootings { get; set; }
+        public List<Pile> Piles { get; set; }
+        public List<FoundationColumn> FoundationColumns { get; set; }
+        public List<Parapet> Parapets { get; set; }
     }
 
-    public class Column:FrameBase, IStbTag
+    public class Column : MemberBase, IFrame
     {
-        public string[] StbTag { get; } = {"StbColumn", "StbColumn"};
+        [XmlAttribute("idNode_bottom")] public int IdNodeStart { get; set; }
+        [XmlAttribute("idNode_top")] public int IdNodeEnd { get; set; }
+        [XmlAttribute("rotate")] public double Rotate { get; set; }
+        [XmlAttribute("offset_bottom_X")] public double OffsetStartX { get; set; }
+        [XmlAttribute("offset_bottom_Y")] public double OffsetStartY { get; set; }
+        [XmlAttribute("offset_bottom_Z")] public double OffsetStartZ { get; set; }
+        [XmlAttribute("offset_top_X")] public double OffsetEndX { get; set; }
+        [XmlAttribute("offset_top_Y")] public double OffsetEndY { get; set; }
+        [XmlAttribute("offset_top_Z")] public double OffsetEndZ { get; set; }
+        [XmlAttribute("condition_bottom")] public string ConditionStart { get; set; }
+        [XmlAttribute("condition_top")] public string ConditionEnd { get; set; }
+        [XmlAttribute("joint_bottom")] public double JointStart { get; set; }
+        [XmlAttribute("joint_top")] public double JointEnd { get; set; }
+        [XmlAttribute("kind_joint_bottom")] public string KindJointStart { get; set; }
+        [XmlAttribute("kind_joint_top")] public string KindJointEnd { get; set; }
+        [XmlAttribute("Joint_id_bottom")] public int JointIdStart { get; set; }
+        [XmlAttribute("Joint_id_top")] public int JointIdEnd { get; set; }
+        [XmlAttribute("offset_X")] public double OffsetX { get; set; }
+        [XmlAttribute("offset_Y")] public double OffsetY { get; set; }
+        [XmlAttribute("thickness_ex_start_X")] public double ThicknessExStartX { get; set; }
+        [XmlAttribute("thickness_ex_start_Y")] public double ThicknessExStartY { get; set; }
+        [XmlAttribute("thickness_ex_end_X")] public double ThicknessExEndX { get; set; }
+        [XmlAttribute("thickness_ex_end_Y")] public double ThicknessExEndY { get; set; }
     }
 
-    public class Post:FrameBase, IStbTag
+    public class Post : Column
+    { }
+
+    public class Girder : MemberBase, IFrame
     {
-        public string[] StbTag { get; } = {"StbPost", "StbPost"};
+        [XmlAttribute("idNode_start")] public int IdNodeStart { get; set; }
+        [XmlAttribute("idNode_end")] public int IdNodeEnd { get; set; }
+        [XmlAttribute("rotate")] public double Rotate { get; set; }
+        [XmlAttribute("offset_start_X")] public double OffsetStartX { get; set; }
+        [XmlAttribute("offset_start_Y")] public double OffsetStartY { get; set; }
+        [XmlAttribute("offset_start_Z")] public double OffsetStartZ { get; set; }
+        [XmlAttribute("offset_end_X")] public double OffsetEndX { get; set; }
+        [XmlAttribute("offset_end_Y")] public double OffsetEndY { get; set; }
+        [XmlAttribute("offset_end_Z")] public double OffsetEndZ { get; set; }
+        [XmlAttribute("condition_start")] public string ConditionStart { get; set; }
+        [XmlAttribute("condition_end")] public string ConditionEnd { get; set; }
+        [XmlAttribute("joint_start")] public double JointStart { get; set; }
+        [XmlAttribute("joint_end")] public double JointEnd { get; set; }
+        [XmlAttribute("kind_joint_start")] public string KindJointStart { get; set; }
+        [XmlAttribute("kind_joint_end")] public string KindJointEnd { get; set; }
+        [XmlAttribute("Joint_id_start")] public int JointIdStart { get; set; }
+        [XmlAttribute("Joint_id_end")] public int JointIdEnd { get; set; }
+        [XmlAttribute("section_io_start")] public string SectionIOStart { get; set; }
+        [XmlAttribute("section_io_end")] public string SectionIOEnd { get; set; }
+        [XmlAttribute("isFoundation")] public string IsFoundation { get; set; }
+        [XmlAttribute("offset")] public double Offset { get; set; }
+        [XmlAttribute("level")] public double Level { get; set; }
+        [XmlAttribute("thickness_ex_top")] public double ThicknessExTop { get; set; }
+        [XmlAttribute("thickness_ex_bottom")] public double ThicknessExBottom { get; set; }
+        [XmlAttribute("thickness_ex_right")] public double ThicknessExRight { get; set; }
+        [XmlAttribute("thickness_ex_left")] public double ThicknessExLeft { get; set; }
+        [XmlAttribute("haunch_start")] public double HaunchStart { get; set; }
+        [XmlAttribute("haunch_end")] public double HaunchEnd { get; set; }
+        [XmlAttribute("kind_haunch_start")] public string KindHaunchStart { get; set; }
+        [XmlAttribute("kind_haunch_end")] public string KindHaunchEnd { get; set; }
+        [XmlAttribute("type_haunch_H")] public string TypeHaunchH { get; set; }
+        [XmlAttribute("type_haunch_V")] public string TypeHaunchV { get; set; }
     }
 
-    public class Girder:FrameBase, IStbTag
+    public class Beam : Girder
+    { }
+
+    public class Brace : MemberBase, IFrame
     {
-        public string[] StbTag { get; } = {"StbGirder", "StbGirder"};
+        [XmlAttribute("idNode_start")] public int IdNodeStart { get; set; }
+        [XmlAttribute("idNode_end")] public int IdNodeEnd { get; set; }
+        [XmlAttribute("rotate")] public double Rotate { get; set; }
+        [XmlAttribute("offset_start_X")] public double OffsetStartX { get; set; }
+        [XmlAttribute("offset_start_Y")] public double OffsetStartY { get; set; }
+        [XmlAttribute("offset_start_Z")] public double OffsetStartZ { get; set; }
+        [XmlAttribute("offset_end_X")] public double OffsetEndX { get; set; }
+        [XmlAttribute("offset_end_Y")] public double OffsetEndY { get; set; }
+        [XmlAttribute("offset_end_Z")] public double OffsetEndZ { get; set; }
+        [XmlAttribute("condition_start")] public string ConditionStart { get; set; }
+        [XmlAttribute("condition_end")] public string ConditionEnd { get; set; }
+        [XmlAttribute("joint_start")] public double JointStart { get; set; }
+        [XmlAttribute("joint_end")] public double JointEnd { get; set; }
+        [XmlAttribute("kind_joint_start")] public string KindJointStart { get; set; }
+        [XmlAttribute("kind_joint_end")] public string KindJointEnd { get; set; }
+        [XmlAttribute("Joint_id_start")] public int JointIdStart { get; set; }
+        [XmlAttribute("Joint_id_end")] public int JointIdEnd { get; set; }
+        [XmlAttribute("future_brace")] public string FutureBrace { get; set; }
     }
 
-    public class Beam:FrameBase, IStbTag
+    public class Slab : PlateBase
     {
-        public string[] StbTag { get; } = {"StbBeam", "StbBeam"};
+        [XmlAttribute("kind_slab")] public string KindSlab { get; set; }
+        [XmlAttribute("level")] public double Level { get; set; }
+        [XmlAttribute("thickness_ex_upper")] public double ThicknessExUpper { get; set; }
+        [XmlAttribute("thickness_ex_bottom")] public double ThicknessExBottom { get; set; }
+        [XmlAttribute("dir_load")] public string DirLoad { get; set; }
+        [XmlAttribute("angle_load")] public double AngleLoad { get; set; }
+        [XmlAttribute("isFoundation")] public string IsFoundation { get; set; }
+        [XmlAttribute("type_haunch")] public string TypeHaunch { get; set; }
+        [XmlArray("StbSlabOffset_List")]
+        [XmlArrayItem("StbSlabOffset")] public List<SlabOffset> SlabOffsets { get; set; }
     }
 
-    public class Brace:FrameBase, IStbTag
+    public class SlabOffset
     {
-        public string[] StbTag { get; } = {"StbBrace", "StbBrace"};
+        [XmlAttribute("offset_X")] public double OffsetX { get; set; }
+        [XmlAttribute("offset_Y")] public double OffsetY { get; set; }
     }
 
-    public class Slab:PlateBase, IStbTag
+    public class Wall : PlateBase
     {
-        public string[] StbTag { get; } = {"StbSlab", "StbSlab"};
-        public double Level { get; set; }
+        [XmlAttribute("kind_layout")] public string KindLayout { get; set; }
+        [XmlAttribute("offset")] public double Offset { get; set; }
+        [XmlAttribute("thickness_ex_right")] public double ThicknessExRight { get; set; }
+        [XmlAttribute("thickness_ex_left")] public double ThicknessExLeft { get; set; }
+        [XmlAttribute("kind_wall")] public string KindWall { get; set; }
+        [XmlAttribute("split_upper")] public double SplitUpper { get; set; }
+        [XmlAttribute("split_bottom")] public double SplitBottom { get; set; }
+        [XmlAttribute("split_right")] public double SplitRight { get; set; }
+        [XmlAttribute("split_left")] public double SplitLeft { get; set; }
+        [XmlAttribute("type_outside")] public string TypeOutside { get; set; }
+        [XmlAttribute("isPress")] public string IsPress { get; set; }
     }
 
-    public class Wall:PlateBase, IStbTag
+    public class Footing : MemberBase
     {
-        public string[] StbTag { get; } = {"StbWall", "StbWall"};
     }
 
-    public class Footing:MemberBase, IStbTag
+    public class StripFooting : MemberBase
     {
-        public string[] StbTag { get; } = {"StbFooting", "StbFooting"};
     }
 
-    public class StripFooting:MemberBase, IStbTag
+    public class Pile : MemberBase
     {
-        public string[] StbTag { get; } = {"StbStripFooting", "StbStripFooting"};
     }
 
-    public class Pile:MemberBase, IStbTag
+    public class FoundationColumn : MemberBase
     {
-        public string[] StbTag { get; } = {"StbPile", "StbPile"};
     }
 
-    public class FoundationColumn:MemberBase, IStbTag
+    public class Parapet : MemberBase
     {
-        public string[] StbTag { get; } = {"StbFoundationColumn", "StbFoundationColumn"};
     }
 
-    public class Parapet:MemberBase, IStbTag
+    public class Open : MemberBase
     {
-        public string[] StbTag { get; } = {"StbParapet", "StbParapet"};
-    }
-
-    public class Open:MemberBase, IStbTag
-    {
-        public string[] StbTag { get; } = {"StbOpen", "StbOpen"};
+        [XmlAttribute("position_X")] public double PositionX { get; set; }
+        [XmlAttribute("position_Y")] public double PositionY { get; set; }
+        [XmlAttribute("length_X")] public double LengthX { get; set; }
+        [XmlAttribute("length_Y")] public double LengthY { get; set; }
+        [XmlAttribute("rotate")] public double Rotate { get; set; }
     }
 }

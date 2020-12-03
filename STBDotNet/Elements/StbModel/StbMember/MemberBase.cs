@@ -1,38 +1,23 @@
 using System.Collections.Generic;
 using System.Numerics;
+using System.Xml.Serialization;
 
 namespace STBDotNet.Elements.StbModel.StbMember
 {
     public abstract class MemberBase : IModel, IMember
     {
-        public string Guid { get; set; }
-        public int Id { get; set; }
-        public string Name { get; set; }
-        public int IdSection { get; set; }
-        public KindFrameStructure KindFrameStructure { get; set; }
+        [XmlAttribute("id")] public int Id { get; set; }
+        [XmlAttribute("name")] public string Name { get; set; }
+        [XmlAttribute("id_section")] public int IdSection { get; set; }
+        [XmlAttribute("kind_structure")] public string Kind { get; set; }
+        [XmlIgnore] public KindFrameStructure KindFrameStructure { get; set; }
     }
 
-    public abstract class FrameBase : MemberBase, IFrame
+    public abstract class PlateBase : MemberBase
     {
-        public int IdNodeStart { get; set; }
-        public int IdNodeEnd { get; set; }
-        public int Rotate { get; set; }
-    }
-
-    public abstract class PlateBase : MemberBase, IPlate
-    {
-        public List<int> NodeIdOrder { get; set; } = new List<int>();
-        public List<int> OpenIdList { get; set; } = new List<int>();
-        public List<PlaneOpen> Open { get; set; } = new List<PlaneOpen>();
-        public List<PlateOffset> OffsetList { get; set; } = new List<PlateOffset>();
-    }
-
-    public interface IPlate
-    {
-        List<int> NodeIdOrder { get; set; }
-        List<int> OpenIdList { get; set; }
-        List<PlaneOpen> Open { get; set; }
-        List<PlateOffset> OffsetList { get; set; }
+        [XmlArray("StbNodeid_List")]
+        [XmlArrayItem("StbNodeid")] public List<NodeId> NodeIdList { get; set; }
+        [XmlArrayItem("StbOpen")] public List<Open> Opens { get; set; }
     }
 
     public class PlaneOpen
@@ -46,18 +31,11 @@ namespace STBDotNet.Elements.StbModel.StbMember
         public double LengthY { get; set; }
         public double Rotate { get;  set; }
     }
-
-    public class PlateOffset
-    {
-        public int IdNode { get; set; }
-        public double X { get; set; }
-        public double Y { get; set; }
-        public double Z { get; set; }
-    }
     
     public interface IMember
     {
         int IdSection { get; set; }
+        string Kind { get; set; }
         KindFrameStructure KindFrameStructure { get; set; }
     }
 
@@ -65,6 +43,21 @@ namespace STBDotNet.Elements.StbModel.StbMember
     {
         int IdNodeStart { get; set; }
         int IdNodeEnd { get; set; }
+        double Rotate { get; set; }
+        double OffsetStartX { get; set; }
+        double OffsetStartY { get; set; }
+        double OffsetStartZ { get; set; }
+        double OffsetEndX { get; set; }
+        double OffsetEndY { get; set; }
+        double OffsetEndZ { get; set; }
+        string ConditionStart { get; set; }
+        string ConditionEnd { get; set; }
+        double JointStart { get; set; }
+        double JointEnd { get; set; }
+        string KindJointStart { get; set; }
+        string KindJointEnd { get; set; }
+        int JointIdStart { get; set; }
+        int JointIdEnd { get; set; }
     }
     
     public enum KindFrameStructure
