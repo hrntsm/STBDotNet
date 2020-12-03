@@ -1,4 +1,5 @@
 using System.Xml.Linq;
+using System.Xml.Serialization;
 using STBDotNet.Serialization;
 using STBDotNet.Elements.StbModel;
 using STBDotNet.Elements.StbCommon;
@@ -7,22 +8,19 @@ using Extensions = STBDotNet.Elements.StbExtension.Extensions;
 
 namespace STBDotNet.Elements
 {
-    public class StbElements : StbSerializable
+    [XmlRoot("ST_BRIDGE")]
+    public class StbElements
     {
-        public Version Version { get; set; }
+        [XmlAttribute("version")]
+        public string Version { get; set; }
+        [XmlElement("StbCommon")]
         public Common Common { get; set; } = new Common();
+        [XmlElement("StbModel")]
         public Model Model { get; set; } = new Model();
-        public FromIfc FromIfc { get; set; } = new FromIfc();
-        public Extensions Extensions { get; set; } = new Extensions();
-
-        protected override void SetProperties(XDocument xDocument, Version version, string xmlns)
-        {
-            Version = version;
-            Common.Deserialize(xDocument, version, xmlns);
-            Model.Deserialize(xDocument, version, xmlns);
-            FromIfc.Deserialize(xDocument, version, xmlns);
-            Extensions.Deserialize(xDocument, version, xmlns);
-        }
+        // [XmlElement("StbFromIfc")]
+        // public FromIfc FromIfc { get; set; } = new FromIfc();
+        // [XmlElement("StbExtensions")]
+        // public Extensions Extensions { get; set; } = new Extensions();
     }
 
     public enum Version

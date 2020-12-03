@@ -1,32 +1,22 @@
-using System;
-using System.Collections.Generic;
-using System.Xml.Linq;
+using System.Xml.Serialization;
 using STBDotNet.Geometry;
-using STBDotNet.Serialization;
 
 namespace STBDotNet.Elements.StbModel
 {
-    public class Node : StbSerializable, IGuid
+    public class Node : NodeId
     {
-        public int Id { get; set; }
-        public string Guid { get; set; }
+        [XmlAttribute("x")]
+        public double X { get; set; }
+        [XmlAttribute("y")]
+        public double Y { get; set; }
+        [XmlAttribute("z")]
+        public double Z { get; set; }
+        [XmlAttribute("kind")]
+        public string Kind { get; set; }
+        [XmlIgnore]
         public Point Position { get; set; }
+        [XmlIgnore]
         public NodeKind NodeKind { get; set; }
-        public int IdMember { get; set; }
-        private static string[] StbTag { get; } = {"StbNodes", "StbNodes"};
-
-        public void Deserialize(XNode xNode, Version version, string xmlns)
-        {
-            var xElements = (XElement) xNode;
-            Id = (int)xElements.Attribute("id");
-            Position = new Point
-            {
-                X = (double) xElements.Attribute("x"),
-                Y = (double) xElements.Attribute("y"),
-                Z = (double) xElements.Attribute("z")
-            };
-            NodeKind = GetNodeKind((string) xElements.Attribute("kind"));
-        }
 
         private NodeKind GetNodeKind(string kindString)
         {
@@ -45,6 +35,12 @@ namespace STBDotNet.Elements.StbModel
                 default: return NodeKind.Other;
             }
         }
+    }
+
+    public class NodeId
+    {
+        [XmlAttribute("id")]
+        public int Id { get; set; }
     }
 
     public enum NodeKind

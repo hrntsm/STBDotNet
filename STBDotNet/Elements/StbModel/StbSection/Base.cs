@@ -1,8 +1,9 @@
 using System.Collections.Generic;
+using STBDotNet.Serialization;
 
 namespace STBDotNet.Elements.StbModel.StbSection
 {
-    public abstract class SectionBase:IModel, ISection
+    public abstract class SectionBase:StbSerializable, IModel, ISection
     {
         public int Id { get; set; }
         public string Name { get; set; }
@@ -17,7 +18,7 @@ namespace STBDotNet.Elements.StbModel.StbSection
         public List<double> BatList { get; set; }
     }
 
-    public abstract class SteelSectionBase:IModel, ISteelSection
+    public abstract class SteelSectionBase : StbSerializable, IModel, ISteelSection
     {
         public string Guid { get; set; }
         public int Id { get; set; }

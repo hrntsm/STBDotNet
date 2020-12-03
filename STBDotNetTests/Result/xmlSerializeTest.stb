@@ -1,0 +1,658 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ST_BRIDGE version="1.3.00">
+  <StbCommon globalID="64F82436-F0EE-43CD-9ABF-4F40ACF9728E" project_name="GS" app_name="Archdata Asin" concrete_strength="FC21">
+    <StbReinforcement_Strength_List>
+      <StbReinforcement_Strength D="D6" SD="SD295A" />
+      <StbReinforcement_Strength D="D8" SD="SD295A" />
+      <StbReinforcement_Strength D="D10" SD="SD295A" />
+      <StbReinforcement_Strength D="D13" SD="SD295A" />
+      <StbReinforcement_Strength D="D16" SD="SD295A" />
+      <StbReinforcement_Strength D="D19" SD="SD345" />
+      <StbReinforcement_Strength D="D22" SD="SD345" />
+      <StbReinforcement_Strength D="D25" SD="SD345" />
+      <StbReinforcement_Strength D="D29" SD="SD345" />
+      <StbReinforcement_Strength D="D32" SD="SD345" />
+      <StbReinforcement_Strength D="D35" SD="SD345" />
+      <StbReinforcement_Strength D="D38" SD="SD345" />
+      <StbReinforcement_Strength D="D41" SD="SD345" />
+      <StbReinforcement_Strength D="R9" SD="SR235" />
+      <StbReinforcement_Strength D="R12" SD="SR235" />
+      <StbReinforcement_Strength D="R13" SD="SR295" />
+      <StbReinforcement_Strength D="R16" SD="SR295" />
+      <StbReinforcement_Strength D="R22" SD="SR295" />
+      <StbReinforcement_Strength D="R25" SD="SR295" />
+      <StbReinforcement_Strength D="R28" SD="SR295" />
+      <StbReinforcement_Strength D="R32" SD="SR295" />
+      <StbReinforcement_Strength D="U6.2" SD="SBPD1275" />
+      <StbReinforcement_Strength D="U7.1" SD="SBPD1275" />
+      <StbReinforcement_Strength D="U9.0" SD="SBPD1275" />
+      <StbReinforcement_Strength D="U10.7" SD="SBPD1275" />
+      <StbReinforcement_Strength D="U12.6" SD="SBPD1275" />
+      <StbReinforcement_Strength D="RB6.2" SD="SBPDN1275" />
+      <StbReinforcement_Strength D="RB7.1" SD="SBPDN1275" />
+      <StbReinforcement_Strength D="RB9.0" SD="SBPDN1275" />
+      <StbReinforcement_Strength D="RB10.7" SD="SBPDN1275" />
+      <StbReinforcement_Strength D="RB12.6" SD="SBPDN1275" />
+      <StbReinforcement_Strength D="S6" SD="KSS785" />
+      <StbReinforcement_Strength D="S8" SD="KSS785" />
+      <StbReinforcement_Strength D="S10" SD="KSS785" />
+      <StbReinforcement_Strength D="S13" SD="KSS785" />
+      <StbReinforcement_Strength D="S16" SD="KSS785" />
+      <StbReinforcement_Strength D="R19" SD="SR295" />
+      <StbReinforcement_Strength D="UD10" SD="UB785" />
+      <StbReinforcement_Strength D="UD13" SD="UB785" />
+      <StbReinforcement_Strength D="UD16" SD="UB785" />
+      <StbReinforcement_Strength D="K10" SD="KW785" />
+      <StbReinforcement_Strength D="K13" SD="KW785" />
+      <StbReinforcement_Strength D="K16" SD="KW785" />
+      <StbReinforcement_Strength D="UHD10" SD="SHD685" />
+      <StbReinforcement_Strength D="UHD13" SD="SHD685" />
+      <StbReinforcement_Strength D="UHD16" SD="SHD685" />
+      <StbReinforcement_Strength D="MD10" SD="MK785" />
+      <StbReinforcement_Strength D="MD13" SD="MK785" />
+      <StbReinforcement_Strength D="MD16" SD="MK785" />
+    </StbReinforcement_Strength_List>
+    <ApplyConditionsList />
+  </StbCommon>
+  <StbModel>
+    <StbNodes>
+      <StbNode id="1" x="6.1531000028480776E-07" y="2825.840087890625" z="4970" kind="ON_GRID" />
+      <StbNode id="2" x="6.1531000028480776E-07" y="2825.840087890625" z="0" kind="ON_GRID" />
+      <StbNode id="3" x="1488.1273193359375" y="7133.0107421875" z="4970" kind="ON_GRID" />
+      <StbNode id="4" x="1488.1273193359375" y="7133.0107421875" z="0" kind="ON_GRID" />
+      <StbNode id="5" x="8179" y="0" z="4970" kind="ON_GRID" />
+      <StbNode id="6" x="8179" y="0" z="0" kind="ON_GRID" />
+      <StbNode id="7" x="9667.1162109375" y="4307.17431640625" z="4970" kind="ON_GRID" />
+      <StbNode id="8" x="9667.1162109375" y="4307.17431640625" z="0" kind="ON_GRID" />
+      <StbNode id="9" x="19122" y="0" z="4970" kind="ON_GRID" />
+      <StbNode id="10" x="19122" y="0" z="0" kind="ON_GRID" />
+      <StbNode id="11" x="19122" y="6560" z="4970" kind="ON_GRID" />
+      <StbNode id="12" x="19122" y="6560" z="0" kind="ON_GRID" />
+      <StbNode id="13" x="19122" y="15428.490234375" z="4970" kind="ON_GRID" />
+      <StbNode id="14" x="19122" y="15428.490234375" z="0" kind="ON_GRID" />
+      <StbNode id="15" x="15280.296875" y="17913.796875" z="4970" kind="ON_GRID" />
+      <StbNode id="16" x="15280.296875" y="17913.796875" z="0" kind="ON_GRID" />
+      <StbNode id="17" x="7052.02001953125" y="23236.900390625" z="4970" kind="ON_GRID" />
+      <StbNode id="18" x="7052.02001953125" y="23236.900390625" z="0" kind="ON_GRID" />
+      <StbNode id="19" x="11506.072265625" y="30121.81640625" z="4970" kind="ON_GRID" />
+      <StbNode id="20" x="11506.072265625" y="30121.81640625" z="0" kind="ON_GRID" />
+      <StbNode id="21" x="19734.296875" y="24798.66796875" z="4970" kind="ON_GRID" />
+      <StbNode id="22" x="19734.296875" y="24798.66796875" z="0" kind="ON_GRID" />
+      <StbNode id="23" x="15308.314453125" y="35999.1875" z="4970" kind="ON_GRID" />
+      <StbNode id="24" x="15308.314453125" y="35999.1875" z="0" kind="ON_GRID" />
+      <StbNode id="25" x="23536.55859375" y="30676.099609375" z="4970" kind="ON_GRID" />
+      <StbNode id="26" x="23536.55859375" y="30676.099609375" z="0" kind="ON_GRID" />
+      <StbNode id="27" x="27881.896484375" y="37393.00390625" z="4970" kind="ON_GRID" />
+      <StbNode id="28" x="27881.896484375" y="37393.00390625" z="0" kind="ON_GRID" />
+      <StbNode id="29" x="19653.685546875" y="42716.109375" z="4970" kind="ON_GRID" />
+      <StbNode id="30" x="19653.685546875" y="42716.109375" z="0" kind="ON_GRID" />
+      <StbNode id="31" x="24624.130859375" y="45842.74609375" z="4970" kind="ON_GRID" />
+      <StbNode id="32" x="24624.130859375" y="45842.74609375" z="0" kind="ON_GRID" />
+      <StbNode id="33" x="30774.287109375" y="41863.98046875" z="4970" kind="ON_GRID" />
+      <StbNode id="34" x="30774.287109375" y="41863.98046875" z="0" kind="ON_GRID" />
+      <StbNode id="35" x="32830.6015625" y="6560.0107421875" z="4970" kind="ON_GRID" />
+      <StbNode id="36" x="32830.6015625" y="6560.0107421875" z="0" kind="ON_GRID" />
+      <StbNode id="37" x="32830.6015625" y="0" z="4970" kind="ON_GRID" />
+      <StbNode id="38" x="32830.6015625" y="0" z="0" kind="ON_GRID" />
+      <StbNode id="39" x="8179" y="0" z="5920" kind="ON_GRID" />
+      <StbNode id="40" x="19122" y="0" z="5920" kind="ON_GRID" />
+      <StbNode id="41" x="6549" y="0" z="5920" kind="ON_GRID" />
+      <StbNode id="42" x="6549" y="0" z="4970" kind="ON_GRID" />
+      <StbNode id="43" x="10922" y="0" z="5920" kind="ON_GRID" />
+      <StbNode id="44" x="10922" y="0" z="4970" kind="ON_GRID" />
+      <StbNode id="45" x="15122" y="0" z="5920" kind="ON_GRID" />
+      <StbNode id="46" x="15122" y="0" z="4970" kind="ON_GRID" />
+      <StbNode id="47" x="6549" y="6560" z="5920" kind="ON_GRID" />
+      <StbNode id="48" x="6549" y="6560" z="4970" kind="ON_GRID" />
+      <StbNode id="49" x="10922" y="6560" z="5920" kind="ON_GRID" />
+      <StbNode id="50" x="10922" y="6560" z="4970" kind="ON_GRID" />
+      <StbNode id="51" x="15122" y="6560" z="5920" kind="ON_GRID" />
+      <StbNode id="52" x="15122" y="6560" z="4970" kind="ON_GRID" />
+      <StbNode id="53" x="19122" y="6560" z="5920" kind="ON_GRID" />
+      <StbNode id="54" x="4296.52099609375" y="15261.5029296875" z="4970" kind="ON_GRID" />
+      <StbNode id="55" x="4296.52099609375" y="15261.5029296875" z="0" kind="ON_GRID" />
+      <StbNode id="56" x="12475.4921875" y="12435.677734375" z="4970" kind="ON_GRID" />
+      <StbNode id="57" x="12475.4921875" y="12435.677734375" z="0" kind="ON_GRID" />
+      <StbNode id="58" x="39390.6015625" y="0" z="4970" kind="ON_GRID" />
+      <StbNode id="59" x="39390.6015625" y="0" z="0" kind="ON_GRID" />
+      <StbNode id="60" x="39390.6015625" y="6560" z="4970" kind="ON_GRID" />
+      <StbNode id="61" x="39390.6015625" y="6560" z="0" kind="ON_GRID" />
+      <StbNode id="62" x="13653" y="0" z="0" kind="ON_BEAM" />
+      <StbNode id="63" x="10445.4619140625" y="6560" z="0" kind="ON_BEAM" />
+      <StbNode id="64" x="14662.0263671875" y="6560" z="0" kind="ON_BEAM" />
+      <StbNode id="65" x="5577.33984375" y="5720.18994140625" z="0" kind="ON_BEAM" />
+      <StbNode id="66" x="8385.716796875" y="13848.69140625" z="0" kind="ON_BEAM" />
+      <StbNode id="67" x="11166.2099609375" y="20575.31640625" z="0" kind="ON_BEAM" />
+      <StbNode id="68" x="15620.228515625" y="27460.21484375" z="0" kind="ON_BEAM" />
+      <StbNode id="69" x="19422.47265625" y="33337.62109375" z="0" kind="ON_BEAM" />
+      <StbNode id="70" x="22546.099609375" y="47187.1015625" z="0" kind="ON_BEAM" />
+      <StbNode id="71" x="21731.7421875" y="41371.7421875" z="0" kind="ON_BEAM" />
+      <StbNode id="72" x="23767.818359375" y="40054.5390625" z="0" kind="ON_BEAM" />
+      <StbNode id="73" x="10793.134765625" y="20816.66796875" z="0" kind="ON_BEAM" />
+      <StbNode id="74" x="4089.22216796875" y="1413.01611328125" z="0" kind="ON_BEAM" />
+      <StbNode id="75" x="10445.4619140625" y="6560" z="4970" kind="ON_BEAM" />
+      <StbNode id="76" x="19122" y="10139.3173828125" z="4970" kind="ON_BEAM" />
+      <StbNode id="77" x="21731.7421875" y="41371.7421875" z="4970" kind="ON_BEAM" />
+      <StbNode id="78" x="42940.6015625" y="6560" z="4970" kind="ON_BEAM" />
+      <StbNode id="79" x="42940.6015625" y="0" z="4970" kind="ON_BEAM" />
+      <StbNode id="80" x="8179" y="6560" z="5920" kind="ON_BEAM" />
+      <StbNode id="81" x="6549" y="3280" z="5920" kind="ON_BEAM" />
+      <StbNode id="82" x="8179" y="3280" z="5920" kind="ON_BEAM" />
+      <StbNode id="83" x="10922" y="3280" z="5920" kind="ON_BEAM" />
+      <StbNode id="84" x="15122" y="3280" z="5920" kind="ON_BEAM" />
+      <StbNode id="85" x="19122" y="3280" z="5920" kind="ON_BEAM" />
+      <StbNode id="86" x="2696.972412109375" y="1894.03759765625" z="4970" kind="ON_BEAM" />
+      <StbNode id="87" x="4185.08740234375" y="6201.21240234375" z="4970" kind="ON_BEAM" />
+      <StbNode id="88" x="6993.4599609375" y="14329.7138671875" z="4970" kind="ON_BEAM" />
+      <StbNode id="89" x="7020.6220703125" y="5221.537109375" z="4970" kind="ON_BEAM" />
+      <StbNode id="90" x="9828.994140625" y="13350.0400390625" z="4970" kind="ON_BEAM" />
+      <StbNode id="91" x="6549" y="563.16412353515625" z="4970" kind="ON_BEAM" />
+      <StbNode id="92" x="6549" y="5384.48193359375" z="4970" kind="ON_BEAM" />
+      <StbNode id="93" x="14662" y="6560" z="4970" kind="ON_BEAM" />
+      <StbNode id="94" x="16242.400390625" y="11134.2158203125" z="4970" kind="ON_BEAM" />
+      <StbNode id="95" x="17981.091796875" y="16166.5771484375" z="4970" kind="ON_BEAM" />
+      <StbNode id="96" x="9519.3798828125" y="21640.6953125" z="4970" kind="ON_BEAM" />
+      <StbNode id="97" x="12113.55859375" y="19962.44921875" z="4970" kind="ON_BEAM" />
+      <StbNode id="98" x="9738.8212890625" y="21498.732421875" z="4970" kind="ON_BEAM" />
+      <StbNode id="99" x="14192.8466796875" y="28383.642578125" z="4970" kind="ON_BEAM" />
+      <StbNode id="100" x="12509.5712890625" y="19706.255859375" z="4970" kind="ON_BEAM" />
+      <StbNode id="101" x="16963.583984375" y="26591.146484375" z="4970" kind="ON_BEAM" />
+      <StbNode id="102" x="17995.0859375" y="34261.0390625" z="4970" kind="ON_BEAM" />
+      <StbNode id="103" x="20765.833984375" y="32468.5625" z="4970" kind="ON_BEAM" />
+      <StbNode id="104" x="25111.177734375" y="39185.47265625" z="4970" kind="ON_BEAM" />
+      <StbNode id="105" x="22340.4375" y="40977.9609375" z="4970" kind="ON_BEAM" />
+      <StbNode id="106" x="28003.572265625" y="43656.45703125" z="4970" kind="ON_BEAM" />
+      <StbNode id="107" x="22546.099609375" y="47187.1015625" z="4970" kind="ON_BEAM" />
+      <StbNode id="108" x="33293.15625" y="40234.4296875" z="4970" kind="ON_BEAM" />
+      <StbNode id="109" x="30400.767578125" y="35763.4609375" z="4970" kind="ON_BEAM" />
+      <StbNode id="110" x="26055.435546875" y="29046.564453125" z="4970" kind="ON_BEAM" />
+      <StbNode id="111" x="22253.1640625" y="23169.1171875" z="4970" kind="ON_BEAM" />
+      <StbNode id="112" x="17799.17578125" y="16284.263671875" z="4970" kind="ON_BEAM" />
+      <StbNode id="113" x="14662" y="0" z="4970" kind="ON_BEAM" />
+      <StbNode id="114" x="9312.2314453125" y="3280" z="4970" kind="ON_BEAM" />
+      <StbNode id="115" x="14662" y="3280" z="4970" kind="ON_BEAM" />
+      <StbNode id="116" x="19122" y="3280" z="4970" kind="ON_BEAM" />
+      <StbNode id="117" x="20102" y="0" z="4970" kind="ON_BEAM" />
+      <StbNode id="118" x="20102" y="6560" z="4970" kind="ON_BEAM" />
+      <StbNode id="119" x="25976" y="0" z="4970" kind="ON_BEAM" />
+      <StbNode id="120" x="25976" y="6560" z="4970" kind="ON_BEAM" />
+      <StbNode id="121" x="29403" y="0" z="4970" kind="ON_BEAM" />
+      <StbNode id="122" x="29403" y="6560" z="4970" kind="ON_BEAM" />
+      <StbNode id="123" x="36110.6015625" y="0" z="4970" kind="ON_BEAM" />
+      <StbNode id="124" x="36110.6015625" y="6560" z="4970" kind="ON_BEAM" />
+      <StbNode id="125" x="25976" y="10994.4453125" z="4970" kind="ON_BEAM" />
+      <StbNode id="126" x="29403" y="8777.4228515625" z="4970" kind="ON_BEAM" />
+      <StbNode id="127" x="20102" y="14794.5009765625" z="4970" kind="ON_BEAM" />
+      <StbNode id="128" x="7483.05615234375" y="6560" z="4970" kind="ON_BEAM" />
+      <StbNode id="129" x="19122" y="10139.3173828125" z="0" kind="ON_BEAM" />
+      <StbNode id="130" x="25976" y="0" z="0" kind="ON_BEAM" />
+      <StbNode id="131" x="25976" y="6560" z="0" kind="ON_BEAM" />
+      <StbNode id="132" x="25976" y="10994.4453125" z="0" kind="ON_BEAM" />
+      <StbNode id="133" x="22549" y="0" z="4970" kind="ON_BEAM" />
+      <StbNode id="134" x="22549" y="6560" z="4970" kind="ON_BEAM" />
+      <StbNode id="135" x="22549" y="13211.46875" z="4970" kind="ON_BEAM" />
+      <StbNode id="136" x="6549" y="563.16412353515625" z="5920" kind="ON_SLAB" />
+      <StbNode id="137" x="39390.6015625" y="0" z="2700" kind="OTHER" />
+      <StbNode id="138" x="37120.6015625" y="0" z="4970" kind="OTHER" />
+      <StbNode id="139" x="41660.6015625" y="0" z="4970" kind="OTHER" />
+      <StbNode id="140" x="39390.6015625" y="6560" z="2700" kind="OTHER" />
+      <StbNode id="141" x="37120.6015625" y="6560" z="4970" kind="OTHER" />
+      <StbNode id="142" x="41660.6015625" y="6560" z="4970" kind="OTHER" />
+      <StbNode id="143" x="32830.6015625" y="0" z="2700" kind="OTHER" />
+      <StbNode id="144" x="30560.6015625" y="0" z="4970" kind="OTHER" />
+      <StbNode id="145" x="35100.6015625" y="0" z="4970" kind="OTHER" />
+      <StbNode id="146" x="32830.6015625" y="6560" z="2700" kind="OTHER" />
+      <StbNode id="147" x="30560.599609375" y="6560" z="4970" kind="OTHER" />
+      <StbNode id="148" x="35100.6015625" y="6560" z="4970" kind="OTHER" />
+    </StbNodes>
+    <StbAxes>
+      <StbX_Axis name="31" id="3" distance="8179">
+        <StbNodeid_List>
+          <StbNodeid id="6" />
+          <StbNodeid id="5" />
+          <StbNodeid id="39" />
+          <StbNodeid id="80" />
+          <StbNodeid id="82" />
+        </StbNodeid_List>
+      </StbX_Axis>
+      <StbY_Axis name="A" id="4" distance="0">
+        <StbNodeid_List>
+          <StbNodeid id="6" />
+          <StbNodeid id="10" />
+          <StbNodeid id="38" />
+          <StbNodeid id="59" />
+          <StbNodeid id="62" />
+          <StbNodeid id="130" />
+          <StbNodeid id="5" />
+          <StbNodeid id="9" />
+          <StbNodeid id="37" />
+          <StbNodeid id="42" />
+          <StbNodeid id="44" />
+          <StbNodeid id="46" />
+          <StbNodeid id="58" />
+          <StbNodeid id="79" />
+          <StbNodeid id="113" />
+          <StbNodeid id="117" />
+          <StbNodeid id="119" />
+          <StbNodeid id="121" />
+          <StbNodeid id="123" />
+          <StbNodeid id="133" />
+          <StbNodeid id="138" />
+          <StbNodeid id="139" />
+          <StbNodeid id="144" />
+          <StbNodeid id="145" />
+          <StbNodeid id="39" />
+          <StbNodeid id="40" />
+          <StbNodeid id="41" />
+          <StbNodeid id="43" />
+          <StbNodeid id="45" />
+          <StbNodeid id="137" />
+          <StbNodeid id="143" />
+        </StbNodeid_List>
+      </StbY_Axis>
+      <StbY_Axis name="A'" id="5" distance="-4.68847E-07">
+        <StbNodeid_List>
+          <StbNodeid id="2" />
+          <StbNodeid id="74" />
+          <StbNodeid id="1" />
+          <StbNodeid id="86" />
+          <StbNodeid id="91" />
+          <StbNodeid id="136" />
+        </StbNodeid_List>
+      </StbY_Axis>
+      <StbY_Axis name="B" id="6" distance="4307.17">
+        <StbNodeid_List>
+          <StbNodeid id="4" />
+          <StbNodeid id="8" />
+          <StbNodeid id="65" />
+          <StbNodeid id="3" />
+          <StbNodeid id="7" />
+          <StbNodeid id="87" />
+          <StbNodeid id="89" />
+          <StbNodeid id="92" />
+        </StbNodeid_List>
+      </StbY_Axis>
+      <StbY_Axis name="D" id="7" distance="10043.2">
+        <StbNodeid_List>
+          <StbNodeid id="55" />
+          <StbNodeid id="57" />
+          <StbNodeid id="66" />
+          <StbNodeid id="129" />
+          <StbNodeid id="54" />
+          <StbNodeid id="56" />
+          <StbNodeid id="76" />
+          <StbNodeid id="88" />
+          <StbNodeid id="90" />
+          <StbNodeid id="94" />
+        </StbNodeid_List>
+      </StbY_Axis>
+      <StbX_Axis name="1" id="8" distance="6.1531E-07">
+        <StbNodeid_List>
+          <StbNodeid id="2" />
+          <StbNodeid id="4" />
+          <StbNodeid id="18" />
+          <StbNodeid id="55" />
+          <StbNodeid id="1" />
+          <StbNodeid id="3" />
+          <StbNodeid id="17" />
+          <StbNodeid id="54" />
+        </StbNodeid_List>
+      </StbX_Axis>
+      <StbX_Axis name="3" id="9" distance="8179">
+        <StbNodeid_List>
+          <StbNodeid id="8" />
+          <StbNodeid id="57" />
+          <StbNodeid id="63" />
+          <StbNodeid id="7" />
+          <StbNodeid id="56" />
+          <StbNodeid id="75" />
+          <StbNodeid id="114" />
+        </StbNodeid_List>
+      </StbX_Axis>
+      <StbY_Axis name="E" id="1" distance="23236.9">
+        <StbNodeid_List>
+          <StbNodeid id="14" />
+          <StbNodeid id="16" />
+          <StbNodeid id="18" />
+          <StbNodeid id="36" />
+          <StbNodeid id="67" />
+          <StbNodeid id="73" />
+          <StbNodeid id="132" />
+          <StbNodeid id="13" />
+          <StbNodeid id="15" />
+          <StbNodeid id="17" />
+          <StbNodeid id="35" />
+          <StbNodeid id="95" />
+          <StbNodeid id="96" />
+          <StbNodeid id="97" />
+          <StbNodeid id="98" />
+          <StbNodeid id="100" />
+          <StbNodeid id="112" />
+          <StbNodeid id="125" />
+          <StbNodeid id="126" />
+          <StbNodeid id="127" />
+          <StbNodeid id="135" />
+        </StbNodeid_List>
+      </StbY_Axis>
+      <StbY_Axis name="F" id="10" distance="30121.8">
+        <StbNodeid_List>
+          <StbNodeid id="20" />
+          <StbNodeid id="22" />
+          <StbNodeid id="68" />
+          <StbNodeid id="19" />
+          <StbNodeid id="21" />
+          <StbNodeid id="99" />
+          <StbNodeid id="101" />
+          <StbNodeid id="111" />
+        </StbNodeid_List>
+      </StbY_Axis>
+      <StbX_Axis name="1'" id="11" distance="7052.02">
+        <StbNodeid_List>
+          <StbNodeid id="20" />
+          <StbNodeid id="24" />
+          <StbNodeid id="30" />
+          <StbNodeid id="70" />
+          <StbNodeid id="19" />
+          <StbNodeid id="23" />
+          <StbNodeid id="29" />
+          <StbNodeid id="107" />
+        </StbNodeid_List>
+      </StbX_Axis>
+      <StbX_Axis name="3''" id="12" distance="15280.3">
+        <StbNodeid_List>
+          <StbNodeid id="16" />
+          <StbNodeid id="22" />
+          <StbNodeid id="26" />
+          <StbNodeid id="28" />
+          <StbNodeid id="34" />
+          <StbNodeid id="15" />
+          <StbNodeid id="21" />
+          <StbNodeid id="25" />
+          <StbNodeid id="27" />
+          <StbNodeid id="33" />
+        </StbNodeid_List>
+      </StbX_Axis>
+      <StbY_Axis name="G" id="13" distance="35999.2">
+        <StbNodeid_List>
+          <StbNodeid id="24" />
+          <StbNodeid id="26" />
+          <StbNodeid id="69" />
+          <StbNodeid id="23" />
+          <StbNodeid id="25" />
+          <StbNodeid id="102" />
+          <StbNodeid id="103" />
+          <StbNodeid id="110" />
+        </StbNodeid_List>
+      </StbY_Axis>
+      <StbY_Axis name="H" id="14" distance="42716.1">
+        <StbNodeid_List>
+          <StbNodeid id="28" />
+          <StbNodeid id="30" />
+          <StbNodeid id="71" />
+          <StbNodeid id="72" />
+          <StbNodeid id="27" />
+          <StbNodeid id="29" />
+          <StbNodeid id="77" />
+          <StbNodeid id="104" />
+          <StbNodeid id="105" />
+          <StbNodeid id="109" />
+        </StbNodeid_List>
+      </StbY_Axis>
+      <StbY_Axis name="I" id="15" distance="47187.1">
+        <StbNodeid_List>
+          <StbNodeid id="32" />
+          <StbNodeid id="34" />
+          <StbNodeid id="70" />
+          <StbNodeid id="31" />
+          <StbNodeid id="33" />
+          <StbNodeid id="106" />
+          <StbNodeid id="107" />
+          <StbNodeid id="108" />
+        </StbNodeid_List>
+      </StbY_Axis>
+      <StbX_Axis name="2" id="17" distance="21364.2">
+        <StbNodeid_List>
+          <StbNodeid id="32" />
+          <StbNodeid id="71" />
+          <StbNodeid id="31" />
+          <StbNodeid id="77" />
+        </StbNodeid_List>
+      </StbX_Axis>
+      <StbX_Axis name="3'" id="18" distance="12475.5">
+        <StbNodeid_List />
+      </StbX_Axis>
+      <StbX_Axis name="4" id="19" distance="19122">
+        <StbNodeid_List>
+          <StbNodeid id="10" />
+          <StbNodeid id="12" />
+          <StbNodeid id="14" />
+          <StbNodeid id="129" />
+          <StbNodeid id="9" />
+          <StbNodeid id="11" />
+          <StbNodeid id="13" />
+          <StbNodeid id="76" />
+          <StbNodeid id="116" />
+          <StbNodeid id="40" />
+          <StbNodeid id="53" />
+          <StbNodeid id="85" />
+        </StbNodeid_List>
+      </StbX_Axis>
+      <StbY_Axis name="C" id="21" distance="6560">
+        <StbNodeid_List>
+          <StbNodeid id="12" />
+          <StbNodeid id="61" />
+          <StbNodeid id="63" />
+          <StbNodeid id="64" />
+          <StbNodeid id="131" />
+          <StbNodeid id="11" />
+          <StbNodeid id="48" />
+          <StbNodeid id="50" />
+          <StbNodeid id="52" />
+          <StbNodeid id="60" />
+          <StbNodeid id="75" />
+          <StbNodeid id="78" />
+          <StbNodeid id="93" />
+          <StbNodeid id="118" />
+          <StbNodeid id="120" />
+          <StbNodeid id="122" />
+          <StbNodeid id="124" />
+          <StbNodeid id="128" />
+          <StbNodeid id="134" />
+          <StbNodeid id="141" />
+          <StbNodeid id="142" />
+          <StbNodeid id="147" />
+          <StbNodeid id="148" />
+          <StbNodeid id="47" />
+          <StbNodeid id="49" />
+          <StbNodeid id="51" />
+          <StbNodeid id="53" />
+          <StbNodeid id="80" />
+          <StbNodeid id="140" />
+          <StbNodeid id="146" />
+        </StbNodeid_List>
+      </StbY_Axis>
+      <StbX_Axis name="5" id="20" distance="22262">
+        <StbNodeid_List />
+      </StbX_Axis>
+      <StbX_Axis name="5" id="16" distance="32830.6">
+        <StbNodeid_List>
+          <StbNodeid id="36" />
+          <StbNodeid id="38" />
+          <StbNodeid id="35" />
+          <StbNodeid id="37" />
+          <StbNodeid id="143" />
+          <StbNodeid id="146" />
+        </StbNodeid_List>
+      </StbX_Axis>
+      <StbX_Axis name="6" id="22" distance="39390.6">
+        <StbNodeid_List>
+          <StbNodeid id="59" />
+          <StbNodeid id="61" />
+          <StbNodeid id="58" />
+          <StbNodeid id="60" />
+          <StbNodeid id="137" />
+          <StbNodeid id="140" />
+        </StbNodeid_List>
+      </StbX_Axis>
+    </StbAxes>
+    <StbDrawAxes />
+    <StbStories>
+      <StbStory id="1" name="1F" height="0" kind="GENERAL" concrete_strength="FC21">
+        <StbNodeid_List>
+          <StbNodeid id="2" />
+          <StbNodeid id="4" />
+          <StbNodeid id="6" />
+          <StbNodeid id="8" />
+          <StbNodeid id="10" />
+          <StbNodeid id="12" />
+          <StbNodeid id="14" />
+          <StbNodeid id="16" />
+          <StbNodeid id="18" />
+          <StbNodeid id="20" />
+          <StbNodeid id="22" />
+          <StbNodeid id="24" />
+          <StbNodeid id="26" />
+          <StbNodeid id="28" />
+          <StbNodeid id="30" />
+          <StbNodeid id="32" />
+          <StbNodeid id="34" />
+          <StbNodeid id="36" />
+          <StbNodeid id="38" />
+          <StbNodeid id="55" />
+          <StbNodeid id="57" />
+          <StbNodeid id="59" />
+          <StbNodeid id="61" />
+          <StbNodeid id="62" />
+          <StbNodeid id="63" />
+          <StbNodeid id="64" />
+          <StbNodeid id="65" />
+          <StbNodeid id="66" />
+          <StbNodeid id="67" />
+          <StbNodeid id="68" />
+          <StbNodeid id="69" />
+          <StbNodeid id="70" />
+          <StbNodeid id="71" />
+          <StbNodeid id="72" />
+          <StbNodeid id="73" />
+          <StbNodeid id="74" />
+          <StbNodeid id="129" />
+          <StbNodeid id="130" />
+          <StbNodeid id="131" />
+          <StbNodeid id="132" />
+          <StbNodeid id="137" />
+          <StbNodeid id="140" />
+          <StbNodeid id="143" />
+          <StbNodeid id="146" />
+        </StbNodeid_List>
+      </StbStory>
+      <StbStory id="2" name="RF" height="4970" kind="GENERAL" concrete_strength="FC0">
+        <StbNodeid_List>
+          <StbNodeid id="1" />
+          <StbNodeid id="3" />
+          <StbNodeid id="5" />
+          <StbNodeid id="7" />
+          <StbNodeid id="9" />
+          <StbNodeid id="11" />
+          <StbNodeid id="13" />
+          <StbNodeid id="15" />
+          <StbNodeid id="17" />
+          <StbNodeid id="19" />
+          <StbNodeid id="21" />
+          <StbNodeid id="23" />
+          <StbNodeid id="25" />
+          <StbNodeid id="27" />
+          <StbNodeid id="29" />
+          <StbNodeid id="31" />
+          <StbNodeid id="33" />
+          <StbNodeid id="35" />
+          <StbNodeid id="37" />
+          <StbNodeid id="42" />
+          <StbNodeid id="44" />
+          <StbNodeid id="46" />
+          <StbNodeid id="48" />
+          <StbNodeid id="50" />
+          <StbNodeid id="52" />
+          <StbNodeid id="54" />
+          <StbNodeid id="56" />
+          <StbNodeid id="58" />
+          <StbNodeid id="60" />
+          <StbNodeid id="75" />
+          <StbNodeid id="76" />
+          <StbNodeid id="77" />
+          <StbNodeid id="78" />
+          <StbNodeid id="79" />
+          <StbNodeid id="86" />
+          <StbNodeid id="87" />
+          <StbNodeid id="88" />
+          <StbNodeid id="89" />
+          <StbNodeid id="90" />
+          <StbNodeid id="91" />
+          <StbNodeid id="92" />
+          <StbNodeid id="93" />
+          <StbNodeid id="94" />
+          <StbNodeid id="95" />
+          <StbNodeid id="96" />
+          <StbNodeid id="97" />
+          <StbNodeid id="98" />
+          <StbNodeid id="99" />
+          <StbNodeid id="100" />
+          <StbNodeid id="101" />
+          <StbNodeid id="102" />
+          <StbNodeid id="103" />
+          <StbNodeid id="104" />
+          <StbNodeid id="105" />
+          <StbNodeid id="106" />
+          <StbNodeid id="107" />
+          <StbNodeid id="108" />
+          <StbNodeid id="109" />
+          <StbNodeid id="110" />
+          <StbNodeid id="111" />
+          <StbNodeid id="112" />
+          <StbNodeid id="113" />
+          <StbNodeid id="114" />
+          <StbNodeid id="115" />
+          <StbNodeid id="116" />
+          <StbNodeid id="117" />
+          <StbNodeid id="118" />
+          <StbNodeid id="119" />
+          <StbNodeid id="120" />
+          <StbNodeid id="121" />
+          <StbNodeid id="122" />
+          <StbNodeid id="123" />
+          <StbNodeid id="124" />
+          <StbNodeid id="125" />
+          <StbNodeid id="126" />
+          <StbNodeid id="127" />
+          <StbNodeid id="128" />
+          <StbNodeid id="133" />
+          <StbNodeid id="134" />
+          <StbNodeid id="135" />
+          <StbNodeid id="138" />
+          <StbNodeid id="139" />
+          <StbNodeid id="141" />
+          <StbNodeid id="142" />
+          <StbNodeid id="144" />
+          <StbNodeid id="145" />
+          <StbNodeid id="147" />
+          <StbNodeid id="148" />
+          <StbNodeid id="39" />
+          <StbNodeid id="40" />
+          <StbNodeid id="41" />
+          <StbNodeid id="43" />
+          <StbNodeid id="45" />
+          <StbNodeid id="47" />
+          <StbNodeid id="49" />
+          <StbNodeid id="51" />
+          <StbNodeid id="53" />
+          <StbNodeid id="80" />
+          <StbNodeid id="81" />
+          <StbNodeid id="82" />
+          <StbNodeid id="83" />
+          <StbNodeid id="84" />
+          <StbNodeid id="85" />
+          <StbNodeid id="136" />
+        </StbNodeid_List>
+      </StbStory>
+    </StbStories>
+  </StbModel>
+</ST_BRIDGE>

@@ -1,28 +1,30 @@
 using System;
 using System.Collections.Generic;
 using System.Xml.Linq;
+using System.Xml.Serialization;
 using STBDotNet.Serialization;
 
 namespace STBDotNet.Elements.StbModel
 {
-    public class Story : ModelBase
+    public class Story
     {
+        [XmlAttribute("id")]
+        public int Id { get; set; }
+        [XmlAttribute("name")]
+        public string Name { get; set; }
+        [XmlAttribute("height")]
         public double Height { get; set; }
+        [XmlAttribute("kind")]
+        public string Kind { get; set; }
+        [XmlAttribute("concrete_strength")]
+        public string ConcreteStrength { get; set; }
+        [XmlIgnore]
         public StoryKind StoryKind { get; set; }
-        public int IdDependence { get; set; }
+        [XmlIgnore]
         public StrengthConcrete StrengthConcrete { get; set; }
-        public List<int> NodeIdList { get; set; }
-
-        public void Deserialize(XNode xNode, Version version, string xmlns)
-        {
-            var xElements = (XElement)xNode;
-            Id = (int) xElements.Attribute("id");
-            Name = (string) xElements.Attribute("name");
-            Height = (double) xElements.Attribute("height");
-            StrengthConcrete = Util.GetStrengthConcrete((string) xElements.Attribute("concrete_strength"));
-            StoryKind = GetStoryKind((string) xElements.Attribute("kind"));
-            NodeIdList = Util.GetNodeIdList(xElements.Element("StbNodeid_List"));
-        }
+        [XmlArray("StbNodeid_List")]
+        [XmlArrayItem("StbNodeid")]
+        public List<NodeId> NodeIdList { get; set; }
 
         private StoryKind GetStoryKind(string kindName)
         {

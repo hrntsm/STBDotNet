@@ -1,8 +1,9 @@
 using System.Collections.Generic;
+using STBDotNet.Serialization;
 
 namespace STBDotNet.Elements.StbModel.StbSection
 {
-    public class Section
+    public class Section : StbSerializable
     {
         public List<ColumnRc> ColumnRc { get; set; }
         public List<ColumnS> ColumnS { get; set; }
@@ -25,7 +26,7 @@ namespace STBDotNet.Elements.StbModel.StbSection
         public Steel Steel { get; set; }
     }
 
-    public class ColumnRc
+    public class ColumnRc : RcSection
     {
     }
 
@@ -41,7 +42,7 @@ namespace STBDotNet.Elements.StbModel.StbSection
     {
     }
 
-    public class BeamRc
+    public class BeamRc : RcSection
     {
     }
 
