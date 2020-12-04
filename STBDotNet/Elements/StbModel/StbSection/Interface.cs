@@ -25,9 +25,25 @@ namespace STBDotNet.Elements.StbModel.StbSection
 
     public interface IBarArrangement
     {
-        List<string> DBarMain { get; set; }
-        List<string> DBarBand { get; set; }
-        List<double> BatList { get; set; }
+        // Size
+        string DBarMain { get; set; }
+        string DBar2ndMain { get; set; }
+        string DBarAxial { get; set; }
+        string DBarBand { get; set; }
+        string DBarSpacing { get; set; }
+        // Strength
+        string StrengthBarMain { get; set; }
+        string StrengthBar2ndMain { get; set; }
+        string StrengthBarAxial { get; set; }
+        string StrengthBarBand { get; set; }
+        string StrengthBarSpacing { get; set; }
+        // Position
+        string KindBarCorner { get; set; }
+        double IntervalBar { get; set; }
+        double CenterBarStartX { get; set; }
+        double CenterBarStartY { get; set; }
+        double CenterBarEndX { get; set; }
+        double CenterBarEndY { get; set; }
     }
     
     public interface ISteelSection

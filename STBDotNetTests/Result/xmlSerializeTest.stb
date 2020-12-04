@@ -1959,15 +1959,38 @@
       <Parapets />
     </StbMembers>
     <StbSections>
-      <StbSecColumn_S />
-      <StbSecColumn_S />
-      <StbSecColumn_S />
-      <StbSecColumn_S />
-      <StbSecColumn_S />
-      <StbSecColumn_S />
-      <StbSecColumn_S />
-      <StbSecColumn_S />
-      <StbSecColumn_S />
+      <StbSecColumn_S id="1" name="C1" floor="1F" kind_column="COLUMN" direction="False" joint_id_bottom="0" joint_id_top="0">
+        <StbSecSteelColumn pos="TOP" shape="RX-250*250*120*24.0" strength_main="STKR400" strength_web="STKR400" />
+        <StbSecSteelColumn pos="BOTTOM" shape="" strength_main="" />
+      </StbSecColumn_S>
+      <StbSecColumn_S id="2" name="C2" floor="1F" kind_column="COLUMN" direction="False" joint_id_bottom="0" joint_id_top="0">
+        <StbSecSteelColumn pos="TOP" shape="RX-300*300*120*24.0" strength_main="STKR400" strength_web="STKR400" />
+        <StbSecSteelColumn pos="BOTTOM" shape="" strength_main="" />
+      </StbSecColumn_S>
+      <StbSecColumn_S id="3" name="C3" floor="1F" kind_column="COLUMN" direction="False" joint_id_bottom="0" joint_id_top="0">
+        <StbSecSteelColumn pos="TOP" shape="RX-200*200*90*18.0" strength_main="STKR400" strength_web="STKR400" />
+        <StbSecSteelColumn pos="BOTTOM" shape="" strength_main="" />
+      </StbSecColumn_S>
+      <StbSecColumn_S id="4" name="C4" floor="1F" kind_column="COLUMN" direction="False" joint_id_bottom="0" joint_id_top="0">
+        <StbSecSteelColumn pos="TOP" shape="P-267*120" strength_main="STKR400" strength_web="STKR400" />
+        <StbSecSteelColumn pos="BOTTOM" shape="" strength_main="" />
+      </StbSecColumn_S>
+      <StbSecColumn_S id="5" name="C1" floor="RF" kind_column="COLUMN" direction="False" joint_id_bottom="0" joint_id_top="0">
+        <StbSecSteelColumn pos="ALL" shape="RX-250*250*120*24.0" strength_main="STKR400" strength_web="STKR400" />
+      </StbSecColumn_S>
+      <StbSecColumn_S id="6" name="C2" floor="RF" kind_column="COLUMN" direction="False" joint_id_bottom="0" joint_id_top="0">
+        <StbSecSteelColumn pos="ALL" shape="RX-300*300*120*24.0" strength_main="STKR400" strength_web="STKR400" />
+      </StbSecColumn_S>
+      <StbSecColumn_S id="7" name="P1" floor="RF" kind_column="COLUMN" direction="False" joint_id_bottom="0" joint_id_top="0">
+        <StbSecSteelColumn pos="ALL" shape="RX-125*125*60*12.0" strength_main="STKR400" strength_web="STKR400" />
+      </StbSecColumn_S>
+      <StbSecColumn_S id="8" name="P2" floor="RF" kind_column="COLUMN" direction="True" joint_id_bottom="0" joint_id_top="0">
+        <StbSecSteelColumn pos="ALL" shape="RH-100*100*60*80*8.0" strength_main="STKR400" strength_web="STKR400" />
+      </StbSecColumn_S>
+      <StbSecColumn_S id="9" name="C5" floor="1F" kind_column="COLUMN" direction="False" joint_id_bottom="0" joint_id_top="0">
+        <StbSecSteelColumn pos="TOP" shape="P-267*90" strength_main="STKR400" strength_web="STKR400" />
+        <StbSecSteelColumn pos="BOTTOM" shape="" strength_main="" />
+      </StbSecColumn_S>
       <StbSecBeam_RC />
       <StbSecBeam_RC />
       <StbSecBeam_RC />
