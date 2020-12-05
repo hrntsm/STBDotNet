@@ -13,11 +13,6 @@ namespace STBDotNet.Elements.StbModel.StbSection
         [XmlElement("StbSecSteelBeam")] public SecSteelBeam[] SteelBeams { get; set; }
     }
 
-    public class SecSteelBeam
-    {
-        [XmlAttribute("pos")]public string Position { get; set; }
-        [XmlAttribute("shape")]public string Shape { get; set; }
-        [XmlAttribute("strength_main")]public string StrengthMain { get; set; }
-        [XmlAttribute("strength_web")]public string StrengthWeb { get; set; }
-    }
+    public class SecSteelBeam : SecSteelColumn
+    { }
  }
