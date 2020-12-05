@@ -6,9 +6,6 @@ namespace STBDotNet.Elements.StbModel.StbSection
     {
         [XmlAttribute("kind_brace")] public string KindBeam { get; set; }
         // child element
-        [XmlElement("StbSecSteelBrace")] public SecSteelBrace[] SteelBrace { get; set; }
+        [XmlElement("StbSecSteelBrace")] public SecSteel[] SteelBrace { get; set; }
     }
-
-    public class SecSteelBrace : SecSteelBeam
-    { }
 }

@@ -10,11 +10,11 @@ namespace STBDotNet.Elements.StbModel.StbSection
         [XmlAttribute("base_type")] public string BaseType { get; set; }
         [XmlAttribute("joint_id_bottom")] public int JointIdStart { get; set; }
         [XmlAttribute("joint_id_top")] public int JointIdEnd { get; set; }
-        [XmlElement("StbSecSteelColumn")] public SecSteelColumn[] SecSteelColumn { get; set; }
+        [XmlElement("StbSecSteelColumn")] public SecSteel[] SecSteelColumn { get; set; }
         [XmlElement("StbSecBaseProduct")] public BaseProduct BaseProduct { get; set; }
     }
 
-    public class SecSteelColumn
+    public class SecSteel
     {
         [XmlAttribute("pos")]public string Position { get; set; }
         [XmlAttribute("shape")]public string Shape { get; set; }

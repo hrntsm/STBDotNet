@@ -10,9 +10,6 @@ namespace STBDotNet.Elements.StbModel.StbSection
         [XmlAttribute("joint_id_start")] public int JointIdStart { get; set; }
         [XmlAttribute("joint_id_end")] public int JointIdEnd { get; set; }
         // child element
-        [XmlElement("StbSecSteelBeam")] public SecSteelBeam[] SteelBeams { get; set; }
+        [XmlElement("StbSecSteelBeam")] public SecSteel[] SteelBeams { get; set; }
     }
-
-    public class SecSteelBeam : SecSteelColumn
-    { }
  }
