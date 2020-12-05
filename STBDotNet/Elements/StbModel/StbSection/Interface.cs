@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.Xml.Serialization;
 
 namespace STBDotNet.Elements.StbModel.StbSection
 {
@@ -6,6 +7,24 @@ namespace STBDotNet.Elements.StbModel.StbSection
     {
         int Id { get; set; }
         string Floor { get; set; }
+    }
+
+    public interface ISecColumn
+    {
+        string KindColumn { get; set; }
+    }
+
+    public interface ISecBeam
+    {
+        string KindBeam { get; set; }
+        string IsCanti { get; set; }
+        string IsOutIn { get; set; }
+    }
+
+    public interface IJointId
+    {
+        int JointIdStart { get; set; }
+        int JointIdEnd { get; set; }
     }
 
     public interface IKindColumn
