@@ -15,31 +15,21 @@ namespace STBDotNet.Elements.StbModel.StbSection
         [XmlAttribute("isOutIn")] public string IsOutIn { get; set; }
     }
 
-    public class BraceS : SectionBase
-    {
-    }
-
     public class SlabRc : Section
-    {
-    }
+    { }
 
     public class SlabDeck : Section
-    {
-    }
+    { }
 
     public class WallRc : Section
-    {
-    }
+    { }
 
     public class FoundationRc : Section
-    {
-    }
+    { }
 
     public class PileRc : Section
-    {
-    }
+    { }
 
     public class OpenRc : Section
-    {
-    }
+    { }
 }

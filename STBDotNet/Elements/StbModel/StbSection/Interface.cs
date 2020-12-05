@@ -21,6 +21,11 @@ namespace STBDotNet.Elements.StbModel.StbSection
         string IsOutIn { get; set; }
     }
 
+    public interface ISecBrace
+    {
+        string KindBeam { get; set; }
+    }
+
     public interface IJointId
     {
         int JointIdStart { get; set; }
