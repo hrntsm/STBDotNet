@@ -17,10 +17,10 @@ namespace STBDotNet.Elements
         public Common Common { get; set; } = new Common();
         [XmlElement("StbModel")]
         public Model Model { get; set; } = new Model();
-        // [XmlElement("StbFromIfc")]
-        // public FromIfc FromIfc { get; set; } = new FromIfc();
-        // [XmlElement("StbExtensions")]
-        // public Extensions Extensions { get; set; } = new Extensions();
+        [XmlElement("StbFromIfc")]
+        public FromIfc FromIfc { get; set; } = new FromIfc();
+        [XmlElement("StbExtensions")]
+        public Extensions Extensions { get; set; } = new Extensions();
     }
 
     public enum Version

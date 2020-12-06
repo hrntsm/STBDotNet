@@ -30,7 +30,7 @@ namespace STBDotNet.Elements.StbCommon
         public string StrengthBar { get; set; }
     }
 
-    public class ApplyConditions : StbElementSerializable
+    public class ApplyConditions
     {
     }
 }

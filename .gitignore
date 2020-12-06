@@ -363,4 +363,6 @@ FodyWeavers.xsd
 /.idea/
 
 #ADD
-STBDotNetTests/Result/xmlSerializeTest.stb
+STBDotNetTests/Result/
+!STBDotNetTests/Result/.gitkeep
+
