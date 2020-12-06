@@ -1,5 +1,4 @@
-﻿using System.Reflection.Metadata;
-using System.Xml.Serialization;
+﻿using System.Xml.Serialization;
 using NUnit.Framework;
 using STBDotNet.Elements;
 

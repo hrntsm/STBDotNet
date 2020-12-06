@@ -1,3 +1,4 @@
+using System.ComponentModel.Design;
 using System.Xml.Serialization;
 
 namespace STBDotNet.Elements.StbModel.StbSection
@@ -14,12 +15,6 @@ namespace STBDotNet.Elements.StbModel.StbSection
         [XmlAttribute("isCanti")] public string IsCanti { get; set; }
         [XmlAttribute("isOutIn")] public string IsOutIn { get; set; }
     }
-
-    public class SlabRc : Section
-    { }
-
-    public class SlabDeck : Section
-    { }
 
     public class WallRc : Section
     { }
