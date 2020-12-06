@@ -4,6 +4,9 @@ using STBDotNet.Serialization;
 
 namespace STBDotNet.Elements.StbModel.StbSection
 {
+    public abstract class Section
+    { }
+
     public abstract class SectionBase : Section, IModel, ISection
     {
         [XmlAttribute("id")] public int Id { get; set; }

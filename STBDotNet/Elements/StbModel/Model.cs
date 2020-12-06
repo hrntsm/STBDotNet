@@ -2,6 +2,7 @@ using System.Collections.Generic;
 using System.Xml.Linq;
 using System.Xml.Serialization;
 using STBDotNet.Elements.StbCommon;
+using STBDotNet.Elements.StbModel.StbJoint;
 using STBDotNet.Elements.StbModel.StbMember;
 using STBDotNet.Elements.StbModel.StbSection;
 using STBDotNet.Serialization;
@@ -43,14 +44,11 @@ namespace STBDotNet.Elements.StbModel
         [XmlArrayItem("StbSecOpen_RC", Type = typeof(OpenRc))]
         [XmlArrayItem("StbSecSteel", Type = typeof(Steel))]
         public List<Section> Sections { get; set; }
-        public Joints Joints { get; set; }
-    }
-
-    public class Section
-    {
-    }
-
-    public class Joints
-    {
+        [XmlArray("StbJoints")]
+        [XmlArrayItem("StbJointBeam_H", Type = typeof(BeamH))]
+        [XmlArrayItem("StbJointColumn_H", Type = typeof(ColumnH))]
+        [XmlArrayItem("StbJointColumn_T", Type = typeof(ColumnT))]
+        [XmlArrayItem("StbJointColumn_CROSS", Type = typeof(ColumnCross))]
+        public List<Joint> Joints { get; set; }
     }
 }

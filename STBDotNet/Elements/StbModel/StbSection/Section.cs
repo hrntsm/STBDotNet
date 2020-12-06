@@ -16,9 +16,6 @@ namespace STBDotNet.Elements.StbModel.StbSection
         [XmlAttribute("isOutIn")] public string IsOutIn { get; set; }
     }
 
-    public class WallRc : Section
-    { }
-
     public class FoundationRc : Section
     { }
 
