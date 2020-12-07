@@ -61,7 +61,7 @@ namespace STBDotNet.Elements.StbModel.StbMember
     public class Post : Column
     { }
 
-    public class Girder : MemberBase, IFrame
+    public class FrameBase : MemberBase, IFrame
     {
         [XmlAttribute("idNode_start")] public int IdNodeStart { get; set; }
         [XmlAttribute("idNode_end")] public int IdNodeEnd { get; set; }
@@ -80,6 +80,10 @@ namespace STBDotNet.Elements.StbModel.StbMember
         [XmlAttribute("kind_joint_end")] public string KindJointEnd { get; set; }
         [XmlAttribute("Joint_id_start")] public int JointIdStart { get; set; }
         [XmlAttribute("Joint_id_end")] public int JointIdEnd { get; set; }
+    }
+
+    public class Girder : FrameBase
+    {
         [XmlAttribute("section_io_start")] public string SectionIOStart { get; set; }
         [XmlAttribute("section_io_end")] public string SectionIOEnd { get; set; }
         [XmlAttribute("isFoundation")] public string IsFoundation { get; set; }
@@ -100,25 +104,8 @@ namespace STBDotNet.Elements.StbModel.StbMember
     public class Beam : Girder
     { }
 
-    public class Brace : MemberBase, IFrame
+    public class Brace : FrameBase
     {
-        [XmlAttribute("idNode_start")] public int IdNodeStart { get; set; }
-        [XmlAttribute("idNode_end")] public int IdNodeEnd { get; set; }
-        [XmlAttribute("rotate")] public double Rotate { get; set; }
-        [XmlAttribute("offset_start_X")] public double OffsetStartX { get; set; }
-        [XmlAttribute("offset_start_Y")] public double OffsetStartY { get; set; }
-        [XmlAttribute("offset_start_Z")] public double OffsetStartZ { get; set; }
-        [XmlAttribute("offset_end_X")] public double OffsetEndX { get; set; }
-        [XmlAttribute("offset_end_Y")] public double OffsetEndY { get; set; }
-        [XmlAttribute("offset_end_Z")] public double OffsetEndZ { get; set; }
-        [XmlAttribute("condition_start")] public string ConditionStart { get; set; }
-        [XmlAttribute("condition_end")] public string ConditionEnd { get; set; }
-        [XmlAttribute("joint_start")] public double JointStart { get; set; }
-        [XmlAttribute("joint_end")] public double JointEnd { get; set; }
-        [XmlAttribute("kind_joint_start")] public string KindJointStart { get; set; }
-        [XmlAttribute("kind_joint_end")] public string KindJointEnd { get; set; }
-        [XmlAttribute("Joint_id_start")] public int JointIdStart { get; set; }
-        [XmlAttribute("Joint_id_end")] public int JointIdEnd { get; set; }
         [XmlAttribute("future_brace")] public string FutureBrace { get; set; }
     }
 

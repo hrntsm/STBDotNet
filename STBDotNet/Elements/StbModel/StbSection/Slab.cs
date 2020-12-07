@@ -87,13 +87,8 @@ namespace STBDotNet.Elements.StbModel.StbSection
             [XmlElement("StbSec2Way_Slab")] public DeckTwoWay[] TwoWaySlab { get; set; }
             [XmlElement("StbSec1Way_Slab")] public DeckOneWay[] OneWay1Slab { get; set; }
 
-            public class DeckStandard
-            {
-                [XmlAttribute("pos")] public string Position { get; set; }
-                [XmlAttribute("strength")] public string Strength { get; set; }
-                [XmlAttribute("D")] public string D { get; set; }
-                [XmlAttribute("pitch")] public double Pitch { get; set; }
-            }
+            public class DeckStandard : SlabRc.SlabRcSecBarArrangement.RcStandard
+            { }
 
             public class DeckTwoWay : DeckStandard
             { }

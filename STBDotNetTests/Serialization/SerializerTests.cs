@@ -33,9 +33,11 @@ namespace STBDotNet.Serialization.Tests
                 bool result = serializer.Serialize(model, outPath);
 
                 Assert.IsTrue(result);
-                if (path != _pathList[0]) continue;
-                CommonTest(model);
-                ModelTest(model);
+                if (path == _pathList[0])
+                {
+                    CommonTest(model);
+                    ModelTest(model);
+                }
             }
         }
 
