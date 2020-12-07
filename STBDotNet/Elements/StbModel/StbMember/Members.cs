@@ -19,11 +19,16 @@ namespace STBDotNet.Elements.StbModel.StbMember
         [XmlArrayItem("StbSlab")] public List<Slab> Slabs { get; set; }
         [XmlArray("StbWalls")]
         [XmlArrayItem("StbWall")] public List<Wall> Walls { get; set; }
-        public List<Footing> Footings { get; set; }
-        public List<StripFooting> StripFootings { get; set; }
-        public List<Pile> Piles { get; set; }
-        public List<FoundationColumn> FoundationColumns { get; set; }
-        public List<Parapet> Parapets { get; set; }
+        [XmlArray("StbFootings")]
+        [XmlArrayItem("StbFooting")] public List<Footing> Footings { get; set; }
+        [XmlArray("StbStrip_Footings")]
+        [XmlArrayItem("StbStrip_Footing")] public List<StripFooting> StripFootings { get; set; }
+        [XmlArray("StbPiles")]
+        [XmlArrayItem("StbPile")] public List<Pile> Piles { get; set; }
+        [XmlArray("StbFoundationColumns")]
+        [XmlArrayItem("StbFoundationColumn")] public List<FoundationColumn> FoundationColumns { get; set; }
+        [XmlArray("StbParapets")]
+        [XmlArrayItem("StbParapet")] public List<Parapet> Parapets { get; set; }
     }
 
     public class Column : MemberBase, IFrame
