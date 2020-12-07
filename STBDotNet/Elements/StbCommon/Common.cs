@@ -1,24 +1,31 @@
+using System;
 using System.Collections.Generic;
-using STBDotNet.Elements.Base;
+using System.Xml.Linq;
+using System.Xml.Serialization;
+using STBDotNet.Serialization;
 
 namespace STBDotNet.Elements.StbCommon
 {
-    public class Common:IGuid
+    public class Common
     {
+        [XmlAttribute("globalID")]
         public string Guid { get; set; }
+        [XmlAttribute("project_name")]
         public string ProjectName { get; set; }
+        [XmlAttribute("app_name")]
         public string AppName { get; set; }
+        [XmlAttribute("concrete_strength")]
         public string StrengthConcrete { get; set; }
-
-        public List<ReinforcementStrength> ReinforcementStrengthList { get; set; }
-        public List<ApplyConditions> ApplyConditionsList { get; set; }
+        [XmlArray("StbReinforcement_Strength_List")]
+        [XmlArrayItem("StbReinforcement_Strength")]
+        public List<ReinforcementStrength> ReinforcementStrengthList { get; set; } = new List<ReinforcementStrength>();
     }
 
     public class ReinforcementStrength
     {
-    }
-
-    public class ApplyConditions
-    {
+        [XmlAttribute("D")]
+        public string Name { get; set; }
+        [XmlAttribute("SD")]
+        public string StrengthBar { get; set; }
     }
 }

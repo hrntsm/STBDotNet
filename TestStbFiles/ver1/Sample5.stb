@@ -1,0 +1,1087 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ST_BRIDGE version="1.3.00">
+  <StbCommon globalID="" project_name="3.14" app_name="Archdata Asin">
+    <StbReinforcement_Strength_List>
+      <StbReinforcement_Strength D="D6" SD="SD295A" />
+      <StbReinforcement_Strength D="D8" SD="SD295A" />
+      <StbReinforcement_Strength D="D10" SD="SD295A" />
+      <StbReinforcement_Strength D="D13" SD="SD295A" />
+      <StbReinforcement_Strength D="D16" SD="SD295A" />
+      <StbReinforcement_Strength D="D19" SD="SD345" />
+      <StbReinforcement_Strength D="D22" SD="SD345" />
+      <StbReinforcement_Strength D="D25" SD="SD345" />
+      <StbReinforcement_Strength D="D29" SD="SD345" />
+      <StbReinforcement_Strength D="D32" SD="SD345" />
+      <StbReinforcement_Strength D="D35" SD="SD345" />
+      <StbReinforcement_Strength D="D38" SD="SD345" />
+      <StbReinforcement_Strength D="D41" SD="SD345" />
+      <StbReinforcement_Strength D="R9" SD="SR235" />
+      <StbReinforcement_Strength D="R12" SD="SR235" />
+      <StbReinforcement_Strength D="R13" SD="SR295" />
+      <StbReinforcement_Strength D="R16" SD="SR295" />
+      <StbReinforcement_Strength D="R22" SD="SR295" />
+      <StbReinforcement_Strength D="R25" SD="SR295" />
+      <StbReinforcement_Strength D="R28" SD="SR295" />
+      <StbReinforcement_Strength D="R32" SD="SR295" />
+      <StbReinforcement_Strength D="U6.2" SD="SBPD1275" />
+      <StbReinforcement_Strength D="U7.1" SD="SBPD1275" />
+      <StbReinforcement_Strength D="U9.0" SD="SBPD1275" />
+      <StbReinforcement_Strength D="U10.7" SD="SBPD1275" />
+      <StbReinforcement_Strength D="U12.6" SD="SBPD1275" />
+      <StbReinforcement_Strength D="RB6.2" SD="SBPDN1275" />
+      <StbReinforcement_Strength D="RB7.1" SD="SBPDN1275" />
+      <StbReinforcement_Strength D="RB9.0" SD="SBPDN1275" />
+      <StbReinforcement_Strength D="RB10.7" SD="SBPDN1275" />
+      <StbReinforcement_Strength D="RB12.6" SD="SBPDN1275" />
+      <StbReinforcement_Strength D="S6" SD="KSS785" />
+      <StbReinforcement_Strength D="S8" SD="KSS785" />
+      <StbReinforcement_Strength D="S10" SD="KSS785" />
+      <StbReinforcement_Strength D="S13" SD="KSS785" />
+      <StbReinforcement_Strength D="S16" SD="KSS785" />
+      <StbReinforcement_Strength D="R19" SD="SR295" />
+      <StbReinforcement_Strength D="UD10" SD="UB785" />
+      <StbReinforcement_Strength D="UD13" SD="UB785" />
+      <StbReinforcement_Strength D="UD16" SD="UB785" />
+      <StbReinforcement_Strength D="K10" SD="KW785" />
+      <StbReinforcement_Strength D="K13" SD="KW785" />
+      <StbReinforcement_Strength D="K16" SD="KW785" />
+      <StbReinforcement_Strength D="UHD10" SD="SHD685" />
+      <StbReinforcement_Strength D="UHD13" SD="SHD685" />
+      <StbReinforcement_Strength D="UHD16" SD="SHD685" />
+      <StbReinforcement_Strength D="MD10" SD="MK785" />
+      <StbReinforcement_Strength D="MD13" SD="MK785" />
+      <StbReinforcement_Strength D="MD16" SD="MK785" />
+    </StbReinforcement_Strength_List>
+  </StbCommon>
+  <StbModel>
+    <StbNodes>
+      <StbNode id="1" x="0" y="12000" z="6000" kind="ON_GRID" />
+      <StbNode id="2" x="0" y="12000" z="0" kind="ON_GRID" />
+      <StbNode id="3" x="6000" y="12000" z="6000" kind="ON_GRID" />
+      <StbNode id="4" x="6000" y="12000" z="0" kind="ON_GRID" />
+      <StbNode id="5" x="21000" y="12000" z="6000" kind="ON_GRID" />
+      <StbNode id="6" x="21000" y="12000" z="0" kind="ON_GRID" />
+      <StbNode id="7" x="27000" y="12000" z="6000" kind="ON_GRID" />
+      <StbNode id="8" x="27000" y="12000" z="0" kind="ON_GRID" />
+      <StbNode id="9" x="27000" y="0" z="6000" kind="ON_GRID" />
+      <StbNode id="10" x="27000" y="0" z="0" kind="ON_GRID" />
+      <StbNode id="11" x="21000" y="0" z="6000" kind="ON_GRID" />
+      <StbNode id="12" x="21000" y="0" z="0" kind="ON_GRID" />
+      <StbNode id="13" x="6000" y="0" z="6000" kind="ON_GRID" />
+      <StbNode id="14" x="6000" y="0" z="0" kind="ON_GRID" />
+      <StbNode id="15" x="0" y="0" z="6000" kind="ON_GRID" />
+      <StbNode id="16" x="0" y="0" z="0" kind="ON_GRID" />
+      <StbNode id="17" x="3000" y="12000" z="6000" kind="ON_GRID" />
+      <StbNode id="18" x="3000" y="12000" z="0" kind="ON_GRID" />
+      <StbNode id="19" x="9000" y="12000" z="6000" kind="ON_GRID" />
+      <StbNode id="20" x="9000" y="12000" z="0" kind="ON_GRID" />
+      <StbNode id="21" x="18000" y="12000" z="6000" kind="ON_GRID" />
+      <StbNode id="22" x="18000" y="12000" z="0" kind="ON_GRID" />
+      <StbNode id="23" x="24000" y="12000" z="6000" kind="ON_GRID" />
+      <StbNode id="24" x="24000" y="12000" z="0" kind="ON_GRID" />
+      <StbNode id="25" x="24000" y="0" z="6000" kind="ON_GRID" />
+      <StbNode id="26" x="24000" y="0" z="0" kind="ON_GRID" />
+      <StbNode id="27" x="18000" y="0" z="6000" kind="ON_GRID" />
+      <StbNode id="28" x="18000" y="0" z="0" kind="ON_GRID" />
+      <StbNode id="29" x="3000" y="0" z="6000" kind="ON_GRID" />
+      <StbNode id="30" x="3000" y="0" z="0" kind="ON_GRID" />
+      <StbNode id="31" x="9000" y="0" z="6000" kind="ON_GRID" />
+      <StbNode id="32" x="9000" y="0" z="0" kind="ON_GRID" />
+      <StbNode id="33" x="0" y="3000" z="6600" kind="ON_GRID" />
+      <StbNode id="34" x="0" y="3000" z="0" kind="ON_GRID" />
+      <StbNode id="35" x="0" y="9000" z="6600" kind="ON_GRID" />
+      <StbNode id="36" x="0" y="9000" z="0" kind="ON_GRID" />
+      <StbNode id="37" x="0" y="8000" z="4000" kind="ON_GRID" />
+      <StbNode id="38" x="0" y="8000" z="0" kind="ON_GRID" />
+      <StbNode id="39" x="0" y="4000" z="4000" kind="ON_GRID" />
+      <StbNode id="40" x="0" y="4000" z="0" kind="ON_GRID" />
+      <StbNode id="41" x="0" y="6000" z="7200" kind="ON_GRID" />
+      <StbNode id="42" x="0" y="6000" z="4000" kind="ON_GRID" />
+      <StbNode id="43" x="27000" y="3000" z="6600" kind="ON_GRID" />
+      <StbNode id="44" x="27000" y="3000" z="0" kind="ON_GRID" />
+      <StbNode id="45" x="27000" y="9000" z="6600" kind="ON_GRID" />
+      <StbNode id="46" x="27000" y="9000" z="0" kind="ON_GRID" />
+      <StbNode id="47" x="27000" y="8000" z="4000" kind="ON_GRID" />
+      <StbNode id="48" x="27000" y="8000" z="0" kind="ON_GRID" />
+      <StbNode id="49" x="27000" y="4000" z="4000" kind="ON_GRID" />
+      <StbNode id="50" x="27000" y="4000" z="0" kind="ON_GRID" />
+      <StbNode id="51" x="27000" y="6000" z="7200" kind="ON_GRID" />
+      <StbNode id="52" x="27000" y="6000" z="4000" kind="ON_GRID" />
+      <StbNode id="53" x="12000" y="0" z="6000" kind="ON_GRID" />
+      <StbNode id="54" x="12000" y="0" z="4000" kind="ON_GRID" />
+      <StbNode id="55" x="15000" y="0" z="6000" kind="ON_GRID" />
+      <StbNode id="56" x="15000" y="0" z="4000" kind="ON_GRID" />
+      <StbNode id="57" x="12000" y="12000" z="6000" kind="ON_GRID" />
+      <StbNode id="58" x="12000" y="12000" z="0" kind="ON_GRID" />
+      <StbNode id="59" x="15000" y="12000" z="6000" kind="ON_GRID" />
+      <StbNode id="60" x="15000" y="12000" z="0" kind="ON_GRID" />
+      <StbNode id="61" x="3000" y="6000" z="7200" kind="ON_BEAM" />
+      <StbNode id="62" x="6000" y="6000" z="7200" kind="ON_BEAM" />
+      <StbNode id="63" x="9000" y="6000" z="7200" kind="ON_BEAM" />
+      <StbNode id="64" x="12000" y="6000" z="7200" kind="ON_BEAM" />
+      <StbNode id="65" x="15000" y="6000" z="7200" kind="ON_BEAM" />
+      <StbNode id="66" x="18000" y="6000" z="7200" kind="ON_BEAM" />
+      <StbNode id="67" x="21000" y="6000" z="7200" kind="ON_BEAM" />
+      <StbNode id="68" x="24000" y="6000" z="7200" kind="ON_BEAM" />
+      <StbNode id="69" x="0" y="12000" z="4000" kind="ON_BEAM" />
+      <StbNode id="70" x="3000" y="12000" z="4000" kind="ON_BEAM" />
+      <StbNode id="71" x="6000" y="12000" z="4000" kind="ON_BEAM" />
+      <StbNode id="72" x="9000" y="12000" z="4000" kind="ON_BEAM" />
+      <StbNode id="73" x="18000" y="12000" z="4000" kind="ON_BEAM" />
+      <StbNode id="74" x="21000" y="12000" z="4000" kind="ON_BEAM" />
+      <StbNode id="75" x="24000" y="12000" z="4000" kind="ON_BEAM" />
+      <StbNode id="76" x="27000" y="12000" z="4000" kind="ON_BEAM" />
+      <StbNode id="77" x="27000" y="9000" z="4000" kind="ON_BEAM" />
+      <StbNode id="78" x="27000" y="3000" z="4000" kind="ON_BEAM" />
+      <StbNode id="79" x="27000" y="0" z="4000" kind="ON_BEAM" />
+      <StbNode id="80" x="24000" y="0" z="4000" kind="ON_BEAM" />
+      <StbNode id="81" x="21000" y="0" z="4000" kind="ON_BEAM" />
+      <StbNode id="82" x="18000" y="0" z="4000" kind="ON_BEAM" />
+      <StbNode id="83" x="9000" y="0" z="4000" kind="ON_BEAM" />
+      <StbNode id="84" x="6000" y="0" z="4000" kind="ON_BEAM" />
+      <StbNode id="85" x="3000" y="0" z="4000" kind="ON_BEAM" />
+      <StbNode id="86" x="0" y="0" z="4000" kind="ON_BEAM" />
+      <StbNode id="87" x="0" y="3000" z="4000" kind="ON_BEAM" />
+      <StbNode id="88" x="0" y="9000" z="4000" kind="ON_BEAM" />
+      <StbNode id="89" x="18000" y="-5000" z="3900" kind="ON_BEAM" />
+      <StbNode id="90" x="9000" y="-5000" z="3900" kind="ON_BEAM" />
+      <StbNode id="91" x="12000" y="-5000" z="3900" kind="ON_BEAM" />
+      <StbNode id="92" x="15000" y="-5000" z="3900" kind="ON_BEAM" />
+      <StbNode id="93" x="9000" y="-2500" z="3950" kind="ON_BEAM" />
+      <StbNode id="94" x="18000" y="-2500" z="3950" kind="ON_BEAM" />
+      <StbNode id="95" x="12000" y="12000" z="4000" kind="ON_BEAM" />
+      <StbNode id="96" x="15000" y="12000" z="4000" kind="ON_BEAM" />
+      <StbNode id="97" x="0" y="6000" z="0" kind="ON_BEAM" />
+      <StbNode id="98" x="6000" y="6000" z="0" kind="ON_BEAM" />
+      <StbNode id="99" x="9000" y="6000" z="0" kind="ON_BEAM" />
+      <StbNode id="100" x="18000" y="6000" z="0" kind="ON_BEAM" />
+      <StbNode id="101" x="21000" y="6000" z="0" kind="ON_BEAM" />
+      <StbNode id="102" x="27000" y="6000" z="0" kind="ON_BEAM" />
+      <StbNode id="103" x="12000" y="-2500" z="3950" kind="ON_SLAB" />
+      <StbNode id="104" x="15000" y="-2500" z="3950" kind="ON_SLAB" />
+      <StbNode id="105" x="9000" y="0" z="5000" kind="OTHER" />
+      <StbNode id="106" x="12000" y="0" z="5000" kind="OTHER" />
+      <StbNode id="107" x="15000" y="0" z="5000" kind="OTHER" />
+      <StbNode id="108" x="18000" y="0" z="5000" kind="OTHER" />
+      <StbNode id="109" x="9000" y="0" z="3900" kind="OTHER" />
+      <StbNode id="110" x="18000" y="0" z="3900" kind="OTHER" />
+      <StbNode id="111" x="0" y="4000" z="6800" kind="OTHER" />
+      <StbNode id="112" x="0" y="8000" z="6800" kind="OTHER" />
+      <StbNode id="113" x="27000" y="4000" z="6800" kind="OTHER" />
+      <StbNode id="114" x="27000" y="8000" z="6800" kind="OTHER" />
+    </StbNodes>
+    <StbAxes>
+      <StbY_Axis id="1" name="a" distance="0">
+        <StbNodeid_List>
+          <StbNodeid id="10" />
+          <StbNodeid id="12" />
+          <StbNodeid id="14" />
+          <StbNodeid id="16" />
+          <StbNodeid id="26" />
+          <StbNodeid id="28" />
+          <StbNodeid id="30" />
+          <StbNodeid id="32" />
+          <StbNodeid id="9" />
+          <StbNodeid id="11" />
+          <StbNodeid id="13" />
+          <StbNodeid id="15" />
+          <StbNodeid id="25" />
+          <StbNodeid id="27" />
+          <StbNodeid id="29" />
+          <StbNodeid id="31" />
+          <StbNodeid id="53" />
+          <StbNodeid id="55" />
+          <StbNodeid id="109" />
+          <StbNodeid id="110" />
+          <StbNodeid id="54" />
+          <StbNodeid id="56" />
+          <StbNodeid id="79" />
+          <StbNodeid id="80" />
+          <StbNodeid id="81" />
+          <StbNodeid id="82" />
+          <StbNodeid id="83" />
+          <StbNodeid id="84" />
+          <StbNodeid id="85" />
+          <StbNodeid id="86" />
+          <StbNodeid id="105" />
+          <StbNodeid id="106" />
+          <StbNodeid id="107" />
+          <StbNodeid id="108" />
+        </StbNodeid_List>
+      </StbY_Axis>
+      <StbY_Axis id="2" name="b" distance="3000">
+        <StbNodeid_List>
+          <StbNodeid id="34" />
+          <StbNodeid id="44" />
+          <StbNodeid id="78" />
+          <StbNodeid id="87" />
+        </StbNodeid_List>
+      </StbY_Axis>
+      <StbY_Axis id="3" name="c" distance="4000">
+        <StbNodeid_List>
+          <StbNodeid id="40" />
+          <StbNodeid id="50" />
+          <StbNodeid id="39" />
+          <StbNodeid id="49" />
+        </StbNodeid_List>
+      </StbY_Axis>
+      <StbY_Axis id="4" name="d" distance="6000">
+        <StbNodeid_List>
+          <StbNodeid id="97" />
+          <StbNodeid id="98" />
+          <StbNodeid id="99" />
+          <StbNodeid id="100" />
+          <StbNodeid id="101" />
+          <StbNodeid id="102" />
+          <StbNodeid id="41" />
+          <StbNodeid id="51" />
+          <StbNodeid id="42" />
+          <StbNodeid id="52" />
+        </StbNodeid_List>
+      </StbY_Axis>
+      <StbY_Axis id="5" name="e" distance="8000">
+        <StbNodeid_List>
+          <StbNodeid id="38" />
+          <StbNodeid id="48" />
+          <StbNodeid id="37" />
+          <StbNodeid id="47" />
+        </StbNodeid_List>
+      </StbY_Axis>
+      <StbY_Axis id="6" name="f" distance="9000">
+        <StbNodeid_List>
+          <StbNodeid id="36" />
+          <StbNodeid id="46" />
+          <StbNodeid id="77" />
+          <StbNodeid id="88" />
+        </StbNodeid_List>
+      </StbY_Axis>
+      <StbY_Axis id="7" name="g" distance="12000">
+        <StbNodeid_List>
+          <StbNodeid id="2" />
+          <StbNodeid id="4" />
+          <StbNodeid id="6" />
+          <StbNodeid id="8" />
+          <StbNodeid id="18" />
+          <StbNodeid id="20" />
+          <StbNodeid id="22" />
+          <StbNodeid id="24" />
+          <StbNodeid id="58" />
+          <StbNodeid id="60" />
+          <StbNodeid id="1" />
+          <StbNodeid id="3" />
+          <StbNodeid id="5" />
+          <StbNodeid id="7" />
+          <StbNodeid id="17" />
+          <StbNodeid id="19" />
+          <StbNodeid id="21" />
+          <StbNodeid id="23" />
+          <StbNodeid id="57" />
+          <StbNodeid id="59" />
+          <StbNodeid id="69" />
+          <StbNodeid id="70" />
+          <StbNodeid id="71" />
+          <StbNodeid id="72" />
+          <StbNodeid id="73" />
+          <StbNodeid id="74" />
+          <StbNodeid id="75" />
+          <StbNodeid id="76" />
+          <StbNodeid id="95" />
+          <StbNodeid id="96" />
+        </StbNodeid_List>
+      </StbY_Axis>
+      <StbX_Axis id="8" name="1" distance="0">
+        <StbNodeid_List>
+          <StbNodeid id="2" />
+          <StbNodeid id="16" />
+          <StbNodeid id="34" />
+          <StbNodeid id="36" />
+          <StbNodeid id="38" />
+          <StbNodeid id="40" />
+          <StbNodeid id="97" />
+          <StbNodeid id="1" />
+          <StbNodeid id="15" />
+          <StbNodeid id="41" />
+          <StbNodeid id="37" />
+          <StbNodeid id="39" />
+          <StbNodeid id="42" />
+          <StbNodeid id="69" />
+          <StbNodeid id="86" />
+          <StbNodeid id="87" />
+          <StbNodeid id="88" />
+        </StbNodeid_List>
+      </StbX_Axis>
+      <StbX_Axis id="9" name="2" distance="3000">
+        <StbNodeid_List>
+          <StbNodeid id="18" />
+          <StbNodeid id="30" />
+          <StbNodeid id="17" />
+          <StbNodeid id="29" />
+          <StbNodeid id="70" />
+          <StbNodeid id="85" />
+        </StbNodeid_List>
+      </StbX_Axis>
+      <StbX_Axis id="10" name="3" distance="6000">
+        <StbNodeid_List>
+          <StbNodeid id="4" />
+          <StbNodeid id="14" />
+          <StbNodeid id="98" />
+          <StbNodeid id="3" />
+          <StbNodeid id="13" />
+          <StbNodeid id="71" />
+          <StbNodeid id="84" />
+        </StbNodeid_List>
+      </StbX_Axis>
+      <StbX_Axis id="15" name="8" distance="21000">
+        <StbNodeid_List>
+          <StbNodeid id="6" />
+          <StbNodeid id="12" />
+          <StbNodeid id="101" />
+          <StbNodeid id="5" />
+          <StbNodeid id="11" />
+          <StbNodeid id="74" />
+          <StbNodeid id="81" />
+        </StbNodeid_List>
+      </StbX_Axis>
+      <StbX_Axis id="16" name="9" distance="24000">
+        <StbNodeid_List>
+          <StbNodeid id="24" />
+          <StbNodeid id="26" />
+          <StbNodeid id="23" />
+          <StbNodeid id="25" />
+          <StbNodeid id="75" />
+          <StbNodeid id="80" />
+        </StbNodeid_List>
+      </StbX_Axis>
+      <StbX_Axis id="17" name="10" distance="27000">
+        <StbNodeid_List>
+          <StbNodeid id="8" />
+          <StbNodeid id="10" />
+          <StbNodeid id="44" />
+          <StbNodeid id="46" />
+          <StbNodeid id="48" />
+          <StbNodeid id="50" />
+          <StbNodeid id="102" />
+          <StbNodeid id="7" />
+          <StbNodeid id="9" />
+          <StbNodeid id="51" />
+          <StbNodeid id="47" />
+          <StbNodeid id="49" />
+          <StbNodeid id="52" />
+          <StbNodeid id="76" />
+          <StbNodeid id="77" />
+          <StbNodeid id="78" />
+          <StbNodeid id="79" />
+        </StbNodeid_List>
+      </StbX_Axis>
+      <StbX_Axis id="11" name="4" distance="9000">
+        <StbNodeid_List>
+          <StbNodeid id="20" />
+          <StbNodeid id="32" />
+          <StbNodeid id="99" />
+          <StbNodeid id="19" />
+          <StbNodeid id="31" />
+          <StbNodeid id="109" />
+          <StbNodeid id="72" />
+          <StbNodeid id="83" />
+          <StbNodeid id="105" />
+        </StbNodeid_List>
+      </StbX_Axis>
+      <StbX_Axis id="12" name="5" distance="12000">
+        <StbNodeid_List>
+          <StbNodeid id="58" />
+          <StbNodeid id="53" />
+          <StbNodeid id="57" />
+          <StbNodeid id="54" />
+          <StbNodeid id="95" />
+          <StbNodeid id="106" />
+        </StbNodeid_List>
+      </StbX_Axis>
+      <StbX_Axis id="13" name="6" distance="15000">
+        <StbNodeid_List>
+          <StbNodeid id="60" />
+          <StbNodeid id="55" />
+          <StbNodeid id="59" />
+          <StbNodeid id="56" />
+          <StbNodeid id="96" />
+          <StbNodeid id="107" />
+        </StbNodeid_List>
+      </StbX_Axis>
+      <StbX_Axis id="14" name="7" distance="18000">
+        <StbNodeid_List>
+          <StbNodeid id="22" />
+          <StbNodeid id="28" />
+          <StbNodeid id="100" />
+          <StbNodeid id="21" />
+          <StbNodeid id="27" />
+          <StbNodeid id="110" />
+          <StbNodeid id="73" />
+          <StbNodeid id="82" />
+          <StbNodeid id="108" />
+        </StbNodeid_List>
+      </StbX_Axis>
+    </StbAxes>
+    <StbDrawingAxes />
+    <StbStories>
+      <StbStory id="1" name="Z1" height="0" kind="GENERAL" concrete_strength="FC0">
+        <StbNodeid_List>
+          <StbNodeid id="2" />
+          <StbNodeid id="4" />
+          <StbNodeid id="6" />
+          <StbNodeid id="8" />
+          <StbNodeid id="10" />
+          <StbNodeid id="12" />
+          <StbNodeid id="14" />
+          <StbNodeid id="16" />
+          <StbNodeid id="18" />
+          <StbNodeid id="20" />
+          <StbNodeid id="22" />
+          <StbNodeid id="24" />
+          <StbNodeid id="26" />
+          <StbNodeid id="28" />
+          <StbNodeid id="30" />
+          <StbNodeid id="32" />
+          <StbNodeid id="34" />
+          <StbNodeid id="36" />
+          <StbNodeid id="38" />
+          <StbNodeid id="40" />
+          <StbNodeid id="44" />
+          <StbNodeid id="46" />
+          <StbNodeid id="48" />
+          <StbNodeid id="50" />
+          <StbNodeid id="58" />
+          <StbNodeid id="60" />
+          <StbNodeid id="97" />
+          <StbNodeid id="98" />
+          <StbNodeid id="99" />
+          <StbNodeid id="100" />
+          <StbNodeid id="101" />
+          <StbNodeid id="102" />
+          <StbNodeid id="109" />
+          <StbNodeid id="110" />
+          <StbNodeid id="37" />
+          <StbNodeid id="39" />
+          <StbNodeid id="42" />
+          <StbNodeid id="47" />
+          <StbNodeid id="49" />
+          <StbNodeid id="52" />
+          <StbNodeid id="54" />
+          <StbNodeid id="56" />
+          <StbNodeid id="69" />
+          <StbNodeid id="70" />
+          <StbNodeid id="71" />
+          <StbNodeid id="72" />
+          <StbNodeid id="73" />
+          <StbNodeid id="74" />
+          <StbNodeid id="75" />
+          <StbNodeid id="76" />
+          <StbNodeid id="77" />
+          <StbNodeid id="78" />
+          <StbNodeid id="79" />
+          <StbNodeid id="80" />
+          <StbNodeid id="81" />
+          <StbNodeid id="82" />
+          <StbNodeid id="83" />
+          <StbNodeid id="84" />
+          <StbNodeid id="85" />
+          <StbNodeid id="86" />
+          <StbNodeid id="87" />
+          <StbNodeid id="88" />
+          <StbNodeid id="95" />
+          <StbNodeid id="96" />
+          <StbNodeid id="105" />
+          <StbNodeid id="106" />
+          <StbNodeid id="107" />
+          <StbNodeid id="108" />
+        </StbNodeid_List>
+      </StbStory>
+      <StbStory id="2" name="Z2" height="6000" kind="GENERAL" concrete_strength="FC0">
+        <StbNodeid_List>
+          <StbNodeid id="1" />
+          <StbNodeid id="3" />
+          <StbNodeid id="5" />
+          <StbNodeid id="7" />
+          <StbNodeid id="9" />
+          <StbNodeid id="11" />
+          <StbNodeid id="13" />
+          <StbNodeid id="15" />
+          <StbNodeid id="17" />
+          <StbNodeid id="19" />
+          <StbNodeid id="21" />
+          <StbNodeid id="23" />
+          <StbNodeid id="25" />
+          <StbNodeid id="27" />
+          <StbNodeid id="29" />
+          <StbNodeid id="31" />
+          <StbNodeid id="53" />
+          <StbNodeid id="55" />
+          <StbNodeid id="57" />
+          <StbNodeid id="59" />
+          <StbNodeid id="41" />
+          <StbNodeid id="51" />
+        </StbNodeid_List>
+      </StbStory>
+    </StbStories>
+    <StbMembers>
+      <StbColumns>
+        <StbColumn id="1" name="C1" id_section="1" idNode_bottom="2" idNode_top="1" rotate="0" offset_X="0" offset_Y="0" offset_bottom_X="0" offset_bottom_Y="0" offset_bottom_Z="0" offset_top_X="0" offset_top_Y="0" offset_top_Z="0" thickness_ex_start_X="0" thickness_ex_end_X="0" thickness_ex_start_Y="0" thickness_ex_end_Y="0" joint_top="0" joint_bottom="0" kind_structure="S" condition_bottom="FIX" condition_top="FIX" kind_joint_bottom="BOLT" />
+        <StbColumn id="2" name="C1" id_section="1" idNode_bottom="4" idNode_top="3" rotate="0" offset_X="0" offset_Y="0" offset_bottom_X="0" offset_bottom_Y="0" offset_bottom_Z="0" offset_top_X="0" offset_top_Y="0" offset_top_Z="0" thickness_ex_start_X="0" thickness_ex_end_X="0" thickness_ex_start_Y="0" thickness_ex_end_Y="0" joint_top="0" joint_bottom="0" kind_structure="S" condition_bottom="FIX" condition_top="FIX" kind_joint_bottom="BOLT" />
+        <StbColumn id="3" name="C1" id_section="1" idNode_bottom="6" idNode_top="5" rotate="0" offset_X="0" offset_Y="0" offset_bottom_X="0" offset_bottom_Y="0" offset_bottom_Z="0" offset_top_X="0" offset_top_Y="0" offset_top_Z="0" thickness_ex_start_X="0" thickness_ex_end_X="0" thickness_ex_start_Y="0" thickness_ex_end_Y="0" joint_top="0" joint_bottom="0" kind_structure="S" condition_bottom="FIX" condition_top="FIX" kind_joint_bottom="BOLT" />
+        <StbColumn id="4" name="C1" id_section="1" idNode_bottom="8" idNode_top="7" rotate="0" offset_X="0" offset_Y="0" offset_bottom_X="0" offset_bottom_Y="0" offset_bottom_Z="0" offset_top_X="0" offset_top_Y="0" offset_top_Z="0" thickness_ex_start_X="0" thickness_ex_end_X="0" thickness_ex_start_Y="0" thickness_ex_end_Y="0" joint_top="0" joint_bottom="0" kind_structure="S" condition_bottom="FIX" condition_top="FIX" kind_joint_bottom="BOLT" />
+        <StbColumn id="5" name="C1" id_section="1" idNode_bottom="10" idNode_top="9" rotate="0" offset_X="0" offset_Y="0" offset_bottom_X="0" offset_bottom_Y="0" offset_bottom_Z="0" offset_top_X="0" offset_top_Y="0" offset_top_Z="0" thickness_ex_start_X="0" thickness_ex_end_X="0" thickness_ex_start_Y="0" thickness_ex_end_Y="0" joint_top="0" joint_bottom="0" kind_structure="S" condition_bottom="FIX" condition_top="FIX" kind_joint_bottom="BOLT" />
+        <StbColumn id="6" name="C1" id_section="1" idNode_bottom="12" idNode_top="11" rotate="0" offset_X="0" offset_Y="0" offset_bottom_X="0" offset_bottom_Y="0" offset_bottom_Z="0" offset_top_X="0" offset_top_Y="0" offset_top_Z="0" thickness_ex_start_X="0" thickness_ex_end_X="0" thickness_ex_start_Y="0" thickness_ex_end_Y="0" joint_top="0" joint_bottom="0" kind_structure="S" condition_bottom="FIX" condition_top="FIX" kind_joint_bottom="BOLT" />
+        <StbColumn id="7" name="C1" id_section="1" idNode_bottom="14" idNode_top="13" rotate="0" offset_X="0" offset_Y="0" offset_bottom_X="0" offset_bottom_Y="0" offset_bottom_Z="0" offset_top_X="0" offset_top_Y="0" offset_top_Z="0" thickness_ex_start_X="0" thickness_ex_end_X="0" thickness_ex_start_Y="0" thickness_ex_end_Y="0" joint_top="0" joint_bottom="0" kind_structure="S" condition_bottom="FIX" condition_top="FIX" kind_joint_bottom="BOLT" />
+        <StbColumn id="8" name="C1" id_section="1" idNode_bottom="16" idNode_top="15" rotate="0" offset_X="0" offset_Y="0" offset_bottom_X="0" offset_bottom_Y="0" offset_bottom_Z="0" offset_top_X="0" offset_top_Y="0" offset_top_Z="0" thickness_ex_start_X="0" thickness_ex_end_X="0" thickness_ex_start_Y="0" thickness_ex_end_Y="0" joint_top="0" joint_bottom="0" kind_structure="S" condition_bottom="FIX" condition_top="FIX" kind_joint_bottom="BOLT" />
+        <StbColumn id="9" name="P2" id_section="2" idNode_bottom="18" idNode_top="17" rotate="0" offset_X="0" offset_Y="0" offset_bottom_X="0" offset_bottom_Y="0" offset_bottom_Z="0" offset_top_X="0" offset_top_Y="0" offset_top_Z="0" thickness_ex_start_X="0" thickness_ex_end_X="0" thickness_ex_start_Y="0" thickness_ex_end_Y="0" joint_top="0" joint_bottom="0" kind_structure="S" condition_bottom="FIX" condition_top="FIX" kind_joint_bottom="BOLT" />
+        <StbColumn id="10" name="C1" id_section="1" idNode_bottom="20" idNode_top="19" rotate="0" offset_X="0" offset_Y="0" offset_bottom_X="0" offset_bottom_Y="0" offset_bottom_Z="0" offset_top_X="0" offset_top_Y="0" offset_top_Z="0" thickness_ex_start_X="0" thickness_ex_end_X="0" thickness_ex_start_Y="0" thickness_ex_end_Y="0" joint_top="0" joint_bottom="0" kind_structure="S" condition_bottom="FIX" condition_top="FIX" kind_joint_bottom="BOLT" />
+        <StbColumn id="11" name="C1" id_section="1" idNode_bottom="22" idNode_top="21" rotate="0" offset_X="0" offset_Y="0" offset_bottom_X="0" offset_bottom_Y="0" offset_bottom_Z="0" offset_top_X="0" offset_top_Y="0" offset_top_Z="0" thickness_ex_start_X="0" thickness_ex_end_X="0" thickness_ex_start_Y="0" thickness_ex_end_Y="0" joint_top="0" joint_bottom="0" kind_structure="S" condition_bottom="FIX" condition_top="FIX" kind_joint_bottom="BOLT" />
+        <StbColumn id="12" name="P2" id_section="2" idNode_bottom="24" idNode_top="23" rotate="0" offset_X="0" offset_Y="0" offset_bottom_X="0" offset_bottom_Y="0" offset_bottom_Z="0" offset_top_X="0" offset_top_Y="0" offset_top_Z="0" thickness_ex_start_X="0" thickness_ex_end_X="0" thickness_ex_start_Y="0" thickness_ex_end_Y="0" joint_top="0" joint_bottom="0" kind_structure="S" condition_bottom="FIX" condition_top="FIX" kind_joint_bottom="BOLT" />
+        <StbColumn id="13" name="P2" id_section="2" idNode_bottom="26" idNode_top="25" rotate="0" offset_X="0" offset_Y="0" offset_bottom_X="0" offset_bottom_Y="0" offset_bottom_Z="0" offset_top_X="0" offset_top_Y="0" offset_top_Z="0" thickness_ex_start_X="0" thickness_ex_end_X="0" thickness_ex_start_Y="0" thickness_ex_end_Y="0" joint_top="0" joint_bottom="0" kind_structure="S" condition_bottom="FIX" condition_top="FIX" kind_joint_bottom="BOLT" />
+        <StbColumn id="14" name="C1" id_section="1" idNode_bottom="28" idNode_top="27" rotate="0" offset_X="0" offset_Y="0" offset_bottom_X="0" offset_bottom_Y="0" offset_bottom_Z="0" offset_top_X="0" offset_top_Y="0" offset_top_Z="0" thickness_ex_start_X="0" thickness_ex_end_X="0" thickness_ex_start_Y="0" thickness_ex_end_Y="0" joint_top="0" joint_bottom="0" kind_structure="S" condition_bottom="FIX" condition_top="FIX" kind_joint_bottom="BOLT" />
+        <StbColumn id="15" name="P2" id_section="2" idNode_bottom="30" idNode_top="29" rotate="0" offset_X="0" offset_Y="0" offset_bottom_X="0" offset_bottom_Y="0" offset_bottom_Z="0" offset_top_X="0" offset_top_Y="0" offset_top_Z="0" thickness_ex_start_X="0" thickness_ex_end_X="0" thickness_ex_start_Y="0" thickness_ex_end_Y="0" joint_top="0" joint_bottom="0" kind_structure="S" condition_bottom="FIX" condition_top="FIX" kind_joint_bottom="BOLT" />
+        <StbColumn id="16" name="C1" id_section="1" idNode_bottom="32" idNode_top="31" rotate="0" offset_X="0" offset_Y="0" offset_bottom_X="0" offset_bottom_Y="0" offset_bottom_Z="0" offset_top_X="0" offset_top_Y="0" offset_top_Z="0" thickness_ex_start_X="0" thickness_ex_end_X="0" thickness_ex_start_Y="0" thickness_ex_end_Y="0" joint_top="0" joint_bottom="0" kind_structure="S" condition_bottom="FIX" condition_top="FIX" kind_joint_bottom="BOLT" />
+        <StbColumn id="17" name="P1" id_section="3" idNode_bottom="34" idNode_top="33" rotate="0" offset_X="0" offset_Y="0" offset_bottom_X="0" offset_bottom_Y="0" offset_bottom_Z="0" offset_top_X="0" offset_top_Y="0" offset_top_Z="0" thickness_ex_start_X="0" thickness_ex_end_X="0" thickness_ex_start_Y="0" thickness_ex_end_Y="0" joint_top="0" joint_bottom="0" kind_structure="S" condition_bottom="FIX" condition_top="FIX" kind_joint_bottom="BOLT" />
+        <StbColumn id="18" name="P1" id_section="3" idNode_bottom="36" idNode_top="35" rotate="0" offset_X="0" offset_Y="0" offset_bottom_X="0" offset_bottom_Y="0" offset_bottom_Z="0" offset_top_X="0" offset_top_Y="0" offset_top_Z="0" thickness_ex_start_X="0" thickness_ex_end_X="0" thickness_ex_start_Y="0" thickness_ex_end_Y="0" joint_top="0" joint_bottom="0" kind_structure="S" condition_bottom="FIX" condition_top="FIX" kind_joint_bottom="BOLT" />
+        <StbColumn id="19" name="P1" id_section="3" idNode_bottom="38" idNode_top="37" rotate="0" offset_X="0" offset_Y="0" offset_bottom_X="0" offset_bottom_Y="0" offset_bottom_Z="0" offset_top_X="0" offset_top_Y="0" offset_top_Z="0" thickness_ex_start_X="0" thickness_ex_end_X="0" thickness_ex_start_Y="0" thickness_ex_end_Y="0" joint_top="0" joint_bottom="0" kind_structure="S" condition_bottom="FIX" condition_top="FIX" kind_joint_bottom="BOLT" />
+        <StbColumn id="20" name="P1" id_section="3" idNode_bottom="40" idNode_top="39" rotate="0" offset_X="0" offset_Y="0" offset_bottom_X="0" offset_bottom_Y="0" offset_bottom_Z="0" offset_top_X="0" offset_top_Y="0" offset_top_Z="0" thickness_ex_start_X="0" thickness_ex_end_X="0" thickness_ex_start_Y="0" thickness_ex_end_Y="0" joint_top="0" joint_bottom="0" kind_structure="S" condition_bottom="FIX" condition_top="FIX" kind_joint_bottom="BOLT" />
+        <StbColumn id="21" name="P1" id_section="3" idNode_bottom="42" idNode_top="41" rotate="0" offset_X="0" offset_Y="0" offset_bottom_X="0" offset_bottom_Y="0" offset_bottom_Z="0" offset_top_X="0" offset_top_Y="0" offset_top_Z="0" thickness_ex_start_X="0" thickness_ex_end_X="0" thickness_ex_start_Y="0" thickness_ex_end_Y="0" joint_top="0" joint_bottom="0" kind_structure="S" condition_bottom="FIX" condition_top="FIX" kind_joint_bottom="BOLT" />
+        <StbColumn id="22" name="P1" id_section="3" idNode_bottom="44" idNode_top="43" rotate="0" offset_X="0" offset_Y="0" offset_bottom_X="0" offset_bottom_Y="0" offset_bottom_Z="0" offset_top_X="0" offset_top_Y="0" offset_top_Z="0" thickness_ex_start_X="0" thickness_ex_end_X="0" thickness_ex_start_Y="0" thickness_ex_end_Y="0" joint_top="0" joint_bottom="0" kind_structure="S" condition_bottom="FIX" condition_top="FIX" kind_joint_bottom="BOLT" />
+        <StbColumn id="23" name="P1" id_section="3" idNode_bottom="46" idNode_top="45" rotate="0" offset_X="0" offset_Y="0" offset_bottom_X="0" offset_bottom_Y="0" offset_bottom_Z="0" offset_top_X="0" offset_top_Y="0" offset_top_Z="0" thickness_ex_start_X="0" thickness_ex_end_X="0" thickness_ex_start_Y="0" thickness_ex_end_Y="0" joint_top="0" joint_bottom="0" kind_structure="S" condition_bottom="FIX" condition_top="FIX" kind_joint_bottom="BOLT" />
+        <StbColumn id="24" name="P1" id_section="3" idNode_bottom="48" idNode_top="47" rotate="0" offset_X="0" offset_Y="0" offset_bottom_X="0" offset_bottom_Y="0" offset_bottom_Z="0" offset_top_X="0" offset_top_Y="0" offset_top_Z="0" thickness_ex_start_X="0" thickness_ex_end_X="0" thickness_ex_start_Y="0" thickness_ex_end_Y="0" joint_top="0" joint_bottom="0" kind_structure="S" condition_bottom="FIX" condition_top="FIX" kind_joint_bottom="BOLT" />
+        <StbColumn id="25" name="P1" id_section="3" idNode_bottom="50" idNode_top="49" rotate="0" offset_X="0" offset_Y="0" offset_bottom_X="0" offset_bottom_Y="0" offset_bottom_Z="0" offset_top_X="0" offset_top_Y="0" offset_top_Z="0" thickness_ex_start_X="0" thickness_ex_end_X="0" thickness_ex_start_Y="0" thickness_ex_end_Y="0" joint_top="0" joint_bottom="0" kind_structure="S" condition_bottom="FIX" condition_top="FIX" kind_joint_bottom="BOLT" />
+        <StbColumn id="26" name="P1" id_section="3" idNode_bottom="52" idNode_top="51" rotate="0" offset_X="0" offset_Y="0" offset_bottom_X="0" offset_bottom_Y="0" offset_bottom_Z="0" offset_top_X="0" offset_top_Y="0" offset_top_Z="0" thickness_ex_start_X="0" thickness_ex_end_X="0" thickness_ex_start_Y="0" thickness_ex_end_Y="0" joint_top="0" joint_bottom="0" kind_structure="S" condition_bottom="FIX" condition_top="FIX" kind_joint_bottom="BOLT" />
+        <StbColumn id="27" name="P1" id_section="3" idNode_bottom="54" idNode_top="53" rotate="0" offset_X="0" offset_Y="0" offset_bottom_X="0" offset_bottom_Y="0" offset_bottom_Z="0" offset_top_X="0" offset_top_Y="0" offset_top_Z="0" thickness_ex_start_X="0" thickness_ex_end_X="0" thickness_ex_start_Y="0" thickness_ex_end_Y="0" joint_top="0" joint_bottom="0" kind_structure="S" condition_bottom="FIX" condition_top="FIX" kind_joint_bottom="BOLT" />
+        <StbColumn id="28" name="P1" id_section="3" idNode_bottom="56" idNode_top="55" rotate="0" offset_X="0" offset_Y="0" offset_bottom_X="0" offset_bottom_Y="0" offset_bottom_Z="0" offset_top_X="0" offset_top_Y="0" offset_top_Z="0" thickness_ex_start_X="0" thickness_ex_end_X="0" thickness_ex_start_Y="0" thickness_ex_end_Y="0" joint_top="0" joint_bottom="0" kind_structure="S" condition_bottom="FIX" condition_top="FIX" kind_joint_bottom="BOLT" />
+        <StbColumn id="29" name="P2" id_section="2" idNode_bottom="58" idNode_top="57" rotate="0" offset_X="0" offset_Y="0" offset_bottom_X="0" offset_bottom_Y="0" offset_bottom_Z="0" offset_top_X="0" offset_top_Y="0" offset_top_Z="0" thickness_ex_start_X="0" thickness_ex_end_X="0" thickness_ex_start_Y="0" thickness_ex_end_Y="0" joint_top="0" joint_bottom="0" kind_structure="S" condition_bottom="FIX" condition_top="FIX" kind_joint_bottom="BOLT" />
+        <StbColumn id="30" name="P2" id_section="2" idNode_bottom="60" idNode_top="59" rotate="0" offset_X="0" offset_Y="0" offset_bottom_X="0" offset_bottom_Y="0" offset_bottom_Z="0" offset_top_X="0" offset_top_Y="0" offset_top_Z="0" thickness_ex_start_X="0" thickness_ex_end_X="0" thickness_ex_start_Y="0" thickness_ex_end_Y="0" joint_top="0" joint_bottom="0" kind_structure="S" condition_bottom="FIX" condition_top="FIX" kind_joint_bottom="BOLT" />
+      </StbColumns>
+      <StbPosts />
+      <StbGirders>
+        <StbGirder id="31" name="G1" id_section="4" rotate="0" idNode_start="1" idNode_end="3" isFoundation="False" offset="0" level="0" offset_start_X="0" offset_start_Y="0" offset_start_Z="0" offset_end_X="0" offset_end_Y="0" offset_end_Z="0" thickness_ex_top="0" thickness_ex_bottom="0" thickness_ex_right="0" thickness_ex_left="0" haunch_start="0" haunch_end="0" joint_start="0" joint_end="0" kind_structure="S" kind_joint_start="BOLT" kind_joint_end="BOLT" joint_id_start="0" joint_id_end="0" />
+        <StbGirder id="32" name="G1" id_section="4" rotate="0" idNode_start="3" idNode_end="19" isFoundation="False" offset="0" level="0" offset_start_X="0" offset_start_Y="0" offset_start_Z="0" offset_end_X="0" offset_end_Y="0" offset_end_Z="0" thickness_ex_top="0" thickness_ex_bottom="0" thickness_ex_right="0" thickness_ex_left="0" haunch_start="0" haunch_end="0" joint_start="0" joint_end="0" kind_structure="S" kind_joint_start="BOLT" kind_joint_end="BOLT" joint_id_start="0" joint_id_end="0" />
+        <StbGirder id="33" name="G1" id_section="4" rotate="0" idNode_start="19" idNode_end="21" isFoundation="False" offset="0" level="0" offset_start_X="0" offset_start_Y="0" offset_start_Z="0" offset_end_X="0" offset_end_Y="0" offset_end_Z="0" thickness_ex_top="0" thickness_ex_bottom="0" thickness_ex_right="0" thickness_ex_left="0" haunch_start="0" haunch_end="0" joint_start="0" joint_end="0" kind_structure="S" kind_joint_start="BOLT" kind_joint_end="BOLT" joint_id_start="0" joint_id_end="0" />
+        <StbGirder id="34" name="G1" id_section="4" rotate="0" idNode_start="21" idNode_end="5" isFoundation="False" offset="0" level="0" offset_start_X="0" offset_start_Y="0" offset_start_Z="0" offset_end_X="0" offset_end_Y="0" offset_end_Z="0" thickness_ex_top="0" thickness_ex_bottom="0" thickness_ex_right="0" thickness_ex_left="0" haunch_start="0" haunch_end="0" joint_start="0" joint_end="0" kind_structure="S" kind_joint_start="BOLT" kind_joint_end="BOLT" joint_id_start="0" joint_id_end="0" />
+        <StbGirder id="35" name="G1" id_section="4" rotate="0" idNode_start="5" idNode_end="7" isFoundation="False" offset="0" level="0" offset_start_X="0" offset_start_Y="0" offset_start_Z="0" offset_end_X="0" offset_end_Y="0" offset_end_Z="0" thickness_ex_top="0" thickness_ex_bottom="0" thickness_ex_right="0" thickness_ex_left="0" haunch_start="0" haunch_end="0" joint_start="0" joint_end="0" kind_structure="S" kind_joint_start="BOLT" kind_joint_end="BOLT" joint_id_start="0" joint_id_end="0" />
+        <StbGirder id="36" name="G1" id_section="4" rotate="0" idNode_start="11" idNode_end="9" isFoundation="False" offset="0" level="0" offset_start_X="0" offset_start_Y="0" offset_start_Z="0" offset_end_X="0" offset_end_Y="0" offset_end_Z="0" thickness_ex_top="0" thickness_ex_bottom="0" thickness_ex_right="0" thickness_ex_left="0" haunch_start="0" haunch_end="0" joint_start="0" joint_end="0" kind_structure="S" kind_joint_start="BOLT" kind_joint_end="BOLT" joint_id_start="0" joint_id_end="0" />
+        <StbGirder id="37" name="G1" id_section="4" rotate="0" idNode_start="27" idNode_end="11" isFoundation="False" offset="0" level="0" offset_start_X="0" offset_start_Y="0" offset_start_Z="0" offset_end_X="0" offset_end_Y="0" offset_end_Z="0" thickness_ex_top="0" thickness_ex_bottom="0" thickness_ex_right="0" thickness_ex_left="0" haunch_start="0" haunch_end="0" joint_start="0" joint_end="0" kind_structure="S" kind_joint_start="BOLT" kind_joint_end="BOLT" joint_id_start="0" joint_id_end="0" />
+        <StbGirder id="38" name="G1" id_section="4" rotate="0" idNode_start="31" idNode_end="27" isFoundation="False" offset="0" level="0" offset_start_X="0" offset_start_Y="0" offset_start_Z="0" offset_end_X="0" offset_end_Y="0" offset_end_Z="0" thickness_ex_top="0" thickness_ex_bottom="0" thickness_ex_right="0" thickness_ex_left="0" haunch_start="0" haunch_end="0" joint_start="0" joint_end="0" kind_structure="S" kind_joint_start="BOLT" kind_joint_end="BOLT" joint_id_start="0" joint_id_end="0" />
+        <StbGirder id="39" name="G1" id_section="4" rotate="0" idNode_start="13" idNode_end="31" isFoundation="False" offset="0" level="0" offset_start_X="0" offset_start_Y="0" offset_start_Z="0" offset_end_X="0" offset_end_Y="0" offset_end_Z="0" thickness_ex_top="0" thickness_ex_bottom="0" thickness_ex_right="0" thickness_ex_left="0" haunch_start="0" haunch_end="0" joint_start="0" joint_end="0" kind_structure="S" kind_joint_start="BOLT" kind_joint_end="BOLT" joint_id_start="0" joint_id_end="0" />
+        <StbGirder id="40" name="G1" id_section="4" rotate="0" idNode_start="15" idNode_end="13" isFoundation="False" offset="0" level="0" offset_start_X="0" offset_start_Y="0" offset_start_Z="0" offset_end_X="0" offset_end_Y="0" offset_end_Z="0" thickness_ex_top="0" thickness_ex_bottom="0" thickness_ex_right="0" thickness_ex_left="0" haunch_start="0" haunch_end="0" joint_start="0" joint_end="0" kind_structure="S" kind_joint_start="BOLT" kind_joint_end="BOLT" joint_id_start="0" joint_id_end="0" />
+        <StbGirder id="41" name="G1" id_section="4" rotate="0" idNode_start="41" idNode_end="1" isFoundation="False" offset="1.8369095307335659E-13" level="0" offset_start_X="0" offset_start_Y="0" offset_start_Z="0" offset_end_X="0" offset_end_Y="0" offset_end_Z="0" thickness_ex_top="0" thickness_ex_bottom="0" thickness_ex_right="0" thickness_ex_left="0" haunch_start="0" haunch_end="0" joint_start="0" joint_end="0" kind_structure="S" kind_joint_start="BOLT" kind_joint_end="BOLT" joint_id_start="0" joint_id_end="0" />
+        <StbGirder id="42" name="G1" id_section="4" rotate="0" idNode_start="15" idNode_end="41" isFoundation="False" offset="1.8369095307335659E-13" level="0" offset_start_X="0" offset_start_Y="0" offset_start_Z="0" offset_end_X="0" offset_end_Y="0" offset_end_Z="0" thickness_ex_top="0" thickness_ex_bottom="0" thickness_ex_right="0" thickness_ex_left="0" haunch_start="0" haunch_end="0" joint_start="0" joint_end="0" kind_structure="S" kind_joint_start="BOLT" kind_joint_end="BOLT" joint_id_start="0" joint_id_end="0" />
+        <StbGirder id="43" name="G1" id_section="4" rotate="0" idNode_start="9" idNode_end="51" isFoundation="False" offset="0" level="0" offset_start_X="0" offset_start_Y="0" offset_start_Z="0" offset_end_X="0" offset_end_Y="0" offset_end_Z="0" thickness_ex_top="0" thickness_ex_bottom="0" thickness_ex_right="0" thickness_ex_left="0" haunch_start="0" haunch_end="0" joint_start="0" joint_end="0" kind_structure="S" kind_joint_start="BOLT" kind_joint_end="BOLT" joint_id_start="0" joint_id_end="0" />
+        <StbGirder id="44" name="G1" id_section="4" rotate="0" idNode_start="51" idNode_end="7" isFoundation="False" offset="0" level="0" offset_start_X="0" offset_start_Y="0" offset_start_Z="0" offset_end_X="0" offset_end_Y="0" offset_end_Z="0" thickness_ex_top="0" thickness_ex_bottom="0" thickness_ex_right="0" thickness_ex_left="0" haunch_start="0" haunch_end="0" joint_start="0" joint_end="0" kind_structure="S" kind_joint_start="BOLT" kind_joint_end="BOLT" joint_id_start="0" joint_id_end="0" />
+        <StbGirder id="47" name="G1" id_section="4" rotate="0" idNode_start="62" idNode_end="3" isFoundation="False" offset="0" level="0" offset_start_X="0" offset_start_Y="0" offset_start_Z="0" offset_end_X="0" offset_end_Y="0" offset_end_Z="0" thickness_ex_top="0" thickness_ex_bottom="0" thickness_ex_right="0" thickness_ex_left="0" haunch_start="0" haunch_end="0" joint_start="0" joint_end="0" kind_structure="S" kind_joint_start="BOLT" kind_joint_end="BOLT" joint_id_start="0" joint_id_end="0" />
+        <StbGirder id="48" name="G1" id_section="4" rotate="0" idNode_start="13" idNode_end="62" isFoundation="False" offset="0" level="0" offset_start_X="0" offset_start_Y="0" offset_start_Z="0" offset_end_X="0" offset_end_Y="0" offset_end_Z="0" thickness_ex_top="0" thickness_ex_bottom="0" thickness_ex_right="0" thickness_ex_left="0" haunch_start="0" haunch_end="0" joint_start="0" joint_end="0" kind_structure="S" kind_joint_start="BOLT" kind_joint_end="BOLT" joint_id_start="0" joint_id_end="0" />
+        <StbGirder id="49" name="G1" id_section="4" rotate="0" idNode_start="31" idNode_end="63" isFoundation="False" offset="0" level="0" offset_start_X="0" offset_start_Y="0" offset_start_Z="0" offset_end_X="0" offset_end_Y="0" offset_end_Z="0" thickness_ex_top="0" thickness_ex_bottom="0" thickness_ex_right="0" thickness_ex_left="0" haunch_start="0" haunch_end="0" joint_start="0" joint_end="0" kind_structure="S" kind_joint_start="BOLT" kind_joint_end="BOLT" joint_id_start="0" joint_id_end="0" />
+        <StbGirder id="50" name="G1" id_section="4" rotate="0" idNode_start="63" idNode_end="19" isFoundation="False" offset="0" level="0" offset_start_X="0" offset_start_Y="0" offset_start_Z="0" offset_end_X="0" offset_end_Y="0" offset_end_Z="0" thickness_ex_top="0" thickness_ex_bottom="0" thickness_ex_right="0" thickness_ex_left="0" haunch_start="0" haunch_end="0" joint_start="0" joint_end="0" kind_structure="S" kind_joint_start="BOLT" kind_joint_end="BOLT" joint_id_start="0" joint_id_end="0" />
+        <StbGirder id="55" name="G1" id_section="4" rotate="0" idNode_start="66" idNode_end="21" isFoundation="False" offset="0" level="0" offset_start_X="0" offset_start_Y="0" offset_start_Z="0" offset_end_X="0" offset_end_Y="0" offset_end_Z="0" thickness_ex_top="0" thickness_ex_bottom="0" thickness_ex_right="0" thickness_ex_left="0" haunch_start="0" haunch_end="0" joint_start="0" joint_end="0" kind_structure="S" kind_joint_start="BOLT" kind_joint_end="BOLT" joint_id_start="0" joint_id_end="0" />
+        <StbGirder id="56" name="G1" id_section="4" rotate="0" idNode_start="67" idNode_end="5" isFoundation="False" offset="0" level="0" offset_start_X="0" offset_start_Y="0" offset_start_Z="0" offset_end_X="0" offset_end_Y="0" offset_end_Z="0" thickness_ex_top="0" thickness_ex_bottom="0" thickness_ex_right="0" thickness_ex_left="0" haunch_start="0" haunch_end="0" joint_start="0" joint_end="0" kind_structure="S" kind_joint_start="BOLT" kind_joint_end="BOLT" joint_id_start="0" joint_id_end="0" />
+        <StbGirder id="59" name="G1" id_section="4" rotate="0" idNode_start="11" idNode_end="67" isFoundation="False" offset="0" level="0" offset_start_X="0" offset_start_Y="0" offset_start_Z="0" offset_end_X="0" offset_end_Y="0" offset_end_Z="0" thickness_ex_top="0" thickness_ex_bottom="0" thickness_ex_right="0" thickness_ex_left="0" haunch_start="0" haunch_end="0" joint_start="0" joint_end="0" kind_structure="S" kind_joint_start="BOLT" kind_joint_end="BOLT" joint_id_start="0" joint_id_end="0" />
+        <StbGirder id="60" name="G1" id_section="4" rotate="0" idNode_start="27" idNode_end="66" isFoundation="False" offset="0" level="0" offset_start_X="0" offset_start_Y="0" offset_start_Z="0" offset_end_X="0" offset_end_Y="0" offset_end_Z="0" thickness_ex_top="0" thickness_ex_bottom="0" thickness_ex_right="0" thickness_ex_left="0" haunch_start="0" haunch_end="0" joint_start="0" joint_end="0" kind_structure="S" kind_joint_start="BOLT" kind_joint_end="BOLT" joint_id_start="0" joint_id_end="0" />
+        <StbGirder id="94" name="FG1" id_section="8" rotate="0" idNode_start="16" idNode_end="97" isFoundation="True" offset="1.8369095307335659E-13" level="0" offset_start_X="0" offset_start_Y="0" offset_start_Z="0" offset_end_X="0" offset_end_Y="0" offset_end_Z="0" thickness_ex_top="0" thickness_ex_bottom="0" thickness_ex_right="0" thickness_ex_left="0" haunch_start="0" haunch_end="0" joint_start="0" joint_end="0" kind_structure="RC" joint_id_start="0" joint_id_end="0" />
+        <StbGirder id="95" name="FG1" id_section="8" rotate="0" idNode_start="97" idNode_end="2" isFoundation="True" offset="1.8369095307335659E-13" level="0" offset_start_X="0" offset_start_Y="0" offset_start_Z="0" offset_end_X="0" offset_end_Y="0" offset_end_Z="0" thickness_ex_top="0" thickness_ex_bottom="0" thickness_ex_right="0" thickness_ex_left="0" haunch_start="0" haunch_end="0" joint_start="0" joint_end="0" kind_structure="RC" joint_id_start="0" joint_id_end="0" />
+        <StbGirder id="96" name="FG1" id_section="8" rotate="0" idNode_start="14" idNode_end="98" isFoundation="True" offset="0" level="0" offset_start_X="0" offset_start_Y="0" offset_start_Z="0" offset_end_X="0" offset_end_Y="0" offset_end_Z="0" thickness_ex_top="0" thickness_ex_bottom="0" thickness_ex_right="0" thickness_ex_left="0" haunch_start="0" haunch_end="0" joint_start="0" joint_end="0" kind_structure="RC" joint_id_start="0" joint_id_end="0" />
+        <StbGirder id="97" name="FG1" id_section="8" rotate="0" idNode_start="98" idNode_end="4" isFoundation="True" offset="0" level="0" offset_start_X="0" offset_start_Y="0" offset_start_Z="0" offset_end_X="0" offset_end_Y="0" offset_end_Z="0" thickness_ex_top="0" thickness_ex_bottom="0" thickness_ex_right="0" thickness_ex_left="0" haunch_start="0" haunch_end="0" joint_start="0" joint_end="0" kind_structure="RC" joint_id_start="0" joint_id_end="0" />
+        <StbGirder id="98" name="FG1" id_section="8" rotate="0" idNode_start="32" idNode_end="99" isFoundation="True" offset="0" level="0" offset_start_X="0" offset_start_Y="0" offset_start_Z="0" offset_end_X="0" offset_end_Y="0" offset_end_Z="0" thickness_ex_top="0" thickness_ex_bottom="0" thickness_ex_right="0" thickness_ex_left="0" haunch_start="0" haunch_end="0" joint_start="0" joint_end="0" kind_structure="RC" joint_id_start="0" joint_id_end="0" />
+        <StbGirder id="99" name="FG1" id_section="8" rotate="0" idNode_start="99" idNode_end="20" isFoundation="True" offset="0" level="0" offset_start_X="0" offset_start_Y="0" offset_start_Z="0" offset_end_X="0" offset_end_Y="0" offset_end_Z="0" thickness_ex_top="0" thickness_ex_bottom="0" thickness_ex_right="0" thickness_ex_left="0" haunch_start="0" haunch_end="0" joint_start="0" joint_end="0" kind_structure="RC" joint_id_start="0" joint_id_end="0" />
+        <StbGirder id="100" name="FG1" id_section="8" rotate="0" idNode_start="28" idNode_end="100" isFoundation="True" offset="0" level="0" offset_start_X="0" offset_start_Y="0" offset_start_Z="0" offset_end_X="0" offset_end_Y="0" offset_end_Z="0" thickness_ex_top="0" thickness_ex_bottom="0" thickness_ex_right="0" thickness_ex_left="0" haunch_start="0" haunch_end="0" joint_start="0" joint_end="0" kind_structure="RC" joint_id_start="0" joint_id_end="0" />
+        <StbGirder id="101" name="FG1" id_section="8" rotate="0" idNode_start="100" idNode_end="22" isFoundation="True" offset="0" level="0" offset_start_X="0" offset_start_Y="0" offset_start_Z="0" offset_end_X="0" offset_end_Y="0" offset_end_Z="0" thickness_ex_top="0" thickness_ex_bottom="0" thickness_ex_right="0" thickness_ex_left="0" haunch_start="0" haunch_end="0" joint_start="0" joint_end="0" kind_structure="RC" joint_id_start="0" joint_id_end="0" />
+        <StbGirder id="102" name="FG1" id_section="8" rotate="0" idNode_start="12" idNode_end="101" isFoundation="True" offset="0" level="0" offset_start_X="0" offset_start_Y="0" offset_start_Z="0" offset_end_X="0" offset_end_Y="0" offset_end_Z="0" thickness_ex_top="0" thickness_ex_bottom="0" thickness_ex_right="0" thickness_ex_left="0" haunch_start="0" haunch_end="0" joint_start="0" joint_end="0" kind_structure="RC" joint_id_start="0" joint_id_end="0" />
+        <StbGirder id="103" name="FG1" id_section="8" rotate="0" idNode_start="101" idNode_end="6" isFoundation="True" offset="0" level="0" offset_start_X="0" offset_start_Y="0" offset_start_Z="0" offset_end_X="0" offset_end_Y="0" offset_end_Z="0" thickness_ex_top="0" thickness_ex_bottom="0" thickness_ex_right="0" thickness_ex_left="0" haunch_start="0" haunch_end="0" joint_start="0" joint_end="0" kind_structure="RC" joint_id_start="0" joint_id_end="0" />
+        <StbGirder id="104" name="FG1" id_section="8" rotate="0" idNode_start="10" idNode_end="102" isFoundation="True" offset="0" level="0" offset_start_X="0" offset_start_Y="0" offset_start_Z="0" offset_end_X="0" offset_end_Y="0" offset_end_Z="0" thickness_ex_top="0" thickness_ex_bottom="0" thickness_ex_right="0" thickness_ex_left="0" haunch_start="0" haunch_end="0" joint_start="0" joint_end="0" kind_structure="RC" joint_id_start="0" joint_id_end="0" />
+        <StbGirder id="105" name="FG1" id_section="8" rotate="0" idNode_start="102" idNode_end="8" isFoundation="True" offset="0" level="0" offset_start_X="0" offset_start_Y="0" offset_start_Z="0" offset_end_X="0" offset_end_Y="0" offset_end_Z="0" thickness_ex_top="0" thickness_ex_bottom="0" thickness_ex_right="0" thickness_ex_left="0" haunch_start="0" haunch_end="0" joint_start="0" joint_end="0" kind_structure="RC" joint_id_start="0" joint_id_end="0" />
+        <StbGirder id="106" name="FG1" id_section="8" rotate="0" idNode_start="2" idNode_end="4" isFoundation="True" offset="0" level="0" offset_start_X="0" offset_start_Y="0" offset_start_Z="0" offset_end_X="0" offset_end_Y="0" offset_end_Z="0" thickness_ex_top="0" thickness_ex_bottom="0" thickness_ex_right="0" thickness_ex_left="0" haunch_start="0" haunch_end="0" joint_start="0" joint_end="0" kind_structure="RC" joint_id_start="0" joint_id_end="0" />
+        <StbGirder id="107" name="FG1" id_section="8" rotate="0" idNode_start="4" idNode_end="20" isFoundation="True" offset="0" level="0" offset_start_X="0" offset_start_Y="0" offset_start_Z="0" offset_end_X="0" offset_end_Y="0" offset_end_Z="0" thickness_ex_top="0" thickness_ex_bottom="0" thickness_ex_right="0" thickness_ex_left="0" haunch_start="0" haunch_end="0" joint_start="0" joint_end="0" kind_structure="RC" joint_id_start="0" joint_id_end="0" />
+        <StbGirder id="108" name="FG1" id_section="8" rotate="0" idNode_start="20" idNode_end="22" isFoundation="True" offset="0" level="0" offset_start_X="0" offset_start_Y="0" offset_start_Z="0" offset_end_X="0" offset_end_Y="0" offset_end_Z="0" thickness_ex_top="0" thickness_ex_bottom="0" thickness_ex_right="0" thickness_ex_left="0" haunch_start="0" haunch_end="0" joint_start="0" joint_end="0" kind_structure="RC" joint_id_start="0" joint_id_end="0" />
+        <StbGirder id="109" name="FG1" id_section="8" rotate="0" idNode_start="22" idNode_end="6" isFoundation="True" offset="0" level="0" offset_start_X="0" offset_start_Y="0" offset_start_Z="0" offset_end_X="0" offset_end_Y="0" offset_end_Z="0" thickness_ex_top="0" thickness_ex_bottom="0" thickness_ex_right="0" thickness_ex_left="0" haunch_start="0" haunch_end="0" joint_start="0" joint_end="0" kind_structure="RC" joint_id_start="0" joint_id_end="0" />
+        <StbGirder id="110" name="FG1" id_section="8" rotate="0" idNode_start="6" idNode_end="8" isFoundation="True" offset="0" level="0" offset_start_X="0" offset_start_Y="0" offset_start_Z="0" offset_end_X="0" offset_end_Y="0" offset_end_Z="0" thickness_ex_top="0" thickness_ex_bottom="0" thickness_ex_right="0" thickness_ex_left="0" haunch_start="0" haunch_end="0" joint_start="0" joint_end="0" kind_structure="RC" joint_id_start="0" joint_id_end="0" />
+        <StbGirder id="111" name="FG1" id_section="8" rotate="0" idNode_start="16" idNode_end="14" isFoundation="True" offset="0" level="0" offset_start_X="0" offset_start_Y="0" offset_start_Z="0" offset_end_X="0" offset_end_Y="0" offset_end_Z="0" thickness_ex_top="0" thickness_ex_bottom="0" thickness_ex_right="0" thickness_ex_left="0" haunch_start="0" haunch_end="0" joint_start="0" joint_end="0" kind_structure="RC" joint_id_start="0" joint_id_end="0" />
+        <StbGirder id="112" name="FG1" id_section="8" rotate="0" idNode_start="14" idNode_end="32" isFoundation="True" offset="0" level="0" offset_start_X="0" offset_start_Y="0" offset_start_Z="0" offset_end_X="0" offset_end_Y="0" offset_end_Z="0" thickness_ex_top="0" thickness_ex_bottom="0" thickness_ex_right="0" thickness_ex_left="0" haunch_start="0" haunch_end="0" joint_start="0" joint_end="0" kind_structure="RC" joint_id_start="0" joint_id_end="0" />
+        <StbGirder id="113" name="FG1" id_section="8" rotate="0" idNode_start="32" idNode_end="28" isFoundation="True" offset="0" level="0" offset_start_X="0" offset_start_Y="0" offset_start_Z="0" offset_end_X="0" offset_end_Y="0" offset_end_Z="0" thickness_ex_top="0" thickness_ex_bottom="0" thickness_ex_right="0" thickness_ex_left="0" haunch_start="0" haunch_end="0" joint_start="0" joint_end="0" kind_structure="RC" joint_id_start="0" joint_id_end="0" />
+        <StbGirder id="114" name="FG1" id_section="8" rotate="0" idNode_start="28" idNode_end="12" isFoundation="True" offset="0" level="0" offset_start_X="0" offset_start_Y="0" offset_start_Z="0" offset_end_X="0" offset_end_Y="0" offset_end_Z="0" thickness_ex_top="0" thickness_ex_bottom="0" thickness_ex_right="0" thickness_ex_left="0" haunch_start="0" haunch_end="0" joint_start="0" joint_end="0" kind_structure="RC" joint_id_start="0" joint_id_end="0" />
+        <StbGirder id="115" name="FG1" id_section="8" rotate="0" idNode_start="12" idNode_end="10" isFoundation="True" offset="0" level="0" offset_start_X="0" offset_start_Y="0" offset_start_Z="0" offset_end_X="0" offset_end_Y="0" offset_end_Z="0" thickness_ex_top="0" thickness_ex_bottom="0" thickness_ex_right="0" thickness_ex_left="0" haunch_start="0" haunch_end="0" joint_start="0" joint_end="0" kind_structure="RC" joint_id_start="0" joint_id_end="0" />
+      </StbGirders>
+      <StbBeams>
+        <StbBeam id="45" name="B2" id_section="5" rotate="0" idNode_start="61" idNode_end="17" isFoundation="False" offset="0" level="0" offset_start_X="0" offset_start_Y="0" offset_start_Z="0" offset_end_X="0" offset_end_Y="0" offset_end_Z="0" thickness_ex_top="0" thickness_ex_bottom="0" thickness_ex_right="0" thickness_ex_left="0" haunch_start="0" haunch_end="0" joint_start="0" joint_end="0" kind_structure="S" kind_joint_start="BOLT" kind_joint_end="BOLT" joint_id_start="0" joint_id_end="0" />
+        <StbBeam id="46" name="B2" id_section="5" rotate="0" idNode_start="29" idNode_end="61" isFoundation="False" offset="0" level="0" offset_start_X="0" offset_start_Y="0" offset_start_Z="0" offset_end_X="0" offset_end_Y="0" offset_end_Z="0" thickness_ex_top="0" thickness_ex_bottom="0" thickness_ex_right="0" thickness_ex_left="0" haunch_start="0" haunch_end="0" joint_start="0" joint_end="0" kind_structure="S" kind_joint_start="BOLT" kind_joint_end="BOLT" joint_id_start="0" joint_id_end="0" />
+        <StbBeam id="51" name="B2" id_section="5" rotate="0" idNode_start="64" idNode_end="57" isFoundation="False" offset="0" level="0" offset_start_X="0" offset_start_Y="0" offset_start_Z="0" offset_end_X="0" offset_end_Y="0" offset_end_Z="0" thickness_ex_top="0" thickness_ex_bottom="0" thickness_ex_right="0" thickness_ex_left="0" haunch_start="0" haunch_end="0" joint_start="0" joint_end="0" kind_structure="S" kind_joint_start="BOLT" kind_joint_end="BOLT" joint_id_start="0" joint_id_end="0" />
+        <StbBeam id="52" name="B2" id_section="5" rotate="0" idNode_start="53" idNode_end="64" isFoundation="False" offset="0" level="0" offset_start_X="0" offset_start_Y="0" offset_start_Z="0" offset_end_X="0" offset_end_Y="0" offset_end_Z="0" thickness_ex_top="0" thickness_ex_bottom="0" thickness_ex_right="0" thickness_ex_left="0" haunch_start="0" haunch_end="0" joint_start="0" joint_end="0" kind_structure="S" kind_joint_start="BOLT" kind_joint_end="BOLT" joint_id_start="0" joint_id_end="0" />
+        <StbBeam id="53" name="B2" id_section="5" rotate="0" idNode_start="55" idNode_end="65" isFoundation="False" offset="0" level="0" offset_start_X="0" offset_start_Y="0" offset_start_Z="0" offset_end_X="0" offset_end_Y="0" offset_end_Z="0" thickness_ex_top="0" thickness_ex_bottom="0" thickness_ex_right="0" thickness_ex_left="0" haunch_start="0" haunch_end="0" joint_start="0" joint_end="0" kind_structure="S" kind_joint_start="BOLT" kind_joint_end="BOLT" joint_id_start="0" joint_id_end="0" />
+        <StbBeam id="54" name="B2" id_section="5" rotate="0" idNode_start="65" idNode_end="59" isFoundation="False" offset="0" level="0" offset_start_X="0" offset_start_Y="0" offset_start_Z="0" offset_end_X="0" offset_end_Y="0" offset_end_Z="0" thickness_ex_top="0" thickness_ex_bottom="0" thickness_ex_right="0" thickness_ex_left="0" haunch_start="0" haunch_end="0" joint_start="0" joint_end="0" kind_structure="S" kind_joint_start="BOLT" kind_joint_end="BOLT" joint_id_start="0" joint_id_end="0" />
+        <StbBeam id="57" name="B2" id_section="5" rotate="0" idNode_start="68" idNode_end="23" isFoundation="False" offset="0" level="0" offset_start_X="0" offset_start_Y="0" offset_start_Z="0" offset_end_X="0" offset_end_Y="0" offset_end_Z="0" thickness_ex_top="0" thickness_ex_bottom="0" thickness_ex_right="0" thickness_ex_left="0" haunch_start="0" haunch_end="0" joint_start="0" joint_end="0" kind_structure="S" kind_joint_start="BOLT" kind_joint_end="BOLT" joint_id_start="0" joint_id_end="0" />
+        <StbBeam id="58" name="B2" id_section="5" rotate="0" idNode_start="25" idNode_end="68" isFoundation="False" offset="0" level="0" offset_start_X="0" offset_start_Y="0" offset_start_Z="0" offset_end_X="0" offset_end_Y="0" offset_end_Z="0" thickness_ex_top="0" thickness_ex_bottom="0" thickness_ex_right="0" thickness_ex_left="0" haunch_start="0" haunch_end="0" joint_start="0" joint_end="0" kind_structure="S" kind_joint_start="BOLT" kind_joint_end="BOLT" joint_id_start="0" joint_id_end="0" />
+        <StbBeam id="61" name="B1" id_section="6" rotate="0" idNode_start="69" idNode_end="70" isFoundation="False" offset="0" level="0" offset_start_X="0" offset_start_Y="0" offset_start_Z="0" offset_end_X="0" offset_end_Y="0" offset_end_Z="0" thickness_ex_top="0" thickness_ex_bottom="0" thickness_ex_right="0" thickness_ex_left="0" haunch_start="0" haunch_end="0" joint_start="0" joint_end="0" kind_structure="S" kind_joint_start="BOLT" kind_joint_end="BOLT" joint_id_start="0" joint_id_end="0" />
+        <StbBeam id="62" name="B1" id_section="6" rotate="0" idNode_start="70" idNode_end="71" isFoundation="False" offset="0" level="0" offset_start_X="0" offset_start_Y="0" offset_start_Z="0" offset_end_X="0" offset_end_Y="0" offset_end_Z="0" thickness_ex_top="0" thickness_ex_bottom="0" thickness_ex_right="0" thickness_ex_left="0" haunch_start="0" haunch_end="0" joint_start="0" joint_end="0" kind_structure="S" kind_joint_start="BOLT" kind_joint_end="BOLT" joint_id_start="0" joint_id_end="0" />
+        <StbBeam id="63" name="B1" id_section="6" rotate="0" idNode_start="71" idNode_end="72" isFoundation="False" offset="0" level="0" offset_start_X="0" offset_start_Y="0" offset_start_Z="0" offset_end_X="0" offset_end_Y="0" offset_end_Z="0" thickness_ex_top="0" thickness_ex_bottom="0" thickness_ex_right="0" thickness_ex_left="0" haunch_start="0" haunch_end="0" joint_start="0" joint_end="0" kind_structure="S" kind_joint_start="BOLT" kind_joint_end="BOLT" joint_id_start="0" joint_id_end="0" />
+        <StbBeam id="64" name="B1" id_section="6" rotate="0" idNode_start="73" idNode_end="74" isFoundation="False" offset="0" level="0" offset_start_X="0" offset_start_Y="0" offset_start_Z="0" offset_end_X="0" offset_end_Y="0" offset_end_Z="0" thickness_ex_top="0" thickness_ex_bottom="0" thickness_ex_right="0" thickness_ex_left="0" haunch_start="0" haunch_end="0" joint_start="0" joint_end="0" kind_structure="S" kind_joint_start="BOLT" kind_joint_end="BOLT" joint_id_start="0" joint_id_end="0" />
+        <StbBeam id="65" name="B1" id_section="6" rotate="0" idNode_start="75" idNode_end="76" isFoundation="False" offset="0" level="0" offset_start_X="0" offset_start_Y="0" offset_start_Z="0" offset_end_X="0" offset_end_Y="0" offset_end_Z="0" thickness_ex_top="0" thickness_ex_bottom="0" thickness_ex_right="0" thickness_ex_left="0" haunch_start="0" haunch_end="0" joint_start="0" joint_end="0" kind_structure="S" kind_joint_start="BOLT" kind_joint_end="BOLT" joint_id_start="0" joint_id_end="0" />
+        <StbBeam id="66" name="B1" id_section="6" rotate="0" idNode_start="74" idNode_end="75" isFoundation="False" offset="0" level="0" offset_start_X="0" offset_start_Y="0" offset_start_Z="0" offset_end_X="0" offset_end_Y="0" offset_end_Z="0" thickness_ex_top="0" thickness_ex_bottom="0" thickness_ex_right="0" thickness_ex_left="0" haunch_start="0" haunch_end="0" joint_start="0" joint_end="0" kind_structure="S" kind_joint_start="BOLT" kind_joint_end="BOLT" joint_id_start="0" joint_id_end="0" />
+        <StbBeam id="67" name="B1" id_section="6" rotate="0" idNode_start="77" idNode_end="76" isFoundation="False" offset="0" level="0" offset_start_X="0" offset_start_Y="0" offset_start_Z="0" offset_end_X="0" offset_end_Y="0" offset_end_Z="0" thickness_ex_top="0" thickness_ex_bottom="0" thickness_ex_right="0" thickness_ex_left="0" haunch_start="0" haunch_end="0" joint_start="0" joint_end="0" kind_structure="S" kind_joint_start="BOLT" kind_joint_end="BOLT" joint_id_start="0" joint_id_end="0" />
+        <StbBeam id="68" name="B1" id_section="6" rotate="0" idNode_start="78" idNode_end="77" isFoundation="False" offset="0" level="0" offset_start_X="0" offset_start_Y="0" offset_start_Z="0" offset_end_X="0" offset_end_Y="0" offset_end_Z="0" thickness_ex_top="0" thickness_ex_bottom="0" thickness_ex_right="0" thickness_ex_left="0" haunch_start="0" haunch_end="0" joint_start="0" joint_end="0" kind_structure="S" kind_joint_start="BOLT" kind_joint_end="BOLT" joint_id_start="0" joint_id_end="0" />
+        <StbBeam id="69" name="B1" id_section="6" rotate="0" idNode_start="79" idNode_end="78" isFoundation="False" offset="0" level="0" offset_start_X="0" offset_start_Y="0" offset_start_Z="0" offset_end_X="0" offset_end_Y="0" offset_end_Z="0" thickness_ex_top="0" thickness_ex_bottom="0" thickness_ex_right="0" thickness_ex_left="0" haunch_start="0" haunch_end="0" joint_start="0" joint_end="0" kind_structure="S" kind_joint_start="BOLT" kind_joint_end="BOLT" joint_id_start="0" joint_id_end="0" />
+        <StbBeam id="70" name="B1" id_section="6" rotate="0" idNode_start="80" idNode_end="79" isFoundation="False" offset="0" level="0" offset_start_X="0" offset_start_Y="0" offset_start_Z="0" offset_end_X="0" offset_end_Y="0" offset_end_Z="0" thickness_ex_top="0" thickness_ex_bottom="0" thickness_ex_right="0" thickness_ex_left="0" haunch_start="0" haunch_end="0" joint_start="0" joint_end="0" kind_structure="S" kind_joint_start="BOLT" kind_joint_end="BOLT" joint_id_start="0" joint_id_end="0" />
+        <StbBeam id="71" name="B1" id_section="6" rotate="0" idNode_start="81" idNode_end="80" isFoundation="False" offset="0" level="0" offset_start_X="0" offset_start_Y="0" offset_start_Z="0" offset_end_X="0" offset_end_Y="0" offset_end_Z="0" thickness_ex_top="0" thickness_ex_bottom="0" thickness_ex_right="0" thickness_ex_left="0" haunch_start="0" haunch_end="0" joint_start="0" joint_end="0" kind_structure="S" kind_joint_start="BOLT" kind_joint_end="BOLT" joint_id_start="0" joint_id_end="0" />
+        <StbBeam id="72" name="B1" id_section="6" rotate="0" idNode_start="82" idNode_end="81" isFoundation="False" offset="0" level="0" offset_start_X="0" offset_start_Y="0" offset_start_Z="0" offset_end_X="0" offset_end_Y="0" offset_end_Z="0" thickness_ex_top="0" thickness_ex_bottom="0" thickness_ex_right="0" thickness_ex_left="0" haunch_start="0" haunch_end="0" joint_start="0" joint_end="0" kind_structure="S" kind_joint_start="BOLT" kind_joint_end="BOLT" joint_id_start="0" joint_id_end="0" />
+        <StbBeam id="73" name="B1" id_section="6" rotate="0" idNode_start="83" idNode_end="82" isFoundation="False" offset="0" level="0" offset_start_X="0" offset_start_Y="0" offset_start_Z="0" offset_end_X="0" offset_end_Y="0" offset_end_Z="0" thickness_ex_top="0" thickness_ex_bottom="0" thickness_ex_right="0" thickness_ex_left="0" haunch_start="0" haunch_end="0" joint_start="0" joint_end="0" kind_structure="S" kind_joint_start="BOLT" kind_joint_end="BOLT" joint_id_start="0" joint_id_end="0" />
+        <StbBeam id="74" name="B1" id_section="6" rotate="0" idNode_start="84" idNode_end="83" isFoundation="False" offset="0" level="0" offset_start_X="0" offset_start_Y="0" offset_start_Z="0" offset_end_X="0" offset_end_Y="0" offset_end_Z="0" thickness_ex_top="0" thickness_ex_bottom="0" thickness_ex_right="0" thickness_ex_left="0" haunch_start="0" haunch_end="0" joint_start="0" joint_end="0" kind_structure="S" kind_joint_start="BOLT" kind_joint_end="BOLT" joint_id_start="0" joint_id_end="0" />
+        <StbBeam id="75" name="B1" id_section="6" rotate="0" idNode_start="85" idNode_end="84" isFoundation="False" offset="0" level="0" offset_start_X="0" offset_start_Y="0" offset_start_Z="0" offset_end_X="0" offset_end_Y="0" offset_end_Z="0" thickness_ex_top="0" thickness_ex_bottom="0" thickness_ex_right="0" thickness_ex_left="0" haunch_start="0" haunch_end="0" joint_start="0" joint_end="0" kind_structure="S" kind_joint_start="BOLT" kind_joint_end="BOLT" joint_id_start="0" joint_id_end="0" />
+        <StbBeam id="76" name="B1" id_section="6" rotate="0" idNode_start="86" idNode_end="85" isFoundation="False" offset="0" level="0" offset_start_X="0" offset_start_Y="0" offset_start_Z="0" offset_end_X="0" offset_end_Y="0" offset_end_Z="0" thickness_ex_top="0" thickness_ex_bottom="0" thickness_ex_right="0" thickness_ex_left="0" haunch_start="0" haunch_end="0" joint_start="0" joint_end="0" kind_structure="S" kind_joint_start="BOLT" kind_joint_end="BOLT" joint_id_start="0" joint_id_end="0" />
+        <StbBeam id="77" name="B1" id_section="6" rotate="0" idNode_start="86" idNode_end="87" isFoundation="False" offset="9.18454765366783E-14" level="0" offset_start_X="0" offset_start_Y="0" offset_start_Z="0" offset_end_X="0" offset_end_Y="0" offset_end_Z="0" thickness_ex_top="0" thickness_ex_bottom="0" thickness_ex_right="0" thickness_ex_left="0" haunch_start="0" haunch_end="0" joint_start="0" joint_end="0" kind_structure="S" kind_joint_start="BOLT" kind_joint_end="BOLT" joint_id_start="0" joint_id_end="0" />
+        <StbBeam id="78" name="B1" id_section="6" rotate="0" idNode_start="88" idNode_end="69" isFoundation="False" offset="9.18454765366783E-14" level="0" offset_start_X="0" offset_start_Y="0" offset_start_Z="0" offset_end_X="0" offset_end_Y="0" offset_end_Z="0" thickness_ex_top="0" thickness_ex_bottom="0" thickness_ex_right="0" thickness_ex_left="0" haunch_start="0" haunch_end="0" joint_start="0" joint_end="0" kind_structure="S" kind_joint_start="BOLT" kind_joint_end="BOLT" joint_id_start="0" joint_id_end="0" />
+        <StbBeam id="79" name="B1" id_section="6" rotate="0" idNode_start="87" idNode_end="88" isFoundation="False" offset="1.8369095307335659E-13" level="0" offset_start_X="0" offset_start_Y="0" offset_start_Z="0" offset_end_X="0" offset_end_Y="0" offset_end_Z="0" thickness_ex_top="0" thickness_ex_bottom="0" thickness_ex_right="0" thickness_ex_left="0" haunch_start="0" haunch_end="0" joint_start="0" joint_end="0" kind_structure="S" kind_joint_start="BOLT" kind_joint_end="BOLT" joint_id_start="0" joint_id_end="0" />
+        <StbBeam id="80" name="B3" id_section="7" rotate="0" idNode_start="89" idNode_end="82" isFoundation="False" offset="0" level="0" offset_start_X="0" offset_start_Y="0" offset_start_Z="0" offset_end_X="0" offset_end_Y="0" offset_end_Z="0" thickness_ex_top="0" thickness_ex_bottom="0" thickness_ex_right="0" thickness_ex_left="0" haunch_start="0" haunch_end="0" joint_start="0" joint_end="0" kind_structure="S" kind_joint_start="BOLT" kind_joint_end="BOLT" joint_id_start="0" joint_id_end="0" />
+        <StbBeam id="81" name="B3" id_section="7" rotate="0" idNode_start="90" idNode_end="89" isFoundation="False" offset="0" level="0" offset_start_X="0" offset_start_Y="0" offset_start_Z="0" offset_end_X="0" offset_end_Y="0" offset_end_Z="0" thickness_ex_top="0" thickness_ex_bottom="0" thickness_ex_right="0" thickness_ex_left="0" haunch_start="0" haunch_end="0" joint_start="0" joint_end="0" kind_structure="S" kind_joint_start="BOLT" kind_joint_end="BOLT" joint_id_start="0" joint_id_end="0" />
+        <StbBeam id="82" name="B2" id_section="5" rotate="0" idNode_start="91" idNode_end="54" isFoundation="False" offset="0" level="0" offset_start_X="0" offset_start_Y="0" offset_start_Z="0" offset_end_X="0" offset_end_Y="0" offset_end_Z="0" thickness_ex_top="0" thickness_ex_bottom="0" thickness_ex_right="0" thickness_ex_left="0" haunch_start="0" haunch_end="0" joint_start="0" joint_end="0" kind_structure="S" kind_joint_start="BOLT" kind_joint_end="BOLT" joint_id_start="0" joint_id_end="0" />
+        <StbBeam id="83" name="B2" id_section="5" rotate="0" idNode_start="92" idNode_end="56" isFoundation="False" offset="0" level="0" offset_start_X="0" offset_start_Y="0" offset_start_Z="0" offset_end_X="0" offset_end_Y="0" offset_end_Z="0" thickness_ex_top="0" thickness_ex_bottom="0" thickness_ex_right="0" thickness_ex_left="0" haunch_start="0" haunch_end="0" joint_start="0" joint_end="0" kind_structure="S" kind_joint_start="BOLT" kind_joint_end="BOLT" joint_id_start="0" joint_id_end="0" />
+        <StbBeam id="84" name="B2" id_section="5" rotate="0" idNode_start="93" idNode_end="94" isFoundation="False" offset="0" level="0" offset_start_X="0" offset_start_Y="0" offset_start_Z="0" offset_end_X="0" offset_end_Y="0" offset_end_Z="0" thickness_ex_top="0" thickness_ex_bottom="0" thickness_ex_right="0" thickness_ex_left="0" haunch_start="0" haunch_end="0" joint_start="0" joint_end="0" kind_structure="S" kind_joint_start="BOLT" kind_joint_end="BOLT" joint_id_start="0" joint_id_end="0" />
+        <StbBeam id="85" name="B3" id_section="7" rotate="0" idNode_start="90" idNode_end="83" isFoundation="False" offset="0" level="0" offset_start_X="0" offset_start_Y="0" offset_start_Z="0" offset_end_X="0" offset_end_Y="0" offset_end_Z="0" thickness_ex_top="0" thickness_ex_bottom="0" thickness_ex_right="0" thickness_ex_left="0" haunch_start="0" haunch_end="0" joint_start="0" joint_end="0" kind_structure="S" kind_joint_start="BOLT" kind_joint_end="BOLT" joint_id_start="0" joint_id_end="0" />
+        <StbBeam id="86" name="B1" id_section="6" rotate="0" idNode_start="41" idNode_end="62" isFoundation="False" offset="0" level="0" offset_start_X="0" offset_start_Y="0" offset_start_Z="0" offset_end_X="0" offset_end_Y="0" offset_end_Z="0" thickness_ex_top="0" thickness_ex_bottom="0" thickness_ex_right="0" thickness_ex_left="0" haunch_start="0" haunch_end="0" joint_start="0" joint_end="0" kind_structure="S" kind_joint_start="BOLT" kind_joint_end="BOLT" joint_id_start="0" joint_id_end="0" />
+        <StbBeam id="87" name="B1" id_section="6" rotate="0" idNode_start="62" idNode_end="63" isFoundation="False" offset="0" level="0" offset_start_X="0" offset_start_Y="0" offset_start_Z="0" offset_end_X="0" offset_end_Y="0" offset_end_Z="0" thickness_ex_top="0" thickness_ex_bottom="0" thickness_ex_right="0" thickness_ex_left="0" haunch_start="0" haunch_end="0" joint_start="0" joint_end="0" kind_structure="S" kind_joint_start="BOLT" kind_joint_end="BOLT" joint_id_start="0" joint_id_end="0" />
+        <StbBeam id="88" name="B1" id_section="6" rotate="0" idNode_start="63" idNode_end="66" isFoundation="False" offset="0" level="0" offset_start_X="0" offset_start_Y="0" offset_start_Z="0" offset_end_X="0" offset_end_Y="0" offset_end_Z="0" thickness_ex_top="0" thickness_ex_bottom="0" thickness_ex_right="0" thickness_ex_left="0" haunch_start="0" haunch_end="0" joint_start="0" joint_end="0" kind_structure="S" kind_joint_start="BOLT" kind_joint_end="BOLT" joint_id_start="0" joint_id_end="0" />
+        <StbBeam id="89" name="B1" id_section="6" rotate="0" idNode_start="66" idNode_end="67" isFoundation="False" offset="0" level="0" offset_start_X="0" offset_start_Y="0" offset_start_Z="0" offset_end_X="0" offset_end_Y="0" offset_end_Z="0" thickness_ex_top="0" thickness_ex_bottom="0" thickness_ex_right="0" thickness_ex_left="0" haunch_start="0" haunch_end="0" joint_start="0" joint_end="0" kind_structure="S" kind_joint_start="BOLT" kind_joint_end="BOLT" joint_id_start="0" joint_id_end="0" />
+        <StbBeam id="90" name="B1" id_section="6" rotate="0" idNode_start="67" idNode_end="51" isFoundation="False" offset="0" level="0" offset_start_X="0" offset_start_Y="0" offset_start_Z="0" offset_end_X="0" offset_end_Y="0" offset_end_Z="0" thickness_ex_top="0" thickness_ex_bottom="0" thickness_ex_right="0" thickness_ex_left="0" haunch_start="0" haunch_end="0" joint_start="0" joint_end="0" kind_structure="S" kind_joint_start="BOLT" kind_joint_end="BOLT" joint_id_start="0" joint_id_end="0" />
+        <StbBeam id="91" name="B1" id_section="6" rotate="0" idNode_start="72" idNode_end="95" isFoundation="False" offset="0" level="0" offset_start_X="0" offset_start_Y="0" offset_start_Z="0" offset_end_X="0" offset_end_Y="0" offset_end_Z="0" thickness_ex_top="0" thickness_ex_bottom="0" thickness_ex_right="0" thickness_ex_left="0" haunch_start="0" haunch_end="0" joint_start="0" joint_end="0" kind_structure="S" kind_joint_start="BOLT" kind_joint_end="BOLT" joint_id_start="0" joint_id_end="0" />
+        <StbBeam id="92" name="B1" id_section="6" rotate="0" idNode_start="95" idNode_end="96" isFoundation="False" offset="0" level="0" offset_start_X="0" offset_start_Y="0" offset_start_Z="0" offset_end_X="0" offset_end_Y="0" offset_end_Z="0" thickness_ex_top="0" thickness_ex_bottom="0" thickness_ex_right="0" thickness_ex_left="0" haunch_start="0" haunch_end="0" joint_start="0" joint_end="0" kind_structure="S" kind_joint_start="BOLT" kind_joint_end="BOLT" joint_id_start="0" joint_id_end="0" />
+        <StbBeam id="93" name="B1" id_section="6" rotate="0" idNode_start="96" idNode_end="73" isFoundation="False" offset="0" level="0" offset_start_X="0" offset_start_Y="0" offset_start_Z="0" offset_end_X="0" offset_end_Y="0" offset_end_Z="0" thickness_ex_top="0" thickness_ex_bottom="0" thickness_ex_right="0" thickness_ex_left="0" haunch_start="0" haunch_end="0" joint_start="0" joint_end="0" kind_structure="S" kind_joint_start="BOLT" kind_joint_end="BOLT" joint_id_start="0" joint_id_end="0" />
+      </StbBeams>
+      <StbBraces>
+        <StbBrace id="140" name="V1" id_section="10" rotate="0" idNode_start="85" idNode_end="15" kind_structure="S" offset_start_X="0" offset_start_Y="0" offset_start_Z="0" offset_end_X="0" offset_end_Y="0" offset_end_Z="0" condition_start="PIN" condition_end="PIN" future_brace="TENSION" joint_start="-1000" joint_end="0" kind_joint_start="BOLT" kind_joint_end="BOLT" />
+        <StbBrace id="141" name="V1" id_section="10" rotate="0" idNode_start="85" idNode_end="13" kind_structure="S" offset_start_X="0" offset_start_Y="0" offset_start_Z="0" offset_end_X="0" offset_end_Y="0" offset_end_Z="0" condition_start="PIN" condition_end="PIN" future_brace="TENSION" joint_start="-1000" joint_end="0" kind_joint_start="BOLT" kind_joint_end="BOLT" />
+        <StbBrace id="142" name="V1" id_section="10" rotate="0" idNode_start="14" idNode_end="85" kind_structure="S" offset_start_X="0" offset_start_Y="0" offset_start_Z="0" offset_end_X="0" offset_end_Y="0" offset_end_Z="0" condition_start="PIN" condition_end="PIN" future_brace="TENSION" joint_start="-1000" joint_end="0" kind_joint_start="BOLT" kind_joint_end="BOLT" />
+        <StbBrace id="143" name="V1" id_section="10" rotate="0" idNode_start="16" idNode_end="85" kind_structure="S" offset_start_X="0" offset_start_Y="0" offset_start_Z="0" offset_end_X="0" offset_end_Y="0" offset_end_Z="0" condition_start="PIN" condition_end="PIN" future_brace="TENSION" joint_start="-1000" joint_end="0" kind_joint_start="BOLT" kind_joint_end="BOLT" />
+        <StbBrace id="144" name="V1" id_section="10" rotate="0" idNode_start="80" idNode_end="11" kind_structure="S" offset_start_X="0" offset_start_Y="0" offset_start_Z="0" offset_end_X="0" offset_end_Y="0" offset_end_Z="0" condition_start="PIN" condition_end="PIN" future_brace="TENSION" joint_start="-1000" joint_end="0" kind_joint_start="BOLT" kind_joint_end="BOLT" />
+        <StbBrace id="145" name="V1" id_section="10" rotate="0" idNode_start="80" idNode_end="9" kind_structure="S" offset_start_X="0" offset_start_Y="0" offset_start_Z="0" offset_end_X="0" offset_end_Y="0" offset_end_Z="0" condition_start="PIN" condition_end="PIN" future_brace="TENSION" joint_start="-1000" joint_end="0" kind_joint_start="BOLT" kind_joint_end="BOLT" />
+        <StbBrace id="146" name="V1" id_section="10" rotate="0" idNode_start="10" idNode_end="80" kind_structure="S" offset_start_X="0" offset_start_Y="0" offset_start_Z="0" offset_end_X="0" offset_end_Y="0" offset_end_Z="0" condition_start="PIN" condition_end="PIN" future_brace="TENSION" joint_start="-1000" joint_end="0" kind_joint_start="BOLT" kind_joint_end="BOLT" />
+        <StbBrace id="147" name="V1" id_section="10" rotate="0" idNode_start="12" idNode_end="80" kind_structure="S" offset_start_X="0" offset_start_Y="0" offset_start_Z="0" offset_end_X="0" offset_end_Y="0" offset_end_Z="0" condition_start="PIN" condition_end="PIN" future_brace="TENSION" joint_start="-1000" joint_end="0" kind_joint_start="BOLT" kind_joint_end="BOLT" />
+        <StbBrace id="148" name="V1" id_section="10" rotate="0" idNode_start="70" idNode_end="1" kind_structure="S" offset_start_X="0" offset_start_Y="0" offset_start_Z="0" offset_end_X="0" offset_end_Y="0" offset_end_Z="0" condition_start="PIN" condition_end="PIN" future_brace="TENSION" joint_start="-1000" joint_end="0" kind_joint_start="BOLT" kind_joint_end="BOLT" />
+        <StbBrace id="149" name="V1" id_section="10" rotate="0" idNode_start="70" idNode_end="3" kind_structure="S" offset_start_X="0" offset_start_Y="0" offset_start_Z="0" offset_end_X="0" offset_end_Y="0" offset_end_Z="0" condition_start="PIN" condition_end="PIN" future_brace="TENSION" joint_start="-1000" joint_end="0" kind_joint_start="BOLT" kind_joint_end="BOLT" />
+        <StbBrace id="150" name="V1" id_section="10" rotate="0" idNode_start="2" idNode_end="70" kind_structure="S" offset_start_X="0" offset_start_Y="0" offset_start_Z="0" offset_end_X="0" offset_end_Y="0" offset_end_Z="0" condition_start="PIN" condition_end="PIN" future_brace="TENSION" joint_start="-1000" joint_end="0" kind_joint_start="BOLT" kind_joint_end="BOLT" />
+        <StbBrace id="151" name="V1" id_section="10" rotate="0" idNode_start="4" idNode_end="70" kind_structure="S" offset_start_X="0" offset_start_Y="0" offset_start_Z="0" offset_end_X="0" offset_end_Y="0" offset_end_Z="0" condition_start="PIN" condition_end="PIN" future_brace="TENSION" joint_start="-1000" joint_end="0" kind_joint_start="BOLT" kind_joint_end="BOLT" />
+        <StbBrace id="152" name="V1" id_section="10" rotate="0" idNode_start="6" idNode_end="75" kind_structure="S" offset_start_X="0" offset_start_Y="0" offset_start_Z="0" offset_end_X="0" offset_end_Y="0" offset_end_Z="0" condition_start="PIN" condition_end="PIN" future_brace="TENSION" joint_start="-1000" joint_end="0" kind_joint_start="BOLT" kind_joint_end="BOLT" />
+        <StbBrace id="153" name="V1" id_section="10" rotate="0" idNode_start="8" idNode_end="75" kind_structure="S" offset_start_X="0" offset_start_Y="0" offset_start_Z="0" offset_end_X="0" offset_end_Y="0" offset_end_Z="0" condition_start="PIN" condition_end="PIN" future_brace="TENSION" joint_start="-1000" joint_end="0" kind_joint_start="BOLT" kind_joint_end="BOLT" />
+        <StbBrace id="154" name="V1" id_section="10" rotate="0" idNode_start="75" idNode_end="7" kind_structure="S" offset_start_X="0" offset_start_Y="0" offset_start_Z="0" offset_end_X="0" offset_end_Y="0" offset_end_Z="0" condition_start="PIN" condition_end="PIN" future_brace="TENSION" joint_start="-1000" joint_end="0" kind_joint_start="BOLT" kind_joint_end="BOLT" />
+        <StbBrace id="155" name="V1" id_section="10" rotate="0" idNode_start="75" idNode_end="5" kind_structure="S" offset_start_X="0" offset_start_Y="0" offset_start_Z="0" offset_end_X="0" offset_end_Y="0" offset_end_Z="0" condition_start="PIN" condition_end="PIN" future_brace="TENSION" joint_start="-1000" joint_end="0" kind_joint_start="BOLT" kind_joint_end="BOLT" />
+        <StbBrace id="156" name="V2" id_section="11" rotate="0" idNode_start="93" idNode_end="105" kind_structure="S" offset_start_X="0" offset_start_Y="0" offset_start_Z="0" offset_end_X="0" offset_end_Y="0" offset_end_Z="0" condition_start="PIN" condition_end="PIN" future_brace="TENSION" joint_start="-1000" joint_end="0" kind_joint_start="BOLT" kind_joint_end="BOLT" />
+        <StbBrace id="157" name="V2" id_section="11" rotate="0" idNode_start="103" idNode_end="106" kind_structure="S" offset_start_X="0" offset_start_Y="0" offset_start_Z="0" offset_end_X="0" offset_end_Y="0" offset_end_Z="0" condition_start="PIN" condition_end="PIN" future_brace="TENSION" joint_start="-1000" joint_end="0" kind_joint_start="BOLT" kind_joint_end="BOLT" />
+        <StbBrace id="158" name="V2" id_section="11" rotate="0" idNode_start="104" idNode_end="107" kind_structure="S" offset_start_X="0" offset_start_Y="0" offset_start_Z="0" offset_end_X="0" offset_end_Y="0" offset_end_Z="0" condition_start="PIN" condition_end="PIN" future_brace="TENSION" joint_start="-1000" joint_end="0" kind_joint_start="BOLT" kind_joint_end="BOLT" />
+        <StbBrace id="159" name="V2" id_section="11" rotate="0" idNode_start="94" idNode_end="108" kind_structure="S" offset_start_X="0" offset_start_Y="0" offset_start_Z="0" offset_end_X="0" offset_end_Y="0" offset_end_Z="0" condition_start="PIN" condition_end="PIN" future_brace="TENSION" joint_start="-1000" joint_end="0" kind_joint_start="BOLT" kind_joint_end="BOLT" />
+      </StbBraces>
+      <StbSlabs>
+        <StbSlab id="116" name="S1" id_section="9" kind_structure="RC" kind_slab="NORMAL" level="0" thickness_ex_upper="0" thickness_ex_bottom="0" dir_load="2WAY" angle_load="0" isFoundation="False" type_haunch="BOTH">
+          <StbNodeid_List>
+            <StbNodeid id="17" />
+            <StbNodeid id="61" />
+            <StbNodeid id="62" />
+            <StbNodeid id="3" />
+          </StbNodeid_List>
+        </StbSlab>
+        <StbSlab id="117" name="S1" id_section="9" kind_structure="RC" kind_slab="NORMAL" level="0" thickness_ex_upper="0" thickness_ex_bottom="0" dir_load="2WAY" angle_load="0" isFoundation="False" type_haunch="BOTH">
+          <StbNodeid_List>
+            <StbNodeid id="1" />
+            <StbNodeid id="41" />
+            <StbNodeid id="61" />
+            <StbNodeid id="17" />
+          </StbNodeid_List>
+        </StbSlab>
+        <StbSlab id="118" name="S1" id_section="9" kind_structure="RC" kind_slab="NORMAL" level="0" thickness_ex_upper="0" thickness_ex_bottom="0" dir_load="2WAY" angle_load="0" isFoundation="False" type_haunch="BOTH">
+          <StbNodeid_List>
+            <StbNodeid id="3" />
+            <StbNodeid id="62" />
+            <StbNodeid id="63" />
+            <StbNodeid id="19" />
+          </StbNodeid_List>
+        </StbSlab>
+        <StbSlab id="119" name="S1" id_section="9" kind_structure="RC" kind_slab="NORMAL" level="0" thickness_ex_upper="0" thickness_ex_bottom="0" dir_load="2WAY" angle_load="0" isFoundation="False" type_haunch="BOTH">
+          <StbNodeid_List>
+            <StbNodeid id="19" />
+            <StbNodeid id="63" />
+            <StbNodeid id="64" />
+            <StbNodeid id="57" />
+          </StbNodeid_List>
+        </StbSlab>
+        <StbSlab id="120" name="S1" id_section="9" kind_structure="RC" kind_slab="NORMAL" level="0" thickness_ex_upper="0" thickness_ex_bottom="0" dir_load="2WAY" angle_load="0" isFoundation="False" type_haunch="BOTH">
+          <StbNodeid_List>
+            <StbNodeid id="57" />
+            <StbNodeid id="64" />
+            <StbNodeid id="65" />
+            <StbNodeid id="59" />
+          </StbNodeid_List>
+        </StbSlab>
+        <StbSlab id="121" name="S1" id_section="9" kind_structure="RC" kind_slab="NORMAL" level="0" thickness_ex_upper="0" thickness_ex_bottom="0" dir_load="2WAY" angle_load="0" isFoundation="False" type_haunch="BOTH">
+          <StbNodeid_List>
+            <StbNodeid id="21" />
+            <StbNodeid id="66" />
+            <StbNodeid id="67" />
+            <StbNodeid id="5" />
+          </StbNodeid_List>
+        </StbSlab>
+        <StbSlab id="122" name="S1" id_section="9" kind_structure="RC" kind_slab="NORMAL" level="0" thickness_ex_upper="0" thickness_ex_bottom="0" dir_load="2WAY" angle_load="0" isFoundation="False" type_haunch="BOTH">
+          <StbNodeid_List>
+            <StbNodeid id="5" />
+            <StbNodeid id="67" />
+            <StbNodeid id="68" />
+            <StbNodeid id="23" />
+          </StbNodeid_List>
+        </StbSlab>
+        <StbSlab id="123" name="S1" id_section="9" kind_structure="RC" kind_slab="NORMAL" level="0" thickness_ex_upper="0" thickness_ex_bottom="0" dir_load="2WAY" angle_load="0" isFoundation="False" type_haunch="BOTH">
+          <StbNodeid_List>
+            <StbNodeid id="23" />
+            <StbNodeid id="68" />
+            <StbNodeid id="51" />
+            <StbNodeid id="7" />
+          </StbNodeid_List>
+        </StbSlab>
+        <StbSlab id="124" name="S1" id_section="9" kind_structure="RC" kind_slab="NORMAL" level="0" thickness_ex_upper="0" thickness_ex_bottom="0" dir_load="2WAY" angle_load="0" isFoundation="False" type_haunch="BOTH">
+          <StbNodeid_List>
+            <StbNodeid id="59" />
+            <StbNodeid id="65" />
+            <StbNodeid id="66" />
+            <StbNodeid id="21" />
+          </StbNodeid_List>
+        </StbSlab>
+        <StbSlab id="125" name="S1" id_section="9" kind_structure="RC" kind_slab="NORMAL" level="0" thickness_ex_upper="0" thickness_ex_bottom="0" dir_load="2WAY" angle_load="0" isFoundation="False" type_haunch="BOTH">
+          <StbNodeid_List>
+            <StbNodeid id="68" />
+            <StbNodeid id="25" />
+            <StbNodeid id="9" />
+            <StbNodeid id="51" />
+          </StbNodeid_List>
+        </StbSlab>
+        <StbSlab id="126" name="S1" id_section="9" kind_structure="RC" kind_slab="NORMAL" level="0" thickness_ex_upper="0" thickness_ex_bottom="0" dir_load="2WAY" angle_load="0" isFoundation="False" type_haunch="BOTH">
+          <StbNodeid_List>
+            <StbNodeid id="67" />
+            <StbNodeid id="11" />
+            <StbNodeid id="25" />
+            <StbNodeid id="68" />
+          </StbNodeid_List>
+        </StbSlab>
+        <StbSlab id="127" name="S1" id_section="9" kind_structure="RC" kind_slab="NORMAL" level="0" thickness_ex_upper="0" thickness_ex_bottom="0" dir_load="2WAY" angle_load="0" isFoundation="False" type_haunch="BOTH">
+          <StbNodeid_List>
+            <StbNodeid id="66" />
+            <StbNodeid id="27" />
+            <StbNodeid id="11" />
+            <StbNodeid id="67" />
+          </StbNodeid_List>
+        </StbSlab>
+        <StbSlab id="128" name="S1" id_section="9" kind_structure="RC" kind_slab="NORMAL" level="0" thickness_ex_upper="0" thickness_ex_bottom="0" dir_load="2WAY" angle_load="0" isFoundation="False" type_haunch="BOTH">
+          <StbNodeid_List>
+            <StbNodeid id="65" />
+            <StbNodeid id="55" />
+            <StbNodeid id="27" />
+            <StbNodeid id="66" />
+          </StbNodeid_List>
+        </StbSlab>
+        <StbSlab id="129" name="S1" id_section="9" kind_structure="RC" kind_slab="NORMAL" level="0" thickness_ex_upper="0" thickness_ex_bottom="0" dir_load="2WAY" angle_load="0" isFoundation="False" type_haunch="BOTH">
+          <StbNodeid_List>
+            <StbNodeid id="64" />
+            <StbNodeid id="53" />
+            <StbNodeid id="55" />
+            <StbNodeid id="65" />
+          </StbNodeid_List>
+        </StbSlab>
+        <StbSlab id="130" name="S1" id_section="9" kind_structure="RC" kind_slab="NORMAL" level="0" thickness_ex_upper="0" thickness_ex_bottom="0" dir_load="2WAY" angle_load="0" isFoundation="False" type_haunch="BOTH">
+          <StbNodeid_List>
+            <StbNodeid id="63" />
+            <StbNodeid id="31" />
+            <StbNodeid id="53" />
+            <StbNodeid id="64" />
+          </StbNodeid_List>
+        </StbSlab>
+        <StbSlab id="131" name="S1" id_section="9" kind_structure="RC" kind_slab="NORMAL" level="0" thickness_ex_upper="0" thickness_ex_bottom="0" dir_load="2WAY" angle_load="0" isFoundation="False" type_haunch="BOTH">
+          <StbNodeid_List>
+            <StbNodeid id="62" />
+            <StbNodeid id="13" />
+            <StbNodeid id="31" />
+            <StbNodeid id="63" />
+          </StbNodeid_List>
+        </StbSlab>
+        <StbSlab id="132" name="S1" id_section="9" kind_structure="RC" kind_slab="NORMAL" level="0" thickness_ex_upper="0" thickness_ex_bottom="0" dir_load="2WAY" angle_load="0" isFoundation="False" type_haunch="BOTH">
+          <StbNodeid_List>
+            <StbNodeid id="61" />
+            <StbNodeid id="29" />
+            <StbNodeid id="13" />
+            <StbNodeid id="62" />
+          </StbNodeid_List>
+        </StbSlab>
+        <StbSlab id="133" name="S1" id_section="9" kind_structure="RC" kind_slab="NORMAL" level="0" thickness_ex_upper="0" thickness_ex_bottom="0" dir_load="2WAY" angle_load="0" isFoundation="False" type_haunch="BOTH">
+          <StbNodeid_List>
+            <StbNodeid id="41" />
+            <StbNodeid id="15" />
+            <StbNodeid id="29" />
+            <StbNodeid id="61" />
+          </StbNodeid_List>
+        </StbSlab>
+        <StbSlab id="134" name="S1" id_section="9" kind_structure="RC" kind_slab="NORMAL" level="0" thickness_ex_upper="0" thickness_ex_bottom="0" dir_load="2WAY" angle_load="0" isFoundation="False" type_haunch="BOTH">
+          <StbNodeid_List>
+            <StbNodeid id="93" />
+            <StbNodeid id="90" />
+            <StbNodeid id="91" />
+            <StbNodeid id="103" />
+          </StbNodeid_List>
+        </StbSlab>
+        <StbSlab id="135" name="S1" id_section="9" kind_structure="RC" kind_slab="NORMAL" level="0" thickness_ex_upper="0" thickness_ex_bottom="0" dir_load="2WAY" angle_load="0" isFoundation="False" type_haunch="BOTH">
+          <StbNodeid_List>
+            <StbNodeid id="83" />
+            <StbNodeid id="93" />
+            <StbNodeid id="103" />
+            <StbNodeid id="54" />
+          </StbNodeid_List>
+        </StbSlab>
+        <StbSlab id="136" name="S1" id_section="9" kind_structure="RC" kind_slab="NORMAL" level="0" thickness_ex_upper="0" thickness_ex_bottom="0" dir_load="2WAY" angle_load="0" isFoundation="False" type_haunch="BOTH">
+          <StbNodeid_List>
+            <StbNodeid id="103" />
+            <StbNodeid id="91" />
+            <StbNodeid id="92" />
+            <StbNodeid id="104" />
+          </StbNodeid_List>
+        </StbSlab>
+        <StbSlab id="137" name="S1" id_section="9" kind_structure="RC" kind_slab="NORMAL" level="0" thickness_ex_upper="0" thickness_ex_bottom="0" dir_load="2WAY" angle_load="0" isFoundation="False" type_haunch="BOTH">
+          <StbNodeid_List>
+            <StbNodeid id="54" />
+            <StbNodeid id="103" />
+            <StbNodeid id="104" />
+            <StbNodeid id="56" />
+          </StbNodeid_List>
+        </StbSlab>
+        <StbSlab id="138" name="S1" id_section="9" kind_structure="RC" kind_slab="NORMAL" level="0" thickness_ex_upper="0" thickness_ex_bottom="0" dir_load="2WAY" angle_load="0" isFoundation="False" type_haunch="BOTH">
+          <StbNodeid_List>
+            <StbNodeid id="104" />
+            <StbNodeid id="92" />
+            <StbNodeid id="89" />
+            <StbNodeid id="94" />
+          </StbNodeid_List>
+        </StbSlab>
+        <StbSlab id="139" name="S1" id_section="9" kind_structure="RC" kind_slab="NORMAL" level="0" thickness_ex_upper="0" thickness_ex_bottom="0" dir_load="2WAY" angle_load="0" isFoundation="False" type_haunch="BOTH">
+          <StbNodeid_List>
+            <StbNodeid id="56" />
+            <StbNodeid id="104" />
+            <StbNodeid id="94" />
+            <StbNodeid id="82" />
+          </StbNodeid_List>
+        </StbSlab>
+      </StbSlabs>
+      <StbWalls>
+        <StbWall id="160" name="W1" id_section="12" kind_structure="RC" kind_layout="ON_GIRDER" offset="0" thickness_ex_right="0" thickness_ex_left="0" kind_wall="WALL_NORMAL" slit_upper="0" slit_bottom="0" slit_right="0" slit_left="0" type_outside="TYPE_PLUS" isPress="False">
+          <StbNodeid_List>
+            <StbNodeid id="16" />
+            <StbNodeid id="14" />
+            <StbNodeid id="13" />
+            <StbNodeid id="15" />
+          </StbNodeid_List>
+        </StbWall>
+        <StbWall id="161" name="W1" id_section="12" kind_structure="RC" kind_layout="ON_GIRDER" offset="0" thickness_ex_right="0" thickness_ex_left="0" kind_wall="WALL_NORMAL" slit_upper="0" slit_bottom="0" slit_right="0" slit_left="0" type_outside="TYPE_PLUS" isPress="False">
+          <StbNodeid_List>
+            <StbNodeid id="14" />
+            <StbNodeid id="32" />
+            <StbNodeid id="31" />
+            <StbNodeid id="13" />
+          </StbNodeid_List>
+        </StbWall>
+        <StbWall id="162" name="W1" id_section="12" kind_structure="RC" kind_layout="ON_GIRDER" offset="0" thickness_ex_right="0" thickness_ex_left="0" kind_wall="WALL_NORMAL" slit_upper="0" slit_bottom="0" slit_right="0" slit_left="0" type_outside="TYPE_PLUS" isPress="False">
+          <StbNodeid_List>
+            <StbNodeid id="28" />
+            <StbNodeid id="12" />
+            <StbNodeid id="11" />
+            <StbNodeid id="27" />
+          </StbNodeid_List>
+        </StbWall>
+        <StbWall id="163" name="W1" id_section="12" kind_structure="RC" kind_layout="ON_GIRDER" offset="0" thickness_ex_right="0" thickness_ex_left="0" kind_wall="WALL_NORMAL" slit_upper="0" slit_bottom="0" slit_right="0" slit_left="0" type_outside="TYPE_PLUS" isPress="False">
+          <StbNodeid_List>
+            <StbNodeid id="12" />
+            <StbNodeid id="10" />
+            <StbNodeid id="9" />
+            <StbNodeid id="11" />
+          </StbNodeid_List>
+        </StbWall>
+        <StbWall id="164" name="W1" id_section="12" kind_structure="RC" kind_layout="ON_GIRDER" offset="0" thickness_ex_right="0" thickness_ex_left="0" kind_wall="WALL_NORMAL" slit_upper="0" slit_bottom="0" slit_right="0" slit_left="0" type_outside="TYPE_PLUS" isPress="False">
+          <StbNodeid_List>
+            <StbNodeid id="109" />
+            <StbNodeid id="110" />
+            <StbNodeid id="27" />
+            <StbNodeid id="31" />
+          </StbNodeid_List>
+        </StbWall>
+        <StbWall id="165" name="W1" id_section="12" kind_structure="RC" kind_layout="ON_GIRDER" offset="0" thickness_ex_right="0" thickness_ex_left="0" kind_wall="WALL_NORMAL" slit_upper="0" slit_bottom="0" slit_right="0" slit_left="0" type_outside="TYPE_PLUS" isPress="False">
+          <StbNodeid_List>
+            <StbNodeid id="2" />
+            <StbNodeid id="4" />
+            <StbNodeid id="3" />
+            <StbNodeid id="1" />
+          </StbNodeid_List>
+        </StbWall>
+        <StbWall id="166" name="W1" id_section="12" kind_structure="RC" kind_layout="ON_GIRDER" offset="0" thickness_ex_right="0" thickness_ex_left="0" kind_wall="WALL_NORMAL" slit_upper="0" slit_bottom="0" slit_right="0" slit_left="0" type_outside="TYPE_PLUS" isPress="False">
+          <StbNodeid_List>
+            <StbNodeid id="4" />
+            <StbNodeid id="20" />
+            <StbNodeid id="19" />
+            <StbNodeid id="3" />
+          </StbNodeid_List>
+        </StbWall>
+        <StbWall id="167" name="W1" id_section="12" kind_structure="RC" kind_layout="ON_GIRDER" offset="0" thickness_ex_right="0" thickness_ex_left="0" kind_wall="WALL_NORMAL" slit_upper="0" slit_bottom="0" slit_right="0" slit_left="0" type_outside="TYPE_PLUS" isPress="False">
+          <StbNodeid_List>
+            <StbNodeid id="6" />
+            <StbNodeid id="8" />
+            <StbNodeid id="7" />
+            <StbNodeid id="5" />
+          </StbNodeid_List>
+        </StbWall>
+        <StbWall id="168" name="W1" id_section="12" kind_structure="RC" kind_layout="ON_GIRDER" offset="0" thickness_ex_right="0" thickness_ex_left="0" kind_wall="WALL_NORMAL" slit_upper="0" slit_bottom="0" slit_right="0" slit_left="0" type_outside="TYPE_PLUS" isPress="False">
+          <StbNodeid_List>
+            <StbNodeid id="22" />
+            <StbNodeid id="6" />
+            <StbNodeid id="5" />
+            <StbNodeid id="21" />
+          </StbNodeid_List>
+        </StbWall>
+        <StbWall id="169" name="W1" id_section="12" kind_structure="RC" kind_layout="ON_GIRDER" offset="0" thickness_ex_right="0" thickness_ex_left="0" kind_wall="WALL_NORMAL" slit_upper="0" slit_bottom="0" slit_right="0" slit_left="0" type_outside="TYPE_PLUS" isPress="False">
+          <StbNodeid_List>
+            <StbNodeid id="20" />
+            <StbNodeid id="22" />
+            <StbNodeid id="21" />
+            <StbNodeid id="19" />
+          </StbNodeid_List>
+        </StbWall>
+        <StbWall id="170" name="W1" id_section="12" kind_structure="RC" kind_layout="ON_GIRDER" offset="0" thickness_ex_right="0" thickness_ex_left="0" kind_wall="WALL_NORMAL" slit_upper="0" slit_bottom="0" slit_right="0" slit_left="0" type_outside="TYPE_PLUS" isPress="False">
+          <StbNodeid_List>
+            <StbNodeid id="16" />
+            <StbNodeid id="40" />
+            <StbNodeid id="111" />
+            <StbNodeid id="15" />
+          </StbNodeid_List>
+        </StbWall>
+        <StbWall id="171" name="W1" id_section="12" kind_structure="RC" kind_layout="ON_GIRDER" offset="0" thickness_ex_right="0" thickness_ex_left="0" kind_wall="WALL_NORMAL" slit_upper="0" slit_bottom="0" slit_right="0" slit_left="0" type_outside="TYPE_PLUS" isPress="False">
+          <StbNodeid_List>
+            <StbNodeid id="38" />
+            <StbNodeid id="2" />
+            <StbNodeid id="1" />
+            <StbNodeid id="112" />
+          </StbNodeid_List>
+        </StbWall>
+        <StbWall id="172" name="W1" id_section="12" kind_structure="RC" kind_layout="ON_GIRDER" offset="0" thickness_ex_right="0" thickness_ex_left="0" kind_wall="WALL_NORMAL" slit_upper="0" slit_bottom="0" slit_right="0" slit_left="0" type_outside="TYPE_PLUS" isPress="False">
+          <StbNodeid_List>
+            <StbNodeid id="39" />
+            <StbNodeid id="42" />
+            <StbNodeid id="41" />
+            <StbNodeid id="111" />
+          </StbNodeid_List>
+        </StbWall>
+        <StbWall id="173" name="W1" id_section="12" kind_structure="RC" kind_layout="ON_GIRDER" offset="0" thickness_ex_right="0" thickness_ex_left="0" kind_wall="WALL_NORMAL" slit_upper="0" slit_bottom="0" slit_right="0" slit_left="0" type_outside="TYPE_PLUS" isPress="False">
+          <StbNodeid_List>
+            <StbNodeid id="42" />
+            <StbNodeid id="37" />
+            <StbNodeid id="112" />
+            <StbNodeid id="41" />
+          </StbNodeid_List>
+        </StbWall>
+        <StbWall id="174" name="W1" id_section="12" kind_structure="RC" kind_layout="ON_GIRDER" offset="0" thickness_ex_right="0" thickness_ex_left="0" kind_wall="WALL_NORMAL" slit_upper="0" slit_bottom="0" slit_right="0" slit_left="0" type_outside="TYPE_PLUS" isPress="False">
+          <StbNodeid_List>
+            <StbNodeid id="10" />
+            <StbNodeid id="50" />
+            <StbNodeid id="113" />
+            <StbNodeid id="9" />
+          </StbNodeid_List>
+        </StbWall>
+        <StbWall id="175" name="W1" id_section="12" kind_structure="RC" kind_layout="ON_GIRDER" offset="0" thickness_ex_right="0" thickness_ex_left="0" kind_wall="WALL_NORMAL" slit_upper="0" slit_bottom="0" slit_right="0" slit_left="0" type_outside="TYPE_PLUS" isPress="False">
+          <StbNodeid_List>
+            <StbNodeid id="48" />
+            <StbNodeid id="8" />
+            <StbNodeid id="7" />
+            <StbNodeid id="114" />
+          </StbNodeid_List>
+        </StbWall>
+        <StbWall id="176" name="W1" id_section="12" kind_structure="RC" kind_layout="ON_GIRDER" offset="0" thickness_ex_right="0" thickness_ex_left="0" kind_wall="WALL_NORMAL" slit_upper="0" slit_bottom="0" slit_right="0" slit_left="0" type_outside="TYPE_PLUS" isPress="False">
+          <StbNodeid_List>
+            <StbNodeid id="49" />
+            <StbNodeid id="52" />
+            <StbNodeid id="51" />
+            <StbNodeid id="113" />
+          </StbNodeid_List>
+        </StbWall>
+        <StbWall id="177" name="W1" id_section="12" kind_structure="RC" kind_layout="ON_GIRDER" offset="0" thickness_ex_right="0" thickness_ex_left="0" kind_wall="WALL_NORMAL" slit_upper="0" slit_bottom="0" slit_right="0" slit_left="0" type_outside="TYPE_PLUS" isPress="False">
+          <StbNodeid_List>
+            <StbNodeid id="52" />
+            <StbNodeid id="47" />
+            <StbNodeid id="114" />
+            <StbNodeid id="51" />
+          </StbNodeid_List>
+        </StbWall>
+      </StbWalls>
+      <StbFootings />
+      <StbStrip_Footings />
+      <StbPiles />
+      <StbFoundationColumns />
+      <StbParapets />
+    </StbMembers>
+    <StbSections>
+      <StbSecColumn_S id="1" name="C1" floor="Z1" kind_column="COLUMN" direction="True" joint_id_top="0" joint_id_bottom="0">
+        <StbSecSteelColumn shape="RH-200*400*80*130*13.0" strength_main="" pos="ALL" />
+      </StbSecColumn_S>
+      <StbSecColumn_S id="2" name="P2" floor="Z1" kind_column="COLUMN" direction="True" joint_id_top="0" joint_id_bottom="0">
+        <StbSecSteelColumn shape="RH-125*250*60*90*8.0" strength_main="" pos="ALL" />
+      </StbSecColumn_S>
+      <StbSecColumn_S id="3" name="P1" floor="Z1" kind_column="COLUMN" direction="False" joint_id_top="0" joint_id_bottom="0">
+        <StbSecSteelColumn shape="RH-250*340*90*140*13.0" strength_main="" pos="ALL" />
+      </StbSecColumn_S>
+      <StbSecBeam_RC id="8" name="FG1" floor="2" kind_beam="GIRDER" isCanti="False" isOutIn="False" isFoundation="True" D_reinforcement_main="D6" strength_reinforcement_main="SD295A" D_stirrup="" depth_cover_top="0" depth_cover_bottom="0" depth_cover_left="0" depth_cover_right="0" interval_reinforcement="0" center_reinforcement_top="0" center_reinforcement_bottom="0" bar_length_start="0" bar_length_end="0">
+        <StbSecFigure>
+          <StbSecStraight width="450" depth="1000" />
+        </StbSecFigure>
+        <StbSecBar_Arrangement>
+          <StbSecBeam_Same_Section count_main_top_1st="4" count_main_top_2nd="0" count_main_top_3rd="0" count_main_bottom_1st="4" count_main_bottom_2nd="0" count_main_bottom_3rd="0" count_2nd_main_top_1st="0" count_2nd_main_top_2nd="0" count_2nd_main_top_3rd="0" count_2nd_main_bottom_1st="0" count_2nd_main_bottom_2nd="0" count_2nd_main_bottom_3rd="0" pitch_stirrup="0" count_stirrup="0" count_web="0" pitch_bar_spacing="0" count_bar_spacing="0" />
+        </StbSecBar_Arrangement>
+      </StbSecBeam_RC>
+      <StbSecBeam_S id="4" name="G1" floor="Z2" kind_beam="GIRDER" isCanti="False" isOutIn="False" joint_id_start="0" joint_id_end="0">
+        <StbSecSteelBeam shape="RH-200*400*80*130*13.0" strength_main="" pos="ALL" />
+      </StbSecBeam_S>
+      <StbSecBeam_S id="5" name="B2" floor="2" kind_beam="BEAM" isCanti="False" isOutIn="False" joint_id_start="0" joint_id_end="0">
+        <StbSecSteelBeam shape="RH-125*250*60*90*8.0" strength_main="" pos="ALL" />
+      </StbSecBeam_S>
+      <StbSecBeam_S id="6" name="B1" floor="2" kind_beam="BEAM" isCanti="False" isOutIn="False" joint_id_start="0" joint_id_end="0">
+        <StbSecSteelBeam shape="RH-175*350*70*110*13.0" strength_main="" pos="ALL" />
+      </StbSecBeam_S>
+      <StbSecBeam_S id="7" name="B3" floor="2" kind_beam="BEAM" isCanti="False" isOutIn="False" joint_id_start="0" joint_id_end="0">
+        <StbSecSteelBeam shape="RH-150*300*65*90*13.0" strength_main="" pos="ALL" />
+      </StbSecBeam_S>
+      <StbSecBrace_S id="10" name="V1" floor="1" kind_brace="VERTICAL">
+        <StbSecSteelBrace shape="RB-20" strength_main="" pos="ALL" />
+      </StbSecBrace_S>
+      <StbSecBrace_S id="11" name="V2" floor="1" kind_brace="VERTICAL">
+        <StbSecSteelBrace shape="P-100*45" strength_main="" pos="ALL" />
+      </StbSecBrace_S>
+      <StbSecWall_RC id="12" name="W1" depth_cover_outside="0" depth_cover_inside="0" depth="90">
+        <StbSecBar_Arrangement />
+        <BarArrangementOpen />
+      </StbSecWall_RC>
+      <StbSecSlab_RC id="9" name="S1" isFoundation="False" isEarthen="False" isCanti="False" depth_cover_top="0" depth_cover_bottom="0">
+        <StbSecFigure>
+          <StbSecStraight depth="100" />
+        </StbSecFigure>
+        <StbSecBar_Arrangement />
+      </StbSecSlab_RC>
+      <StbSecSteel>
+        <StbSecRoll-L name="RL-75*75*60*60*0.0" type="L" B="75" A="75" t1="6" t2="6" r1="0" r2="0" side="False" />
+        <StbSecPipe name="P-100*45" D="4" t="4.5" />
+        <StbSecRoll-H name="RH-200*500*100*160*13.0" type="H" A="500" B="200" t1="10" t2="16" r="13" />
+        <StbSecRoll-H name="RH-100*148*60*90*8.0" type="H" A="148" B="100" t1="6" t2="9" r="8" />
+        <StbSecRoll-H name="RH-100*100*60*80*8.0" type="H" A="100" B="100" t1="6" t2="8" r="8" />
+        <StbSecRoll-Bar name="RB-0" R="0" />
+        <StbSecRoll-Bar name="RB-16" R="16" />
+        <StbSecRoll-H name="RH-200*400*80*130*13.0" type="H" A="400" B="200" t1="8" t2="13" r="13" />
+        <StbSecRoll-H name="RH-125*250*60*90*8.0" type="H" A="250" B="125" t1="6" t2="9" r="8" />
+        <StbSecRoll-Bar name="RB-19" R="19" />
+        <StbSecRoll-H name="RH-250*340*90*140*13.0" type="H" A="340" B="250" t1="9" t2="14" r="13" />
+        <StbSecRoll-Bar name="RB-20" R="20" />
+        <StbSecRoll-H name="RH-200*400*80*130*13.0" type="H" A="400" B="200" t1="8" t2="13" r="13" />
+        <StbSecRoll-H name="RH-150*194*60*90*8.0" type="H" A="194" B="150" t1="6" t2="9" r="8" />
+        <StbSecRoll-H name="RH-150*300*65*90*13.0" type="H" A="300" B="150" t1="6.5" t2="9" r="13" />
+        <StbSecRoll-H name="RH-100*148*60*90*8.0" type="H" A="148" B="100" t1="6" t2="9" r="8" />
+        <StbSecRoll-H name="RH-100*200*55*80*8.0" type="H" A="200" B="100" t1="5.5" t2="8" r="8" />
+        <StbSecRoll-H name="RH-75*150*50*70*8.0" type="H" A="150" B="75" t1="5" t2="7" r="8" />
+        <StbSecRoll-H name="RH-125*250*60*90*8.0" type="H" A="250" B="125" t1="6" t2="9" r="8" />
+        <StbSecRoll-H name="RH-175*350*70*110*13.0" type="H" A="350" B="175" t1="7" t2="11" r="13" />
+      </StbSecSteel>
+    </StbSections>
+  </StbModel>
+  <StbFromIfc />
+  <StbExtensions />
+</ST_BRIDGE>

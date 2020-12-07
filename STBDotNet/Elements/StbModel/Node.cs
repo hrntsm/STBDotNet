@@ -1,24 +1,40 @@
-using System.Collections.Generic;
-using STBDotNet.Elements.Base;
+using System.Xml.Serialization;
+using STBDotNet.Geometry;
 
 namespace STBDotNet.Elements.StbModel
 {
-    public class NodeId
+    public class Node : NodeId
     {
-        public int Id { get; set; }
+        [XmlAttribute("x")] public double X { get; set; }
+        [XmlAttribute("y")] public double Y { get; set; }
+        [XmlAttribute("z")] public double Z { get; set; }
+        [XmlAttribute("kind")] public string Kind { get; set; }
+        [XmlIgnore] public Point3 Position { get; set; }
+        [XmlIgnore] public NodeKind NodeKind { get; set; }
+
+        private NodeKind GetNodeKind(string kindString)
+        {
+            switch (kindString)
+            {
+                case "ON_BEAM":
+                    return NodeKind.OnBeam;
+                case "ON_COLUMN":
+                    return NodeKind.OnColumn;
+                case "ON_GRID": 
+                    return NodeKind.OnGrid;
+                case "ON_CANTI":
+                    return NodeKind.OnCanti;
+                case "ON_SLAB": 
+                    return NodeKind.OnSlab;
+                default: return NodeKind.Other;
+            }
+        }
     }
 
-    public class NodeIdOrder
+    public class NodeId
     {
-        public List<int> Ids { get; set; }
-    }
-    
-    public class Node: NodeId, IGuid
-    {
-        public string Guid { get; set; }
-        public Point Position { get; set; }
-        public NodeKind NodeKind { get; set; }
-        public int IdMember { get; set; }
+        [XmlAttribute("id")]
+        public int Id { get; set; }
     }
 
     public enum NodeKind

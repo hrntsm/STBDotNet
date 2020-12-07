@@ -1,13 +1,24 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <TargetFramework>netstandard2.1</TargetFramework>
+        <TargetFrameworks>net5.0;netstandard2.0</TargetFrameworks>
+        <DebugType>full</DebugType>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <Version>0.1.1</Version>
+        <Authors>hrntsm</Authors>
+        <Company>hrntsm</Company>
+        <PackageLicenseFile>LICENSE</PackageLicenseFile>
+        <PackageProjectUrl>https://github.com/hrntsm/STBDotNet</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/hrntsm/STBDotNet</RepositoryUrl>
+        <Description>STBDotNet is a .NET library for ST-Bridge.</Description>
+        <Copyright>Copyright (c) 2020 hrntsm</Copyright>
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="Elements\StbModel\StbJoint" />
-      <Folder Include="Elements\StbModel\StbSection" />
-      <Folder Include="Serialization" />
+      <None Include="..\LICENSE">
+        <Pack>True</Pack>
+        <PackagePath></PackagePath>
+      </None>
     </ItemGroup>
 
 </Project>
