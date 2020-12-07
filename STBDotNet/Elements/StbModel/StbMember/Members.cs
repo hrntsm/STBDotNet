@@ -149,10 +149,10 @@ namespace STBDotNet.Elements.StbModel.StbMember
         [XmlAttribute("thickness_ex_right")] public double ThicknessExRight { get; set; }
         [XmlAttribute("thickness_ex_left")] public double ThicknessExLeft { get; set; }
         [XmlAttribute("kind_wall")] public string KindWall { get; set; }
-        [XmlAttribute("split_upper")] public double SplitUpper { get; set; }
-        [XmlAttribute("split_bottom")] public double SplitBottom { get; set; }
-        [XmlAttribute("split_right")] public double SplitRight { get; set; }
-        [XmlAttribute("split_left")] public double SplitLeft { get; set; }
+        [XmlAttribute("slit_upper")] public double SplitUpper { get; set; }
+        [XmlAttribute("slit_bottom")] public double SplitBottom { get; set; }
+        [XmlAttribute("slit_right")] public double SplitRight { get; set; }
+        [XmlAttribute("slit_left")] public double SplitLeft { get; set; }
         [XmlAttribute("type_outside")] public string TypeOutside { get; set; }
         [XmlAttribute("isPress")] public string IsPress { get; set; }
     }

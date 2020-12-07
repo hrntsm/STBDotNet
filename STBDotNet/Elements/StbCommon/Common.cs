@@ -19,7 +19,6 @@ namespace STBDotNet.Elements.StbCommon
         [XmlArray("StbReinforcement_Strength_List")]
         [XmlArrayItem("StbReinforcement_Strength")]
         public List<ReinforcementStrength> ReinforcementStrengthList { get; set; } = new List<ReinforcementStrength>();
-        public List<ApplyConditions> ApplyConditionsList { get; set; } = new List<ApplyConditions>();
     }
 
     public class ReinforcementStrength
@@ -28,9 +27,5 @@ namespace STBDotNet.Elements.StbCommon
         public string Name { get; set; }
         [XmlAttribute("SD")]
         public string StrengthBar { get; set; }
-    }
-
-    public class ApplyConditions
-    {
     }
 }

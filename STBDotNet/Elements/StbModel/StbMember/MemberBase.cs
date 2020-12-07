@@ -17,7 +17,7 @@ namespace STBDotNet.Elements.StbModel.StbMember
     {
         [XmlArray("StbNodeid_List")]
         [XmlArrayItem("StbNodeid")] public List<NodeId> NodeIdList { get; set; }
-        [XmlArrayItem("StbOpen")] public List<Open> Opens { get; set; }
+        [XmlElement("StbOpen")] public List<Open> Opens { get; set; }
     }
 
     public class PlaneOpen

@@ -5,12 +5,11 @@ namespace STBDotNet.Elements.StbModel
 {
     public class Axis
     {
-        [XmlAttribute("name")] public string Name { get; set; }
         [XmlAttribute("id")] public int Id { get; set; }
+        [XmlAttribute("name")] public string Name { get; set; }
         [XmlAttribute("distance")] public double Distance { get; set; }
         [XmlArray("StbNodeid_List")]
-        [XmlArrayItem("StbNodeid")]
-        public List<NodeId> NodeIdList { get; set; }
+        [XmlArrayItem("StbNodeid")] public List<NodeId> NodeIdList { get; set; }
     }
 
     public class XAxis : Axis

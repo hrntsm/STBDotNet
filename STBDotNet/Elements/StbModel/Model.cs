@@ -12,20 +12,20 @@ namespace STBDotNet.Elements.StbModel
     public class Model
     {
         [XmlArray("StbNodes")]
-        [XmlArrayItem("StbNode")]
-        public List<Node> Nodes { get; set; }
+        [XmlArrayItem("StbNode")] public List<Node> Nodes { get; set; }
+        //
         [XmlArray("StbAxes")]
         [XmlArrayItem("StbX_Axis", Type = typeof(XAxis))]
-        [XmlArrayItem("StbY_Axis", Type = typeof(YAxis))]
-        public List<Axis> Axes { get; set; }
-        [XmlArray("StbDrawAxes")]
-        [XmlArrayItem("StbDrawAxis")]
-        public List<DrawingAxis> DrawingAxises { get; set; }
+        [XmlArrayItem("StbY_Axis", Type = typeof(YAxis))] public List<Axis> Axes { get; set; }
+        //
+        [XmlArray("StbDrawingAxes")]
+        [XmlArrayItem("StbDrawingAxis")] public List<DrawingAxis> DrawingAxises { get; set; }
+        //
         [XmlArray("StbStories")]
-        [XmlArrayItem("StbStory")]
-        public List<Story> Stories { get; set; }
-        [XmlElement("StbMembers")]
-        public Members Members { get; set; }
+        [XmlArrayItem("StbStory")] public List<Story> Stories { get; set; }
+        //
+        [XmlElement("StbMembers")] public Members Members { get; set; }
+        //
         [XmlArray("StbSections")]
         [XmlArrayItem("StbSecColumn_RC", Type = typeof(ColumnRc))]
         [XmlArrayItem("StbSecColumn_S", Type = typeof(ColumnS))]
@@ -42,13 +42,12 @@ namespace STBDotNet.Elements.StbModel
         [XmlArrayItem("StbSecFoundation_RC", Type = typeof(FoundationRc))]
         [XmlArrayItem("StbSecPile_RC", Type = typeof(PileRc))]
         [XmlArrayItem("StbSecOpen_RC", Type = typeof(OpenRc))]
-        [XmlArrayItem("StbSecSteel", Type = typeof(Steel))]
-        public List<Section> Sections { get; set; }
+        [XmlArrayItem("StbSecSteel", Type = typeof(Steel))] public List<Section> Sections { get; set; }
+        //
         [XmlArray("StbJoints")]
         [XmlArrayItem("StbJointBeam_H", Type = typeof(BeamH))]
         [XmlArrayItem("StbJointColumn_H", Type = typeof(ColumnH))]
         [XmlArrayItem("StbJointColumn_T", Type = typeof(ColumnT))]
-        [XmlArrayItem("StbJointColumn_CROSS", Type = typeof(ColumnCross))]
-        public List<Joint> Joints { get; set; }
+        [XmlArrayItem("StbJointColumn_CROSS", Type = typeof(ColumnCross))] public List<Joint> Joints { get; set; }
     }
 }
