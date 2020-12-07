@@ -5,18 +5,12 @@ namespace STBDotNet.Elements.StbModel
 {
     public class Node : NodeId
     {
-        [XmlAttribute("x")]
-        public double X { get; set; }
-        [XmlAttribute("y")]
-        public double Y { get; set; }
-        [XmlAttribute("z")]
-        public double Z { get; set; }
-        [XmlAttribute("kind")]
-        public string Kind { get; set; }
-        [XmlIgnore]
-        public Point Position { get; set; }
-        [XmlIgnore]
-        public NodeKind NodeKind { get; set; }
+        [XmlAttribute("x")] public double X { get; set; }
+        [XmlAttribute("y")] public double Y { get; set; }
+        [XmlAttribute("z")] public double Z { get; set; }
+        [XmlAttribute("kind")] public string Kind { get; set; }
+        [XmlIgnore] public Point Position { get; set; }
+        [XmlIgnore] public NodeKind NodeKind { get; set; }
 
         private NodeKind GetNodeKind(string kindString)
         {
