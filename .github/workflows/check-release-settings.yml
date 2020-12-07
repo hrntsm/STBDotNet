@@ -3,7 +3,6 @@ name: check release settings
 on:
   pull_request:
     branches: main
-    # types: opened
     types: [opened, synchronize]
 
 jobs:
