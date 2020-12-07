@@ -9,7 +9,7 @@ namespace STBDotNet.Elements.StbModel
         [XmlAttribute("y")] public double Y { get; set; }
         [XmlAttribute("z")] public double Z { get; set; }
         [XmlAttribute("kind")] public string Kind { get; set; }
-        [XmlIgnore] public Point Position { get; set; }
+        [XmlIgnore] public Point3 Position { get; set; }
         [XmlIgnore] public NodeKind NodeKind { get; set; }
 
         private NodeKind GetNodeKind(string kindString)

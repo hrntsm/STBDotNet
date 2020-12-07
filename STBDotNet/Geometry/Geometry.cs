@@ -2,34 +2,34 @@ using System;
 
 namespace STBDotNet.Geometry
 {
-    public struct Point:IEquatable<Point>
+    public struct Point3:IEquatable<Point3>
     {
         public double X { get; set; }
         public double Y { get; set; }
         public double Z { get; set; }
 
-        public Point(double x, double y, double z)
+        public Point3(double x, double y, double z)
         {
             X = x;
             Y = y;
             Z = z;
         }
         
-        public Point(Point pt)
+        public Point3(Point3 pt)
         {
             X = pt.X;
             Y = pt.Y;
             Z = pt.Z;
         }
  
-        public bool Equals(Point other)
+        public bool Equals(Point3 other)
         {
             return X.Equals(other.X) && Y.Equals(other.Y) && Z.Equals(other.Z);
         }
 
         public override bool Equals(object obj)
         {
-            return obj is Point other && Equals(other);
+            return obj is Point3 other && Equals(other);
         }
 
         public override int GetHashCode()
@@ -38,13 +38,13 @@ namespace STBDotNet.Geometry
         }
     }
 
-    public struct Line:IEquatable<Line>
+    public struct Line3:IEquatable<Line3>
     {
-        public Point Start { get; set; }
-        public Point End { get; set; }
+        public Point3 Start { get; set; }
+        public Point3 End { get; set; }
         public double Length { get; set; }
 
-        public Line(Point start, Point end)
+        public Line3(Point3 start, Point3 end)
         {
             Start = start;
             End = end;
@@ -54,21 +54,21 @@ namespace STBDotNet.Geometry
                 + Math.Pow(End.Z - Start.Z, 2));
         }
         
-        public Line(Line ln)
+        public Line3(Line3 ln)
         {
             Start = ln.Start;
             End = ln.End;
             Length = ln.Length;
         }
         
-        public bool Equals(Line other)
+        public bool Equals(Line3 other)
         {
             return Start.Equals(other.Start) && End.Equals(other.End);
         }
 
         public override bool Equals(object obj)
         {
-            return obj is Line other && Equals(other);
+            return obj is Line3 other && Equals(other);
         }
 
         public override int GetHashCode()
@@ -79,11 +79,11 @@ namespace STBDotNet.Geometry
 
     public struct Mesh:IEquatable<Mesh>
     {
-        public Point A { get; set; }
-        public Point B { get; set; }
-        public Point C { get; set; }
+        public Point3 A { get; set; }
+        public Point3 B { get; set; }
+        public Point3 C { get; set; }
         
-        public Mesh(Point a, Point b, Point c)
+        public Mesh(Point3 a, Point3 b, Point3 c)
         {
             A = a;
             B = b;
