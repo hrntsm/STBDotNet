@@ -6,25 +6,25 @@ namespace STBDotNet.Geometry.Tests
     public class GeometryTest
     {
         [Test]
-        public void PointTest()
+        public void Point3Test()
         {
-            var pt = new Point(0, 0, 0);
-            Assert.IsTrue(pt.Equals(new Point(pt)));
+            var pt = new Point3(0, 0, 0);
+            Assert.IsTrue(pt.Equals(new Point3(pt)));
             Assert.IsTrue(pt.X == 0);
         }
 
         [Test]
-        public void LineTest()
+        public void Line3Test()
         {
-            var ln = new Line( new Point(0,0,0), new Point(1,0,0));
-            Assert.IsTrue(ln.Equals( new Line(ln)));
+            var ln = new Line3( new Point3(0,0,0), new Point3(1,0,0));
+            Assert.IsTrue(ln.Equals( new Line3(ln)));
             Assert.IsTrue(ln.Length == 1);
         }
 
         [Test]
         public void MeshTest()
         {
-            var mesh = new Mesh(new Point(0, 0, 0), new Point(1, 0, 0), new Point(1, 1, 0));
+            var mesh = new Mesh(new Point3(0, 0, 0), new Point3(1, 0, 0), new Point3(1, 1, 0));
             Assert.IsTrue(mesh.Equals(new Mesh(mesh)));
         }
     }

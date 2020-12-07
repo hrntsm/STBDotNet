@@ -1,74 +1,111 @@
 using System.Collections.Generic;
+using System.Xml.Serialization;
 
 namespace STBDotNet.Elements.StbModel.StbSection
 {
-    public class Steel
+    public class Steel : Section
     {
-        public List<RollH> RollH { get; set; } = new List<RollH>();
-        public List<BuildH> BuildH { get; set; } = new List<BuildH>();
-        public List<RollBox> RollBox { get; set; } = new List<RollBox>();
-        public List<BuildBox> BuildBox { get; set; } = new List<BuildBox>();
-        public List<Pipe> Pipe { get; set; } = new List<Pipe>();
-        public List<RollT> RollT { get; set; } = new List<RollT>();
-        public List<RollC> RollC { get; set; } = new List<RollC>();
-        public List<RollL> RollL { get; set; } = new List<RollL>();
-        public List<LipC> LipC { get; set; } = new List<LipC>();
-        public List<FlatBar> FlatBar { get; set; } = new List<FlatBar>();
-        public List<RoundBar> RoundBar { get; set; } = new List<RoundBar>();
+        [XmlElement("StbSecRoll-H")] public List<RollH> RollH { get; set; }
+        [XmlElement("StbSecBuild-H")] public List<BuildH> BuildH { get; set; }
+        [XmlElement("StbSecRoll-BOX")] public List<RollBox> RollBox { get; set; }
+        [XmlElement("StbSecBuild-BOX")] public List<BuildBox> BuildBox { get; set; }
+        [XmlElement("StbSecPipe")] public List<Pipe> Pipe { get; set; }
+        [XmlElement("StbSecRoll-T")] public List<RollT> RollT { get; set; }
+        [XmlElement("StbSecRoll-C")] public List<RollC> RollC { get; set; }
+        [XmlElement("StbSecRoll-L")] public List<RollL> RollL { get; set; }
+        [XmlElement("StbSecRoll-LipC")] public List<LipC> LipC { get; set; }
+        [XmlElement("StbSecRoll-FB")] public List<FlatBar> FlatBar { get; set; }
+        [XmlElement("StbSecRoll-Bar")] public List<RoundBar> RoundBar { get; set; }
     }
 
-    public class RollH:SteelSectionBase, IStbTag
+    public abstract class SteelSectionBase
     {
-        public string[] StbTag { get; } = {"StbSecRoll-H", "StbSecRoll-H"};
+        [XmlAttribute("name")] public string Name { get; set; }
     }
 
-    public class BuildH:SteelSectionBase, IStbTag
+    public abstract class WidthHeightSection
     {
-        public string[] StbTag { get; } = {"StbSecBuild-H", "StbSecBuild-H"};
+        [XmlAttribute("A")] public double A { get; set; }
+        [XmlAttribute("B")] public double B { get; set; }
     }
 
-    public class RollBox:SteelSectionBase, IStbTag
+    public abstract class HShapeBase : WidthHeightSection
     {
-        public string[] StbTag { get; } = {"StbSecRoll-BOX", "StbSecRoll-BOX"};
+        [XmlAttribute("t1")] public double T1 { get; set; }
+        [XmlAttribute("t2")] public double T2 { get; set; }
     }
 
-    public class BuildBox:SteelSectionBase, IStbTag
+    public abstract class CLShapeBase : HShapeBase, ISideType
     {
-        public string[] StbTag { get; } = {"StbSecBuild-BOX", "StbSecBuild-BOX"};
+        [XmlAttribute("type")] public string Type { get; set; }
+        [XmlAttribute("r1")] public double R1 { get; set; }
+        [XmlAttribute("r2")] public double R2 { get; set; }
+        [XmlAttribute("side")] public string Side { get; set; }
     }
 
-    public class Pipe:SteelSectionBase, IStbTag
+    public abstract class BoxShapeBase : WidthHeightSection
+    { }
+
+    public interface ISideType
     {
-        public string[] StbTag { get; } = {"StbSecPipe", "StbSecPipe"};
+        string Side { get; set; }
     }
 
-    public class RollT:SteelSectionBase, IStbTag
+    public class RollH : HShapeBase
     {
-        public string[] StbTag { get; } = {"StbSecRoll-T", "StbSecRoll-T"};
+        [XmlAttribute("type")] public string Type { get; set; }
+        [XmlAttribute("r")]public double R { get; set; }
     }
 
-    public class RollC:SteelSectionBase, IStbTag
+    public class BuildH : HShapeBase
+    { }
+
+    public class RollBox : BoxShapeBase
     {
-        public string[] StbTag { get; } = {"StbSecRoll-C", "StbSecRoll-C"};
+        [XmlAttribute("type")] public string Type { get; set; }
+        [XmlAttribute("t")] public double T { get; set; }
+        [XmlAttribute("R")] public double R { get; set; }
     }
 
-    public class RollL:SteelSectionBase, IStbTag
+    public class BuildBox : BoxShapeBase
     {
-        public string[] StbTag { get; } = {"StbSecRoll-L", "StbSecRoll-L"};
+        [XmlAttribute("t1")] public double T1 { get; set; }
+        [XmlAttribute("t2")] public double T2 { get; set; }
     }
 
-    public class LipC:SteelSectionBase, IStbTag
+    public class Pipe : SteelSectionBase
     {
-        public string[] StbTag { get; } = {"StbSecRoll-LipC", "StbSecRoll-LipC"};
+        [XmlAttribute("D")] public double D { get; set; }
+        [XmlAttribute("t")] public double T { get; set; }
     }
 
-    public class FlatBar:SteelSectionBase, IStbTag
+    public class RollT : RollH
+    { }
+
+    public class RollC : CLShapeBase
+    { }
+
+    public class RollL : CLShapeBase
+    { }
+
+    public class LipC : SteelSectionBase, ISideType
     {
-        public string[] StbTag { get; } = {"StbSecRoll-FB", "StbSecFlatBar"};
+        [XmlAttribute("type")] public string Type { get; set; }
+        [XmlAttribute("H")] public double H { get; set; }
+        [XmlAttribute("B")] public double B { get; set; }
+        [XmlAttribute("C")] public double C { get; set; }
+        [XmlAttribute("t")] public double T { get; set; }
+        [XmlAttribute("side")] public string Side { get; set; }
     }
 
-    public class RoundBar:SteelSectionBase, IStbTag
+    public class FlatBar : SteelSectionBase
     {
-        public string[] StbTag { get; } = {"StbSecRoll-Bar", "StbSecRoundBar"};
+        [XmlAttribute("B")] public double B { get; set; }
+        [XmlAttribute("t")] public double T { get; set; }
+    }
+
+    public class RoundBar : SteelSectionBase
+    {
+        [XmlAttribute("R")] public double R { get; set; }
     }
 }

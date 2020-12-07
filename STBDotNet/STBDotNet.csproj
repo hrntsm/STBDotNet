@@ -15,14 +15,6 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="Elements\StbModel\StbJoint" />
-      <Folder Include="Serialization\Deserialize\StbCommon\" />
-      <Folder Include="Serialization\Deserialize\StbExtension\" />
-      <Folder Include="Serialization\Deserialize\StbFromIfc\" />
-      <Folder Include="Serialization\Deserialize\StbModel\" />
-    </ItemGroup>
-
-    <ItemGroup>
       <None Include="..\LICENSE">
         <Pack>True</Pack>
         <PackagePath></PackagePath>
