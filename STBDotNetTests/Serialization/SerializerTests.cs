@@ -1,12 +1,8 @@
 ﻿using NUnit.Framework;
-using STBDotNet.Serialization;
-using System;
 using System.Collections.Generic;
-using System.Text;
 using STBDotNet.Elements;
 using STBDotNet.Elements.StbCommon;
 using STBDotNet.Elements.StbModel;
-using STBDotNet.Geometry;
 
 namespace STBDotNet.Serialization.Tests
 {
