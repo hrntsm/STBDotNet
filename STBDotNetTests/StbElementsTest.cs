@@ -18,19 +18,15 @@ namespace STBDotNetTests
         {
             foreach (string path in _pathList)
             {
+                var stbPath = $@"../../../../TestStbFiles/ver1/{path}.stb";
+                var outPath = $@"../../../Result/{path}.stb";
+
                 // Deserialize Test
-                var fs = new System.IO.FileStream($@"../../../../TestStbFiles/ver1/{path}.stb", System.IO.FileMode.Open);
-                var deserializer = new XmlSerializer(typeof(StbElements));
-                var model = (StbElements)deserializer.Deserialize(fs);
+                var serializer = new STBDotNet.Serialization.Serializer();
+                StbElements model = serializer.Deserialize(stbPath);
 
                 // Serialize Test
-                var namespaces = new XmlSerializerNamespaces();
-                namespaces.Add(string.Empty, string.Empty);
-                var serializeFileName = $@"../../../Result/{path}.stb";
-                var serializer = new XmlSerializer(typeof(StbElements));
-                var sw = new System.IO.StreamWriter(serializeFileName, false, new System.Text.UTF8Encoding(false));
-                serializer.Serialize(sw, model, namespaces);
-                sw.Close();
+                serializer.Serialize(model, outPath);
             }
         }
     }
