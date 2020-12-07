@@ -1,0 +1,19 @@
+name: Deploy nuget
+
+on:
+  push:
+    branches:
+    - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+    - uses: actions/setup-dotnet@v1
+      with:
+        dotnet-version: '5.0.x'
+    - run: dotnet build --configuration Release
+    - run: dotnet nuget push STBDotNet/bin/Release/STBDotNet.*.nupkg --api-key $NUGET_OLG_API_KEY --source https://api.nuget.org/v3/index.json
+      env:
+        NUGET_OLG_API_KEY: ${{ secrets.NUGET_OLG_API_KEY }}
