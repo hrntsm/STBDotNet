@@ -25,17 +25,4 @@ namespace STBDotNet.Elements.StbModel.StbSection
         [XmlAttribute("strength_bar_spacing")] public string StrengthBarSpacing { get; set; }
         [XmlAttribute("interval_reinforcement")] public double IntervalBar { get; set; }
     }
-
-    public abstract class SteelSectionBase : Section, IModel, ISteelSection
-    {
-        [XmlAttribute("id")] public int Id { get; set; }
-        [XmlAttribute("name")] public string Name { get; set; }
-        public ShapeType ShapeType { get; set; }
-        public double P1 { get; set; }
-        public double P2 { get; set; }
-        public double P3 { get; set; }
-        public double P4 { get; set; }
-        public double P5 { get; set; }
-        public double P6 { get; set; }
-    }
 }
