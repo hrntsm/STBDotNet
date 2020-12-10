@@ -1,0 +1,1329 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpTOC>
+
+  <HelpTOCNode Id="d1cc0d74-5ef8-418f-93fe-52e5f6e4139e" Title="STBDotNet.Elements" Url="html/861e8c8d-d9f5-fa0a-ea9f-5e116362eee0.htm">
+    <HelpTOCNode Id="abda88bc-1b97-4083-8918-c6506e9a08bd" Title="IGuid Interface" Url="html/9d5d1cc6-52fa-6145-b1cb-727e5c6e833e.htm">
+      <HelpTOCNode Id="00e8f759-fcb5-454b-b9f7-6daf55da91de" Title="IGuid Properties" Url="html/299ea11a-86e4-7482-a086-adcf168ea50a.htm">
+        <HelpTOCNode Title="Guid Property " Url="html/e5c184f8-c9b8-71b4-f58f-685037e17566.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="822a74da-2a33-44af-b552-8f63cc4f6ba3" Title="IStbTag Interface" Url="html/4eeebad0-7cf9-cdb1-35a3-a0d52719793c.htm">
+      <HelpTOCNode Id="00980e84-18b9-468f-9044-b2b70530e170" Title="IStbTag Properties" Url="html/cef04038-7763-478a-6759-797ff3d692a3.htm">
+        <HelpTOCNode Title="StbTag Property " Url="html/4ede19c1-2f03-3309-7b41-ec2186c37148.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="9b321932-8ada-4ea0-8639-0e5148718715" Title="StbElements Class" Url="html/72bc9674-ee7e-3e2c-b73e-a4010d75f503.htm">
+      <HelpTOCNode Title="StbElements Constructor " Url="html/811f3cdc-e61f-2275-fe91-954dcc0ece74.htm" />
+      <HelpTOCNode Id="4cd9fbcb-9f12-4a74-b88c-e2894216305e" Title="StbElements Properties" Url="html/42181d39-8238-5867-850d-b2e6b2c908ac.htm">
+        <HelpTOCNode Title="Common Property " Url="html/c74c6809-27cd-5056-a5cd-69fc98380134.htm" />
+        <HelpTOCNode Title="Extensions Property " Url="html/1d94903e-9195-860e-9603-ec1c1a41fb4a.htm" />
+        <HelpTOCNode Title="FromIfc Property " Url="html/6eb9c409-795e-9582-2e4b-63196feb7c27.htm" />
+        <HelpTOCNode Title="Model Property " Url="html/9b31a987-9fd0-4af2-e481-05c8f32ebfa8.htm" />
+        <HelpTOCNode Title="Version Property " Url="html/080ecd1d-5bef-81f1-6c05-2f8354a5ab9d.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="StbElements Methods" Url="html/72df2539-b047-b032-0ca9-d63b4fee6ccb.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Title="StrengthBar Enumeration" Url="html/6951987a-aba9-9d09-1dcf-32c9ee1f6347.htm" />
+    <HelpTOCNode Title="StrengthConcrete Enumeration" Url="html/de4fcb79-f475-a28c-86c6-a7d99eea15a1.htm" />
+    <HelpTOCNode Title="StrengthSteel Enumeration" Url="html/21191c8d-7a94-188b-5d56-78fb521956f4.htm" />
+    <HelpTOCNode Title="Version Enumeration" Url="html/a9f49971-4103-c289-e51a-47f6d4b927de.htm" />
+  </HelpTOCNode>
+  <HelpTOCNode Id="d1a38448-54b0-4413-b9f4-5e0bc80c06d3" Title="STBDotNet.Elements.StbCommon" Url="html/0100fd72-6400-43eb-eb7b-67d5170c1079.htm">
+    <HelpTOCNode Id="b808f5ac-1d4b-4757-810b-0d4979e05d49" Title="Common Class" Url="html/cb89de89-5442-c8dc-743e-4c49dfec5a12.htm">
+      <HelpTOCNode Title="Common Constructor " Url="html/9fad391d-df99-f3ab-8640-e465d8f60784.htm" />
+      <HelpTOCNode Id="f20bf674-b346-4248-8eb2-36d7391bae78" Title="Common Properties" Url="html/40638ded-dd5a-585c-4fef-72dfffb8ce53.htm">
+        <HelpTOCNode Title="AppName Property " Url="html/13a9abc6-6ace-7396-abc0-8ea0730b8868.htm" />
+        <HelpTOCNode Title="Guid Property " Url="html/b84eaf43-882b-0cbe-2737-6136e775ecbe.htm" />
+        <HelpTOCNode Title="ProjectName Property " Url="html/630c2e78-6e32-a40e-f895-bb26960e72fb.htm" />
+        <HelpTOCNode Title="ReinforcementStrengthList Property " Url="html/42777b25-b105-6ba6-d1d3-78612b93c407.htm" />
+        <HelpTOCNode Title="StrengthConcrete Property " Url="html/34fa5f97-cbde-ac39-ba4a-5ed7d3746cb0.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="Common Methods" Url="html/276cd665-1fc0-8dea-fe1b-41abdf1b4c04.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="dd34e2ee-cd65-403f-9bc6-8abc05b78a39" Title="ReinforcementStrength Class" Url="html/b0f7a069-bda1-48ce-50e7-0b03b683ccb8.htm">
+      <HelpTOCNode Title="ReinforcementStrength Constructor " Url="html/3f35775c-24bd-dfd7-3ca1-64632dc82bb2.htm" />
+      <HelpTOCNode Id="2e6bfa91-3399-43c7-8943-f5d85d8b83f0" Title="ReinforcementStrength Properties" Url="html/ec881025-9463-4f17-9d37-5a86df25e3b9.htm">
+        <HelpTOCNode Title="Name Property " Url="html/92c6045e-132e-7271-7c6a-32590e488aa7.htm" />
+        <HelpTOCNode Title="StrengthBar Property " Url="html/2e14ebf2-edf4-057f-7624-ce8b005c7547.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="ReinforcementStrength Methods" Url="html/aface9b2-6af1-8621-8e9c-a405eef95cce.htm" />
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="29f7c61a-75be-48f4-aa47-4912532c439a" Title="STBDotNet.Elements.StbExtension" Url="html/402caa70-57e0-ab46-cb9a-4e756c172017.htm">
+    <HelpTOCNode Id="9a38f9cb-7713-414f-8110-0d2602462bd0" Title="ExtElement Class" Url="html/6285e648-4586-1ee3-7323-4fbeee748c6a.htm">
+      <HelpTOCNode Title="ExtElement Constructor " Url="html/eaf97d06-b7ef-73cd-58b9-eed7d74f2e95.htm" />
+      <HelpTOCNode Id="20f5e65f-196f-4826-a58b-c03e795d7341" Title="ExtElement Properties" Url="html/c98f15aa-2f23-8dca-236d-5ef0eaaa48f2.htm">
+        <HelpTOCNode Title="ElementName Property " Url="html/a9f104e9-788a-ace5-31b6-6c9e35f8c472.htm" />
+        <HelpTOCNode Title="ExtPropertyDefinitions Property " Url="html/1f2bfae1-2ed7-8a9f-edb2-35cb7acfabc1.htm" />
+        <HelpTOCNode Title="ObjectName Property " Url="html/5deed15a-23fb-fdfb-3ad2-eb2ecab65c11.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="ExtElement Methods" Url="html/19a222f9-fb60-89a9-e49f-6142537fd7de.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="81fbf381-89bd-4869-84cc-c3837820e285" Title="Extension Class" Url="html/e0e350e6-87c2-1701-0f41-780e00703972.htm">
+      <HelpTOCNode Title="Extension Constructor " Url="html/b2f34aec-3029-49b1-15a4-4407955fb0b3.htm" />
+      <HelpTOCNode Id="e02b700d-8407-4e4c-8298-94a49c08a873" Title="Extension Properties" Url="html/ce721bf1-7d67-1ad7-0ce0-66a39ed985e6.htm">
+        <HelpTOCNode Title="Description Property " Url="html/f8eee272-9b5a-8e87-52f1-de24fb136a1f.htm" />
+        <HelpTOCNode Title="ExtElements Property " Url="html/94472a95-5317-b910-7917-3e6a17e045b5.htm" />
+        <HelpTOCNode Title="ExtObjects Property " Url="html/218b18c5-bb7c-e118-a554-42b2bd2ad4ea.htm" />
+        <HelpTOCNode Title="Identifier Property " Url="html/389a6121-f1bd-9fad-ef06-3dd68cee284f.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="Extension Methods" Url="html/3c294565-c9ae-cc8d-582c-e13ee791d1ee.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="979dab5d-1186-43b8-b7c3-7faacab2b57f" Title="Extensions Class" Url="html/909e9a3f-d9a9-dd20-69d1-3cb4f5a07aef.htm">
+      <HelpTOCNode Title="Extensions Constructor " Url="html/e11df964-060e-87bd-3be7-3d0b394f0f17.htm" />
+      <HelpTOCNode Id="dd3cdb6b-3dc3-4ea1-8bfe-7097bee25797" Title="Extensions Properties" Url="html/5e0cd179-7d00-b2c8-0f18-96909d1ce4c2.htm">
+        <HelpTOCNode Title="Extension Property " Url="html/ad0c47d7-9f7d-1873-46bc-11218c76a076.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="Extensions Methods" Url="html/54a36728-6333-254f-7672-3e3c151dadb8.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="beb95daf-f177-4f77-a1db-9c7c48e8bc61" Title="ExtObject Class" Url="html/f527f55c-c2a2-e1b8-26b5-b649e1a44a0f.htm">
+      <HelpTOCNode Title="ExtObject Constructor " Url="html/fef7b966-df52-91de-69a0-5afa778c54de.htm" />
+      <HelpTOCNode Id="3609c00c-2e8b-40e8-9bc8-02e9fecf2628" Title="ExtObject Properties" Url="html/c35d7ac8-23a4-b230-40b0-e52a6b614226.htm">
+        <HelpTOCNode Title="ExtProperties Property " Url="html/bba23c45-2ea1-8a11-022f-d6d468c5b4f6.htm" />
+        <HelpTOCNode Title="ObjectId Property " Url="html/4826aa82-e843-490d-8b6e-23868e753929.htm" />
+        <HelpTOCNode Title="ObjectName Property " Url="html/9033cc14-c420-77a9-005c-28598564be65.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="ExtObject Methods" Url="html/aab972ec-bab1-412c-8d49-e5777c78f053.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="7cfab6fd-afac-40ff-9a5d-8dfe50ba442f" Title="ExtProperty Class" Url="html/f3492449-4ac8-086e-2daf-243711d2ad8a.htm">
+      <HelpTOCNode Title="ExtProperty Constructor " Url="html/1e67b905-a95b-e117-c236-d10ad111a5bc.htm" />
+      <HelpTOCNode Id="7b5c02e8-a260-424c-8794-269a92bf7e35" Title="ExtProperty Properties" Url="html/827dd6ca-8513-0db5-f445-8159c4a6e5fb.htm">
+        <HelpTOCNode Title="Key Property " Url="html/ea5e9132-7ded-7ec5-cb1b-a51ac33d68d4.htm" />
+        <HelpTOCNode Title="Type Property " Url="html/6d8dbccd-5d93-ccd4-843d-12762381967b.htm" />
+        <HelpTOCNode Title="Value Property " Url="html/acb6b100-49fa-103c-bed5-209fd5cf161d.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="ExtProperty Methods" Url="html/f699bba8-1242-6b91-7de3-a5ace02d93b6.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="d357f769-33eb-4382-bb87-8be2237671d7" Title="ExtPropertyDefinition Class" Url="html/c42ebe6d-2e92-d5b3-d1b5-09558343a953.htm">
+      <HelpTOCNode Title="ExtPropertyDefinition Constructor " Url="html/3cbb1f6f-4ff5-5c67-5ea8-3c3875534564.htm" />
+      <HelpTOCNode Id="265c8698-b179-4e9f-88ec-e1a94afebdd7" Title="ExtPropertyDefinition Properties" Url="html/89357f19-ba54-49ab-8e40-880bb8e7c9f4.htm">
+        <HelpTOCNode Title="Default Property " Url="html/121bc889-fbe1-9708-82bf-81dcab537eb7.htm" />
+        <HelpTOCNode Title="Key Property " Url="html/3ff10509-29a3-6a33-235e-aea7b76fdb6b.htm" />
+        <HelpTOCNode Title="Type Property " Url="html/b7c45cb9-2ad3-c0c2-4715-c1817d51880f.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="ExtPropertyDefinition Methods" Url="html/37902ed1-573d-a1c2-cbc4-0faf170d0ac6.htm" />
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="88bc12cb-e0a0-4fd8-bc00-5f251b84c82b" Title="STBDotNet.Elements.StbFromIfc" Url="html/a69a392a-08a4-29ae-7f86-df97bc70d2e4.htm">
+    <HelpTOCNode Id="9d9ec549-eb42-41e0-9e17-eda06cfd2f2b" Title="FromIfc Class" Url="html/e0ef43b3-95ad-29b2-9dce-d59381fdc3dd.htm">
+      <HelpTOCNode Title="FromIfc Constructor " Url="html/49b5f6a8-c751-3a56-7116-204afc4ef8d9.htm" />
+      <HelpTOCNode Title="FromIfc Methods" Url="html/cbbf26cf-1bb0-698d-23ae-88a0efffaacb.htm" />
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="119e77e4-d253-4073-8a51-3bd7892b8a08" Title="STBDotNet.Elements.StbModel" Url="html/f513e21c-6d42-dbc0-bed6-55fee438142e.htm">
+    <HelpTOCNode Id="0eb33c19-23bd-4baf-921e-2701117bdf3d" Title="Axis Class" Url="html/401ae506-af31-fc87-2b71-d31c00fa8dfe.htm">
+      <HelpTOCNode Title="Axis Constructor " Url="html/120084b5-d1ec-e13c-099b-74e68ff90a88.htm" />
+      <HelpTOCNode Id="443a2c1e-ce12-44aa-a00f-06bd9852d97e" Title="Axis Properties" Url="html/4cd94a96-9df8-d770-b657-38efb8cac85b.htm">
+        <HelpTOCNode Title="Distance Property " Url="html/cc243bdf-9c10-e336-577c-1d286950c9ac.htm" />
+        <HelpTOCNode Title="Id Property " Url="html/d8d21158-774a-8a88-0bf2-37cac72220b6.htm" />
+        <HelpTOCNode Title="Name Property " Url="html/ed066b0e-f798-75c3-2d22-a7f9e73baa0f.htm" />
+        <HelpTOCNode Title="NodeIdList Property " Url="html/3961d847-2687-0fbb-d5c5-88c5cf477153.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="Axis Methods" Url="html/46c0a846-b04d-ea91-84ee-8f52647ac003.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="856737b9-f643-46e0-b896-d249cc6fc1f5" Title="DrawingAxis Class" Url="html/3035dc83-4211-02a1-b99a-18f99ba5604c.htm">
+      <HelpTOCNode Title="DrawingAxis Constructor " Url="html/d83c1402-a76c-e7f4-6559-c66903d8e61a.htm" />
+      <HelpTOCNode Id="ef286642-4b68-4d16-bb17-a2a14852190a" Title="DrawingAxis Properties" Url="html/df9c3bf3-06ec-8515-4aac-ca7b7427b738.htm">
+        <HelpTOCNode Title="EndX Property " Url="html/d4fe379e-c955-865b-25e3-3c1ab35c23c3.htm" />
+        <HelpTOCNode Title="EndY Property " Url="html/a3c80b6f-c6ff-2bde-9e58-58ece8a4d6b4.htm" />
+        <HelpTOCNode Title="Name Property " Url="html/1b7eec44-39ed-6bda-9117-10c866f8e8c7.htm" />
+        <HelpTOCNode Title="StartX Property " Url="html/7b73b441-09f3-c6ab-d507-412aa2b389c2.htm" />
+        <HelpTOCNode Title="StartY Property " Url="html/63c9b81c-76ba-26f1-c0a2-62a0578730da.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="DrawingAxis Methods" Url="html/153e2eab-2ee2-7c7a-8360-6d768a3ba38e.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="2f92c8fd-24ed-4473-9d15-fef63a0991f3" Title="IModel Interface" Url="html/01f199d0-ef59-5e19-1692-6d2e473f6898.htm">
+      <HelpTOCNode Id="697a6bfd-d510-4f52-8a73-9a01a4f8cba2" Title="IModel Properties" Url="html/705d54d6-6fc9-9657-0a32-942958e2e289.htm">
+        <HelpTOCNode Title="Id Property " Url="html/5cdddfbe-284c-2145-cb22-2498e3492ecc.htm" />
+        <HelpTOCNode Title="Name Property " Url="html/4ec56423-6485-3d63-2e14-6ff169916dc9.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="65302a1f-89a2-4b84-83fd-8c687e9fd1c2" Title="Model Class" Url="html/e778555a-0aea-4811-7c8a-7274f96de1db.htm">
+      <HelpTOCNode Title="Model Constructor " Url="html/7fcffddb-bfcd-739a-3a8d-c5272ddbcb86.htm" />
+      <HelpTOCNode Id="e88de641-756a-414e-b82a-a7cba87304be" Title="Model Properties" Url="html/2e7195c8-fd7b-70cd-ee9a-94f41e6656fd.htm">
+        <HelpTOCNode Title="Axes Property " Url="html/f9458852-0e18-9844-8209-d52037be9dc6.htm" />
+        <HelpTOCNode Title="DrawingAxises Property " Url="html/e9c23fd1-42bc-b619-466f-3dc5df1200b7.htm" />
+        <HelpTOCNode Title="Joints Property " Url="html/36471e5c-4441-52d2-5912-d6943fcdeb98.htm" />
+        <HelpTOCNode Title="Members Property " Url="html/aa0d280b-8224-8d2e-62ca-2e285e524e70.htm" />
+        <HelpTOCNode Title="Nodes Property " Url="html/995b00fc-9149-777d-0137-a100362d9d17.htm" />
+        <HelpTOCNode Title="Sections Property " Url="html/d1322407-f2a2-ba1c-9722-06ba4c8bd7d7.htm" />
+        <HelpTOCNode Title="Stories Property " Url="html/99c233f2-a03b-d61f-72e0-8e3b03b4a24b.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="Model Methods" Url="html/dad85842-dc08-bcd4-e872-8682ead9c104.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="5016f8b3-3c9c-4fd9-b083-8dab1d586f42" Title="Node Class" Url="html/d9780058-6743-3037-076b-a6dc027f51e5.htm">
+      <HelpTOCNode Title="Node Constructor " Url="html/a2db73b6-f169-9f6c-4f9b-c0af24704ccd.htm" />
+      <HelpTOCNode Id="8f6d526c-6a6a-4495-b976-35fb3923915e" Title="Node Properties" Url="html/ee227b70-dec7-47e3-9f42-2a4bb423c448.htm">
+        <HelpTOCNode Title="Kind Property " Url="html/36cd2152-9c8b-5493-05c9-ac229e462c7b.htm" />
+        <HelpTOCNode Title="NodeKind Property " Url="html/a6e67275-8bf5-c94f-4ad1-019584c6c832.htm" />
+        <HelpTOCNode Title="Position Property " Url="html/08a6dee0-cca8-a9b9-fdfe-5bddaa212f13.htm" />
+        <HelpTOCNode Title="X Property " Url="html/f590051d-56a5-c9b1-2c6f-8fa3ab314fdb.htm" />
+        <HelpTOCNode Title="Y Property " Url="html/dc86abbe-2e2f-85b6-9783-997e09e15806.htm" />
+        <HelpTOCNode Title="Z Property " Url="html/07f95b4c-bb1d-ba2a-dfa0-f1b3cba64928.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="Node Methods" Url="html/a8647061-6ca5-9d0c-c12d-14d7829f395b.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="6c0e7c16-50f5-4b2d-b621-39083ab7ad2c" Title="NodeId Class" Url="html/0fa416a9-73d9-dae9-26ac-28628f1410c5.htm">
+      <HelpTOCNode Title="NodeId Constructor " Url="html/c6d265ab-b0e5-8497-e237-718f425d42af.htm" />
+      <HelpTOCNode Id="ba5e3549-c2f8-493d-92b5-55f96d2544d2" Title="NodeId Properties" Url="html/ae590f05-f2c3-3461-57db-7e38bce947d1.htm">
+        <HelpTOCNode Title="Id Property " Url="html/ba2e525d-0b14-25ce-e12e-06eff27030b3.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="NodeId Methods" Url="html/1bf31381-6ffa-c2dd-041b-25d40e5bafee.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Title="NodeKind Enumeration" Url="html/a5c29925-544b-87c5-8237-c2eaf1d7dc74.htm" />
+    <HelpTOCNode Id="f4d6a690-e244-4720-b19c-8efae90f6607" Title="Story Class" Url="html/8e47dab7-d169-872a-e13b-aef7c6e8edb0.htm">
+      <HelpTOCNode Title="Story Constructor " Url="html/ff31c1ad-e494-e438-63c2-2fba50b967ac.htm" />
+      <HelpTOCNode Id="3882e206-a5ee-4d8e-bd1f-088ee42c7649" Title="Story Properties" Url="html/2a29ff34-7f2e-50d5-5193-a45cc9e50d9b.htm">
+        <HelpTOCNode Title="ConcreteStrength Property " Url="html/c019cbca-6fb4-5197-e99e-bea797537193.htm" />
+        <HelpTOCNode Title="Height Property " Url="html/b68eaf3c-8231-cea3-bfe0-6481020ddfe2.htm" />
+        <HelpTOCNode Title="Id Property " Url="html/c73ea329-2659-07fa-451b-ac5c22e7d4ad.htm" />
+        <HelpTOCNode Title="Kind Property " Url="html/fd1ff3b2-57bd-22c3-2995-0be939dff042.htm" />
+        <HelpTOCNode Title="Name Property " Url="html/523fc522-a83a-bc09-bc18-b948f87d80b6.htm" />
+        <HelpTOCNode Title="NodeIdList Property " Url="html/ccda1422-be5b-a3c3-1223-b8d24469999e.htm" />
+        <HelpTOCNode Title="StoryKind Property " Url="html/cb7826ac-551f-e89b-bbf8-3376095a2254.htm" />
+        <HelpTOCNode Title="StrengthConcrete Property " Url="html/74e7a71e-f9a7-57cc-0b5e-06cb27449afe.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="Story Methods" Url="html/da3bf2ce-dc71-5544-cae4-056ceef66e9b.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Title="StoryKind Enumeration" Url="html/521b577b-56f0-fa35-7180-cc2a0db3a7c5.htm" />
+    <HelpTOCNode Id="1c8f0601-6364-47ec-807a-047dd8b2dec7" Title="XAxis Class" Url="html/8e236dab-be10-30bf-0e53-abaa1dfbe0bf.htm">
+      <HelpTOCNode Title="XAxis Constructor " Url="html/daab642e-3ae1-a1b1-77df-76229da7882d.htm" />
+      <HelpTOCNode Title="XAxis Properties" Url="html/2626b193-b80f-d865-0ff9-043a360ee5f5.htm" />
+      <HelpTOCNode Title="XAxis Methods" Url="html/be85c738-99eb-0c84-e60b-fe0f40b0d519.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="b358afe4-8b43-4359-a188-b7c5478b4325" Title="YAxis Class" Url="html/61d9c103-6fe4-f3b8-e79e-38f4fa268033.htm">
+      <HelpTOCNode Title="YAxis Constructor " Url="html/40664046-eaf4-5e14-924f-994ea5b1dd33.htm" />
+      <HelpTOCNode Title="YAxis Properties" Url="html/f24228a3-ef2e-5fc3-71a6-0e62861652f1.htm" />
+      <HelpTOCNode Title="YAxis Methods" Url="html/b4b4241e-49bb-f3c8-4745-46e9990d4324.htm" />
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="f367301f-40af-42d3-b8d7-5dd8bd8b32a6" Title="STBDotNet.Elements.StbModel.StbJoint" Url="html/6dbf025e-9e81-41e5-3bc2-d865927d0425.htm">
+    <HelpTOCNode Id="399fdb86-e70b-4c72-9618-757ac1dc83c7" Title="BeamH Class" Url="html/0f625cf2-1cc6-3f47-676d-f50914aa1698.htm">
+      <HelpTOCNode Title="BeamH Constructor " Url="html/4c06487d-f65a-bc78-a1e7-057954f81bd8.htm" />
+      <HelpTOCNode Title="BeamH Methods" Url="html/be5898c8-c922-b6c2-9de7-0b3dd5293497.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="f8b0efec-9606-4114-992c-ecdbe3516122" Title="ColumnCross Class" Url="html/9d500d9a-72f1-4f3d-aac2-e9ee9cbdea9e.htm">
+      <HelpTOCNode Title="ColumnCross Constructor " Url="html/9a3095d7-203f-d4d8-b4b3-e1ca7027079d.htm" />
+      <HelpTOCNode Title="ColumnCross Methods" Url="html/e24672b0-4ddf-c824-cb26-e369b1b8654e.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="bd3bf6a9-bc02-44e5-943f-d5a5b03f1b00" Title="ColumnH Class" Url="html/b95c86e0-f6ab-d5cb-77fd-13557274854e.htm">
+      <HelpTOCNode Title="ColumnH Constructor " Url="html/d7b80c4d-710d-240a-f1e7-1e8386f80362.htm" />
+      <HelpTOCNode Title="ColumnH Methods" Url="html/269df09c-93ca-acb6-6bd8-a0c7e9441916.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="8f9c46a9-42b7-4055-a9d9-b501f8aa3117" Title="ColumnT Class" Url="html/51709119-8a85-3191-2406-0a1736eeea7a.htm">
+      <HelpTOCNode Title="ColumnT Constructor " Url="html/83467816-482e-e319-7792-a5dc11416210.htm" />
+      <HelpTOCNode Title="ColumnT Methods" Url="html/f950bc3b-2b8d-e221-309a-973a217f6b9d.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="34c7e666-3a27-4000-9c3b-4a7c1c7dda40" Title="Joint Class" Url="html/4e469307-ae44-576f-244c-a83bc109fd6c.htm">
+      <HelpTOCNode Title="Joint Constructor " Url="html/99f4e47f-4293-7b1f-4d5d-f93308d51aab.htm" />
+      <HelpTOCNode Title="Joint Methods" Url="html/0b23bee7-c862-7f58-5727-58a4145a99b5.htm" />
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="5f2d44a7-7419-4ce9-b032-e1f3322b3f2c" Title="STBDotNet.Elements.StbModel.StbMember" Url="html/50835c3e-4a78-3ce1-14ce-2eefc18d65e0.htm">
+    <HelpTOCNode Id="42df8966-e301-42da-b743-fdca3fa08b5a" Title="Beam Class" Url="html/303a355e-d0e8-b634-9bf4-134d52ee9db7.htm">
+      <HelpTOCNode Title="Beam Constructor " Url="html/1d536697-bab0-035a-1ca2-77bba9b39c0d.htm" />
+      <HelpTOCNode Title="Beam Properties" Url="html/3fbdd65e-8e85-701b-de9b-8e78a34d20cf.htm" />
+      <HelpTOCNode Title="Beam Methods" Url="html/6322cb9a-7cb7-25dc-8187-ab75932f51d0.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="bd6c5c86-dda4-49f4-8e17-5d4e2804fa06" Title="Brace Class" Url="html/933c5add-8b70-0d4d-0015-b8ccd917e52d.htm">
+      <HelpTOCNode Title="Brace Constructor " Url="html/c16e7e70-5482-b668-0901-64317ca09d2e.htm" />
+      <HelpTOCNode Id="5ea54f40-1216-4a29-bbfb-d6db2100b147" Title="Brace Properties" Url="html/1acda735-5a69-8194-4aa4-f182a743f022.htm">
+        <HelpTOCNode Title="FutureBrace Property " Url="html/f550ec00-1946-1a48-dfb1-350f7a1ff980.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="Brace Methods" Url="html/2c41adba-903c-dcdd-2a68-cbff06c7391d.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="579bf09b-b9d9-48d4-85c6-23d8ae5c5abd" Title="Column Class" Url="html/2cd5686f-517a-1da1-0cca-b1e8ed98baa6.htm">
+      <HelpTOCNode Title="Column Constructor " Url="html/53099145-b33b-2f8a-535a-9ab4087a3506.htm" />
+      <HelpTOCNode Id="5b9f1bfc-4a9c-4fcf-a708-106977a1802d" Title="Column Properties" Url="html/a3785e44-5dde-1673-aea9-8afd272cc5fa.htm">
+        <HelpTOCNode Title="ConditionEnd Property " Url="html/88a7fada-3c56-805b-b37e-ef95733de348.htm" />
+        <HelpTOCNode Title="ConditionStart Property " Url="html/d1e2c390-5ccf-e248-059b-d6a4f4bfd418.htm" />
+        <HelpTOCNode Title="IdNodeEnd Property " Url="html/07cf3263-aab8-cc35-d7b9-683c010f50aa.htm" />
+        <HelpTOCNode Title="IdNodeStart Property " Url="html/2affd7a6-03e2-356b-7e94-10f32d16b196.htm" />
+        <HelpTOCNode Title="JointEnd Property " Url="html/b3651236-a27d-4666-0ff6-9b422a341cb0.htm" />
+        <HelpTOCNode Title="JointIdEnd Property " Url="html/7ad9273c-b570-dbfc-7681-9688a4076d6b.htm" />
+        <HelpTOCNode Title="JointIdStart Property " Url="html/857ce461-289d-aed1-1e91-b468e959832a.htm" />
+        <HelpTOCNode Title="JointStart Property " Url="html/3aec7900-f56c-f895-06f1-44a57fe25ad6.htm" />
+        <HelpTOCNode Title="KindJointEnd Property " Url="html/1dddf5b2-a7a4-6471-6fe7-021b5c56d6b7.htm" />
+        <HelpTOCNode Title="KindJointStart Property " Url="html/4341062a-f17d-e224-63e9-e6d899d3f653.htm" />
+        <HelpTOCNode Title="OffsetEndX Property " Url="html/291127d4-71ce-38a8-5bdd-c71d71a51bcb.htm" />
+        <HelpTOCNode Title="OffsetEndY Property " Url="html/229b443c-e8a9-1aa0-894f-c1df191c9e37.htm" />
+        <HelpTOCNode Title="OffsetEndZ Property " Url="html/34d73651-3c39-c945-d8b9-97d32bf63048.htm" />
+        <HelpTOCNode Title="OffsetStartX Property " Url="html/143c820a-a4ea-7699-7196-035886257d23.htm" />
+        <HelpTOCNode Title="OffsetStartY Property " Url="html/e2e2f848-3feb-66f4-2ea2-1e152b7db965.htm" />
+        <HelpTOCNode Title="OffsetStartZ Property " Url="html/d7985bf8-efcd-744c-fb14-f2f2d04d2e58.htm" />
+        <HelpTOCNode Title="OffsetX Property " Url="html/3eda7b4c-1432-9eba-68d8-191472027e0c.htm" />
+        <HelpTOCNode Title="OffsetY Property " Url="html/168384b3-ba1c-19b0-0d5d-83cc8b3263d4.htm" />
+        <HelpTOCNode Title="Rotate Property " Url="html/e5168d13-32e5-ac64-a946-d6bc9bc4d67d.htm" />
+        <HelpTOCNode Title="ThicknessExEndX Property " Url="html/42e4d105-527b-0aa4-2ffc-1c14f3d15720.htm" />
+        <HelpTOCNode Title="ThicknessExEndY Property " Url="html/76b47cdc-ac5e-aa1a-681e-b41f27b50e49.htm" />
+        <HelpTOCNode Title="ThicknessExStartX Property " Url="html/d8f7ca87-33b6-f292-7329-9867465071b0.htm" />
+        <HelpTOCNode Title="ThicknessExStartY Property " Url="html/426d2ff8-0a63-9209-ec78-5778c03e97e3.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="Column Methods" Url="html/b096b088-7846-fd4b-5f96-865acae61abc.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="5229183c-a074-48f8-ad86-0b74b9ecf0ee" Title="Footing Class" Url="html/ac6c6379-5922-2640-59a9-5565100772f0.htm">
+      <HelpTOCNode Title="Footing Constructor " Url="html/e8c08de4-e4c6-dc40-acba-40bffab513b3.htm" />
+      <HelpTOCNode Title="Footing Properties" Url="html/d496f979-86ba-503a-b779-871b79687c08.htm" />
+      <HelpTOCNode Title="Footing Methods" Url="html/206f7adb-55bb-172a-2022-3507b32ead2e.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="fcf7faf8-205d-4b67-8009-03835d7239a0" Title="FoundationColumn Class" Url="html/24470211-a1c1-260a-29ab-a6e9cf063460.htm">
+      <HelpTOCNode Title="FoundationColumn Constructor " Url="html/53b2f1ea-5bfa-c347-a080-9a44033cb01e.htm" />
+      <HelpTOCNode Title="FoundationColumn Properties" Url="html/24343711-ef1c-d517-4e78-a84cd2d0f35a.htm" />
+      <HelpTOCNode Title="FoundationColumn Methods" Url="html/da4345df-efb6-70b2-ceed-c437f3a86aaf.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="d021b63f-a7e0-46ea-84e8-53ff10aa5fd5" Title="FrameBase Class" Url="html/37a00dc8-7984-a0c8-355c-a53f85479b3a.htm">
+      <HelpTOCNode Title="FrameBase Constructor " Url="html/44122648-8322-ec80-b0dc-1152bcb8945f.htm" />
+      <HelpTOCNode Id="4228cd8c-286f-46e5-a81b-69a68f56d80a" Title="FrameBase Properties" Url="html/0c68dfd7-1dc3-1a09-726f-3c4e9d58824d.htm">
+        <HelpTOCNode Title="ConditionEnd Property " Url="html/975013b8-0162-bf02-cd3e-ed5e90e8208d.htm" />
+        <HelpTOCNode Title="ConditionStart Property " Url="html/89032f5b-1b5d-1a70-e4b0-06d5b1117d75.htm" />
+        <HelpTOCNode Title="IdNodeEnd Property " Url="html/f737b303-1a5d-61da-ee51-52bc92a877c8.htm" />
+        <HelpTOCNode Title="IdNodeStart Property " Url="html/3be96a91-3fa3-3db7-fe64-97267e817479.htm" />
+        <HelpTOCNode Title="JointEnd Property " Url="html/fb1e15a6-db4b-403a-1af7-70cacb41e8e3.htm" />
+        <HelpTOCNode Title="JointIdEnd Property " Url="html/50f234a3-22a4-7182-9fd6-24d31af4b4a9.htm" />
+        <HelpTOCNode Title="JointIdStart Property " Url="html/3e373557-390a-d7f9-b19a-b80b9b54c899.htm" />
+        <HelpTOCNode Title="JointStart Property " Url="html/c6674d4d-dd1f-c3b6-ecf7-08ee2365b6b4.htm" />
+        <HelpTOCNode Title="KindJointEnd Property " Url="html/9ab0f9b5-f40b-fd6d-1960-6b6ec2c23378.htm" />
+        <HelpTOCNode Title="KindJointStart Property " Url="html/fd07f9b6-9c4e-0701-5318-d748eabe94f8.htm" />
+        <HelpTOCNode Title="OffsetEndX Property " Url="html/058a6898-0417-5d8a-c76e-ca931258c577.htm" />
+        <HelpTOCNode Title="OffsetEndY Property " Url="html/4c910f9b-24b8-7c63-4614-accf81a0ca4d.htm" />
+        <HelpTOCNode Title="OffsetEndZ Property " Url="html/2e47bb56-4491-39d3-a9a3-da16d698b9ba.htm" />
+        <HelpTOCNode Title="OffsetStartX Property " Url="html/edd2e69b-f826-9db8-f14d-5d411c08451f.htm" />
+        <HelpTOCNode Title="OffsetStartY Property " Url="html/e0ce82eb-9720-9fdf-f42d-0900977d3cab.htm" />
+        <HelpTOCNode Title="OffsetStartZ Property " Url="html/073e2753-21dc-c342-816e-ca4a0e6a73ad.htm" />
+        <HelpTOCNode Title="Rotate Property " Url="html/f1718d1b-af05-68ee-b7d4-bc9e419d5c41.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="FrameBase Methods" Url="html/a4e7214d-65d0-5b9b-c455-aef37be62ca6.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="099c8494-8602-4063-bef9-2685db3d3bf5" Title="Girder Class" Url="html/3ca96efe-e982-a329-d5f4-4a613b1d1e24.htm">
+      <HelpTOCNode Title="Girder Constructor " Url="html/498eb1b5-99d5-4e97-31b1-ba7f0f4c527c.htm" />
+      <HelpTOCNode Id="10c6785f-9e5a-496f-bdde-6a78c049116a" Title="Girder Properties" Url="html/62e99509-863a-0d1d-073d-fd1ff467fba8.htm">
+        <HelpTOCNode Title="HaunchEnd Property " Url="html/ec6ff9aa-cb8d-d87c-f99b-f44b6be092c8.htm" />
+        <HelpTOCNode Title="HaunchStart Property " Url="html/632586ef-d7ec-a82a-f738-61113b5b4107.htm" />
+        <HelpTOCNode Title="IsFoundation Property " Url="html/afd1b0f3-f7dd-82f2-4063-ce3735734cc2.htm" />
+        <HelpTOCNode Title="KindHaunchEnd Property " Url="html/28f32137-4011-c39d-ab19-7359b1f114c6.htm" />
+        <HelpTOCNode Title="KindHaunchStart Property " Url="html/436238a9-956b-190e-9b8f-e0353a705458.htm" />
+        <HelpTOCNode Title="Level Property " Url="html/2cb5a317-00c4-25ed-d7d5-26f26de6890f.htm" />
+        <HelpTOCNode Title="Offset Property " Url="html/b222bc3c-b156-968c-aa4c-6d35fa3057ca.htm" />
+        <HelpTOCNode Title="SectionIOEnd Property " Url="html/31452cc6-a931-cc6f-c5cf-e27b20e62aa9.htm" />
+        <HelpTOCNode Title="SectionIOStart Property " Url="html/fa041723-a8d2-94a2-ec3e-bc3c801f00e8.htm" />
+        <HelpTOCNode Title="ThicknessExBottom Property " Url="html/221e88f1-50d5-91c6-8e1f-1677b9050f92.htm" />
+        <HelpTOCNode Title="ThicknessExLeft Property " Url="html/2ddf8aed-80f2-3aae-fdde-56c31708ee8c.htm" />
+        <HelpTOCNode Title="ThicknessExRight Property " Url="html/56ceab2c-9e9a-518e-4556-e57c024d470c.htm" />
+        <HelpTOCNode Title="ThicknessExTop Property " Url="html/c0e76b6f-7ee9-2968-dc3c-c4cc6c220d67.htm" />
+        <HelpTOCNode Title="TypeHaunchH Property " Url="html/2a6738c1-258b-0d33-d8c8-db58632b6501.htm" />
+        <HelpTOCNode Title="TypeHaunchV Property " Url="html/75b07bd9-7680-f93a-1f48-8eff5aa262eb.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="Girder Methods" Url="html/090eac9e-6f55-1ff8-957d-e681be2f1a4a.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="bbd3e6e2-a96a-4c7e-99ed-c6234c0bcc31" Title="IFrame Interface" Url="html/609e4b50-64f0-9322-73a1-6a2c71d7fb75.htm">
+      <HelpTOCNode Id="6df848b8-b309-4d36-b472-19e1b5f97edb" Title="IFrame Properties" Url="html/10099416-f4c0-cd68-e987-2e8ad666297a.htm">
+        <HelpTOCNode Title="ConditionEnd Property " Url="html/dd2e0a9c-2f58-e91e-6b6a-485a4d34b601.htm" />
+        <HelpTOCNode Title="ConditionStart Property " Url="html/a738ef9d-bc4e-9648-1086-47657d2912da.htm" />
+        <HelpTOCNode Title="IdNodeEnd Property " Url="html/eff2fdd8-b592-9b8d-604a-16f2cef16caa.htm" />
+        <HelpTOCNode Title="IdNodeStart Property " Url="html/4ffd13c4-6ca1-9a98-a6c2-0eed00c8149b.htm" />
+        <HelpTOCNode Title="JointEnd Property " Url="html/e9c5e282-2384-e118-09b4-2f8f9d4c7e09.htm" />
+        <HelpTOCNode Title="JointIdEnd Property " Url="html/c78ade62-0f83-4d97-4cb5-17e42c18c51a.htm" />
+        <HelpTOCNode Title="JointIdStart Property " Url="html/33003350-0e8b-36fe-30cd-b88e0a18d06f.htm" />
+        <HelpTOCNode Title="JointStart Property " Url="html/7f556f65-fff1-2d77-f835-c6148242debd.htm" />
+        <HelpTOCNode Title="KindJointEnd Property " Url="html/bc2ba691-92cd-9a3a-8022-4b0e5f54d143.htm" />
+        <HelpTOCNode Title="KindJointStart Property " Url="html/1ad818ac-6b41-7296-e132-6c446b9e2329.htm" />
+        <HelpTOCNode Title="OffsetEndX Property " Url="html/414c5536-5e48-931e-5217-379f7dce2ca8.htm" />
+        <HelpTOCNode Title="OffsetEndY Property " Url="html/7f14cd0c-16e6-fff4-b14b-2b813298918b.htm" />
+        <HelpTOCNode Title="OffsetEndZ Property " Url="html/644bbe5d-57ff-8363-6a42-a6bc4c9cf5f4.htm" />
+        <HelpTOCNode Title="OffsetStartX Property " Url="html/e1901de8-d39f-8a10-e706-6183d5c27fb9.htm" />
+        <HelpTOCNode Title="OffsetStartY Property " Url="html/32a9937a-aaec-3753-fae9-368b17a15523.htm" />
+        <HelpTOCNode Title="OffsetStartZ Property " Url="html/ddd9394b-3d4a-1d56-d164-af217d4b8269.htm" />
+        <HelpTOCNode Title="Rotate Property " Url="html/cff282fb-24d3-ff76-79a3-70c008fba88c.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="5cb362df-c5d2-44f7-9f5e-f19c775d38b0" Title="IMember Interface" Url="html/02118409-7e6c-a237-3f88-931c748a2297.htm">
+      <HelpTOCNode Id="f9e410a4-faae-4fc0-b0f9-720049d32933" Title="IMember Properties" Url="html/b5826bb9-a260-df9d-5979-8e62516966b6.htm">
+        <HelpTOCNode Title="IdSection Property " Url="html/471746df-e5f4-4294-2a7d-8c8e902e00e0.htm" />
+        <HelpTOCNode Title="Kind Property " Url="html/e66443f1-46ab-3b16-5b97-95f25bdc2e5b.htm" />
+        <HelpTOCNode Title="KindFrameStructure Property " Url="html/1c895dce-db0e-7e28-2b75-d9a762143cd6.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Title="KindFrameStructure Enumeration" Url="html/c2e5a599-724d-8598-a8c4-99cd3210fc66.htm" />
+    <HelpTOCNode Title="KindSlabStructure Enumeration" Url="html/8b10a7fb-64a3-182b-75e7-6d20a95d6ea7.htm" />
+    <HelpTOCNode Id="76fa05f1-b394-4657-b398-51d26318f2cb" Title="MemberBase Class" Url="html/7a4cbab5-7f35-aad1-57db-95372486dd1a.htm">
+      <HelpTOCNode Title="MemberBase Constructor " Url="html/2df21307-e265-bc3d-5c4f-2b7579575479.htm" />
+      <HelpTOCNode Id="da630064-918a-4c7a-9010-bbc1ed318173" Title="MemberBase Properties" Url="html/bdc7294e-bee3-ffab-ace3-680150e4dff2.htm">
+        <HelpTOCNode Title="Id Property " Url="html/a7d085c7-87d2-d0ad-61bc-68088c2c241e.htm" />
+        <HelpTOCNode Title="IdSection Property " Url="html/117b12d1-5fa6-ded1-65b3-80a1f569eb82.htm" />
+        <HelpTOCNode Title="Kind Property " Url="html/f32dfaa9-b40c-d684-2106-8a123d527824.htm" />
+        <HelpTOCNode Title="KindFrameStructure Property " Url="html/02241492-bcee-14d9-0495-0ca8f83964c1.htm" />
+        <HelpTOCNode Title="Name Property " Url="html/d1ed3637-82bf-6960-5af1-1cfc89254d05.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="MemberBase Methods" Url="html/e919a4b6-c58a-2669-d823-721b50e54797.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="46c0386d-9767-4136-bb0a-b58efae6a636" Title="Members Class" Url="html/372a1783-bcff-84b7-4709-245343517b01.htm">
+      <HelpTOCNode Title="Members Constructor " Url="html/b0eb0be3-08d5-fbce-6ca4-076eae7d2a48.htm" />
+      <HelpTOCNode Id="c7686903-fb77-4b40-8ff8-ab746738dfa7" Title="Members Properties" Url="html/84b8d53f-84e4-ed34-4b4d-b036a745537e.htm">
+        <HelpTOCNode Title="Beams Property " Url="html/18ed7335-4d6b-9037-73c9-41761c6c4cb4.htm" />
+        <HelpTOCNode Title="Braces Property " Url="html/8c2dd81d-96b9-5d21-8e45-72d532c06418.htm" />
+        <HelpTOCNode Title="Columns Property " Url="html/924074af-d40f-b1c7-3dc2-1d646415332b.htm" />
+        <HelpTOCNode Title="Footings Property " Url="html/2143fcc4-dae7-0cb9-5247-45cf46229b98.htm" />
+        <HelpTOCNode Title="FoundationColumns Property " Url="html/b0f16829-0ca8-0a10-8f8e-ed351cabaaca.htm" />
+        <HelpTOCNode Title="Girders Property " Url="html/15b13d74-7987-292d-e27c-8e487c1dc76f.htm" />
+        <HelpTOCNode Title="Parapets Property " Url="html/4dca3dd5-724f-8041-10a7-b6db7ca789b3.htm" />
+        <HelpTOCNode Title="Piles Property " Url="html/e774c6c3-dca5-c849-6e1b-95e242918f17.htm" />
+        <HelpTOCNode Title="Posts Property " Url="html/1bf8110b-86b9-e534-dfc2-8fc0d6200819.htm" />
+        <HelpTOCNode Title="Slabs Property " Url="html/eedac5c7-42a2-0f95-c41d-9301f62953af.htm" />
+        <HelpTOCNode Title="StripFootings Property " Url="html/ba762ffe-577b-aa23-0f1b-c6c01652daac.htm" />
+        <HelpTOCNode Title="Walls Property " Url="html/bb0e5a9d-7aa9-e13b-3c20-7afbe725b2b2.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="Members Methods" Url="html/b930c355-8618-b405-1f5b-4ab8a89d4a7a.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="9510e2b5-61b5-484a-bd65-1ff6e34c3a4f" Title="Open Class" Url="html/6638fa31-f6f3-35ae-34a2-8abac605f0cf.htm">
+      <HelpTOCNode Title="Open Constructor " Url="html/44a74d36-bc6f-058a-0007-e8f95bcc31c4.htm" />
+      <HelpTOCNode Id="ac1f90c1-d994-4f69-a7be-2c0a93b956c2" Title="Open Properties" Url="html/8c3f9116-b81d-3783-4633-b95b370fd1ce.htm">
+        <HelpTOCNode Title="LengthX Property " Url="html/c5c40fcd-302e-8655-0647-dee1a6635235.htm" />
+        <HelpTOCNode Title="LengthY Property " Url="html/a0ca0d5a-037e-0b6c-83fa-b9a7c1fdf012.htm" />
+        <HelpTOCNode Title="PositionX Property " Url="html/0b1ca6d5-8bbc-9f47-8930-067e2b75fad0.htm" />
+        <HelpTOCNode Title="PositionY Property " Url="html/9d0874ef-8324-27bf-a9dc-4a19571307e1.htm" />
+        <HelpTOCNode Title="Rotate Property " Url="html/bc5ad94f-681e-17b7-8f97-9a5d9c57db21.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="Open Methods" Url="html/e23030cb-8733-9d2d-7ac7-088b5d3a011c.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="62ab77d7-edcd-4276-ac2c-927e3d42d6d6" Title="Parapet Class" Url="html/3a4ef63f-ddd7-166c-8b31-c24972285e9f.htm">
+      <HelpTOCNode Title="Parapet Constructor " Url="html/733e9175-2a7a-c28e-b7f4-fedd9a6b0b0d.htm" />
+      <HelpTOCNode Title="Parapet Properties" Url="html/fbded6fd-631a-e3e9-f797-dbc568c76bd8.htm" />
+      <HelpTOCNode Title="Parapet Methods" Url="html/f8194d89-5f76-1673-b4ff-b0d763f1450e.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="41ede902-c5a5-4d58-8ae1-24ca784b8304" Title="Pile Class" Url="html/c1777b3d-844f-2d80-0761-34ff26e9fe6b.htm">
+      <HelpTOCNode Title="Pile Constructor " Url="html/112343c3-42f6-eb8e-c046-08441377b309.htm" />
+      <HelpTOCNode Title="Pile Properties" Url="html/37c3f3ce-33e1-3fd7-08bb-547bce0f3b29.htm" />
+      <HelpTOCNode Title="Pile Methods" Url="html/a2b43b3b-3ae8-bb14-e7ac-9bd58131aae9.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="2e7bb887-4d79-4f95-b3bf-ccd9c5bfd359" Title="PlaneOpen Class" Url="html/0d2f412b-5b4a-1092-1b48-33ba28e9b1c5.htm">
+      <HelpTOCNode Title="PlaneOpen Constructor " Url="html/e5c72950-0b6f-1dc6-a822-8c29bf31463b.htm" />
+      <HelpTOCNode Id="4e0c8a83-28b4-4fb6-8cd5-1626c9dc4fc7" Title="PlaneOpen Properties" Url="html/d8295ddc-dbb8-af49-622f-dbd67d0239a2.htm">
+        <HelpTOCNode Title="Id Property " Url="html/7f32304a-cee0-ea25-c182-c1168da95fc6.htm" />
+        <HelpTOCNode Title="IdSection Property " Url="html/93597019-5fd3-24c4-ae0f-7718d248b4af.htm" />
+        <HelpTOCNode Title="LengthX Property " Url="html/3eb656ee-d913-162d-6939-086ada054f4b.htm" />
+        <HelpTOCNode Title="LengthY Property " Url="html/77fabcdd-90e1-bd31-bb74-06827a6c10de.htm" />
+        <HelpTOCNode Title="Name Property " Url="html/6c043fc0-8489-051a-b46b-3e0a26ec1a5a.htm" />
+        <HelpTOCNode Title="PositionX Property " Url="html/0f9a4519-8e5a-ddc6-fc26-6b9d150c7ed1.htm" />
+        <HelpTOCNode Title="PositionY Property " Url="html/f25d531c-2ab3-8639-81f3-629ee847371b.htm" />
+        <HelpTOCNode Title="Rotate Property " Url="html/854f081d-ab8b-8359-e3ab-be381e07235c.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="PlaneOpen Methods" Url="html/45410aee-21c2-f74c-701b-c1beae111468.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="482b659b-b738-4745-bfce-d46310dd7459" Title="PlateBase Class" Url="html/4c9575b6-03c0-9d17-af70-b56572d95467.htm">
+      <HelpTOCNode Title="PlateBase Constructor " Url="html/40b0dd16-f6d0-566a-8906-5f7c0da8e0c1.htm" />
+      <HelpTOCNode Id="23388e31-c8b8-4fbf-841d-40b1c3103644" Title="PlateBase Properties" Url="html/3414f1b6-c510-e267-9f46-906aa870c0d7.htm">
+        <HelpTOCNode Title="NodeIdList Property " Url="html/174174af-c269-549f-0ae6-506fd88e64b3.htm" />
+        <HelpTOCNode Title="Opens Property " Url="html/84ff6ce3-e19c-f06a-9e80-c3d415bd08ea.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="PlateBase Methods" Url="html/05d51875-909d-eec8-6530-e196139accbe.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="e524c875-56cc-4653-a1b7-56d948038fbc" Title="Post Class" Url="html/318e14fa-f2aa-537a-fcda-8b73a69f0c7e.htm">
+      <HelpTOCNode Title="Post Constructor " Url="html/dec7d9ef-9f64-843e-9e89-723885ed2f66.htm" />
+      <HelpTOCNode Title="Post Properties" Url="html/455d4072-46f3-872d-dd03-51128d5d420c.htm" />
+      <HelpTOCNode Title="Post Methods" Url="html/6e6bcbed-2036-4f0c-b457-d987aee8f481.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="7e9dad58-2a2d-480f-9421-ab9d0cab0e07" Title="Slab Class" Url="html/bb755c29-4312-c85b-a6d6-eb38a684f8b2.htm">
+      <HelpTOCNode Title="Slab Constructor " Url="html/e78f1ef9-c9c2-51c9-0bcc-3f82afe82c7a.htm" />
+      <HelpTOCNode Id="95c4f4b9-d829-47a2-9363-0013768b1b44" Title="Slab Properties" Url="html/c15263ce-1322-6441-64a8-b69290ab3776.htm">
+        <HelpTOCNode Title="AngleLoad Property " Url="html/de7199c3-56c4-c603-e1a9-1540be4166e6.htm" />
+        <HelpTOCNode Title="DirLoad Property " Url="html/69109058-6261-1640-27d8-77c936a14297.htm" />
+        <HelpTOCNode Title="IsFoundation Property " Url="html/ee40b3bf-74e7-2ff0-33fe-84969f619b3e.htm" />
+        <HelpTOCNode Title="KindSlab Property " Url="html/89184391-ebd4-b180-0e39-7483b7303588.htm" />
+        <HelpTOCNode Title="Level Property " Url="html/b9e87e03-88b8-1863-1659-bfee2a6bf7fb.htm" />
+        <HelpTOCNode Title="SlabOffsets Property " Url="html/ff2c7b8b-89d5-2dd7-66c2-52b409fac803.htm" />
+        <HelpTOCNode Title="ThicknessExBottom Property " Url="html/1c7bb233-9deb-8360-a6ad-855896404156.htm" />
+        <HelpTOCNode Title="ThicknessExUpper Property " Url="html/75d33c47-4eaf-5f9c-b24e-da72773bde2a.htm" />
+        <HelpTOCNode Title="TypeHaunch Property " Url="html/b8284051-8f16-28ef-cbb4-78e6a87743bb.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="Slab Methods" Url="html/ec9ab2c8-bd9d-58ce-3004-da522999807b.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="7c599046-11fa-432d-85ac-7f9e00db170a" Title="SlabOffset Class" Url="html/6fd2e9d7-c1cc-1b04-1a44-058e1d220412.htm">
+      <HelpTOCNode Title="SlabOffset Constructor " Url="html/4e08d449-c836-f780-3163-a4a143a37557.htm" />
+      <HelpTOCNode Id="eb121e39-8207-4df1-98ad-45d4cd9edce0" Title="SlabOffset Properties" Url="html/e0ad1d6d-c37d-5a15-b6ed-ac919545c7bb.htm">
+        <HelpTOCNode Title="OffsetX Property " Url="html/91a5dea0-e21f-cfa8-5eb6-fe141ca2887c.htm" />
+        <HelpTOCNode Title="OffsetY Property " Url="html/166a6528-616d-770b-8282-7ea9b33bb048.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="SlabOffset Methods" Url="html/efa95755-5162-d57f-9b48-53a12662633f.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="e5c08c2c-49b3-4332-8231-33042fe2be95" Title="StripFooting Class" Url="html/6bcd35f5-0e37-4a37-ed01-2dcbe4c2d5ee.htm">
+      <HelpTOCNode Title="StripFooting Constructor " Url="html/63076ac8-be55-c2bc-f9f5-14c158d93bb2.htm" />
+      <HelpTOCNode Title="StripFooting Properties" Url="html/d76bf77b-7ae1-4ec1-4660-f8ad2c66274d.htm" />
+      <HelpTOCNode Title="StripFooting Methods" Url="html/52b9b413-b921-2638-d12b-a1c1056d86f6.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="ac8be6e4-5fc0-481d-96d4-a750275b992e" Title="Wall Class" Url="html/6d6f1046-9b24-7669-2218-9e36859adb8d.htm">
+      <HelpTOCNode Title="Wall Constructor " Url="html/d4cd882c-4de5-4801-dfec-00006e5ab95d.htm" />
+      <HelpTOCNode Id="a932d66e-e43a-4289-90af-6e094fcc57a5" Title="Wall Properties" Url="html/1fc238cb-50bd-7cf4-8f95-9e29ac003ec5.htm">
+        <HelpTOCNode Title="IsPress Property " Url="html/0edd1958-e7ec-c663-ae9e-50fb38432dc9.htm" />
+        <HelpTOCNode Title="KindLayout Property " Url="html/1cc19142-28b7-3c34-617f-705cd1a48d75.htm" />
+        <HelpTOCNode Title="KindWall Property " Url="html/39b938f7-2d17-4c7c-46dc-205ce191f177.htm" />
+        <HelpTOCNode Title="Offset Property " Url="html/90eda8c4-134c-8ae0-6502-aae5459f2d9e.htm" />
+        <HelpTOCNode Title="SplitBottom Property " Url="html/c917d877-2e3e-268f-8e0f-4246dbf38783.htm" />
+        <HelpTOCNode Title="SplitLeft Property " Url="html/57d658e7-ed02-5549-c013-aabfeed51003.htm" />
+        <HelpTOCNode Title="SplitRight Property " Url="html/18a7553e-b6a9-2e60-5387-6d1dcc7a14c1.htm" />
+        <HelpTOCNode Title="SplitUpper Property " Url="html/a6038416-ed91-dc3d-08ba-fa8b30a4e4fe.htm" />
+        <HelpTOCNode Title="ThicknessExLeft Property " Url="html/bc7ba7b3-9c8b-278d-a146-9227fbd26ba3.htm" />
+        <HelpTOCNode Title="ThicknessExRight Property " Url="html/8f63abc1-6d76-334d-7bc9-a1158d435acb.htm" />
+        <HelpTOCNode Title="TypeOutside Property " Url="html/4be3c9b3-c1ac-29c5-a84f-dc9560422f44.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="Wall Methods" Url="html/1cd4df31-0f2a-1432-851b-810f99ad5a35.htm" />
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="d8a29f47-3713-4d1d-b4d6-bfacbe4b3cd5" Title="STBDotNet.Elements.StbModel.StbSection" Url="html/0a6f96e6-ee90-cb01-dda8-c1c184dc056b.htm">
+    <HelpTOCNode Id="186d40a0-9ca1-4d0d-af56-68afa3ac9441" Title="BaseProduct Class" Url="html/491e5600-fe0f-2e6d-02e5-d409903df1a1.htm">
+      <HelpTOCNode Title="BaseProduct Constructor " Url="html/2bd28257-6a21-3744-3053-e8ceb9301676.htm" />
+      <HelpTOCNode Id="a86f6711-6ab2-4c35-b946-6a90c06a10a1" Title="BaseProduct Properties" Url="html/f061f04d-5dea-9d18-6ddc-aefe685f95db.htm">
+        <HelpTOCNode Title="Code Property " Url="html/af1b98e7-7111-4fe5-dcc7-17bbaf876010.htm" />
+        <HelpTOCNode Title="Company Property " Url="html/97663067-766a-caff-3b03-13d89eb794b3.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="BaseProduct Methods" Url="html/0b8ee157-2a20-ea4b-fa67-ef792188fb24.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="f2649c65-6bbc-4818-9677-1a3fdb952842" Title="BeamRc Class" Url="html/6a0dc993-c948-ed81-809f-1af0d9ca80b0.htm">
+      <HelpTOCNode Title="BeamRc Constructor " Url="html/b633a84c-6a73-2253-b221-8aea687f5696.htm" />
+      <HelpTOCNode Id="9a63215f-41ca-4c01-9d43-0a7acb40cbc4" Title="BeamRc Properties" Url="html/2c2e8292-be9b-2147-f95f-8849d3f8bb0a.htm">
+        <HelpTOCNode Title="BarArrangement Property " Url="html/643b6d6a-ba2f-bf28-4d4d-3ff1d18cd914.htm" />
+        <HelpTOCNode Title="BarLengthEnd Property " Url="html/6c603b68-85b4-82ab-f570-48fc585bfeaa.htm" />
+        <HelpTOCNode Title="BarLengthStart Property " Url="html/798be7b8-4c93-ac3d-f69f-79c3728de16c.htm" />
+        <HelpTOCNode Title="CenterBarBottom Property " Url="html/5e27f5da-de64-1837-8e83-8794f7515fb1.htm" />
+        <HelpTOCNode Title="CenterBarTop Property " Url="html/e7b65a63-5c62-0994-fd44-b7e7f4e83d3c.htm" />
+        <HelpTOCNode Title="DBarWeb Property " Url="html/11b004a4-f9e8-5d95-bedd-da76fa290319.htm" />
+        <HelpTOCNode Title="DepthCoverBottom Property " Url="html/7145704f-6c49-db98-3fd1-48b6bbf13001.htm" />
+        <HelpTOCNode Title="DepthCoverLeft Property " Url="html/c52f990a-18bd-699e-dda6-1c8b4c958e72.htm" />
+        <HelpTOCNode Title="DepthCoverRight Property " Url="html/b942e5a3-159c-4661-a951-9388e2151017.htm" />
+        <HelpTOCNode Title="DepthCoverTop Property " Url="html/390efd64-8e8d-5036-3ed0-c8f6536407cb.htm" />
+        <HelpTOCNode Title="DStirrup Property " Url="html/179a3b66-859b-2367-0460-1511b8323288.htm" />
+        <HelpTOCNode Title="Figure Property " Url="html/2f3e368f-9c4d-1fda-8487-302bf10f91c9.htm" />
+        <HelpTOCNode Title="IsCanti Property " Url="html/d445d30f-fe3b-89e1-c398-4e0148f3efee.htm" />
+        <HelpTOCNode Title="IsFoundation Property " Url="html/70265724-9dbb-a5cb-9ffb-05fa0e6e5b8f.htm" />
+        <HelpTOCNode Title="IsOutIn Property " Url="html/185e73e8-449f-4b69-bd97-60c2bbcb8a0c.htm" />
+        <HelpTOCNode Title="KindBeam Property " Url="html/8b598e38-60a5-9820-643b-0862f44ffddd.htm" />
+        <HelpTOCNode Title="StrengthBarWeb Property " Url="html/ad8dd6a9-89fc-833b-9db1-bfb5b8478337.htm" />
+        <HelpTOCNode Title="StrengthStirrup Property " Url="html/36169239-3fe0-9caa-6bf1-d629975703c5.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="BeamRc Methods" Url="html/b318ad80-936d-34b1-bdd8-3e2d929a8e78.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="164dd4f4-560f-4b7c-b2d4-2733be04d16f" Title="BeamRc.SteelSecBarArrangement Class" Url="html/dd928969-fac3-aaa1-2ede-fb9203c5cc07.htm">
+      <HelpTOCNode Title="BeamRc.SteelSecBarArrangement Constructor " Url="html/11ed10eb-6df8-20df-c194-36a89fca522c.htm" />
+      <HelpTOCNode Id="79c417a5-8284-41ea-9803-c41f2c8f8fbf" Title="SteelSecBarArrangement Properties" Url="html/a6339aff-a8b7-b5af-d9b9-9b3e95602090.htm">
+        <HelpTOCNode Title="SameSection Property " Url="html/57bbb067-c596-e25a-4bac-f28c35a13578.htm" />
+        <HelpTOCNode Title="StartCenterEndSection Property " Url="html/a60086db-a532-60b2-2389-753e0f111d83.htm" />
+        <HelpTOCNode Title="StartEndSection Property " Url="html/be48f32b-1508-6739-9039-b0b3522833c4.htm" />
+        <HelpTOCNode Title="XBarSection Property " Url="html/8a663b61-541f-23e5-12bf-2e6453027e09.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="SteelSecBarArrangement Methods" Url="html/0d442b86-2a20-f152-28aa-4419c2aafc40.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="b396ea18-23c1-4d65-ac66-ad5d232f2529" Title="BeamRc.SteelSecBarArrangement.Same Class" Url="html/46773487-3364-663b-4cc7-10b6292989f7.htm">
+      <HelpTOCNode Title="BeamRc.SteelSecBarArrangement.Same Constructor " Url="html/b85106f7-6d82-6fff-119e-1acc1303cd62.htm" />
+      <HelpTOCNode Id="a305552b-cb7d-4789-b606-84ff69f9ebba" Title="Same Properties" Url="html/9827fd2c-065a-81d6-2aa3-06f855942296.htm">
+        <HelpTOCNode Title="Count2ndMainBottom1st Property " Url="html/8765392e-5e20-3ace-5325-97d815e889c9.htm" />
+        <HelpTOCNode Title="Count2ndMainBottom2nd Property " Url="html/7a476a74-1f95-89eb-1020-b5d6517282b6.htm" />
+        <HelpTOCNode Title="Count2ndMainBottom3rd Property " Url="html/29d51d5b-4de7-2c1c-a9c0-65ba3e1ad3af.htm" />
+        <HelpTOCNode Title="Count2ndMainTop1st Property " Url="html/160d3ed2-ad07-446d-9590-61305aaf1924.htm" />
+        <HelpTOCNode Title="Count2ndMainTop2nd Property " Url="html/b28e968b-a04b-14fc-bf88-595611a894a3.htm" />
+        <HelpTOCNode Title="Count2ndMainTop3rd Property " Url="html/33cb1355-acdc-f0db-5d10-f893fbe2d322.htm" />
+        <HelpTOCNode Title="CountBarSpacing Property " Url="html/f999bfae-a2a8-ffe9-d506-2eb6b088c1c9.htm" />
+        <HelpTOCNode Title="CountMainBottom1st Property " Url="html/7eae2f6c-bcec-f6fb-978e-d9a3dec47ffe.htm" />
+        <HelpTOCNode Title="CountMainBottom2nd Property " Url="html/df4986a2-f0e1-8f31-72c1-bb7fc0a552f0.htm" />
+        <HelpTOCNode Title="CountMainBottom3rd Property " Url="html/160009da-537d-c611-fbfe-4caeda758af3.htm" />
+        <HelpTOCNode Title="CountMainTop1st Property " Url="html/0e2a0c78-c693-361a-5d6c-8ba83bc1726d.htm" />
+        <HelpTOCNode Title="CountMainTop2nd Property " Url="html/eecc9350-b45c-a5d2-5098-d70aa9398d4c.htm" />
+        <HelpTOCNode Title="CountMainTop3rd Property " Url="html/70915373-5e49-3b4d-02ea-b0b6de5c71d1.htm" />
+        <HelpTOCNode Title="CountStirrup Property " Url="html/c6ea8ff8-3da0-e864-29bb-ab4cf53227ad.htm" />
+        <HelpTOCNode Title="CountWeb Property " Url="html/59985e27-0d0c-fcf3-6a9e-27cff0addc9e.htm" />
+        <HelpTOCNode Title="PitchBarSpacing Property " Url="html/c5b48046-9d15-c1d3-337e-bb9176583db4.htm" />
+        <HelpTOCNode Title="PitchStirrup Property " Url="html/9fc40b9a-57ac-ba86-b98e-7c9d394cc7bb.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="Same Methods" Url="html/dd9aab65-56e5-8265-e811-c0efc25b97e2.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="0971dba4-6b5d-4bd7-951a-61ee8b2e8ed1" Title="BeamRc.SteelSecBarArrangement.StartCenterEnd Class" Url="html/cad1b76a-96b3-dc4a-7a6a-3dbb5878d07a.htm">
+      <HelpTOCNode Title="BeamRc.SteelSecBarArrangement.StartCenterEnd Constructor " Url="html/a17d21d7-e651-4b52-b510-881946d949a3.htm" />
+      <HelpTOCNode Id="98792c6c-e66c-4f7a-88d6-2e39e39efd57" Title="StartCenterEnd Properties" Url="html/3b26aa27-89d6-4b6e-3cb9-763692938824.htm">
+        <HelpTOCNode Title="Position Property " Url="html/867bea83-5823-6625-b65c-f98beeb51eec.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="StartCenterEnd Methods" Url="html/80d4c5ab-525d-2f2a-9668-615d2ec1d1cf.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="6e804a91-efe0-4bad-8108-e9de6227f4d7" Title="BeamRc.SteelSecBarArrangement.StartEnd Class" Url="html/d4fb702f-ef10-dd43-b409-d8747f875686.htm">
+      <HelpTOCNode Title="BeamRc.SteelSecBarArrangement.StartEnd Constructor " Url="html/07d2d5bb-b1dc-053e-6805-3cfa2126aa64.htm" />
+      <HelpTOCNode Id="9374e15b-a0ac-401f-8291-db5a9450385c" Title="StartEnd Properties" Url="html/edab52d2-4e41-74a9-2127-69b7f99aad9b.htm">
+        <HelpTOCNode Title="Position Property " Url="html/ef30abed-996d-042c-a6a2-94b19fd2d56a.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="StartEnd Methods" Url="html/a03c4fa0-390b-599c-6803-f5fa9377e0e1.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="e9d3bf9a-84b5-4cca-8bc1-69b9a765ecd6" Title="BeamRc.SteelSecBarArrangement.XReinforced Class" Url="html/fdb3d1ac-5ceb-b130-c213-3ebfc96b10a0.htm">
+      <HelpTOCNode Title="BeamRc.SteelSecBarArrangement.XReinforced Constructor " Url="html/24dec76f-c3c1-801e-507e-a2a393206937.htm" />
+      <HelpTOCNode Id="9e134d2a-4199-4387-9634-810b8458994a" Title="XReinforced Properties" Url="html/b039a910-28d5-092d-bf23-4574131b4ed3.htm">
+        <HelpTOCNode Title="CountMainBottom Property " Url="html/67378fdb-6b85-72b5-8bef-abcdfae84676.htm" />
+        <HelpTOCNode Title="CountMainTop Property " Url="html/1df00842-178e-07ae-af66-64ca9c3c14ae.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="XReinforced Methods" Url="html/89110e8b-7fe7-fc3f-bab8-72d5b86fb274.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="6a3681ca-65f2-45b2-aa84-4616c62a0b07" Title="BeamRc.SteelSecFigure Class" Url="html/b3dde67b-e249-ee84-4db3-3fddb399abc0.htm">
+      <HelpTOCNode Title="BeamRc.SteelSecFigure Constructor " Url="html/6e4b76dd-9f25-c39f-5504-a9036671b3c4.htm" />
+      <HelpTOCNode Id="ab8d9920-54d7-4b83-928e-7e4c40f9c63d" Title="SteelSecFigure Properties" Url="html/3a7d4f9a-d846-1c59-5a20-482263a51141.htm">
+        <HelpTOCNode Title="SecHaunch Property " Url="html/622c02c9-3117-b37e-254f-c71d0569b682.htm" />
+        <HelpTOCNode Title="SecStraight Property " Url="html/7b4e16b4-cc34-492e-338e-13a87db105d9.htm" />
+        <HelpTOCNode Title="SecTaper Property " Url="html/6e3bab52-08e7-f5bc-b00f-9f62a6a8e171.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="SteelSecFigure Methods" Url="html/4c2232a0-04c1-a474-f53d-5a3f94aef9b7.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="cea2137a-32b8-47f8-b778-5fe94f28adb3" Title="BeamRc.SteelSecFigure.Haunch Class" Url="html/f0c10122-ab8a-f8b8-287b-7a7af626f355.htm">
+      <HelpTOCNode Title="BeamRc.SteelSecFigure.Haunch Constructor " Url="html/49bfb2fa-404a-61e6-1ce6-3d4d5f69123e.htm" />
+      <HelpTOCNode Id="8dc81168-2828-49de-bef1-b8887bb287a6" Title="Haunch Properties" Url="html/61033f7f-2fbd-8891-13dd-2832ea69ec1b.htm">
+        <HelpTOCNode Title="DepthCenter Property " Url="html/4614a2f4-318a-bfc7-8329-c84f1bb7246b.htm" />
+        <HelpTOCNode Title="WidthCenter Property " Url="html/f3d3f686-6fd2-211c-d2ac-e326afddda64.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="Haunch Methods" Url="html/57cef92a-6b33-f85f-bbf8-7342c45fa4c4.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="60d239dc-26fe-478f-85c5-4f42a8581b6f" Title="BeamRc.SteelSecFigure.Straight Class" Url="html/697ea284-b184-3d0f-53cb-caa3109dc02b.htm">
+      <HelpTOCNode Title="BeamRc.SteelSecFigure.Straight Constructor " Url="html/29cf4331-6a3f-081c-e2db-f26e2667edb7.htm" />
+      <HelpTOCNode Id="6d881b4e-0101-47b4-aceb-30910ca18e42" Title="Straight Properties" Url="html/9501db60-14c7-854b-8072-7a16aab2721e.htm">
+        <HelpTOCNode Title="Depth Property " Url="html/8597bd29-696e-e2aa-cd77-5dbf57009878.htm" />
+        <HelpTOCNode Title="Width Property " Url="html/79d5cec7-9d51-a2ce-724b-980a7a6ae6c7.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="Straight Methods" Url="html/f272ff97-5a5d-a47a-f561-aae77812d226.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="d9dc54fe-7a99-40f0-86bb-ee7289f836fe" Title="BeamRc.SteelSecFigure.Taper Class" Url="html/a8948231-465e-7ad8-f73b-87aee8b6a912.htm">
+      <HelpTOCNode Title="BeamRc.SteelSecFigure.Taper Constructor " Url="html/4727be61-3346-f490-7c7b-135e8f2c3f3b.htm" />
+      <HelpTOCNode Id="8dd3f7fb-36a7-4bfd-a1df-4fbad0d29e16" Title="Taper Properties" Url="html/1c4e914b-3192-2ebb-98ee-c3429b4db57d.htm">
+        <HelpTOCNode Title="DepthEnd Property " Url="html/adca3348-7276-5263-6a27-cf9ec4e0786b.htm" />
+        <HelpTOCNode Title="DepthStart Property " Url="html/7015defa-0db6-f576-3dda-d0f3dc77000a.htm" />
+        <HelpTOCNode Title="WidthEnd Property " Url="html/6dfd04dc-989a-4b08-1838-cc3dcfc93b83.htm" />
+        <HelpTOCNode Title="WidthStart Property " Url="html/44327bfa-b3f9-9fd6-4a0b-621b3c78e319.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="Taper Methods" Url="html/5f60bfdf-3d9a-3119-f766-29a8a28edd7b.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="f4a0a356-c321-4e4c-83fd-3b5c3eea7f37" Title="BeamS Class" Url="html/5d51c701-4b0d-9503-9aca-d87135b26616.htm">
+      <HelpTOCNode Title="BeamS Constructor " Url="html/687f349c-712e-2245-a5b2-61c79d5cb4e5.htm" />
+      <HelpTOCNode Id="16875f14-ae5b-4dd4-8917-57b540c83ed0" Title="BeamS Properties" Url="html/6b464d89-572a-63fb-e45f-b14bb5448bdc.htm">
+        <HelpTOCNode Title="IsCanti Property " Url="html/b1657641-7613-9777-fd1b-a42f5b7906cb.htm" />
+        <HelpTOCNode Title="IsOutIn Property " Url="html/1e777964-88ff-97e5-1c78-500fd398f458.htm" />
+        <HelpTOCNode Title="JointIdEnd Property " Url="html/c9a8bd2f-10a6-7d60-6622-f1b7a3731478.htm" />
+        <HelpTOCNode Title="JointIdStart Property " Url="html/aa7a9de6-f5dc-c105-11eb-687aa6e99bb6.htm" />
+        <HelpTOCNode Title="KindBeam Property " Url="html/a259830a-c90e-bffc-6661-dd1d3833c947.htm" />
+        <HelpTOCNode Title="SteelBeams Property " Url="html/f6e2db21-9e38-492f-9b6c-642f765db239.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="BeamS Methods" Url="html/545f353a-b1dd-94c0-c8d7-6a1dfb25cdbf.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="3e781c31-898a-4897-985f-a5f350cd46af" Title="BeamSrc Class" Url="html/73bc9cd2-41f1-08f2-847b-3a7f4538a570.htm">
+      <HelpTOCNode Title="BeamSrc Constructor " Url="html/d6ded0b9-a8c4-0df1-8468-d8d9a763d7c8.htm" />
+      <HelpTOCNode Id="e0e91c02-6618-486b-bad5-ab21b721cb84" Title="BeamSrc Properties" Url="html/179ccd06-f313-3d9d-3ede-da1bb00cee80.htm">
+        <HelpTOCNode Title="IsCanti Property " Url="html/2fe0699b-2912-7174-ddd6-d18f14a54688.htm" />
+        <HelpTOCNode Title="IsOutIn Property " Url="html/5810d064-1b88-4539-120d-6842c633e3b6.htm" />
+        <HelpTOCNode Title="KindBeam Property " Url="html/0e68d1d1-fb78-0453-6f4e-2592062cc6df.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="BeamSrc Methods" Url="html/b5f07e44-4726-4e45-6319-7eef32a137b5.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="8cfad3c6-aa19-41d6-910a-1df2046bc3ca" Title="BoxShapeBase Class" Url="html/cc73beff-d0b4-1813-a70e-380a32aa80d1.htm">
+      <HelpTOCNode Title="BoxShapeBase Constructor " Url="html/e671111b-85f7-c5fa-0341-d2559cf4f2a6.htm" />
+      <HelpTOCNode Title="BoxShapeBase Properties" Url="html/fc795475-ac3c-c2fb-6766-03c8474afd1a.htm" />
+      <HelpTOCNode Title="BoxShapeBase Methods" Url="html/abde7d34-5ba0-ddd7-1235-6d97b5e173b4.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="0295bbf6-3dd2-40d3-bb30-a8a1647bc9a0" Title="BraceS Class" Url="html/988d4f61-b436-ffde-7f47-aca4b130b097.htm">
+      <HelpTOCNode Title="BraceS Constructor " Url="html/f72b1247-aaee-bcbe-484f-b346852342bc.htm" />
+      <HelpTOCNode Id="5290c5b1-7f64-4168-b9e1-059e88765ba2" Title="BraceS Properties" Url="html/14f37221-1fc7-1fc3-987a-fed4a106ebc1.htm">
+        <HelpTOCNode Title="KindBeam Property " Url="html/5976c571-3915-8f50-1ae0-f7de358a6385.htm" />
+        <HelpTOCNode Title="SteelBrace Property " Url="html/2402d8a6-bcd5-21ef-87b7-1e852114df02.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="BraceS Methods" Url="html/469b350c-907a-60b4-9ade-1d144ba5cb23.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="1015d301-9316-4d06-8092-58354110d683" Title="BuildBox Class" Url="html/01ec3ee6-91f9-5f21-7657-4288daf6e5ee.htm">
+      <HelpTOCNode Title="BuildBox Constructor " Url="html/029c585c-e6e5-559f-8317-7dd77f5fa74b.htm" />
+      <HelpTOCNode Id="318ca0ac-1531-4f64-b581-ad436366a86d" Title="BuildBox Properties" Url="html/71706d12-0aba-27e5-f8cf-edb7be7edc6c.htm">
+        <HelpTOCNode Title="T1 Property " Url="html/63d3e2a2-4e2c-a45d-f985-790aab1af958.htm" />
+        <HelpTOCNode Title="T2 Property " Url="html/0e585c3d-5ce3-5a3d-3829-218c04277abd.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="BuildBox Methods" Url="html/c384c959-5272-2744-66c6-fedaeade3933.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="e41fd328-a27a-48d9-82c6-4be0e3599e5c" Title="BuildH Class" Url="html/cb55c303-2c35-ae28-e082-460e3b36b9de.htm">
+      <HelpTOCNode Title="BuildH Constructor " Url="html/be28def6-2a36-3ba9-f9b6-626cbb3d42be.htm" />
+      <HelpTOCNode Title="BuildH Properties" Url="html/4bd015bc-0f41-71c3-a5bb-68064b1f43dc.htm" />
+      <HelpTOCNode Title="BuildH Methods" Url="html/b4402b74-2bdd-f59b-636b-c5b96851f36f.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="707acb6a-2abf-44ad-be31-98c369221677" Title="CLShapeBase Class" Url="html/3f29af91-a370-4045-c86f-226fd9c60ee0.htm">
+      <HelpTOCNode Title="CLShapeBase Constructor " Url="html/fc398281-7998-dd88-3981-b3ed0489def0.htm" />
+      <HelpTOCNode Id="82035b85-9ce9-4c68-b3a3-1e9d28971606" Title="CLShapeBase Properties" Url="html/8b6b2984-89d2-8636-36d0-c23b83d9f55f.htm">
+        <HelpTOCNode Title="R1 Property " Url="html/bca055f9-6011-4335-9d46-898e7c0f5f13.htm" />
+        <HelpTOCNode Title="R2 Property " Url="html/eaf36fb7-6ee4-fbd0-f6be-e6a19433761f.htm" />
+        <HelpTOCNode Title="Side Property " Url="html/990b2def-0d6d-84df-dcea-c3c527bd0047.htm" />
+        <HelpTOCNode Title="Type Property " Url="html/57c6878f-8d98-82ce-222d-184475aa2917.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="CLShapeBase Methods" Url="html/be2f2c81-8f58-3480-f6ea-3ca99d0e5ad9.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="0d4203a3-1d6a-4154-ac4b-64fa9397ff07" Title="ColumnCft Class" Url="html/475add26-3865-4c70-6b67-3583d70de46e.htm">
+      <HelpTOCNode Title="ColumnCft Constructor " Url="html/043c289f-131a-76f7-d60a-978ad35ced88.htm" />
+      <HelpTOCNode Title="ColumnCft Properties" Url="html/9f075e8f-277c-7d6f-1c78-69786395c5cb.htm" />
+      <HelpTOCNode Title="ColumnCft Methods" Url="html/b3c1cb7b-668e-1ee6-b029-e21c14cc2d15.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="5f78b26b-16dc-4c14-8a98-9e6ad0e11ff5" Title="ColumnRc Class" Url="html/37ee8bd8-c332-6219-1fc5-88a0f2150a20.htm">
+      <HelpTOCNode Title="ColumnRc Constructor " Url="html/aa536d96-da3e-d0ad-ef57-e34545da7ba7.htm" />
+      <HelpTOCNode Id="c4953496-10c1-45c6-bbb6-490988975368" Title="ColumnRc Properties" Url="html/f2a17a89-f595-0812-353b-804cfc81cc2e.htm">
+        <HelpTOCNode Title="BarArrangement Property " Url="html/db0fe273-b25b-95b1-5070-8ae056c2bf0a.htm" />
+        <HelpTOCNode Title="CenterBarEndX Property " Url="html/f89e9ec3-9cf6-225c-8db8-5243c3ac1050.htm" />
+        <HelpTOCNode Title="CenterBarEndY Property " Url="html/5a71391f-9639-b689-bd4d-2353fb09b511.htm" />
+        <HelpTOCNode Title="CenterBarStartX Property " Url="html/0db59b78-7bc8-6fe7-6fc6-2c2537f1a182.htm" />
+        <HelpTOCNode Title="CenterBarStartY Property " Url="html/d90349f1-42ef-bfe2-2799-d41440399865.htm" />
+        <HelpTOCNode Title="DBarAxial Property " Url="html/1fdcc8df-2c33-faa2-d03a-a0e0d3ef9a6b.htm" />
+        <HelpTOCNode Title="DBarBand Property " Url="html/e0fe4064-6aa2-2c65-d677-ed62737e6f03.htm" />
+        <HelpTOCNode Title="DepthCoverEndX Property " Url="html/2f3dea18-2c8f-431d-af1d-3eb9cd2e5ead.htm" />
+        <HelpTOCNode Title="DepthCoverEndY Property " Url="html/a13fd23a-3fa8-18a6-dedf-73f2ee3553b5.htm" />
+        <HelpTOCNode Title="DepthCoverStartX Property " Url="html/8bac2c1c-4c33-890f-c393-9051b8f8fc1e.htm" />
+        <HelpTOCNode Title="DepthCoverStartY Property " Url="html/815220ae-d895-4aa1-30f4-4337ad279bc8.htm" />
+        <HelpTOCNode Title="Figure Property " Url="html/80a03f22-026c-2d42-c949-32c6d0f086f3.htm" />
+        <HelpTOCNode Title="KindBarCorner Property " Url="html/338b3f5f-8949-7ffa-ef3e-a211b369c399.htm" />
+        <HelpTOCNode Title="KindColumn Property " Url="html/530a8c54-f4e9-dac3-3ceb-6378290d4b91.htm" />
+        <HelpTOCNode Title="StrengthBarAxial Property " Url="html/66a83fe8-8dd3-ca5f-36b5-1c9a479ca8df.htm" />
+        <HelpTOCNode Title="StrengthBarBand Property " Url="html/7e7c67e2-3719-879a-c6d3-0659e333bb29.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="ColumnRc Methods" Url="html/b6b91e8a-82b9-3031-5e2e-8e6a0574636a.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="eec78d16-1a77-4518-9319-a90ab03feb1e" Title="ColumnRc.RcSecBarArrangement Class" Url="html/d955379a-ac4d-1bac-b271-afa68f6fcdfe.htm">
+      <HelpTOCNode Title="ColumnRc.RcSecBarArrangement Constructor " Url="html/38d76bf6-edd2-0932-047b-92d1981ffb2c.htm" />
+      <HelpTOCNode Id="fdb0590e-57c5-4a8c-a6c5-0a3b41bdf08b" Title="RcSecBarArrangement Properties" Url="html/4c3c0be5-4eb1-0aae-1b33-c3796e0caab2.htm">
+        <HelpTOCNode Title="CircleNotSameSection Property " Url="html/ba4d5e53-9d73-7328-4a05-4fddbf6bafe8.htm" />
+        <HelpTOCNode Title="CircleSameSection Property " Url="html/695168a4-38af-9973-3b0f-59666f82100a.htm" />
+        <HelpTOCNode Title="RectNotSameSection Property " Url="html/c07d4192-3911-cd83-320d-cf80e92246d5.htm" />
+        <HelpTOCNode Title="RectSameSection Property " Url="html/243b1225-5ff9-c645-e4f0-45e29a297163.htm" />
+        <HelpTOCNode Title="XReinforced Property " Url="html/bd3d3b55-23e7-b113-7467-73d16d4adc72.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="RcSecBarArrangement Methods" Url="html/c9b9c52f-a326-93f1-76fd-655a20f32864.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="b7a28d93-56b2-4ac8-acb1-f1f84ed250d9" Title="ColumnRc.RcSecBarArrangement.CircleNotSame Class" Url="html/aa7ab72a-834d-e566-3aa2-cba58f86aef1.htm">
+      <HelpTOCNode Title="ColumnRc.RcSecBarArrangement.CircleNotSame Constructor " Url="html/66e9980c-6004-7f22-bbf1-d5095f1f94a9.htm" />
+      <HelpTOCNode Id="93e74ab3-9684-4e13-a91f-951dfe730730" Title="CircleNotSame Properties" Url="html/17b111e4-86b9-3ce3-2b96-090adba99f83.htm">
+        <HelpTOCNode Title="Position Property " Url="html/a3e04b99-6038-daff-189b-673b569215a1.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="CircleNotSame Methods" Url="html/914bedb9-6c50-1576-aa8d-de2543cde523.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="9c27eff1-751d-425d-8baa-4449e06b8ef5" Title="ColumnRc.RcSecBarArrangement.CircleSame Class" Url="html/37c0096c-ff9b-d880-ed34-731ae00b21f7.htm">
+      <HelpTOCNode Title="ColumnRc.RcSecBarArrangement.CircleSame Constructor " Url="html/d96bc6ee-b602-7b3f-cac5-14f0ec1b5dcd.htm" />
+      <HelpTOCNode Id="d7002d30-a04d-4227-b876-68b05eaee6ef" Title="CircleSame Properties" Url="html/0e08ffd7-10b8-e238-ba8a-41f864ea8320.htm">
+        <HelpTOCNode Title="CountAxial Property " Url="html/4bb261a8-6aea-5fba-80f5-b1c775317203.htm" />
+        <HelpTOCNode Title="CountBand Property " Url="html/2d616d95-af9c-888c-3989-97560231b853.htm" />
+        <HelpTOCNode Title="CountBarSpacingX Property " Url="html/7116e09f-1052-69ce-ec2a-2e4becde98c2.htm" />
+        <HelpTOCNode Title="CountBarSpacingY Property " Url="html/7353efa1-896e-5604-c590-683d09f3be3b.htm" />
+        <HelpTOCNode Title="CountMain Property " Url="html/87bf0072-7c88-e75d-112a-f6d264299ffa.htm" />
+        <HelpTOCNode Title="PitchBand Property " Url="html/9a2271b2-0024-e027-2be1-09e8d19341f2.htm" />
+        <HelpTOCNode Title="PitchBarSpacing Property " Url="html/73fe847e-9f43-9995-e7c0-ab596246cbf6.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="CircleSame Methods" Url="html/c44fe8cd-98e8-b6a4-a891-0491fe448e7a.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="a1ec151b-489c-429d-9928-177fb40f96a2" Title="ColumnRc.RcSecBarArrangement.RectNotSame Class" Url="html/843146b8-ea58-bdc4-14d2-dc84ee153afe.htm">
+      <HelpTOCNode Title="ColumnRc.RcSecBarArrangement.RectNotSame Constructor " Url="html/6c61acba-8286-9a75-982f-ca1fd744735f.htm" />
+      <HelpTOCNode Id="9ddc538d-312e-4af6-8fcf-411d7cf91d99" Title="RectNotSame Properties" Url="html/f0ff812b-8f88-4890-c6f8-e862c6062c54.htm">
+        <HelpTOCNode Title="Position Property " Url="html/cc8e373f-f54e-1b9c-daae-1551748a5ef1.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="RectNotSame Methods" Url="html/cf6f129c-789c-a00e-c647-d9195d202d0b.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="25ddb98a-5aa1-4bc8-a01f-d262bd5f2e42" Title="ColumnRc.RcSecBarArrangement.RectSame Class" Url="html/66c9b1ec-c03f-a5ff-2da1-ac7dd7645bcf.htm">
+      <HelpTOCNode Title="ColumnRc.RcSecBarArrangement.RectSame Constructor " Url="html/74dffd9b-921b-20b6-99ae-90243c2b89ca.htm" />
+      <HelpTOCNode Id="679f1992-6581-48d0-9396-30720119f9f1" Title="RectSame Properties" Url="html/636abac6-7be7-686c-81f6-510854c5472a.htm">
+        <HelpTOCNode Title="Count2ndMainX1st Property " Url="html/8011b286-5a65-c5ff-7055-04cb0c6cac81.htm" />
+        <HelpTOCNode Title="Count2ndMainX2nd Property " Url="html/973106c7-dab5-de80-7584-650c4944dc13.htm" />
+        <HelpTOCNode Title="Count2ndMainY1st Property " Url="html/2eb09c9d-9d0e-3891-3e54-691042374802.htm" />
+        <HelpTOCNode Title="Count2ndMainY2nd Property " Url="html/17ccec21-f45a-de51-331f-9a93fc2dc845.htm" />
+        <HelpTOCNode Title="CountAxial Property " Url="html/9d4b1f7b-147b-83f6-2c5c-8c6d831e414f.htm" />
+        <HelpTOCNode Title="CountBandDirX Property " Url="html/20432b6f-f569-6e82-e972-17bbb31819d9.htm" />
+        <HelpTOCNode Title="CountBandDirY Property " Url="html/4a219b3a-fda2-76ca-cb9f-dd4db416f8ec.htm" />
+        <HelpTOCNode Title="CountBarSpacingX Property " Url="html/4b12f282-4b66-0ea9-318a-8d953c4c8c52.htm" />
+        <HelpTOCNode Title="CountBarSpacingY Property " Url="html/30d540fe-1818-55fb-0c39-04111a026e98.htm" />
+        <HelpTOCNode Title="CountMainTotal Property " Url="html/c1dd4040-5a37-05f8-3574-9b73e51e0f2d.htm" />
+        <HelpTOCNode Title="CountMainX1st Property " Url="html/105dd054-014f-eb43-05de-4a5221128476.htm" />
+        <HelpTOCNode Title="CountMainX2nd Property " Url="html/9926df43-9a5c-06f2-74ac-b7df219ceeff.htm" />
+        <HelpTOCNode Title="CountMainY1st Property " Url="html/5f83664c-5f5a-bc2c-dfc8-e5748c0f8c3c.htm" />
+        <HelpTOCNode Title="CountMainY2nd Property " Url="html/f87e80fd-0cfb-b6b6-3a6b-0418d8ef66be.htm" />
+        <HelpTOCNode Title="PitchBand Property " Url="html/fafb2e87-e20e-197d-ec76-5b80cbc74b2d.htm" />
+        <HelpTOCNode Title="PitchBarSpacing Property " Url="html/c744dc6a-1896-87bb-37f2-aa2b4de07c74.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="RectSame Methods" Url="html/23e7359e-21dd-24f6-61eb-2955c9d5df48.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="53e9fa01-f7b5-4ff0-8460-548b9ffff44e" Title="ColumnRc.RcSecBarArrangement.RectXReinforced Class" Url="html/71fd2f1b-80bb-5881-a89a-08ba5c75a319.htm">
+      <HelpTOCNode Title="ColumnRc.RcSecBarArrangement.RectXReinforced Constructor " Url="html/0c91c9a1-b8c3-dbc8-6fd0-b5f4926657d8.htm" />
+      <HelpTOCNode Id="268f5d3b-856f-4e9d-85af-50c83076a430" Title="RectXReinforced Properties" Url="html/9e062971-c2bd-63d3-575c-ef004dd3924d.htm">
+        <HelpTOCNode Title="CountMainTotal Property " Url="html/7544b640-db32-813d-23fd-ea28ac5d327d.htm" />
+        <HelpTOCNode Title="CountMainX Property " Url="html/0f6cf87d-da02-3734-8d85-795f8e9001ae.htm" />
+        <HelpTOCNode Title="CountMainY Property " Url="html/41c3e1db-3d1a-971e-4de7-e7cf91b4a12a.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="RectXReinforced Methods" Url="html/a7f564c6-8aa0-291d-b4b2-eee237aaf782.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="f8834655-8eec-4a3a-a1e9-d2025ed446eb" Title="ColumnRc.RcSecFigure Class" Url="html/97bee83b-d1b3-4278-343a-8dbb1675312b.htm">
+      <HelpTOCNode Title="ColumnRc.RcSecFigure Constructor " Url="html/2c3d4a85-faee-6536-8d11-63a7157fe13b.htm" />
+      <HelpTOCNode Id="41e09392-9fa8-4dc0-b9eb-ff7e0769bd97" Title="RcSecFigure Properties" Url="html/46c4fcc7-370f-6cba-99e2-bac6a0f412ff.htm">
+        <HelpTOCNode Title="SecCircle Property " Url="html/930e9c15-b314-409a-9ef9-2f37a87201c5.htm" />
+        <HelpTOCNode Title="SecRect Property " Url="html/3db4cf20-4f4c-ef40-a413-4693ecd91721.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="RcSecFigure Methods" Url="html/9b291577-8791-b617-e14b-3326163c4901.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="1c6b39d7-ff67-41a2-aec2-b986e3d1dd6b" Title="ColumnRc.RcSecFigure.Circle Class" Url="html/846bebda-2529-1e7f-9335-9e2d9ce0704d.htm">
+      <HelpTOCNode Title="ColumnRc.RcSecFigure.Circle Constructor " Url="html/8cd09cbb-3248-dba8-740c-d747959f9f37.htm" />
+      <HelpTOCNode Id="e6b03505-9c18-47e7-9e73-4a70807df4e5" Title="Circle Properties" Url="html/9af4de2d-6c2c-e388-3521-59a2e211e1cc.htm">
+        <HelpTOCNode Title="DX Property " Url="html/995549f9-ca62-0a82-462a-8c2846e1d18b.htm" />
+        <HelpTOCNode Title="DY Property " Url="html/839661ca-fc53-c654-c463-e843e389fc56.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="Circle Methods" Url="html/198f6874-2eb3-ff8a-e008-55cbcc0bc27f.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="2180f12a-3b66-4f3b-bf2f-210b98cd56c3" Title="ColumnRc.RcSecFigure.Rectangle Class" Url="html/fc2a111a-ab4a-3cc2-8fe8-3ec1100ddec7.htm">
+      <HelpTOCNode Title="ColumnRc.RcSecFigure.Rectangle Constructor " Url="html/78a88273-93cb-7c68-401f-05903dbea96b.htm" />
+      <HelpTOCNode Id="d92eb562-b205-49c9-9b29-7e67863d8adb" Title="Rectangle Properties" Url="html/98c0f82e-a5f2-804c-c649-e188a4abcbd1.htm">
+        <HelpTOCNode Title="DX Property " Url="html/85b9855a-39ce-c360-4f4b-9d953df6ecad.htm" />
+        <HelpTOCNode Title="DY Property " Url="html/5301fce8-9ddf-e0e9-a0c3-a45a54afbfb6.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="Rectangle Methods" Url="html/082e6a56-3351-9f41-7a7a-51d5bda3e4d0.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="b1cd6aa2-1a1e-4f80-8e74-0e227e7d5df3" Title="ColumnS Class" Url="html/bd76b76b-b134-c5c0-f849-fe4cc0f76fe6.htm">
+      <HelpTOCNode Title="ColumnS Constructor " Url="html/44691ef3-8d37-8a9a-05f3-11710bc7b67e.htm" />
+      <HelpTOCNode Id="5ffeb1f4-9e65-4d64-b0c8-f00d7de98846" Title="ColumnS Properties" Url="html/0cd7ad96-936e-b61f-f4cb-07949a332b15.htm">
+        <HelpTOCNode Title="BaseProduct Property " Url="html/a2e2071e-ca4f-a69c-fd98-1516290dd52a.htm" />
+        <HelpTOCNode Title="BaseType Property " Url="html/3d70048b-6af8-dafd-72d8-9dc04010d55c.htm" />
+        <HelpTOCNode Title="Direction Property " Url="html/fff543f6-b0f0-2ee7-4a0f-b0508d22e9f6.htm" />
+        <HelpTOCNode Title="JointIdEnd Property " Url="html/b7a3de8e-12d4-1864-c70d-e0e37ffd5e09.htm" />
+        <HelpTOCNode Title="JointIdStart Property " Url="html/1d3b9a80-b744-e7e6-4c30-667b49807cea.htm" />
+        <HelpTOCNode Title="KindColumn Property " Url="html/6ee6dcfc-36be-fc1a-61f9-93cbce419fea.htm" />
+        <HelpTOCNode Title="SecSteelColumn Property " Url="html/ed3645c9-bfe2-a5e1-6813-14280b312b54.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="ColumnS Methods" Url="html/ba96a874-407b-efb2-54d0-f75e9654f0b9.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="0c96ac8f-04dd-4c44-a1ad-7fe03280e927" Title="ColumnSrc Class" Url="html/daf681cc-52d3-8aeb-73af-7240653e4ff9.htm">
+      <HelpTOCNode Title="ColumnSrc Constructor " Url="html/6b6129f1-479c-9513-0d97-3d35a98dc31f.htm" />
+      <HelpTOCNode Title="ColumnSrc Properties" Url="html/6f173900-da8e-1e9a-88fe-1153429bc1c5.htm" />
+      <HelpTOCNode Title="ColumnSrc Methods" Url="html/b26a3fd7-04cc-d909-826c-275231c92c85.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="96759347-1f06-432b-9c3b-d63cb3a39ee9" Title="FlatBar Class" Url="html/4bf3b569-6f47-e81e-5a8f-f4aba0c0ff79.htm">
+      <HelpTOCNode Title="FlatBar Constructor " Url="html/2405aa01-d219-bea5-131c-706b8fca9bd5.htm" />
+      <HelpTOCNode Id="f9ffd2f6-a6c8-4357-b03a-57ac035d22a3" Title="FlatBar Properties" Url="html/b39161e7-99e3-e170-c3de-3411c024737d.htm">
+        <HelpTOCNode Title="B Property " Url="html/f12b124c-2686-4292-fdcd-454c49106173.htm" />
+        <HelpTOCNode Title="T Property " Url="html/490d0067-0af8-2621-71dc-2739b3b915e9.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="FlatBar Methods" Url="html/614506af-8e10-8c0d-2efe-e6a753d6749a.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="143e5283-9dc5-446e-af39-e201c780d439" Title="FoundationRc Class" Url="html/1115bbb4-5470-aa2d-c957-308bc71a4cff.htm">
+      <HelpTOCNode Title="FoundationRc Constructor " Url="html/683abb22-b013-7b0e-a0c4-0bec602eab20.htm" />
+      <HelpTOCNode Title="FoundationRc Methods" Url="html/d53d5d40-ab10-a376-b344-cb5a7b329857.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="e4756059-0305-4fb4-b9bf-b2977e4e787d" Title="HShapeBase Class" Url="html/1d83155b-855d-87c3-b37d-f175fe47f45d.htm">
+      <HelpTOCNode Title="HShapeBase Constructor " Url="html/402030f1-4904-4464-0ddd-fdb73a174b23.htm" />
+      <HelpTOCNode Id="33b5ba75-48d0-4a2a-a7b8-c8ecaac6bd8b" Title="HShapeBase Properties" Url="html/55a10cce-ec14-edde-5b7f-48e6eb242616.htm">
+        <HelpTOCNode Title="T1 Property " Url="html/c9aaaa81-02b9-3d0e-e6c4-94167c15a041.htm" />
+        <HelpTOCNode Title="T2 Property " Url="html/01cd20b5-31de-1787-3033-a664c61e08d5.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="HShapeBase Methods" Url="html/22c82388-f355-b003-414f-dd39b0048338.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="cbd741a7-03b8-447a-a178-0595bad4c056" Title="IBarArrangement Interface" Url="html/a53c2ac2-5f85-0530-b8b7-34003f171bee.htm">
+      <HelpTOCNode Id="9cc23050-572f-4052-8276-718920c9aad0" Title="IBarArrangement Properties" Url="html/ed9043e4-8eda-3729-70d7-19a3ca7f772e.htm">
+        <HelpTOCNode Title="CenterBarEndX Property " Url="html/0a9fbf99-03b2-36e9-39a7-881621942470.htm" />
+        <HelpTOCNode Title="CenterBarEndY Property " Url="html/7fbb2876-a1ce-c66c-9372-7327c4eb7ef7.htm" />
+        <HelpTOCNode Title="CenterBarStartX Property " Url="html/b9fdf4f3-d09c-e67b-f8c6-035658fcdf5d.htm" />
+        <HelpTOCNode Title="CenterBarStartY Property " Url="html/cc470218-49e9-b115-353b-d91a1d80c9c1.htm" />
+        <HelpTOCNode Title="DBar2ndMain Property " Url="html/85224a31-4c71-cd4c-b687-0ab47e2913e9.htm" />
+        <HelpTOCNode Title="DBarAxial Property " Url="html/ffe5c75b-657e-57bd-f96e-aa694358758b.htm" />
+        <HelpTOCNode Title="DBarBand Property " Url="html/fe9f3bbf-a95f-6e4f-bf69-02a3399797b4.htm" />
+        <HelpTOCNode Title="DBarMain Property " Url="html/8e4425ce-cba6-e8a3-05b8-4c47ac61ec9c.htm" />
+        <HelpTOCNode Title="DBarSpacing Property " Url="html/03e87fba-008c-a932-1d20-74f7b49e996e.htm" />
+        <HelpTOCNode Title="IntervalBar Property " Url="html/e8308a8d-2904-eeea-bdc8-30b0b113d0b7.htm" />
+        <HelpTOCNode Title="KindBarCorner Property " Url="html/66e47232-e4e9-eca5-0e43-21d8f3072373.htm" />
+        <HelpTOCNode Title="StrengthBar2ndMain Property " Url="html/d7a61e58-5d19-a8e2-a040-5723c7066823.htm" />
+        <HelpTOCNode Title="StrengthBarAxial Property " Url="html/9092efc6-9bdc-0072-4c05-2c41ef0c021c.htm" />
+        <HelpTOCNode Title="StrengthBarBand Property " Url="html/77e4e80b-b87a-0dcb-2fbd-421b4d8b6b4a.htm" />
+        <HelpTOCNode Title="StrengthBarMain Property " Url="html/aee10dfe-201a-81ae-a118-641305cb9e9b.htm" />
+        <HelpTOCNode Title="StrengthBarSpacing Property " Url="html/6924ba9f-6710-6f47-8dbc-fb9d88044123.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="56193f33-5946-4576-82eb-ddd9c9973bfc" Title="IJointId Interface" Url="html/881605c3-7ae4-8b05-ba61-618b063cf9b1.htm">
+      <HelpTOCNode Id="91f2aea2-f375-4d42-a5fb-985e0633682a" Title="IJointId Properties" Url="html/e8f92925-444c-4acd-a934-7a984a4141ea.htm">
+        <HelpTOCNode Title="JointIdEnd Property " Url="html/cfeb8464-1d31-a22b-dc87-6509104cd222.htm" />
+        <HelpTOCNode Title="JointIdStart Property " Url="html/3b33159e-0563-d63f-7343-1aae8344159f.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="582b8fef-93a6-45bf-a442-2e8434df392e" Title="IKindColumn Interface" Url="html/50e344ec-79ad-a2d9-2d1d-50c282429539.htm">
+      <HelpTOCNode Id="4e4e5920-aea4-4fd7-b821-b95808c30ee2" Title="IKindColumn Properties" Url="html/e0889430-ab73-222a-7140-255dd58251ea.htm">
+        <HelpTOCNode Title="KindColumn Property " Url="html/d249dfb5-1eb1-1908-729d-6fa0164208fe.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="0e73faa8-371f-4758-a728-36d06d4820bd" Title="ISecBeam Interface" Url="html/f0997532-0fce-3bfc-6b8a-082eb0f1c1e8.htm">
+      <HelpTOCNode Id="f64756df-1d93-46f0-942a-6ab537030e5c" Title="ISecBeam Properties" Url="html/d1fbc096-0c41-1348-7739-f72ca9e09656.htm">
+        <HelpTOCNode Title="IsCanti Property " Url="html/355a7b12-b30e-1cec-26d0-c1ded6f41e8d.htm" />
+        <HelpTOCNode Title="IsOutIn Property " Url="html/95105fe8-b75e-f13c-89b4-6216c28172c9.htm" />
+        <HelpTOCNode Title="KindBeam Property " Url="html/cade5abc-0d52-6f90-72ef-48d9e641ce8a.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="83d2b485-bcdc-4a52-a469-0d1645b48617" Title="ISecBrace Interface" Url="html/b3b26d3a-d4d4-89eb-e54b-46196870d0ea.htm">
+      <HelpTOCNode Id="e44dc374-18b7-4144-a5cb-20d30a4435b3" Title="ISecBrace Properties" Url="html/ec76df04-ffd5-9393-5c0c-0fe74374af5e.htm">
+        <HelpTOCNode Title="KindBeam Property " Url="html/3596e135-8414-f784-b391-c7cb0c7d1cb5.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="1ad078f9-04c5-468b-a36f-6e73992a9aa3" Title="ISecColumn Interface" Url="html/911c3e74-380e-28e4-2e18-0c9b0870503a.htm">
+      <HelpTOCNode Id="b2ed5c63-24c7-4e72-8fd8-c0a2cb620a8f" Title="ISecColumn Properties" Url="html/fb1c1886-61a3-3c44-412f-0463b769d719.htm">
+        <HelpTOCNode Title="KindColumn Property " Url="html/82af5d5d-bf22-834c-4613-cc8913e3c2c0.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="bf30153c-b0bb-4f9f-86be-066f70952706" Title="ISection Interface" Url="html/345a2a83-6ae6-f7b9-c925-7943a2608db6.htm">
+      <HelpTOCNode Id="c700f177-8f44-4417-ae3f-af7570d5a3c3" Title="ISection Properties" Url="html/a6ad259e-c1d9-db72-ad82-878623c9487c.htm">
+        <HelpTOCNode Title="Floor Property " Url="html/1726b981-7fdc-778e-da48-e6ce5fe2fee6.htm" />
+        <HelpTOCNode Title="Id Property " Url="html/c29c4e0f-94ab-9c71-2871-bc1e2dcdd565.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="31346ee7-1d18-4e40-8a22-e79307bdcd38" Title="ISideType Interface" Url="html/4dd21196-4e14-1daf-4598-2a3500573ed4.htm">
+      <HelpTOCNode Id="f1a616b2-8f42-4f25-b1b1-e4f048f07824" Title="ISideType Properties" Url="html/3b2d0390-aff1-8970-72ee-f9ed7d68fa13.htm">
+        <HelpTOCNode Title="Side Property " Url="html/c2dc12eb-9173-2686-b002-fd4452adc91f.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="97165342-cd52-4e69-af61-e0a1cbb09ec8" Title="ISteelSection Interface" Url="html/07fa68af-56e3-074c-c4a7-7dd11ae7629d.htm">
+      <HelpTOCNode Id="456633bd-7190-48c2-a661-84eba453ba0d" Title="ISteelSection Properties" Url="html/e94790cd-eea1-f459-212f-51fe6d0b0968.htm">
+        <HelpTOCNode Title="P1 Property " Url="html/5ac5f99d-19b1-a522-521f-72b951f5d680.htm" />
+        <HelpTOCNode Title="P2 Property " Url="html/fe380d30-ed16-288c-7721-9fcf415167c1.htm" />
+        <HelpTOCNode Title="P3 Property " Url="html/ccfe97ad-fdcb-b5b5-cf19-700ff89294e6.htm" />
+        <HelpTOCNode Title="P4 Property " Url="html/6003597d-dec9-6eab-81cc-452c5e34d090.htm" />
+        <HelpTOCNode Title="P5 Property " Url="html/5eb8ae07-43ea-f646-b351-8e188f294f6f.htm" />
+        <HelpTOCNode Title="P6 Property " Url="html/85d156d4-7d5d-e02e-eddd-e64c6fa6aa7c.htm" />
+        <HelpTOCNode Title="ShapeType Property " Url="html/7d53db52-df13-caa3-c45a-b5f3536e0b81.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="40f9d83e-41ed-4afd-8e65-1b1747939b3b" Title="IStrengthConcrete Interface" Url="html/5f2a6660-6c89-c842-44a8-7095f095e627.htm">
+      <HelpTOCNode Id="9e2b781e-9023-4e50-97b3-6302f3190e0e" Title="IStrengthConcrete Properties" Url="html/6c77856b-829b-a787-9981-34cc8f199978.htm">
+        <HelpTOCNode Title="StrengthConcrete Property " Url="html/b6825008-ee53-82c9-081c-a1305d871aba.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="8a4fb7f8-4ac5-419a-b9eb-fbb463b40202" Title="IStrengthSteel Interface" Url="html/ace9acea-4bea-0e38-a6c0-8169786da329.htm">
+      <HelpTOCNode Id="c6b63e46-af6f-4064-83e9-9ad0531194a2" Title="IStrengthSteel Properties" Url="html/b34463a2-ec26-0636-9fd2-58c008cd809b.htm">
+        <HelpTOCNode Title="StrengthSteel Property " Url="html/2a9508a6-7919-eb1f-6010-c450a269e737.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Title="KindColumn Enumeration" Url="html/5c3df741-6dd4-65bc-4fd8-c708cb139d9c.htm" />
+    <HelpTOCNode Id="d530723a-4797-4499-96c8-3c8abdc2b71e" Title="LipC Class" Url="html/c13cbcba-cb32-8ba1-4cfa-720691fe3e54.htm">
+      <HelpTOCNode Title="LipC Constructor " Url="html/09d0bb29-1252-84d5-eab0-419d927bc7e7.htm" />
+      <HelpTOCNode Id="7224142b-2354-4db6-87a1-5f366d1b52cd" Title="LipC Properties" Url="html/96968fb3-5fe8-141e-4307-f8fea44013e1.htm">
+        <HelpTOCNode Title="B Property " Url="html/ea3d31dc-2f65-bec4-5aac-d6f09037e262.htm" />
+        <HelpTOCNode Title="C Property " Url="html/922af489-3589-5127-0c7b-955606718f27.htm" />
+        <HelpTOCNode Title="H Property " Url="html/bf1f8e8e-5350-8113-2247-ebbea906672e.htm" />
+        <HelpTOCNode Title="Side Property " Url="html/e5277f35-5c1b-95cf-bfc3-61480c7d8246.htm" />
+        <HelpTOCNode Title="T Property " Url="html/74259062-4774-8484-e90c-ccdf158d863f.htm" />
+        <HelpTOCNode Title="Type Property " Url="html/a39ee0a3-60d5-8e90-4041-2008313b0dbc.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="LipC Methods" Url="html/7f071f3f-1edb-59f4-c9d0-ec17d9ed22a8.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="c8656707-38b2-41d5-af32-d0f975af1a93" Title="OpenRc Class" Url="html/7f272463-e2b1-d946-3d29-bcfe16126df5.htm">
+      <HelpTOCNode Title="OpenRc Constructor " Url="html/6a57d280-c3f8-8ad3-21d1-8a1b596cbbcb.htm" />
+      <HelpTOCNode Title="OpenRc Methods" Url="html/f8cdaca5-ed32-bcc6-ccda-0723739f3985.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="1b0ef6ec-3197-4a85-aa5c-4e1309c11097" Title="PileRc Class" Url="html/cdee3d23-5d1a-f444-15d7-6bb3aa8ca128.htm">
+      <HelpTOCNode Title="PileRc Constructor " Url="html/cbea15a1-5529-59b5-379e-33ff23683df7.htm" />
+      <HelpTOCNode Title="PileRc Methods" Url="html/3434dfad-0614-a4d2-ca32-22e91ae2ed11.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="fe2c7ed1-3d93-428e-856b-bd34bab0ab04" Title="Pipe Class" Url="html/f140ecd7-c2c3-b59c-22eb-9e8abfa08027.htm">
+      <HelpTOCNode Title="Pipe Constructor " Url="html/6b4dc812-f3e0-86be-48e8-7484174da2ec.htm" />
+      <HelpTOCNode Id="a704b92b-2176-4858-9208-09c39c9d2c86" Title="Pipe Properties" Url="html/273cb31c-adb0-6944-4a44-527ae8a1ef37.htm">
+        <HelpTOCNode Title="D Property " Url="html/c54f9d25-edb9-b50a-4076-21fcfb0aa26c.htm" />
+        <HelpTOCNode Title="T Property " Url="html/9375ca7a-d4b8-b22b-6b1b-c5e69e2c0702.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="Pipe Methods" Url="html/2bfdb92a-0551-207c-b28a-ab1f8ae78bdd.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="1402fdb1-f91a-4b27-8220-1565254e26e7" Title="RcSection Class" Url="html/051fcb46-e247-da10-59b1-239dc03a6453.htm">
+      <HelpTOCNode Title="RcSection Constructor " Url="html/63ce790e-ab16-145a-66ca-995998bd7c5a.htm" />
+      <HelpTOCNode Id="a348a969-eae0-4b4c-944e-719f1abb3af8" Title="RcSection Properties" Url="html/05d6fb9e-5720-9d57-4cbc-079592eb13c2.htm">
+        <HelpTOCNode Title="DBar2ndMain Property " Url="html/1afd860d-cf68-b7e2-f325-f0669ee599e8.htm" />
+        <HelpTOCNode Title="DBarMain Property " Url="html/6a0b06e6-eccb-21dd-af75-099ce5f84195.htm" />
+        <HelpTOCNode Title="DBarSpacing Property " Url="html/2f5d383b-8b3c-3a58-2f0a-2007e101aa5e.htm" />
+        <HelpTOCNode Title="IntervalBar Property " Url="html/4753c1cd-cea3-1101-0038-fb26b83583e0.htm" />
+        <HelpTOCNode Title="StrengthBar2ndMain Property " Url="html/c31b7248-f0f0-895c-870d-027288bc1079.htm" />
+        <HelpTOCNode Title="StrengthBarMain Property " Url="html/589fbe3d-5fae-a51f-fdc5-97e8f6ed2dd9.htm" />
+        <HelpTOCNode Title="StrengthBarSpacing Property " Url="html/c7fe1a8c-ce9e-95e1-772e-c909e3444422.htm" />
+        <HelpTOCNode Title="StrengthConcrete Property " Url="html/f03c74fe-30a4-dfe9-6211-8766fbd54bc2.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="RcSection Methods" Url="html/8854e199-8994-4b40-81f9-30e0ad0011ce.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="898e1c6c-fb7a-485e-86af-2a1f1285a19c" Title="RollBox Class" Url="html/3648f8de-3a30-f013-ef0b-969f81f84ff1.htm">
+      <HelpTOCNode Title="RollBox Constructor " Url="html/3132435e-fb3c-d653-3072-6fba271d70ad.htm" />
+      <HelpTOCNode Id="15e01801-df51-4533-ae65-987027626506" Title="RollBox Properties" Url="html/00d4fd6b-f4f7-3879-d3aa-7023bdf1485d.htm">
+        <HelpTOCNode Title="R Property " Url="html/1607e290-0a05-bdeb-fd43-739de424325b.htm" />
+        <HelpTOCNode Title="T Property " Url="html/8af2df13-5be9-15e2-108e-f21bf2cabdee.htm" />
+        <HelpTOCNode Title="Type Property " Url="html/358e903c-8a2b-9c44-6ac7-f5205449df71.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="RollBox Methods" Url="html/2b27ae7d-e22e-84d4-7b98-59c3839c949b.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="2321d3ad-9dec-4afc-b827-2256be419e32" Title="RollC Class" Url="html/e2c09777-1306-cebb-9421-d14e84af77b5.htm">
+      <HelpTOCNode Title="RollC Constructor " Url="html/bf60fd4f-5d43-d6d3-23ab-342352e44224.htm" />
+      <HelpTOCNode Title="RollC Properties" Url="html/b91809f7-4326-d3f2-8672-77657635d656.htm" />
+      <HelpTOCNode Title="RollC Methods" Url="html/07f3169b-f5ab-66ec-4b9e-d2115b775b6b.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="554d69b7-1c63-497a-98ba-73024b50c4b3" Title="RollH Class" Url="html/804580fb-b56d-65cd-0dc2-f876426a03cd.htm">
+      <HelpTOCNode Title="RollH Constructor " Url="html/ad89f464-c15d-1bb9-22ec-7d2dbf8c3589.htm" />
+      <HelpTOCNode Id="b752b3bb-048c-49ec-b143-8f4510f8d489" Title="RollH Properties" Url="html/17099f58-2142-67fd-dbbe-60f1ef229d09.htm">
+        <HelpTOCNode Title="R Property " Url="html/dd6b3891-ea7c-f476-93e8-63cf6832be70.htm" />
+        <HelpTOCNode Title="Type Property " Url="html/1e5ba984-3312-12a0-4235-185b4285f359.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="RollH Methods" Url="html/4e3b727f-303f-6fd5-4536-9c3bfd6aa838.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="0ef32885-be38-4817-912d-6672bf293cfb" Title="RollL Class" Url="html/e974b5df-504a-33da-2ed0-ff85b2307a7d.htm">
+      <HelpTOCNode Title="RollL Constructor " Url="html/7a19eb22-75f6-e93a-8376-a3752ab1b768.htm" />
+      <HelpTOCNode Title="RollL Properties" Url="html/b21c6456-c742-10ad-5c02-fd2a930d8dd2.htm" />
+      <HelpTOCNode Title="RollL Methods" Url="html/ded6194d-784b-b763-6bed-0e9eb9b9295b.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="a7beaf33-fe57-457b-bead-e5093b9a96f9" Title="RollT Class" Url="html/b8ffb9e9-66ef-491a-ba1c-5d6873f64ee2.htm">
+      <HelpTOCNode Title="RollT Constructor " Url="html/12c222b3-5535-3727-4fd4-6a0b15d877b1.htm" />
+      <HelpTOCNode Title="RollT Properties" Url="html/4d86a72d-bcd5-bd0f-9955-2847fccbf428.htm" />
+      <HelpTOCNode Title="RollT Methods" Url="html/9a8d708f-4b4f-892e-3fab-3a0bf0d3c8a5.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="96ed9776-8180-413d-86dc-9d71792369b2" Title="RoundBar Class" Url="html/d64e8933-44c9-9404-4423-ae7c9b69cefb.htm">
+      <HelpTOCNode Title="RoundBar Constructor " Url="html/97b1c39d-b373-706c-68dd-422f05ad5979.htm" />
+      <HelpTOCNode Id="d3a7b025-86cf-4e46-8e55-f806ccc2755f" Title="RoundBar Properties" Url="html/5379c469-858d-f5eb-3d6a-165755646bf1.htm">
+        <HelpTOCNode Title="R Property " Url="html/e412394d-4d1d-8c14-7535-00bf5d83dede.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="RoundBar Methods" Url="html/23b53622-4ab9-86ab-7bf1-a468499c7433.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="b0c00de9-19ee-4861-884e-72dd57f59525" Title="SecSteel Class" Url="html/2a135a7d-8109-bb6f-fe0c-f1c5828d081d.htm">
+      <HelpTOCNode Title="SecSteel Constructor " Url="html/73a77f0c-3f2a-8d3c-a9ed-563cad036f44.htm" />
+      <HelpTOCNode Id="3ec290fe-9210-47d7-b2ad-ea4b79258949" Title="SecSteel Properties" Url="html/67ce451e-8335-9fbc-67be-f5b5eede526a.htm">
+        <HelpTOCNode Title="Position Property " Url="html/5dc731b0-d3e0-62d5-59cd-7124120a5960.htm" />
+        <HelpTOCNode Title="Shape Property " Url="html/5211b4d3-8f96-490e-0d56-b9a4cb4d3ac7.htm" />
+        <HelpTOCNode Title="StrengthMain Property " Url="html/fdd93204-1f29-7bb1-91db-db7133ce240e.htm" />
+        <HelpTOCNode Title="StrengthWeb Property " Url="html/06fff09d-7890-0b2b-93ed-6a27289d2fb9.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="SecSteel Methods" Url="html/ae5e050b-ef4f-2500-365b-afb82db9b87d.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="365098d4-3618-4760-8ccf-c4d8edfd18c0" Title="Section Class" Url="html/f252f911-640a-339b-b076-2e9a962538b5.htm">
+      <HelpTOCNode Title="Section Constructor " Url="html/1da21336-469e-a469-1cc9-6cfa7f121b6f.htm" />
+      <HelpTOCNode Title="Section Methods" Url="html/a4a64643-2a47-2dcc-d2f7-c0095c78d896.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="92167438-20a2-424d-97bc-d4693fadd2c5" Title="SectionBase Class" Url="html/280aa5ae-044d-2eb9-1554-8e41363ed712.htm">
+      <HelpTOCNode Title="SectionBase Constructor " Url="html/30d71025-1be9-51ad-9d9b-903a00ea2b67.htm" />
+      <HelpTOCNode Id="b3a4b858-4236-4d06-a178-dfa2d9775d5e" Title="SectionBase Properties" Url="html/86d585a8-adf5-0e5b-cfee-5d4d0cab3e32.htm">
+        <HelpTOCNode Title="Floor Property " Url="html/a6e97217-e5ab-5c44-ed18-29cc61dacd38.htm" />
+        <HelpTOCNode Title="Id Property " Url="html/67d8b985-85f2-fe64-6c2a-bacc3cab304d.htm" />
+        <HelpTOCNode Title="Name Property " Url="html/40712adc-012f-98eb-eb2b-d0748622f417.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="SectionBase Methods" Url="html/f050ea00-df6e-9489-39d2-3af45d98a267.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Title="ShapeType Enumeration" Url="html/513578f4-d993-70eb-102a-c15ffd00e2d4.htm" />
+    <HelpTOCNode Id="0962ca31-c75c-42b6-9d2a-ba0f858efb4d" Title="SlabDeck Class" Url="html/d0962c89-b3a5-ac2c-74b8-4fab507deae8.htm">
+      <HelpTOCNode Title="SlabDeck Constructor " Url="html/1e4ac469-12cf-980d-e3f8-72e7874c29e1.htm" />
+      <HelpTOCNode Id="ef47e882-5dc0-4e2a-9bb2-0ee3c65a5c53" Title="SlabDeck Properties" Url="html/ea57b6d9-d21c-fa2e-6a95-8873cfc2cc8d.htm">
+        <HelpTOCNode Title="BarArrangement Property " Url="html/89f48ec5-da87-42d2-f500-ef01fa53a041.htm" />
+        <HelpTOCNode Title="DepthConcrete Property " Url="html/df368ef7-7336-e5bb-629d-6e34c40e4b2e.htm" />
+        <HelpTOCNode Title="DepthCoverBottom Property " Url="html/92fcb5cf-2a4d-af42-592e-827a2535de2a.htm" />
+        <HelpTOCNode Title="Product Property " Url="html/21aba632-65c7-89a9-669d-26ddc663ca0a.htm" />
+        <HelpTOCNode Title="ProductType Property " Url="html/264ce4dc-9baf-4e64-e9d0-f5ddcd0b64e7.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="SlabDeck Methods" Url="html/2f5da303-2042-2dff-03c8-8e224f4ce473.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="77064478-ce60-4cac-b0af-b13989b783a6" Title="SlabDeck.SlabDeckProduct Class" Url="html/9e47085e-4261-ab0c-5058-c2d5cd68910d.htm">
+      <HelpTOCNode Title="SlabDeck.SlabDeckProduct Constructor " Url="html/05eba26a-3100-ea8f-adc4-c5a4bf9e3eed.htm" />
+      <HelpTOCNode Id="a07de3cf-382b-4ee4-8a28-05c5010f292e" Title="SlabDeckProduct Properties" Url="html/eae072fc-b622-4d98-e6bc-5b0b60fa230e.htm">
+        <HelpTOCNode Title="DeckDepth Property " Url="html/111ba269-0be3-1bc8-eba0-7a3a7a28b516.htm" />
+        <HelpTOCNode Title="ProductCode Property " Url="html/bc56361d-72a2-023c-03e3-f564f8faa402.htm" />
+        <HelpTOCNode Title="ProductCompany Property " Url="html/b77efe1f-3c92-4e95-2655-b95de90bf04d.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="SlabDeckProduct Methods" Url="html/f9571bab-7d33-9c9f-c877-1114051fe4be.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="af4637de-d2ac-475a-a5c8-94d881fa504a" Title="SlabDeck.SlabDeckSecBarArrangement Class" Url="html/4d55da5c-a411-cb21-4bae-bad215f2eecb.htm">
+      <HelpTOCNode Title="SlabDeck.SlabDeckSecBarArrangement Constructor " Url="html/e5c8de06-5cf5-af34-d8c5-3eb20519021d.htm" />
+      <HelpTOCNode Id="397004f1-6560-4dfc-bce3-c082866a6320" Title="SlabDeckSecBarArrangement Properties" Url="html/2be72b73-bc42-462e-7bf4-65b712ef7417.htm">
+        <HelpTOCNode Title="OneWay1Slab Property " Url="html/ab276fcb-b392-842a-adbb-c260d0530825.htm" />
+        <HelpTOCNode Title="StandardSlab Property " Url="html/b493c8d7-7fd2-1905-3637-d6aa62595c94.htm" />
+        <HelpTOCNode Title="TwoWaySlab Property " Url="html/eb9bb8b7-9514-810e-8d5f-f9ec3fbcc39b.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="SlabDeckSecBarArrangement Methods" Url="html/b84b6068-6c0e-cee9-07d6-fa15f0107c3d.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="d186efa1-248a-4c77-a2aa-e12b87305336" Title="SlabDeck.SlabDeckSecBarArrangement.DeckOneWay Class" Url="html/bca3658c-bbf2-4ca2-3478-7142d3ad3e63.htm">
+      <HelpTOCNode Title="SlabDeck.SlabDeckSecBarArrangement.DeckOneWay Constructor " Url="html/bcf43a4c-16a4-a7a5-f858-1b2ffe0fc8a5.htm" />
+      <HelpTOCNode Title="DeckOneWay Properties" Url="html/39596c25-0926-533c-0aa6-9998b18007b0.htm" />
+      <HelpTOCNode Title="DeckOneWay Methods" Url="html/bce6fa08-6aca-6f74-e27b-4d5ff3dbc6d7.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="0c7a8e04-1add-4b43-89c7-b9a6c1488ed9" Title="SlabDeck.SlabDeckSecBarArrangement.DeckStandard Class" Url="html/c468b969-8dcf-4644-f5e0-da87d5be6b20.htm">
+      <HelpTOCNode Title="SlabDeck.SlabDeckSecBarArrangement.DeckStandard Constructor " Url="html/7aa14dd0-a85b-1f41-a9bf-f29a68f3a2f5.htm" />
+      <HelpTOCNode Title="DeckStandard Properties" Url="html/58964d7b-a47b-0971-7fa8-33ac68c4b114.htm" />
+      <HelpTOCNode Title="DeckStandard Methods" Url="html/d28fa483-5cbc-d01a-739a-60951a59a15b.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="c72b1a6b-ffeb-45eb-a995-451756de4316" Title="SlabDeck.SlabDeckSecBarArrangement.DeckTwoWay Class" Url="html/9ce9fd8d-14a8-e683-22a4-f19981eea0a4.htm">
+      <HelpTOCNode Title="SlabDeck.SlabDeckSecBarArrangement.DeckTwoWay Constructor " Url="html/8b3b8ff6-ac75-377e-0c2c-c233c6a0a56e.htm" />
+      <HelpTOCNode Title="DeckTwoWay Properties" Url="html/7e34a02a-0fee-1a6f-48cf-21819dbbdf4e.htm" />
+      <HelpTOCNode Title="DeckTwoWay Methods" Url="html/652022a4-9c65-78f0-d49b-0ea187722438.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="b2c708b4-3880-43d5-b59a-ebb48c9c8682" Title="SlabPrecast Class" Url="html/74660194-3029-e0e2-9b54-40f852f1b9a8.htm">
+      <HelpTOCNode Title="SlabPrecast Constructor " Url="html/dfc9c3c6-b491-b442-66c5-2d5a08eb5ba6.htm" />
+      <HelpTOCNode Id="b5bf23b7-d5a9-4904-b1bb-7a0076e733f9" Title="SlabPrecast Properties" Url="html/9280dc6e-6a0b-1dc4-1668-faf3f8580daa.htm">
+        <HelpTOCNode Title="BarArrangement Property " Url="html/b3952cb4-356b-f926-680f-967552e411d5.htm" />
+        <HelpTOCNode Title="DepthConcrete Property " Url="html/e1196de8-40f5-6a1b-66d2-bb02a835c56d.htm" />
+        <HelpTOCNode Title="Product Property " Url="html/a67a2a2a-f793-9804-db4a-0b5e9cd85505.htm" />
+        <HelpTOCNode Title="ProductType Property " Url="html/241ea9f9-6eb1-66ed-0222-af0abadc3e64.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="SlabPrecast Methods" Url="html/86ed44b4-3a20-9bc4-c874-7d4e2de3f837.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="97fd2af4-d945-4b41-84fc-e743b8b0cb46" Title="SlabPrecast.SlabPrecastProduct Class" Url="html/d24b6cd6-8bf1-f339-4893-5edf66a429a6.htm">
+      <HelpTOCNode Title="SlabPrecast.SlabPrecastProduct Constructor " Url="html/7808ebd0-9c12-68ef-68cf-deea95adeef5.htm" />
+      <HelpTOCNode Id="18ea50ad-6fcd-410c-9f11-aa55520896da" Title="SlabPrecastProduct Properties" Url="html/f5b59812-86fb-5bf8-7dd7-df51a75e0206.htm">
+        <HelpTOCNode Title="Depth Property " Url="html/591ff62f-b2d3-525c-8fed-83d065978dc2.htm" />
+        <HelpTOCNode Title="ProductCode Property " Url="html/4a836396-f067-55aa-ad84-a38cc74b52a7.htm" />
+        <HelpTOCNode Title="ProductCompany Property " Url="html/15c668c9-44cd-1066-177a-9101b4be632f.htm" />
+        <HelpTOCNode Title="ProductName Property " Url="html/ad9ff3f1-6cbb-4dc4-1087-a6955830583f.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="SlabPrecastProduct Methods" Url="html/c489d97e-7294-4fd2-56ee-0bf23ae33a28.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="e3cff3de-f898-4d62-bf2e-83224db71e1c" Title="SlabPrecast.SlabPrecastSecBarArrangement Class" Url="html/5e6d36e7-bba9-0f05-d0b4-ac7737c0517d.htm">
+      <HelpTOCNode Title="SlabPrecast.SlabPrecastSecBarArrangement Constructor " Url="html/55b9879d-4112-aeda-d232-c229c2b6e37b.htm" />
+      <HelpTOCNode Title="SlabPrecastSecBarArrangement Properties" Url="html/b390425a-5922-a790-e012-c6adf3498eaf.htm" />
+      <HelpTOCNode Title="SlabPrecastSecBarArrangement Methods" Url="html/a51a777e-3096-c212-37c7-f800981593dc.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="fed4c391-e8b3-4eac-a50b-1131e01815f5" Title="SlabRc Class" Url="html/0a3c9eb3-02b5-f7e7-689c-acf4314b592c.htm">
+      <HelpTOCNode Title="SlabRc Constructor " Url="html/6a579dfa-460a-6cc6-e33e-299d5bd9451a.htm" />
+      <HelpTOCNode Id="37163ce5-4895-47a5-baf4-10bfcdba88c6" Title="SlabRc Properties" Url="html/596f0d60-a704-7bdf-8f02-4b4a9f1b21a3.htm">
+        <HelpTOCNode Title="BarArrangement Property " Url="html/148ce38d-8717-2b35-a67e-3f300bde49c1.htm" />
+        <HelpTOCNode Title="DepthCoverBottom Property " Url="html/37b4809d-0f8c-5080-c550-1fbbf9e9d34f.htm" />
+        <HelpTOCNode Title="Figure Property " Url="html/332aa08d-1785-cacd-6e97-6fc3423ab57c.htm" />
+        <HelpTOCNode Title="IsCanti Property " Url="html/cbb290f8-28ed-3bf6-8d9f-890f1543da3f.htm" />
+        <HelpTOCNode Title="IsEarthen Property " Url="html/3362c94f-1eba-5e2b-8f26-65855cfbb5e3.htm" />
+        <HelpTOCNode Title="IsFoundation Property " Url="html/8e4f40aa-059a-a9c6-828d-86db1de99a5b.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="SlabRc Methods" Url="html/956dd1fa-b364-7611-8b46-38b88990f0f4.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="1dc9c563-53ed-4232-9709-2e44f6fe2063" Title="SlabRc.SlabRcSecBarArrangement Class" Url="html/f6a46a1c-944e-b37e-129a-1d2f17311e9f.htm">
+      <HelpTOCNode Title="SlabRc.SlabRcSecBarArrangement Constructor " Url="html/96a5302c-4d6a-8e07-2ef9-4bf34514935e.htm" />
+      <HelpTOCNode Id="3fe0b3fd-57a9-4976-bc04-9e4be201e12b" Title="SlabRcSecBarArrangement Properties" Url="html/7f63a821-657e-6ab1-44bd-b1691fa94c69.htm">
+        <HelpTOCNode Title="OneWay1Slab Property " Url="html/acd27f15-075a-8196-edbd-f8acf2a32aac.htm" />
+        <HelpTOCNode Title="OneWay2Slab Property " Url="html/1a071bca-60cd-6492-5e7f-b3017a905281.htm" />
+        <HelpTOCNode Title="StandardSlab Property " Url="html/53edc7ac-ace0-d784-d871-1b44ae0feac3.htm" />
+        <HelpTOCNode Title="TwoWaySlab Property " Url="html/707da253-5229-407e-939b-e1ae297b00e0.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="SlabRcSecBarArrangement Methods" Url="html/6c1cbfcb-2d50-c6b4-e7f4-252d32aeca9a.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="9cdc0eaf-130c-487b-ad6b-6a72af477385" Title="SlabRc.SlabRcSecBarArrangement.RcOneWay1 Class" Url="html/1111469c-e1ca-743e-8150-de702536d59f.htm">
+      <HelpTOCNode Title="SlabRc.SlabRcSecBarArrangement.RcOneWay1 Constructor " Url="html/a6691810-3c18-ef0b-0e8d-02d2f306d7e6.htm" />
+      <HelpTOCNode Title="RcOneWay1 Properties" Url="html/37a425c1-9058-c823-c348-90c3d3b11183.htm" />
+      <HelpTOCNode Title="RcOneWay1 Methods" Url="html/b6b6e487-4dd3-61e4-0a91-50cbc1fc26d9.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="9399160d-e192-496e-b391-2ae95f4a4fe8" Title="SlabRc.SlabRcSecBarArrangement.RcOneWay2 Class" Url="html/2cbec9a9-ab4d-9500-c3bc-4fd07e05987f.htm">
+      <HelpTOCNode Title="SlabRc.SlabRcSecBarArrangement.RcOneWay2 Constructor " Url="html/9ba7e1d3-e20b-64fa-c451-cded400ee8be.htm" />
+      <HelpTOCNode Title="RcOneWay2 Properties" Url="html/d4ccae2c-aabb-cf06-7a50-815a528436bf.htm" />
+      <HelpTOCNode Title="RcOneWay2 Methods" Url="html/05b4f0f2-40a3-d2a5-9e84-4310970d3cb0.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="8be97185-b2cf-48b6-8d33-f6764052197e" Title="SlabRc.SlabRcSecBarArrangement.RcStandard Class" Url="html/d0307407-532d-3abd-3800-7e5d80853cbf.htm">
+      <HelpTOCNode Title="SlabRc.SlabRcSecBarArrangement.RcStandard Constructor " Url="html/c8878467-c3f0-9a4f-2603-e2393da02b66.htm" />
+      <HelpTOCNode Id="308dd19b-733c-4bcb-a11c-ba885aa97985" Title="RcStandard Properties" Url="html/1d17c141-495d-ee90-418f-1689fe702661.htm">
+        <HelpTOCNode Title="D Property " Url="html/ef972d1f-41c1-96b5-aa4d-7b3c2b3b5d97.htm" />
+        <HelpTOCNode Title="Pitch Property " Url="html/5cd7ac1c-8eb8-69ec-7ebb-2a7ff3b13c4a.htm" />
+        <HelpTOCNode Title="Position Property " Url="html/69eb7d04-d880-602c-8b68-67c9bc441654.htm" />
+        <HelpTOCNode Title="Strength Property " Url="html/30d64f4f-ca54-b53a-f1da-552417f432cf.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="RcStandard Methods" Url="html/6550f5fb-13c4-c318-dead-0e2ed6825267.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="92ede061-9125-465c-95c8-2eb0850708d9" Title="SlabRc.SlabRcSecBarArrangement.RcTwoWay Class" Url="html/8eacca20-044c-e20a-d4c3-25410ddd4e1d.htm">
+      <HelpTOCNode Title="SlabRc.SlabRcSecBarArrangement.RcTwoWay Constructor " Url="html/42b8fad3-076f-873a-dc6c-21484f2de711.htm" />
+      <HelpTOCNode Title="RcTwoWay Properties" Url="html/8f0e9eff-a95b-3660-7a4a-cab49364518f.htm" />
+      <HelpTOCNode Title="RcTwoWay Methods" Url="html/1f71bd7f-5a34-5c28-3af3-6cb1c6956b6d.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="794eca94-5588-4320-8509-6d45248aa1ae" Title="SlabRc.SlabSecFigure Class" Url="html/b43b8c6a-4781-216b-e5a2-100bfaa46bbc.htm">
+      <HelpTOCNode Title="SlabRc.SlabSecFigure Constructor " Url="html/2f01d5fd-996a-976d-76cc-e30ecc2d881f.htm" />
+      <HelpTOCNode Id="412b588b-929e-4058-81e7-fe131e5d8ad1" Title="SlabSecFigure Properties" Url="html/fc826f2c-3b9c-18bd-5082-bf2f5f7ac10c.htm">
+        <HelpTOCNode Title="SecHaunch Property " Url="html/4948444c-97a5-7576-61b9-3a4478d17be6.htm" />
+        <HelpTOCNode Title="SecStraight Property " Url="html/5ad2cd00-3ff4-74f5-e844-3764d38d03b7.htm" />
+        <HelpTOCNode Title="SecTaper Property " Url="html/ba51fdee-92c7-b2d1-5148-5e0d207e3969.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="SlabSecFigure Methods" Url="html/8f5f3bf1-b950-05f2-82f4-e6a07c71be61.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="7fd14386-0b5b-491a-bcbb-fbf44c8bd7fe" Title="SlabRc.SlabSecFigure.HaunchSlab Class" Url="html/977077d2-5723-e550-c9e7-786b41670598.htm">
+      <HelpTOCNode Title="SlabRc.SlabSecFigure.HaunchSlab Constructor " Url="html/4fe63c75-761c-d152-3fbe-8fd24cfa1b69.htm" />
+      <HelpTOCNode Id="9e673e01-46df-4a75-adc7-989e60c98de6" Title="HaunchSlab Properties" Url="html/157a53c5-a36e-7def-db9c-e0b154cf9646.htm">
+        <HelpTOCNode Title="DepthBase Property " Url="html/706c59df-c8c2-43b9-8b01-82d45178c740.htm" />
+        <HelpTOCNode Title="DepthCenter Property " Url="html/21804146-3331-995e-c092-c17ee692cf9e.htm" />
+        <HelpTOCNode Title="DepthHaunch Property " Url="html/d9b83d54-f9e2-dbd8-04c6-f83399c788f1.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="HaunchSlab Methods" Url="html/0a408a68-9c8d-ba60-b37d-313ec7d80ad7.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="99c72270-a787-40fa-b71d-4cb3999a4ea3" Title="SlabRc.SlabSecFigure.StraightSlab Class" Url="html/6cebfbda-724c-a1fa-c1c7-fd318f832475.htm">
+      <HelpTOCNode Title="SlabRc.SlabSecFigure.StraightSlab Constructor " Url="html/fce4e7e8-9edd-4c71-5e6e-1315e3672e7a.htm" />
+      <HelpTOCNode Id="dd0e8c78-5eab-4451-92cf-3c166e5bc697" Title="StraightSlab Properties" Url="html/ebca7e96-8f10-fdd6-5a4f-daf9325aaee2.htm">
+        <HelpTOCNode Title="Depth Property " Url="html/20fe4c1f-7266-32eb-8b6c-1a892ad43355.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="StraightSlab Methods" Url="html/620d8626-3c41-0ff5-de54-b921380b779f.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="60ec3c3d-0017-422c-b5ec-3518b3f51fdd" Title="SlabRc.SlabSecFigure.TaperedSlab Class" Url="html/4afdbbed-ade5-263f-db09-b22507a5160a.htm">
+      <HelpTOCNode Title="SlabRc.SlabSecFigure.TaperedSlab Constructor " Url="html/50677316-c438-4322-dbc1-f8e214a4ec2c.htm" />
+      <HelpTOCNode Id="a0b38fc2-b8a6-41eb-b71b-1e244816fcfb" Title="TaperedSlab Properties" Url="html/0da5c057-9a85-dfb8-3e12-eff3e68ec6ad.htm">
+        <HelpTOCNode Title="DepthBase Property " Url="html/e46cc40d-b08f-d3c5-64d1-5291d7796eda.htm" />
+        <HelpTOCNode Title="DepthTip Property " Url="html/a0682ecc-97f9-7b86-c3fb-053c3ecc6d7f.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="TaperedSlab Methods" Url="html/4deb3f7b-1d9d-3122-ad30-f6052fb7b1c4.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="c1a60b4c-fbf9-4e0a-9a21-3d1699a1e0d5" Title="SlabSecBase Class" Url="html/8e0f4db8-f466-18c0-aec5-e4b49e584888.htm">
+      <HelpTOCNode Title="SlabSecBase Constructor " Url="html/91e498fd-b050-781a-c0ce-dfd966373952.htm" />
+      <HelpTOCNode Id="ab64adc2-00f3-423b-88f4-f1021ceb6c3b" Title="SlabSecBase Properties" Url="html/ce92d8f2-87e5-7104-c14d-080d42801a4e.htm">
+        <HelpTOCNode Title="DepthCoverTop Property " Url="html/d1228088-d324-f7aa-4c77-405ccee024f7.htm" />
+        <HelpTOCNode Title="Id Property " Url="html/f56f857e-669d-285b-d79d-1238945ccaa3.htm" />
+        <HelpTOCNode Title="Name Property " Url="html/6ebef77e-f9f6-c2ab-3484-487db35ac00a.htm" />
+        <HelpTOCNode Title="StrengthConcrete Property " Url="html/06065bd8-f2ef-2000-cecd-208ad7985493.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="SlabSecBase Methods" Url="html/41e9d8bd-7f52-59d5-2183-818b13e7618a.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="f12bd1ed-da63-4264-9a20-b82d05f93217" Title="Steel Class" Url="html/fecb9549-5c5e-5511-c833-a39877190280.htm">
+      <HelpTOCNode Title="Steel Constructor " Url="html/969ad39e-d899-e17f-9bd7-86de5393bf54.htm" />
+      <HelpTOCNode Id="198ad0d6-bf12-4729-9702-7cd9cddbdd4e" Title="Steel Properties" Url="html/a01b2613-a2be-0599-ee85-0965122c32d5.htm">
+        <HelpTOCNode Title="BuildBox Property " Url="html/d063935a-948b-a618-4be0-11914d75de61.htm" />
+        <HelpTOCNode Title="BuildH Property " Url="html/9f1cdcf7-8c6a-4548-0320-b57f8b5292e2.htm" />
+        <HelpTOCNode Title="FlatBar Property " Url="html/f821089c-1689-10b2-9d81-f213e6fd8088.htm" />
+        <HelpTOCNode Title="LipC Property " Url="html/bf097502-28f1-0bc9-9da2-a4d64c6393a0.htm" />
+        <HelpTOCNode Title="Pipe Property " Url="html/27301cef-6bfb-22a8-99ba-a0b0cebedb03.htm" />
+        <HelpTOCNode Title="RollBox Property " Url="html/082e1cae-b965-4f6c-d773-af468c97b504.htm" />
+        <HelpTOCNode Title="RollC Property " Url="html/7ef76f04-7ef3-ef78-caec-1a99ff05ca5b.htm" />
+        <HelpTOCNode Title="RollH Property " Url="html/e8c4b5e1-7cd6-af51-224d-718c0781a12c.htm" />
+        <HelpTOCNode Title="RollL Property " Url="html/eeb54d00-7f5a-f471-10ff-9afbd2996035.htm" />
+        <HelpTOCNode Title="RollT Property " Url="html/315f980a-3c90-d614-8ff1-e865e52faa27.htm" />
+        <HelpTOCNode Title="RoundBar Property " Url="html/efd1bb7b-1dcb-5377-7817-4e270beda4d3.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="Steel Methods" Url="html/71b6d848-a920-621a-5c7f-189314a5ff06.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="b6f1f2b6-28e5-45e3-83a1-ead207b57182" Title="SteelSectionBase Class" Url="html/1c41325f-fde3-3920-11a2-48897ffe93b3.htm">
+      <HelpTOCNode Title="SteelSectionBase Constructor " Url="html/c82f42ba-063d-5827-29cb-643e375f1b35.htm" />
+      <HelpTOCNode Id="3ec839f9-25f8-45be-9fc9-6856928ed157" Title="SteelSectionBase Properties" Url="html/113bb697-4912-a639-9187-30d57de4809b.htm">
+        <HelpTOCNode Title="Name Property " Url="html/9890b876-8523-f7dd-ee65-7d90ac98f058.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="SteelSectionBase Methods" Url="html/e7d81381-36c9-62d5-13bf-285e72995b7a.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="f21502bb-fce3-4f7e-bae9-f227f7d63ed7" Title="WallRc Class" Url="html/da176011-6942-8b88-51bc-7aad15352238.htm">
+      <HelpTOCNode Title="WallRc Constructor " Url="html/0c6dd9b1-d5d3-2ea9-f5bb-2400e099530a.htm" />
+      <HelpTOCNode Id="e7c0d33b-132f-48d3-8375-76d2fe35b6f8" Title="WallRc Properties" Url="html/d9e47f18-813c-b9bd-ebfc-3ffb323b5731.htm">
+        <HelpTOCNode Title="BarArrangement Property " Url="html/486e4fa7-3078-662c-b7d1-39a5e9717a9e.htm" />
+        <HelpTOCNode Title="Depth Property " Url="html/155dae3a-8fc1-f2c3-f05d-84b5ada80cfb.htm" />
+        <HelpTOCNode Title="DepthCoverInside Property " Url="html/f755dcd3-8c15-cfbc-0559-948e2ade193c.htm" />
+        <HelpTOCNode Title="DepthCoverOutside Property " Url="html/66d42ea7-0508-4103-f540-fea1746dcbc5.htm" />
+        <HelpTOCNode Title="Id Property " Url="html/dfe2d278-634a-da6b-d7b3-d89ff4593fd6.htm" />
+        <HelpTOCNode Title="Name Property " Url="html/ab23f9fc-15dc-8b41-5925-a5d9c5b76ad5.htm" />
+        <HelpTOCNode Title="StrengthConcrete Property " Url="html/efc6c622-056b-4854-9187-5c07d8dc95ea.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="WallRc Methods" Url="html/a898a5ea-2ca6-52b8-d0b2-1fd148c0d24f.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="d1446bec-9bb0-4943-b0a4-f81245317bc6" Title="WallSecBarArrangement Class" Url="html/ada3fc31-da68-cc71-530d-58979aebc554.htm">
+      <HelpTOCNode Title="WallSecBarArrangement Constructor " Url="html/808884c0-c489-b9ad-4a80-e562da076c91.htm" />
+      <HelpTOCNode Id="a68275fa-cb12-4ca9-b16e-361b65602c37" Title="WallSecBarArrangement Properties" Url="html/4d1e228e-502b-98dd-0b72-9b8b85a08355.htm">
+        <HelpTOCNode Title="DoubleNetWall Property " Url="html/73fd8fc8-4788-5b66-986e-3cec2f89d8ef.htm" />
+        <HelpTOCNode Title="EdgeWall Property " Url="html/3d08708b-34fd-089b-8a4e-2986f00b3e0d.htm" />
+        <HelpTOCNode Title="InsideAndOutSideWall Property " Url="html/7554725b-3035-0e97-4ee6-d127d319494e.htm" />
+        <HelpTOCNode Title="OpenWall Property " Url="html/af55d2da-fc76-4f4b-c6ab-3a450415c0d7.htm" />
+        <HelpTOCNode Title="SingleWall Property " Url="html/9348c12f-ca3e-478f-0292-fa5289741107.htm" />
+        <HelpTOCNode Title="ZigzagWall Property " Url="html/725796c2-3465-afc2-a045-29248b481566.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="WallSecBarArrangement Methods" Url="html/2a275762-707f-cd2c-f006-8acd24628033.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="2d3ce120-30a1-416f-b970-8bc05bce8feb" Title="WallSecBarArrangement.Base Class" Url="html/e3f8c785-f203-0bc8-a752-89c8f01e9b7b.htm">
+      <HelpTOCNode Title="WallSecBarArrangement.Base Constructor " Url="html/55dfe075-3655-2754-72fb-2f9566a2930b.htm" />
+      <HelpTOCNode Id="35fb38d9-b562-47e2-816b-0e95f0174f2c" Title="Base Properties" Url="html/e7e775b7-7fb5-5c1c-4e98-d4a3d5357ec4.htm">
+        <HelpTOCNode Title="D Property " Url="html/83bace52-33df-3499-dfc3-a77beec72949.htm" />
+        <HelpTOCNode Title="Position Property " Url="html/f789488b-0c02-c6b2-623c-d5cfb7e50159.htm" />
+        <HelpTOCNode Title="Strength Property " Url="html/61a795d0-fc8b-7fb5-43c8-9e69d8e92712.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="Base Methods" Url="html/8c5145fc-c2fc-d187-23fa-086cce2b7e4c.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="b87be01a-9793-42a6-9264-296a9c73d5e2" Title="WallSecBarArrangement.DoubleNet Class" Url="html/c11d5be1-1551-7bdf-dda2-18d858fbf8d6.htm">
+      <HelpTOCNode Title="WallSecBarArrangement.DoubleNet Constructor " Url="html/ec9a1b39-243b-3507-bea4-baa89a940a5f.htm" />
+      <HelpTOCNode Title="DoubleNet Properties" Url="html/2829f214-45ea-1247-81dd-0f07a9811b4e.htm" />
+      <HelpTOCNode Title="DoubleNet Methods" Url="html/cb270f8e-3f16-fec8-8cb4-041f0243ff0f.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="fe675efc-8efb-4340-855f-093e98556245" Title="WallSecBarArrangement.Edge Class" Url="html/8a136f79-cfe5-7282-8754-2ab4bbd1dbee.htm">
+      <HelpTOCNode Title="WallSecBarArrangement.Edge Constructor " Url="html/a12df1e3-e7b4-ddd8-57cb-dcbdbbe58c13.htm" />
+      <HelpTOCNode Id="d0db8944-988b-4ebd-b86c-643412dd7ee7" Title="Edge Properties" Url="html/6ca9a7fa-29d9-1449-1cc1-14138b3eee3b.htm">
+        <HelpTOCNode Title="Count Property " Url="html/e5f3205b-d577-3c59-d459-c7d894b1f2d1.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="Edge Methods" Url="html/edde14d7-7b1a-2504-ef37-07aebc799d9e.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="3c7ea5c7-dc3e-4d4b-a49e-acd094db87df" Title="WallSecBarArrangement.InsideAndOutSide Class" Url="html/75c397b8-4c41-ee44-b26e-86de75817e37.htm">
+      <HelpTOCNode Title="WallSecBarArrangement.InsideAndOutSide Constructor " Url="html/a15a48da-2619-4f38-5161-83bebaf5f98c.htm" />
+      <HelpTOCNode Id="b6dfc492-7119-49f5-9b85-38030fe97431" Title="InsideAndOutSide Properties" Url="html/cb769b11-8704-4eb0-ea8d-32fb5463fb32.htm">
+        <HelpTOCNode Title="Position2 Property " Url="html/28992322-96dd-570f-7d4f-f492f9580b2d.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="InsideAndOutSide Methods" Url="html/efd613ce-0aed-f161-f43c-a4432a01a4f6.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="70b988d7-a1ef-420a-ad20-072d675d5557" Title="WallSecBarArrangement.OpenBar Class" Url="html/f55dbd3e-7a45-f74a-b535-b0d35f389834.htm">
+      <HelpTOCNode Title="WallSecBarArrangement.OpenBar Constructor " Url="html/43e5c813-d3b7-fab2-1d86-327c62fc92d9.htm" />
+      <HelpTOCNode Id="d97934d5-af63-4b47-95bf-1b17e3f72801" Title="OpenBar Properties" Url="html/4b2aee67-4445-69b8-4b70-278125fa0402.htm">
+        <HelpTOCNode Title="Length Property " Url="html/d220f7e5-e8d8-b63d-29eb-e3814871cb0b.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="OpenBar Methods" Url="html/bb9fb990-2956-14d3-bb56-e6063ce4f0d3.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="396c61af-0939-4003-9c93-efae0f94c67d" Title="WallSecBarArrangement.Single Class" Url="html/0c90d51b-44a7-0379-56dd-a811e673b718.htm">
+      <HelpTOCNode Title="WallSecBarArrangement.Single Constructor " Url="html/fc4d239b-99c6-4c18-d426-cc8ad93ed89f.htm" />
+      <HelpTOCNode Id="60f7cd44-a455-441f-8f78-6f7aff133f99" Title="Single Properties" Url="html/6260c65b-fa36-d2c3-85ea-658468c6fd3e.htm">
+        <HelpTOCNode Title="Pitch Property " Url="html/3439c255-8a71-e406-6df6-afd2f6662ddc.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="Single Methods" Url="html/e241900d-afd2-ec33-e893-3e80807e7dd6.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="5d9fca5f-d2c6-484f-87c0-8934e413cd30" Title="WallSecBarArrangement.Zigzag Class" Url="html/38972d3e-c766-14c6-d2ec-540fab4f1c61.htm">
+      <HelpTOCNode Title="WallSecBarArrangement.Zigzag Constructor " Url="html/5f1900d5-8693-e688-2b87-ed1029f72066.htm" />
+      <HelpTOCNode Title="Zigzag Properties" Url="html/4c40a61c-dccc-e3dd-b87b-093851f60ea6.htm" />
+      <HelpTOCNode Title="Zigzag Methods" Url="html/5c8bdd4d-3e1d-0fe5-9d6d-0ab3c98c03d5.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="ee68de2d-5e28-4e5d-89cb-6bf2173f564c" Title="WidthHeightSection Class" Url="html/3c806cae-297c-04fe-332a-e77aded7cfd4.htm">
+      <HelpTOCNode Title="WidthHeightSection Constructor " Url="html/8d85a33b-9130-ab64-5a0c-79fba5fd8a54.htm" />
+      <HelpTOCNode Id="4d1e94b3-d3f5-4e0c-95ae-e965f4deb47e" Title="WidthHeightSection Properties" Url="html/2b56323f-f994-ec65-3469-7d1e42b500d2.htm">
+        <HelpTOCNode Title="A Property " Url="html/0e7b4b2a-7204-b50e-20e6-0a08fd32e561.htm" />
+        <HelpTOCNode Title="B Property " Url="html/72555bba-aefe-5586-99d2-5a8ea812c787.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="WidthHeightSection Methods" Url="html/bc996d7a-75b2-e65e-ae93-cdcea5549a9d.htm" />
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="d54c7952-efa2-462b-a822-d005203854e4" Title="STBDotNet.Geometry" Url="html/f074a2b9-0e58-8106-f024-73da1c003444.htm">
+    <HelpTOCNode Id="094f53a4-69f9-400a-8577-e0a7d23e68f2" Title="Line3 Structure" Url="html/b09b759c-54e1-8a8a-41d6-5d296858f346.htm">
+      <HelpTOCNode Id="4d296ec9-9641-46e1-9358-6d0b57ea7b82" Title="Line3 Constructor " Url="html/3babdb1c-4601-604c-30ce-b05428bfcfb8.htm">
+        <HelpTOCNode Title="Line3 Constructor (Line3)" Url="html/4a5c6db0-3f5f-aba9-8de2-bb1d123a0ec5.htm" />
+        <HelpTOCNode Title="Line3 Constructor (Point3, Point3)" Url="html/28827b27-0821-73d7-944a-3269a3e8b243.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="95685fcf-cd9d-427d-abfe-b92b683c8ee0" Title="Line3 Properties" Url="html/abe059c7-d050-a67c-a3ab-269b647ccace.htm">
+        <HelpTOCNode Title="End Property " Url="html/1fb27f84-9173-a56b-8d33-04762a5265c0.htm" />
+        <HelpTOCNode Title="Length Property " Url="html/1ef83ea3-c6c2-a81b-ec48-f0420684ae94.htm" />
+        <HelpTOCNode Title="Start Property " Url="html/50c36a96-60de-d216-d19d-bf8428611769.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="4ca10da9-1f82-4962-8bb9-8e6766d48b59" Title="Line3 Methods" Url="html/5d55f699-126a-0c41-b2d4-749544b9e04c.htm">
+        <HelpTOCNode Id="cd889d54-1120-42e7-8666-c000d443b465" Title="Equals Method " Url="html/b6b8b350-271a-e9ae-eae6-a0e2c54e3e2c.htm">
+          <HelpTOCNode Title="Equals Method (Object)" Url="html/2fa48685-ce05-2751-2f53-8f8ce3e6eb94.htm" />
+          <HelpTOCNode Title="Equals Method (Line3)" Url="html/0d37d4b9-05dc-2261-6ea7-dcd4afd46dd3.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="dbbca880-d6e0-41cc-84ae-f3d488ba5a55" Title="Mesh Structure" Url="html/601ffc17-2bc2-b95b-0210-ad95ac8fe655.htm">
+      <HelpTOCNode Id="2cee8606-0493-4357-ba8b-7f6501147cf4" Title="Mesh Constructor " Url="html/dbe38957-9219-b71d-a18d-e14c2f7db1d8.htm">
+        <HelpTOCNode Title="Mesh Constructor (Mesh)" Url="html/d4539ef0-3849-e807-1afc-34a644729c4e.htm" />
+        <HelpTOCNode Title="Mesh Constructor (Point3, Point3, Point3)" Url="html/c2d5d006-7228-c9ab-3cae-1985365db996.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="99733bd6-3d28-4e0c-9090-91eff76dc2bd" Title="Mesh Properties" Url="html/af4311dc-e399-ae73-6407-65fd92e04de5.htm">
+        <HelpTOCNode Title="A Property " Url="html/6f74036a-631d-5b55-4d17-6010a81c64c4.htm" />
+        <HelpTOCNode Title="B Property " Url="html/f3ad5196-69ee-5ded-9d7c-2690eb32a41f.htm" />
+        <HelpTOCNode Title="C Property " Url="html/3097cb36-c736-5f6f-ecde-c7d7c607b380.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="65e8b2ae-e326-4bdb-9c98-5736cbf3bf4f" Title="Mesh Methods" Url="html/c06fb21f-81a6-a1a3-ea22-d2a8848f2ba1.htm">
+        <HelpTOCNode Id="943baad0-b628-42f3-9413-922eb19b3bd8" Title="Equals Method " Url="html/5e4f5225-60d3-2e6c-7421-3b44313b776e.htm">
+          <HelpTOCNode Title="Equals Method (Object)" Url="html/b56e7fbb-36b5-1099-a4af-6137cc8af070.htm" />
+          <HelpTOCNode Title="Equals Method (Mesh)" Url="html/3616940d-e6da-1e98-0c95-8aeb67775152.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="33753be4-c009-4a4b-903c-4364b587c376" Title="Point3 Structure" Url="html/84a77a99-5cc2-7a8b-8663-3a8d817b5471.htm">
+      <HelpTOCNode Id="49854106-b6d4-4610-8c29-fafb23ef26cf" Title="Point3 Constructor " Url="html/6b70b61c-18a8-e0be-b42b-175c0b2e905e.htm">
+        <HelpTOCNode Title="Point3 Constructor (Point3)" Url="html/99a7132a-31c6-1fda-b541-518dbe6e7f9f.htm" />
+        <HelpTOCNode Title="Point3 Constructor (Double, Double, Double)" Url="html/931bed3a-e78f-16a4-1dcb-30d3b797bd5c.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="8f9e6139-1c63-49a0-886e-c600ac0aa65f" Title="Point3 Properties" Url="html/39b143df-9992-b340-aec2-6b9dbeaa9f77.htm">
+        <HelpTOCNode Title="X Property " Url="html/6f96cf5c-9c43-4bb7-d9af-7155e6da4c97.htm" />
+        <HelpTOCNode Title="Y Property " Url="html/72cde8fe-bab5-7147-3f59-05cb925fad12.htm" />
+        <HelpTOCNode Title="Z Property " Url="html/f65022dd-1b18-f662-d18f-6abf69ba8586.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="f9f0e317-e615-4f32-b5b2-d4a890b517d9" Title="Point3 Methods" Url="html/7badb915-7863-07c4-59f1-a6df5ae6c07c.htm">
+        <HelpTOCNode Id="a307f39d-1a81-4fe2-929c-2bfbc55086d9" Title="Equals Method " Url="html/bae129b1-f8e6-c59d-da29-a2be47dd4021.htm">
+          <HelpTOCNode Title="Equals Method (Object)" Url="html/de70568d-0b54-2805-2222-a24b0ec11a8d.htm" />
+          <HelpTOCNode Title="Equals Method (Point3)" Url="html/ed87ec00-202a-e48b-0826-a3644fcb2652.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="74bc2793-a7e5-4a02-87e2-1f55d6487b65" Title="STBDotNet.Serialization" Url="html/56baba9b-406a-1be3-23c9-5a61d05aa69e.htm">
+    <HelpTOCNode Id="c8417878-38b9-4133-ab52-2fa454d92c4f" Title="Serializer Class" Url="html/c9e873d2-8305-8b84-54ca-61d510e931e6.htm">
+      <HelpTOCNode Title="Serializer Constructor " Url="html/d83726a0-302e-5043-6e6b-de23ed37094f.htm" />
+      <HelpTOCNode Id="b34d128a-b965-4b96-b3bf-10ea8e60f6f1" Title="Serializer Methods" Url="html/eb6dda80-075e-de05-26a6-83c86e16c5c8.htm">
+        <HelpTOCNode Title="Deserialize Method " Url="html/03509b33-7985-26e1-620f-56fbc499c86d.htm" />
+        <HelpTOCNode Title="Serialize Method " Url="html/45766f22-ad3f-4236-8a0c-2a9faa80602f.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="7f22892d-ae02-4f9a-a27b-dd3d46048d52" Title="Util Class" Url="html/a429bfd7-10c6-f88f-1df8-6881be0526f7.htm">
+      <HelpTOCNode Id="b4adbea0-d4eb-47ef-87bd-8a0f464a0375" Title="Util Methods" Url="html/2052e4f1-8366-fb6b-14bf-82ebbb0474d1.htm">
+        <HelpTOCNode Title="GetStbVersion Method " Url="html/43d925cb-6981-9024-8dc9-48416da85b02.htm" />
+        <HelpTOCNode Title="GetStrengthBar Method " Url="html/0c703594-0e43-d471-0359-75bcfe0c4e9a.htm" />
+        <HelpTOCNode Title="GetStrengthConcrete Method " Url="html/32744f0e-ad9e-eb2b-b4a7-0590f8e65241.htm" />
+        <HelpTOCNode Title="GetXmlNameSpace Method " Url="html/1951d23c-a7f6-d3af-dfc3-356769bd350b.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+</HelpTOC>
