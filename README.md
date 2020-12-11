@@ -7,11 +7,33 @@
 
 STBDotNet is a .NET library for ST-Bridge.
 
+SDK Document is blow link.
+
+[STBDotNet SDK Documents](https://hrntsm.github.io/STBDotNet/html/861e8c8d-d9f5-fa0a-ea9f-5e116362eee0.htm#!)
+
 ## This library Work in Progress
 
-We are currently developing the following libraries with additional features.
-Load ST-Bridge is already implemented as follows
-https://github.com/hrntsm/STBReader
+We are currently developing more additional useful features.
+
+## Usage
+
+### Serialize & output ST-Bridge file
+
+By specifying the StbElements class and the path you want to output, the st-bridge data will be output.
+It returns a bool indicating the success or failure of the output.
+```cs
+STBDotNet.StbElements model = hoge; // Set ST-Bridge data
+var serializer = new STBDotNet.Serialization.Serializer();
+bool result = serializer.Serialize(model, outPath);
+```
+
+### Deserialize ST-Bridge file
+
+Input the path to the stb file, and the loaded data will be serialized and retrieved as the StbElements class.
+```cs
+var serializer = new STBDotNet.Serialization.Serializer();
+StbElements model = serializer.Deserialize(stbPath);
+```
 
 ## What is ST-Bridge
 
