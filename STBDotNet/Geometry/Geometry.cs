@@ -21,7 +21,24 @@ namespace STBDotNet.Geometry
             Y = pt.Y;
             Z = pt.Z;
         }
- 
+
+        #region Operator
+        public static Point3 operator +(Point3 pt1, Point3 pt2)
+        {
+            return new Point3(pt1.X + pt2.X, pt1.Y + pt2.Y, pt1.Z + pt2.Z);
+        }
+        
+        public static Point3 operator -(Point3 pt1, Point3 pt2)
+        {
+            return new Point3(pt1.X - pt2.X, pt1.Y - pt2.Y, pt1.Z - pt2.Z);
+        }
+
+        public static Point3 operator /(Point3 pt, double num)
+        {
+            return new Point3(pt.X / num, pt.Y / num, pt.Z / num);
+        }
+        #endregion
+
         public bool Equals(Point3 other)
         {
             return X.Equals(other.X) && Y.Equals(other.Y) && Z.Equals(other.Z);
@@ -32,7 +49,7 @@ namespace STBDotNet.Geometry
             return obj is Point3 other && Equals(other);
         }
 
-#if NET5_0
+        #if NET5_0
         public override int GetHashCode()
         {
             return HashCode.Combine(X, Y, Z);
