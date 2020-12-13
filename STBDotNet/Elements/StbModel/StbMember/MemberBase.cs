@@ -4,20 +4,26 @@ using System.Xml.Serialization;
 
 namespace STBDotNet.Elements.StbModel.StbMember
 {
-    public abstract class MemberBase : IModel, IMember
+    public abstract class MemberBase : IModel, IMemberBase
     {
         [XmlAttribute("id")] public int Id { get; set; }
         [XmlAttribute("name")] public string Name { get; set; }
         [XmlAttribute("id_section")] public int IdSection { get; set; }
         [XmlAttribute("kind_structure")] public string Kind { get; set; }
-        [XmlIgnore] public KindFrameStructure KindFrameStructure { get; set; }
+        [XmlIgnore] public KindStructure KindStructure { get; set; }
     }
 
-    public abstract class PlateBase : MemberBase
+    public abstract class PlateBase : MemberBase, IPlate
     {
         [XmlArray("StbNodeid_List")]
         [XmlArrayItem("StbNodeid")] public List<NodeId> NodeIdList { get; set; }
         [XmlElement("StbOpen")] public List<Open> Opens { get; set; }
+    }
+
+    public interface IPlate : IMemberBase
+    {
+        List<NodeId> NodeIdList { get; set; }
+        List<Open> Opens { get; set; }
     }
 
     public class PlaneOpen
@@ -32,15 +38,16 @@ namespace STBDotNet.Elements.StbModel.StbMember
         public double Rotate { get;  set; }
     }
     
-    public interface IMember
+    public interface IMemberBase
     {
         int IdSection { get; set; }
         string Kind { get; set; }
-        KindFrameStructure KindFrameStructure { get; set; }
+        KindStructure KindStructure { get; set; }
     }
 
-    public interface IFrame
+    public interface IFrame : IMemberBase
     {
+        string Name { get; set; }
         int IdNodeStart { get; set; }
         int IdNodeEnd { get; set; }
         double Rotate { get; set; }
@@ -60,7 +67,7 @@ namespace STBDotNet.Elements.StbModel.StbMember
         int JointIdEnd { get; set; }
     }
     
-    public enum KindFrameStructure
+    public enum KindStructure
     {
         Rc,
         S,
@@ -68,7 +75,7 @@ namespace STBDotNet.Elements.StbModel.StbMember
         Cft
     }
 
-    public enum KindSlabStructure
+    public enum KindSlab
     {
         Rc,
         Deck,
