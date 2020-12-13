@@ -23,7 +23,7 @@ namespace STBDotNet.Serialization.Tests
                 var outPath = $@"../../../Result/{path}.stb";
 
                 // Deserialize Test
-                var serializer = new STBDotNet.Serialization.Serializer();
+                var serializer = new Serializer();
                 StbElements model = serializer.Deserialize(stbPath);
                 // Serialize Test
                 bool result = serializer.Serialize(model, outPath);
