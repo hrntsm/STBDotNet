@@ -33,6 +33,11 @@ namespace STBDotNet.Geometry
             return new Point3(pt1.X - pt2.X, pt1.Y - pt2.Y, pt1.Z - pt2.Z);
         }
 
+        public static Point3 operator *(Point3 pt, double num)
+        {
+            return new Point3(pt.X * num, pt.Y * num, pt.Z * num);
+        }
+
         public static Point3 operator /(Point3 pt, double num)
         {
             return new Point3(pt.X / num, pt.Y / num, pt.Z / num);
