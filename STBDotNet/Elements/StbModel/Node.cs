@@ -6,10 +6,10 @@ namespace STBDotNet.Elements.StbModel
 {
     public class Node : NodeId, IStbSerializable
     {
-        [XmlAttribute("x")] public double X { get; private set; }
-        [XmlAttribute("y")] public double Y { get; private set; }
-        [XmlAttribute("z")] public double Z { get; private set; }
-        [XmlAttribute("kind")] public string Kind { get; private set; }
+        [XmlAttribute("x")] public double X { get; set; }
+        [XmlAttribute("y")] public double Y { get; set; }
+        [XmlAttribute("z")] public double Z { get; set; }
+        [XmlAttribute("kind")] public string Kind { get; set; }
         [XmlIgnore] public Point3 Position { get; set; }
         [XmlIgnore] public NodeKind NodeKind { get; set; }
 
