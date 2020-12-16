@@ -23,7 +23,7 @@ namespace STBDotNet.Elements.StbModel.StbSection
         [XmlAttribute("name")] public string Name { get; set; }
     }
 
-    public abstract class WidthHeightSection
+    public abstract class WidthHeightSection : SteelSectionBase
     {
         [XmlAttribute("A")] public double A { get; set; }
         [XmlAttribute("B")] public double B { get; set; }
