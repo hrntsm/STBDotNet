@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Xml.Serialization;
 
 namespace STBDotNet.Elements.StbModel.StbMember
@@ -31,70 +32,55 @@ namespace STBDotNet.Elements.StbModel.StbMember
         [XmlArrayItem("StbParapet")] public List<Parapet> Parapets { get; set; }
     }
 
-    public class Column : MemberBase, IFrame
-    {
-        [XmlAttribute("idNode_bottom")] public int IdNodeStart { get; set; }
-        [XmlAttribute("idNode_top")] public int IdNodeEnd { get; set; }
-        [XmlAttribute("rotate")] public double Rotate { get; set; }
-        [XmlAttribute("offset_bottom_X")] public double OffsetStartX { get; set; }
-        [XmlAttribute("offset_bottom_Y")] public double OffsetStartY { get; set; }
-        [XmlAttribute("offset_bottom_Z")] public double OffsetStartZ { get; set; }
-        [XmlAttribute("offset_top_X")] public double OffsetEndX { get; set; }
-        [XmlAttribute("offset_top_Y")] public double OffsetEndY { get; set; }
-        [XmlAttribute("offset_top_Z")] public double OffsetEndZ { get; set; }
-        [XmlAttribute("condition_bottom")] public string ConditionStart { get; set; }
-        [XmlAttribute("condition_top")] public string ConditionEnd { get; set; }
-        [XmlAttribute("joint_bottom")] public double JointStart { get; set; }
-        [XmlAttribute("joint_top")] public double JointEnd { get; set; }
-        [XmlAttribute("kind_joint_bottom")] public string KindJointStart { get; set; }
-        [XmlAttribute("kind_joint_top")] public string KindJointEnd { get; set; }
-        [XmlAttribute("Joint_id_bottom")] public int JointIdStart { get; set; }
-        [XmlAttribute("Joint_id_top")] public int JointIdEnd { get; set; }
-        [XmlAttribute("offset_X")] public double OffsetX { get; set; }
-        [XmlAttribute("offset_Y")] public double OffsetY { get; set; }
-        [XmlAttribute("thickness_ex_start_X")] public double ThicknessExStartX { get; set; }
-        [XmlAttribute("thickness_ex_start_Y")] public double ThicknessExStartY { get; set; }
-        [XmlAttribute("thickness_ex_end_X")] public double ThicknessExEndX { get; set; }
-        [XmlAttribute("thickness_ex_end_Y")] public double ThicknessExEndY { get; set; }
-    }
-
-    public class Post : Column
-    { }
-
     public class FrameBase : MemberBase, IFrame
     {
         [XmlAttribute("idNode_start")] public int IdNodeStart { get; set; }
         [XmlAttribute("idNode_end")] public int IdNodeEnd { get; set; }
         [XmlAttribute("rotate")] public double Rotate { get; set; }
-        [XmlAttribute("offset_start_X")] public double OffsetStartX { get; set; }
-        [XmlAttribute("offset_start_Y")] public double OffsetStartY { get; set; }
-        [XmlAttribute("offset_start_Z")] public double OffsetStartZ { get; set; }
-        [XmlAttribute("offset_end_X")] public double OffsetEndX { get; set; }
-        [XmlAttribute("offset_end_Y")] public double OffsetEndY { get; set; }
-        [XmlAttribute("offset_end_Z")] public double OffsetEndZ { get; set; }
+        [XmlAttribute("offset_start_X")] [DefaultValue(0d)] public double OffsetStartX { get; set; }
+        [XmlAttribute("offset_start_Y")] [DefaultValue(0d)] public double OffsetStartY { get; set; }
+        [XmlAttribute("offset_start_Z")] [DefaultValue(0d)] public double OffsetStartZ { get; set; }
+        [XmlAttribute("offset_end_X")] [DefaultValue(0d)] public double OffsetEndX { get; set; }
+        [XmlAttribute("offset_end_Y")] [DefaultValue(0d)] public double OffsetEndY { get; set; }
+        [XmlAttribute("offset_end_Z")] [DefaultValue(0d)] public double OffsetEndZ { get; set; }
         [XmlAttribute("condition_start")] public string ConditionStart { get; set; }
         [XmlAttribute("condition_end")] public string ConditionEnd { get; set; }
-        [XmlAttribute("joint_start")] public double JointStart { get; set; }
-        [XmlAttribute("joint_end")] public double JointEnd { get; set; }
+        [XmlAttribute("joint_start")] [DefaultValue(0d)] public double JointStart { get; set; }
+        [XmlAttribute("joint_end")] [DefaultValue(0d)] public double JointEnd { get; set; }
         [XmlAttribute("kind_joint_start")] public string KindJointStart { get; set; }
         [XmlAttribute("kind_joint_end")] public string KindJointEnd { get; set; }
-        [XmlAttribute("Joint_id_start")] public int JointIdStart { get; set; }
-        [XmlAttribute("Joint_id_end")] public int JointIdEnd { get; set; }
+        [XmlAttribute("Joint_id_start")] [DefaultValue(0)] public int JointIdStart { get; set; }
+        [XmlAttribute("Joint_id_end")] [DefaultValue(0)] public int JointIdEnd { get; set; }
     }
+
+    public class Column : FrameBase, IFrame
+    {
+        [XmlAttribute("idNode_bottom")] public new int IdNodeStart { get; set; }
+        [XmlAttribute("idNode_top")] public new int IdNodeEnd { get; set; }
+        [XmlAttribute("offset_X")] [DefaultValue(0d)] public double OffsetX { get; set; }
+        [XmlAttribute("offset_Y")] [DefaultValue(0d)] public double OffsetY { get; set; }
+        [XmlAttribute("thickness_ex_start_X")] [DefaultValue(0d)] public double ThicknessExStartX { get; set; }
+        [XmlAttribute("thickness_ex_start_Y")] [DefaultValue(0d)] public double ThicknessExStartY { get; set; }
+        [XmlAttribute("thickness_ex_end_X")] [DefaultValue(0d)] public double ThicknessExEndX { get; set; }
+        [XmlAttribute("thickness_ex_end_Y")] [DefaultValue(0d)] public double ThicknessExEndY { get; set; }
+    }
+
+    public class Post : Column
+    { }
 
     public class Girder : FrameBase
     {
         [XmlAttribute("section_io_start")] public string SectionIOStart { get; set; }
         [XmlAttribute("section_io_end")] public string SectionIOEnd { get; set; }
         [XmlAttribute("isFoundation")] public string IsFoundation { get; set; }
-        [XmlAttribute("offset")] public double Offset { get; set; }
-        [XmlAttribute("level")] public double Level { get; set; }
-        [XmlAttribute("thickness_ex_top")] public double ThicknessExTop { get; set; }
-        [XmlAttribute("thickness_ex_bottom")] public double ThicknessExBottom { get; set; }
-        [XmlAttribute("thickness_ex_right")] public double ThicknessExRight { get; set; }
-        [XmlAttribute("thickness_ex_left")] public double ThicknessExLeft { get; set; }
-        [XmlAttribute("haunch_start")] public double HaunchStart { get; set; }
-        [XmlAttribute("haunch_end")] public double HaunchEnd { get; set; }
+        [XmlAttribute("offset")] [DefaultValue(0d)] public double Offset { get; set; }
+        [XmlAttribute("level")] [DefaultValue(0d)] public double Level { get; set; }
+        [XmlAttribute("thickness_ex_top")] [DefaultValue(0d)] public double ThicknessExTop { get; set; }
+        [XmlAttribute("thickness_ex_bottom")] [DefaultValue(0d)] public double ThicknessExBottom { get; set; }
+        [XmlAttribute("thickness_ex_right")] [DefaultValue(0d)] public double ThicknessExRight { get; set; }
+        [XmlAttribute("thickness_ex_left")] [DefaultValue(0d)] public double ThicknessExLeft { get; set; }
+        [XmlAttribute("haunch_start")] [DefaultValue(0d)] public double HaunchStart { get; set; }
+        [XmlAttribute("haunch_end")] [DefaultValue(0d)] public double HaunchEnd { get; set; }
         [XmlAttribute("kind_haunch_start")] public string KindHaunchStart { get; set; }
         [XmlAttribute("kind_haunch_end")] public string KindHaunchEnd { get; set; }
         [XmlAttribute("type_haunch_H")] public string TypeHaunchH { get; set; }

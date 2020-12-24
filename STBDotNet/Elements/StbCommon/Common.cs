@@ -1,8 +1,5 @@
-using System;
 using System.Collections.Generic;
-using System.Xml.Linq;
 using System.Xml.Serialization;
-using STBDotNet.Serialization;
 
 namespace STBDotNet.Elements.StbCommon
 {
@@ -18,7 +15,7 @@ namespace STBDotNet.Elements.StbCommon
         public string StrengthConcrete { get; set; }
         [XmlArray("StbReinforcement_Strength_List")]
         [XmlArrayItem("StbReinforcement_Strength")]
-        public List<ReinforcementStrength> ReinforcementStrengthList { get; set; } = new List<ReinforcementStrength>();
+        public List<ReinforcementStrength> ReinforcementStrengthList { get; set; }
     }
 
     public class ReinforcementStrength
