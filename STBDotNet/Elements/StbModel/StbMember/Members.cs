@@ -53,16 +53,31 @@ namespace STBDotNet.Elements.StbModel.StbMember
         [XmlAttribute("Joint_id_end")] [DefaultValue(0)] public int JointIdEnd { get; set; }
     }
 
-    public class Column : FrameBase, IFrame
+    public class Column : MemberBase, IFrame
     {
-        [XmlAttribute("idNode_bottom")] public new int IdNodeStart { get; set; }
-        [XmlAttribute("idNode_top")] public new int IdNodeEnd { get; set; }
-        [XmlAttribute("offset_X")] [DefaultValue(0d)] public double OffsetX { get; set; }
-        [XmlAttribute("offset_Y")] [DefaultValue(0d)] public double OffsetY { get; set; }
-        [XmlAttribute("thickness_ex_start_X")] [DefaultValue(0d)] public double ThicknessExStartX { get; set; }
-        [XmlAttribute("thickness_ex_start_Y")] [DefaultValue(0d)] public double ThicknessExStartY { get; set; }
-        [XmlAttribute("thickness_ex_end_X")] [DefaultValue(0d)] public double ThicknessExEndX { get; set; }
-        [XmlAttribute("thickness_ex_end_Y")] [DefaultValue(0d)] public double ThicknessExEndY { get; set; }
+        [XmlAttribute("idNode_bottom")] public int IdNodeStart { get; set; }
+        [XmlAttribute("idNode_top")] public int IdNodeEnd { get; set; }
+        [XmlAttribute("rotate")] public double Rotate { get; set; }
+        [XmlAttribute("offset_bottom_X")] public double OffsetStartX { get; set; }
+        [XmlAttribute("offset_bottom_Y")] public double OffsetStartY { get; set; }
+        [XmlAttribute("offset_bottom_Z")] public double OffsetStartZ { get; set; }
+        [XmlAttribute("offset_top_X")] public double OffsetEndX { get; set; }
+        [XmlAttribute("offset_top_Y")] public double OffsetEndY { get; set; }
+        [XmlAttribute("offset_top_Z")] public double OffsetEndZ { get; set; }
+        [XmlAttribute("condition_bottom")] public string ConditionStart { get; set; }
+        [XmlAttribute("condition_top")] public string ConditionEnd { get; set; }
+        [XmlAttribute("joint_bottom")] public double JointStart { get; set; }
+        [XmlAttribute("joint_top")] public double JointEnd { get; set; }
+        [XmlAttribute("kind_joint_bottom")] public string KindJointStart { get; set; }
+        [XmlAttribute("kind_joint_top")] public string KindJointEnd { get; set; }
+        [XmlAttribute("Joint_id_bottom")] public int JointIdStart { get; set; }
+        [XmlAttribute("Joint_id_top")] public int JointIdEnd { get; set; }
+        [XmlAttribute("offset_X")] public double OffsetX { get; set; }
+        [XmlAttribute("offset_Y")] public double OffsetY { get; set; }
+        [XmlAttribute("thickness_ex_start_X")] public double ThicknessExStartX { get; set; }
+        [XmlAttribute("thickness_ex_start_Y")] public double ThicknessExStartY { get; set; }
+        [XmlAttribute("thickness_ex_end_X")] public double ThicknessExEndX { get; set; }
+        [XmlAttribute("thickness_ex_end_Y")] public double ThicknessExEndY { get; set; }
     }
 
     public class Post : Column
