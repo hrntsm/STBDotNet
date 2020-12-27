@@ -1,4 +1,5 @@
 using System;
+using System.ComponentModel;
 using System.Xml.Serialization;
 
 namespace STBDotNet.Elements.StbModel.StbSection
@@ -13,14 +14,14 @@ namespace STBDotNet.Elements.StbModel.StbSection
         [XmlAttribute("D_reinforcement_web")] public string DBarWeb { get; set; }
         [XmlAttribute("strength_stirrup")] public string StrengthStirrup { get; set; }
         [XmlAttribute("strength_reinforcement_web")] public string StrengthBarWeb { get; set; }
-        [XmlAttribute("depth_cover_left")] public double DepthCoverLeft { get; set; }
-        [XmlAttribute("depth_cover_right")] public double DepthCoverRight { get; set; }
-        [XmlAttribute("depth_cover_top")] public double DepthCoverTop { get; set; }
-        [XmlAttribute("depth_cover_bottom")] public double DepthCoverBottom { get; set; }
-        [XmlAttribute("center_reinforcement_top")] public double CenterBarTop { get; set; }
-        [XmlAttribute("center_reinforcement_bottom")] public double CenterBarBottom { get; set; }
-        [XmlAttribute("bar_length_start")] public double BarLengthStart { get; set; }
-        [XmlAttribute("bar_length_end")] public double BarLengthEnd { get; set; }
+        [XmlAttribute("depth_cover_left")] [DefaultValue(0d)] public double DepthCoverLeft { get; set; }
+        [XmlAttribute("depth_cover_right")] [DefaultValue(0d)] public double DepthCoverRight { get; set; }
+        [XmlAttribute("depth_cover_top")] [DefaultValue(0d)] public double DepthCoverTop { get; set; }
+        [XmlAttribute("depth_cover_bottom")] [DefaultValue(0d)] public double DepthCoverBottom { get; set; }
+        [XmlAttribute("center_reinforcement_top")] [DefaultValue(0d)] public double CenterBarTop { get; set; }
+        [XmlAttribute("center_reinforcement_bottom")] [DefaultValue(0d)] public double CenterBarBottom { get; set; }
+        [XmlAttribute("bar_length_start")] [DefaultValue(0d)] public double BarLengthStart { get; set; }
+        [XmlAttribute("bar_length_end")] [DefaultValue(0d)] public double BarLengthEnd { get; set; }
         // child element
         [XmlElement("StbSecFigure")] public RcBeamSecFigure Figure { get; set; }
         [XmlElement("StbSecBar_Arrangement")] public RcBeamSecBarArrangement BarArrangement { get; set; }
@@ -97,22 +98,22 @@ namespace STBDotNet.Elements.StbModel.StbSection
         public class Same
         {
             [XmlAttribute("count_main_top_1st")] public int CountMainTop1st { get; set; }
-            [XmlAttribute("count_main_top_2nd")] public int CountMainTop2nd { get; set; }
-            [XmlAttribute("count_main_top_3rd")] public int CountMainTop3rd { get; set; }
+            [XmlAttribute("count_main_top_2nd")] [DefaultValue(0)] public int CountMainTop2nd { get; set; }
+            [XmlAttribute("count_main_top_3rd")] [DefaultValue(0)] public int CountMainTop3rd { get; set; }
             [XmlAttribute("count_main_bottom_1st")] public int CountMainBottom1st { get; set; }
-            [XmlAttribute("count_main_bottom_2nd")] public int CountMainBottom2nd { get; set; }
-            [XmlAttribute("count_main_bottom_3rd")] public int CountMainBottom3rd { get; set; }
-            [XmlAttribute("count_2nd_main_top_1st")] public int Count2ndMainTop1st { get; set; }
-            [XmlAttribute("count_2nd_main_top_2nd")] public int Count2ndMainTop2nd { get; set; }
-            [XmlAttribute("count_2nd_main_top_3rd")] public int Count2ndMainTop3rd { get; set; }
-            [XmlAttribute("count_2nd_main_bottom_1st")] public int Count2ndMainBottom1st { get; set; }
-            [XmlAttribute("count_2nd_main_bottom_2nd")] public int Count2ndMainBottom2nd { get; set; }
-            [XmlAttribute("count_2nd_main_bottom_3rd")] public int Count2ndMainBottom3rd { get; set; }
+            [XmlAttribute("count_main_bottom_2nd")] [DefaultValue(0)] public int CountMainBottom2nd { get; set; }
+            [XmlAttribute("count_main_bottom_3rd")] [DefaultValue(0)] public int CountMainBottom3rd { get; set; }
+            [XmlAttribute("count_2nd_main_top_1st")] [DefaultValue(0)] public int Count2ndMainTop1st { get; set; }
+            [XmlAttribute("count_2nd_main_top_2nd")] [DefaultValue(0)] public int Count2ndMainTop2nd { get; set; }
+            [XmlAttribute("count_2nd_main_top_3rd")] [DefaultValue(0)] public int Count2ndMainTop3rd { get; set; }
+            [XmlAttribute("count_2nd_main_bottom_1st")] [DefaultValue(0)] public int Count2ndMainBottom1st { get; set; }
+            [XmlAttribute("count_2nd_main_bottom_2nd")] [DefaultValue(0)] public int Count2ndMainBottom2nd { get; set; }
+            [XmlAttribute("count_2nd_main_bottom_3rd")] [DefaultValue(0)] public int Count2ndMainBottom3rd { get; set; }
             [XmlAttribute("count_stirrup")] public int CountStirrup { get; set; }
             [XmlAttribute("pitch_stirrup")] public double PitchStirrup { get; set; }
-            [XmlAttribute("count_web")] public int CountWeb { get; set; }
-            [XmlAttribute("count_bar_spacing")] public int CountBarSpacing { get; set; }
-            [XmlAttribute("pitch_bar_spacing")] public double PitchBarSpacing { get; set; }
+            [XmlAttribute("count_web")] [DefaultValue(0)] public int CountWeb { get; set; }
+            [XmlAttribute("count_bar_spacing")] [DefaultValue(0)] public int CountBarSpacing { get; set; }
+            [XmlAttribute("pitch_bar_spacing")] [DefaultValue(0d)] public double PitchBarSpacing { get; set; }
         }
 
         public class StartEnd : Same

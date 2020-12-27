@@ -1,4 +1,5 @@
 using System;
+using System.ComponentModel;
 using System.ComponentModel.Design;
 using System.Xml.Serialization;
 
@@ -10,8 +11,8 @@ namespace STBDotNet.Elements.StbModel.StbSection
         [XmlAttribute("name")] public string Name { get; set; }
         [XmlAttribute("depth")] public double Depth { get; set; }
         [XmlAttribute("strength_concrete")] public string StrengthConcrete { get; set; }
-        [XmlAttribute("depth_cover_outside")] public double DepthCoverOutside { get; set; }
-        [XmlAttribute("depth_cover_inside")] public double DepthCoverInside { get; set; }
+        [XmlAttribute("depth_cover_outside")] [DefaultValue(0d)] public double DepthCoverOutside { get; set; }
+        [XmlAttribute("depth_cover_inside")] [DefaultValue(0d)] public double DepthCoverInside { get; set; }
         // child element
         [XmlElement("StbSecBar_Arrangement")] public WallSecBarArrangement BarArrangement { get; set; }
     }
