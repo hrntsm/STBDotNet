@@ -1,11 +1,8 @@
 using System.Collections.Generic;
-using System.Xml.Linq;
 using System.Xml.Serialization;
-using STBDotNet.Elements.StbCommon;
 using STBDotNet.Elements.StbModel.StbJoint;
 using STBDotNet.Elements.StbModel.StbMember;
 using STBDotNet.Elements.StbModel.StbSection;
-using STBDotNet.Serialization;
 
 namespace STBDotNet.Elements.StbModel
 {

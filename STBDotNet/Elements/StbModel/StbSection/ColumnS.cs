@@ -1,3 +1,4 @@
+using System.ComponentModel;
 using System.Xml.Serialization;
 
 namespace STBDotNet.Elements.StbModel.StbSection
@@ -7,10 +8,15 @@ namespace STBDotNet.Elements.StbModel.StbSection
         [XmlAttribute("kind_column")] public string KindColumn { get; set; }
         [XmlAttribute("direction")] public string Direction { get; set; }
         [XmlAttribute("base_type")] public string BaseType { get; set; }
-        [XmlAttribute("joint_id_bottom")] public int JointIdStart { get; set; }
-        [XmlAttribute("joint_id_top")] public int JointIdEnd { get; set; }
-        [XmlElement("StbSecSteelColumn")] public SecSteel[] SecSteelColumn { get; set; }
+        [XmlAttribute("joint_id_bottom")] [DefaultValue(0)] public int JointIdStart { get; set; }
+        [XmlAttribute("joint_id_top")] [DefaultValue(0)] public int JointIdEnd { get; set; }
+        [XmlElement("StbSecSteelColumn")] public SecSteel[] SteelColumn { get; set; }
         [XmlElement("StbSecBaseProduct")] public BaseProduct BaseProduct { get; set; }
+
+        public override string ToString()
+        {
+            return $"Id:{Id} {Name}, Type:ColS, Section:{SteelColumn[0].Shape}";
+        }
     }
 
     public class SecSteel

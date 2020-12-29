@@ -1,4 +1,4 @@
-using System.ComponentModel.Design;
+using System.ComponentModel;
 using System.Xml.Serialization;
 
 namespace STBDotNet.Elements.StbModel.StbSection
@@ -8,15 +8,15 @@ namespace STBDotNet.Elements.StbModel.StbSection
         [XmlAttribute("id")] public int Id { get; set; }
         [XmlAttribute("name")] public string Name { get; set; }
         [XmlAttribute("strength_concrete")] public string StrengthConcrete { get; set; }
-        [XmlAttribute("depth_cover_top")] public double DepthCoverTop { get; set; }
+        [XmlAttribute("depth_cover_top")] [DefaultValue(0d)] public double DepthCoverTop { get; set; }
     }
 
     public class SlabRc : SlabSecBase
     {
-        [XmlAttribute("isFoundation")] public string IsFoundation { get; set; }
-        [XmlAttribute("isEarthen")] public string IsEarthen { get; set; }
-        [XmlAttribute("isCanti")] public string IsCanti { get; set; }
-        [XmlAttribute("depth_cover_bottom")] public double DepthCoverBottom { get; set; }
+        [XmlAttribute("isFoundation")] [DefaultValue(false)] public string IsFoundation { get; set; }
+        [XmlAttribute("isEarthen")] [DefaultValue(false)] public string IsEarthen { get; set; }
+        [XmlAttribute("isCanti")] [DefaultValue(false)] public string IsCanti { get; set; }
+        [XmlAttribute("depth_cover_bottom")] [DefaultValue(0d)] public double DepthCoverBottom { get; set; }
         // child element
         [XmlElement("StbSecFigure")] public SlabSecFigure Figure { get; set; }
         [XmlElement("StbSecBar_Arrangement")] public SlabRcSecBarArrangement BarArrangement { get; set; }
@@ -76,7 +76,7 @@ namespace STBDotNet.Elements.StbModel.StbSection
     {
         [XmlAttribute("product_type")] public string ProductType { get; set; }
         [XmlAttribute("depthConcrete")] public double DepthConcrete { get; set; }
-        [XmlAttribute("depth_cover_bottom")] public double DepthCoverBottom { get; set; }
+        [XmlAttribute("depth_cover_bottom")] [DefaultValue(0d)] public double DepthCoverBottom { get; set; }
         // child element
         [XmlElement("StbSecBar_Arrangement")] public SlabDeckSecBarArrangement BarArrangement { get; set; }
         [XmlElement("StbSecDeck_Product")] public SlabDeckProduct Product { get; set; }
