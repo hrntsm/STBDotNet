@@ -32,7 +32,7 @@ namespace STBDotNet.Elements.StbModel.StbSection
                 + LipC?.Count ?? 0
                 + FlatBar?.Count ?? 0
                 + RoundBar?.Count ?? 0;
-            return $"Sections:{numSection}";
+            return $"Number of Steel Sections:{numSection}";
         }
     }
 
