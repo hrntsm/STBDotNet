@@ -12,4 +12,10 @@ namespace STBDotNet.Elements
     {
         string[] StbTag { get; }
     }
+
+    public interface IStbSerializable
+    {
+        void OnAfterDeserialize();
+        void OnBeforeSerialize();
+    }
 }
