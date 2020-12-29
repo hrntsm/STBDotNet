@@ -41,7 +41,7 @@ namespace STBDotNet.Elements.StbModel
         public override string ToString()
         {
             int nodeCount = NodeIdList?.Count ?? 0;
-            return $"{Name} Height:{Height}mm, Nodes:{nodeCount}";
+            return $"{Name} Height:{Height}, Nodes:{nodeCount}";
         }
     }
 
