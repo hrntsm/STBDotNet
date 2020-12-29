@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.Text;
 using System.Xml.Serialization;
 
 namespace STBDotNet.Elements.StbModel.StbSection
@@ -16,6 +17,23 @@ namespace STBDotNet.Elements.StbModel.StbSection
         [XmlElement("StbSecRoll-LipC")] public List<LipC> LipC { get; set; }
         [XmlElement("StbSecRoll-FB")] public List<FlatBar> FlatBar { get; set; }
         [XmlElement("StbSecRoll-Bar")] public List<RoundBar> RoundBar { get; set; }
+
+        public override string ToString()
+        {
+            int numSection
+                = RollH?.Count ?? 0
+                + BuildH?.Count ?? 0
+                + RollBox?.Count ?? 0
+                + BuildBox?.Count ?? 0
+                + Pipe?.Count ?? 0
+                + RollT?.Count ?? 0
+                + RollC?.Count ?? 0
+                + RollL?.Count ?? 0
+                + LipC?.Count ?? 0
+                + FlatBar?.Count ?? 0
+                + RoundBar?.Count ?? 0;
+            return $"Number of Steel Sections:{numSection}";
+        }
     }
 
     public abstract class SteelSectionBase
@@ -23,7 +41,7 @@ namespace STBDotNet.Elements.StbModel.StbSection
         [XmlAttribute("name")] public string Name { get; set; }
     }
 
-    public abstract class WidthHeightSection
+    public abstract class WidthHeightSection : SteelSectionBase
     {
         [XmlAttribute("A")] public double A { get; set; }
         [XmlAttribute("B")] public double B { get; set; }

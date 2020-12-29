@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Xml.Serialization;
 using STBDotNet.Serialization;
 
@@ -23,6 +24,6 @@ namespace STBDotNet.Elements.StbModel.StbSection
         [XmlAttribute("strength_reinforcement_main")] public string StrengthBarMain { get; set; }
         [XmlAttribute("strength_reinforcement_2nd_main")] public string StrengthBar2ndMain { get; set; }
         [XmlAttribute("strength_bar_spacing")] public string StrengthBarSpacing { get; set; }
-        [XmlAttribute("interval_reinforcement")] public double IntervalBar { get; set; }
+        [XmlAttribute("interval_reinforcement")] [DefaultValue(0d)] public double IntervalBar { get; set; }
     }
 }
