@@ -18,6 +18,8 @@ namespace STBDotNet.Elements
 
         public override string ToString()
         {
+            int numAxis = Model.Axes?.Count ?? 0;
+            int numStory = Model.Stories?.Count ?? 0;
             int numColumn = Model.Members.Columns?.Count ?? 0;
             int numPost = Model.Members.Posts?.Count ?? 0;
             int numGirder = Model.Members.Girders?.Count ?? 0;
@@ -25,10 +27,10 @@ namespace STBDotNet.Elements
             int numBrace = Model.Members.Braces?.Count ?? 0;
 
             var sb = new StringBuilder();
-            sb.Append($"Stb version: {Version} \n");
-            sb.Append($"Node: {Model.Nodes.Count}\n");
-            sb.Append($"Column: {numColumn}, Post: {numPost}, Girder: {numGirder}, Beam: {numBeam}, Brace: {numBrace}\n");
-            sb.Append($"Section: {Model.Sections.Count}");
+            sb.Append($"Stb version:{Version} \n");
+            sb.Append($"Node:{Model.Nodes.Count}, Axis:{numAxis}, Story:{numStory}\n");
+            sb.Append($"Column:{numColumn}, Post:{numPost}, Girder:{numGirder}, Beam:{numBeam}, Brace:{numBrace}\n");
+            sb.Append($"Section:{Model.Sections.Count}");
             return sb.ToString();
         }
     }

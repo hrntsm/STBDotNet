@@ -50,7 +50,12 @@ namespace STBDotNet.Elements.StbModel.StbSection
 
         public void OnBeforeSerialize()
         {
-            throw new System.NotImplementedException();
+            throw new NotImplementedException();
+        }
+
+        public override string ToString()
+        {
+            return $"Id:{Id} {Name}, Type:BeamRc, DMain:{DBarMain}, DStirrup:{DStirrup}";
         }
     }
 

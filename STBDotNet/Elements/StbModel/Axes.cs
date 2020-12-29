@@ -3,7 +3,7 @@ using System.Xml.Serialization;
 
 namespace STBDotNet.Elements.StbModel
 {
-    public class Axis
+    public abstract class Axis
     {
         [XmlAttribute("id")] public int Id { get; set; }
         [XmlAttribute("name")] public string Name { get; set; }
@@ -13,10 +13,22 @@ namespace STBDotNet.Elements.StbModel
     }
 
     public class XAxis : Axis
-    { }
+    {
+        public override string ToString()
+        {
+            int nodeCount = NodeIdList?.Count ?? 0;
+            return $"XAxis Dist={Distance}, Nodes:{nodeCount}";
+        }
+    }
 
     public class YAxis : Axis
-    { }
+    {
+        public override string ToString()
+        {
+            int nodeCount = NodeIdList?.Count ?? 0;
+            return $"YAxis Dist={Distance}, Nodes:{nodeCount}";
+        }
+    }
 
     public class DrawingAxis
     {

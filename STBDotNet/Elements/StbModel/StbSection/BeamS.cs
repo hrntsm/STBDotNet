@@ -12,5 +12,10 @@ namespace STBDotNet.Elements.StbModel.StbSection
         [XmlAttribute("joint_id_end")] [DefaultValue(0)] public int JointIdEnd { get; set; }
         // child element
         [XmlElement("StbSecSteelBeam")] public SecSteel[] SteelBeams { get; set; }
+
+        public override string ToString()
+        {
+            return $"Id:{Id} {Name}, Type:BeamS, Section:{SteelBeams[0].Shape}";
+        }
     }
  }

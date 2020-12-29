@@ -34,6 +34,11 @@ namespace STBDotNet.Elements.StbModel.StbSection
         {
             throw new NotImplementedException();
         }
+
+        public override string ToString()
+        {
+            return $"Id:{Id} {Name}, Type:ColRc, DMain:{DBarMain}, DBand:{DBarBand}";
+        }
     }
 
     public class RcColumnSecFigure

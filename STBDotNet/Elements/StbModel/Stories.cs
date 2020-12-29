@@ -37,6 +37,12 @@ namespace STBDotNet.Elements.StbModel
                     throw new ArgumentException("Undefined story kind");
             }
         }
+
+        public override string ToString()
+        {
+            int nodeCount = NodeIdList?.Count ?? 0;
+            return $"{Name} Height:{Height}mm, Nodes:{nodeCount}";
+        }
     }
 
     public enum StoryKind

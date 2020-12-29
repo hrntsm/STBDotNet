@@ -69,18 +69,30 @@ namespace STBDotNet.Elements.StbModel
                     throw new ArgumentOutOfRangeException();
             }
         }
-    }
 
-    public interface IStbSerializable
-    {
-        void OnAfterDeserialize();
-        void OnBeforeSerialize();
+        public override string ToString()
+        {
+            return $"Id:{Id}({X}, {Y}, {Z})";
+        }
     }
 
     public class NodeId
     {
         [XmlAttribute("id")]
         public int Id { get; set; }
+
+        public NodeId()
+        { }
+
+        public NodeId(int id)
+        {
+            Id = id;
+        }
+
+        public override string ToString()
+        {
+            return $"Id:{Id}";
+        }
     }
 
     public enum NodeKind

@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.Text;
 using System.Xml.Serialization;
 
 namespace STBDotNet.Elements.StbModel.StbMember
@@ -30,6 +31,28 @@ namespace STBDotNet.Elements.StbModel.StbMember
         [XmlArrayItem("StbFoundationColumn")] public List<FoundationColumn> FoundationColumns { get; set; }
         [XmlArray("StbParapets")]
         [XmlArrayItem("StbParapet")] public List<Parapet> Parapets { get; set; }
+
+        public override string ToString()
+        {
+            int numColumn = Columns?.Count ?? 0;
+            int numPost = Posts?.Count ?? 0;
+            int numGirder = Girders?.Count ?? 0;
+            int numBeam = Beams?.Count ?? 0;
+            int numBrace = Braces?.Count ?? 0;
+            int numSlab= Slabs?.Count ?? 0;
+            int numWall = Walls?.Count ?? 0;
+            int numFooting = Footings?.Count ?? 0;
+            int numSFooting = StripFootings?.Count ?? 0;
+            int numPile = Piles?.Count ?? 0;
+            int numFColumn = FoundationColumns?.Count ?? 0;
+            int numParapet = Parapets?.Count ?? 0;
+
+            var sb = new StringBuilder();
+            sb.Append($"Column:{numColumn}, Post:{numPost}, Girder:{numGirder}, Beam:{numBeam}, Brace:{numBrace}\n");
+            sb.Append($"Slab:{numSlab}, Wall:{numWall}\n");
+            sb.Append($"Footing:{numFooting}, StripFooting:{numSFooting}, Pile:{numPile}, FoundationColumn:{numFColumn}, Parapet:{numParapet}");
+            return sb.ToString();
+        }
     }
 
     public class FrameBase : MemberBase, IFrame
