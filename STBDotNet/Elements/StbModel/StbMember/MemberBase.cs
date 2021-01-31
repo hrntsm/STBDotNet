@@ -45,11 +45,15 @@ namespace STBDotNet.Elements.StbModel.StbMember
         KindStructure KindStructure { get; set; }
     }
 
+    public interface IFrameIdNode
+    {
+        int IdNodeStart { get; set; }
+        int IdNodeEnd { get; set; }
+    }
+
     public interface IFrame : IMemberBase
     {
         string Name { get; set; }
-        int IdNodeStart { get; set; }
-        int IdNodeEnd { get; set; }
         double Rotate { get; set; }
         double OffsetStartX { get; set; }
         double OffsetStartY { get; set; }
