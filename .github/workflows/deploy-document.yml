@@ -4,7 +4,6 @@ on:
   push:
     branches:
     - main
-    - feature/ci-document-page
 
 jobs:
   build-docfx:
