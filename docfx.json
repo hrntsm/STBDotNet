@@ -20,7 +20,7 @@
     "content": [
       {
         "files": [
-          "docs/toc.yml",
+          "docs/**.yml",
           "docs/*.md"
         ]
       }
