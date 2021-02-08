@@ -57,8 +57,6 @@ namespace STBDotNet.Elements.StbModel.StbMember
 
     public class FrameBase : MemberBase, IFrame
     {
-        [XmlAttribute("idNode_start")] public int IdNodeStart { get; set; }
-        [XmlAttribute("idNode_end")] public int IdNodeEnd { get; set; }
         [XmlAttribute("rotate")] public double Rotate { get; set; }
         [XmlAttribute("offset_start_X")] [DefaultValue(0d)] public double OffsetStartX { get; set; }
         [XmlAttribute("offset_start_Y")] [DefaultValue(0d)] public double OffsetStartY { get; set; }
@@ -74,27 +72,13 @@ namespace STBDotNet.Elements.StbModel.StbMember
         [XmlAttribute("kind_joint_end")] public string KindJointEnd { get; set; }
         [XmlAttribute("Joint_id_start")] [DefaultValue(0)] public int JointIdStart { get; set; }
         [XmlAttribute("Joint_id_end")] [DefaultValue(0)] public int JointIdEnd { get; set; }
+        
     }
 
-    public class Column : MemberBase, IFrame
+    public class Column : FrameBase, IFrameIdNode
     {
         [XmlAttribute("idNode_bottom")] public int IdNodeStart { get; set; }
         [XmlAttribute("idNode_top")] public int IdNodeEnd { get; set; }
-        [XmlAttribute("rotate")] public double Rotate { get; set; }
-        [XmlAttribute("offset_bottom_X")] [DefaultValue(0d)] public double OffsetStartX { get; set; }
-        [XmlAttribute("offset_bottom_Y")] [DefaultValue(0d)] public double OffsetStartY { get; set; }
-        [XmlAttribute("offset_bottom_Z")] [DefaultValue(0d)] public double OffsetStartZ { get; set; }
-        [XmlAttribute("offset_top_X")] [DefaultValue(0d)] public double OffsetEndX { get; set; }
-        [XmlAttribute("offset_top_Y")] [DefaultValue(0d)] public double OffsetEndY { get; set; }
-        [XmlAttribute("offset_top_Z")] [DefaultValue(0d)] public double OffsetEndZ { get; set; }
-        [XmlAttribute("condition_bottom")] public string ConditionStart { get; set; }
-        [XmlAttribute("condition_top")] public string ConditionEnd { get; set; }
-        [XmlAttribute("joint_bottom")] [DefaultValue(0d)] public double JointStart { get; set; }
-        [XmlAttribute("joint_top")] [DefaultValue(0d)] public double JointEnd { get; set; }
-        [XmlAttribute("kind_joint_bottom")] public string KindJointStart { get; set; }
-        [XmlAttribute("kind_joint_top")] public string KindJointEnd { get; set; }
-        [XmlAttribute("Joint_id_bottom")] [DefaultValue(0)] public int JointIdStart { get; set; }
-        [XmlAttribute("Joint_id_top")] [DefaultValue(0)] public int JointIdEnd { get; set; }
         [XmlAttribute("offset_X")] [DefaultValue(0d)] public double OffsetX { get; set; }
         [XmlAttribute("offset_Y")] [DefaultValue(0d)] public double OffsetY { get; set; }
         [XmlAttribute("thickness_ex_start_X")] [DefaultValue(0d)] public double ThicknessExStartX { get; set; }
@@ -106,8 +90,10 @@ namespace STBDotNet.Elements.StbModel.StbMember
     public class Post : Column
     { }
 
-    public class Girder : FrameBase
+    public class Girder : FrameBase, IFrameIdNode
     {
+        [XmlAttribute("idNode_start")] public int IdNodeStart { get; set; }
+        [XmlAttribute("idNode_end")] public int IdNodeEnd { get; set; }
         [XmlAttribute("section_io_start")] public string SectionIOStart { get; set; }
         [XmlAttribute("section_io_end")] public string SectionIOEnd { get; set; }
         [XmlAttribute("isFoundation")] public string IsFoundation { get; set; }
@@ -128,8 +114,10 @@ namespace STBDotNet.Elements.StbModel.StbMember
     public class Beam : Girder
     { }
 
-    public class Brace : FrameBase
+    public class Brace : FrameBase, IFrameIdNode
     {
+        [XmlAttribute("idNode_start")] public int IdNodeStart { get; set; }
+        [XmlAttribute("idNode_end")] public int IdNodeEnd { get; set; }
         [XmlAttribute("future_brace")] public string FutureBrace { get; set; }
     }
 
