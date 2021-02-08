@@ -1,0 +1,2096 @@
+{
+  "homepages": [],
+  "source_base_path": "/github/workspace",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.IGuid.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.IGuid.html",
+          "hash": "KvUd7sCyZUVxKGa57ROSXA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.IStbSerializable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.IStbSerializable.html",
+          "hash": "wKz6PW3V2XCehIcmwPYX8g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.IStbTag.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.IStbTag.html",
+          "hash": "4PRVYhaqMIqXsLWmfi8lIA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbCommon.Common.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbCommon.Common.html",
+          "hash": "NfqCBCovNQkzgJ7EMYGZ2g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbCommon.ReinforcementStrength.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbCommon.ReinforcementStrength.html",
+          "hash": "f32+a0q1Dfx2GKrAamNM6g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbCommon.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbCommon.html",
+          "hash": "uxRE+SZiLR1mvG86FhbJww=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbElements.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbElements.html",
+          "hash": "1D/TZoVxfoJZLHXl9aXjEg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbExtension.ExtElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbExtension.ExtElement.html",
+          "hash": "h+Yp0eSqCU5JCh3MYuu1Dg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbExtension.ExtObject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbExtension.ExtObject.html",
+          "hash": "0Dga9eIyevfX9m1xHt4kiw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbExtension.ExtProperty.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbExtension.ExtProperty.html",
+          "hash": "A48b6pGmwli8JyIF6ODY2g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbExtension.ExtPropertyDefinition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbExtension.ExtPropertyDefinition.html",
+          "hash": "j2t38zmv+O3NPGe+psJxUw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbExtension.Extension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbExtension.Extension.html",
+          "hash": "o3OE4QgvxCT9skaqVL0tww=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbExtension.Extensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbExtension.Extensions.html",
+          "hash": "EHSvaZoCioKrxH58gsrd0w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbExtension.html",
+          "hash": "47WoiW0A7DnxpCwt5gCwXw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbFromIfc.FromIfc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbFromIfc.FromIfc.html",
+          "hash": "Oe4aFOBXwmxtjzMTjYO1Kw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbFromIfc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbFromIfc.html",
+          "hash": "lOVTzvmW2SQYJVPzEVG88g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbModel.Axis.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbModel.Axis.html",
+          "hash": "qB70oMcHTzsbRZoAhZC95g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbModel.DrawingAxis.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbModel.DrawingAxis.html",
+          "hash": "UxrEeEyLuR6GEuPrJ2ePQQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbModel.IModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbModel.IModel.html",
+          "hash": "21UQsnj/xhud7Q6MBiwUsw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbModel.Model.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbModel.Model.html",
+          "hash": "/nnzjownc5dv2ebnjw61TA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbModel.Node.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbModel.Node.html",
+          "hash": "xAois6WE9qieOqIfoWRm1Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbModel.NodeId.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbModel.NodeId.html",
+          "hash": "kZKq+tTe2CcOhoq6vgNQTg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbModel.NodeKind.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbModel.NodeKind.html",
+          "hash": "0DxpO59ZudUDZCn8G48Naw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbModel.StbJoint.BeamH.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbModel.StbJoint.BeamH.html",
+          "hash": "in0LHLjmE+XUMZYt1n5tTg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbModel.StbJoint.ColumnCross.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbModel.StbJoint.ColumnCross.html",
+          "hash": "7HqxA2dhKo4WPlFrPGco7w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbModel.StbJoint.ColumnH.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbModel.StbJoint.ColumnH.html",
+          "hash": "4HLmGvkg3bWFetYd/vUMHg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbModel.StbJoint.ColumnT.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbModel.StbJoint.ColumnT.html",
+          "hash": "il3ceufwHnetEeBT68sO0g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbModel.StbJoint.Joint.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbModel.StbJoint.Joint.html",
+          "hash": "toIPeLpMXMgmyAmK5VUR9w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbModel.StbJoint.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbModel.StbJoint.html",
+          "hash": "Mscv/uaJOJG1leQ/mOFOGw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbModel.StbMember.Beam.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbModel.StbMember.Beam.html",
+          "hash": "w4MDI9cB/QsAck63J0qBRg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbModel.StbMember.Brace.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbModel.StbMember.Brace.html",
+          "hash": "9S0ZHpgOz2/SGVtwOL58kg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbModel.StbMember.Column.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbModel.StbMember.Column.html",
+          "hash": "Oi+qQHOf77gE6zYVCREkaw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbModel.StbMember.Footing.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbModel.StbMember.Footing.html",
+          "hash": "U/SKraGmNKydx0PYc+OMKA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbModel.StbMember.FoundationColumn.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbModel.StbMember.FoundationColumn.html",
+          "hash": "BEw7HM9Jy91gM+B+KQGTWw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbModel.StbMember.FrameBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbModel.StbMember.FrameBase.html",
+          "hash": "feiH31lZ+DMcArzXk27V4w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbModel.StbMember.Girder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbModel.StbMember.Girder.html",
+          "hash": "ePEq2Mf+rhElY0gegc6skQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbModel.StbMember.IFrame.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbModel.StbMember.IFrame.html",
+          "hash": "RC2leG44Sgo/2xNjgXfJYA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbModel.StbMember.IFrameIdNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbModel.StbMember.IFrameIdNode.html",
+          "hash": "6BAHKpHeMunKIwTv27VtOw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbModel.StbMember.IMemberBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbModel.StbMember.IMemberBase.html",
+          "hash": "jI0j5i6mscw20LEYriBy7Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbModel.StbMember.IPlate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbModel.StbMember.IPlate.html",
+          "hash": "F/5LsbNqh3KlXDMwn/XSxg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbModel.StbMember.KindSlab.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbModel.StbMember.KindSlab.html",
+          "hash": "8VQHUUgPYVxalRQXXRsKsw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbModel.StbMember.KindStructure.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbModel.StbMember.KindStructure.html",
+          "hash": "Nm9lnHPCX+gGI5DgZOWCxQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbModel.StbMember.MemberBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbModel.StbMember.MemberBase.html",
+          "hash": "xqgNa/neKsoNVu1HnsJTaQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbModel.StbMember.Members.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbModel.StbMember.Members.html",
+          "hash": "+hZQ0xPC4XL9NvIWi1XJiA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbModel.StbMember.Open.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbModel.StbMember.Open.html",
+          "hash": "8K/mOeB7kgM8SaqiLTvu2A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbModel.StbMember.Parapet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbModel.StbMember.Parapet.html",
+          "hash": "e8fBWT58YUJo3OsUT/L1cg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbModel.StbMember.Pile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbModel.StbMember.Pile.html",
+          "hash": "gBBCxeDvHU4Z4d0t/GuBNg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbModel.StbMember.PlaneOpen.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbModel.StbMember.PlaneOpen.html",
+          "hash": "B1wFOsp5rpRj/9MUoPx6iA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbModel.StbMember.PlateBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbModel.StbMember.PlateBase.html",
+          "hash": "A0rIeClHbL8YAJF5a6fe/w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbModel.StbMember.Post.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbModel.StbMember.Post.html",
+          "hash": "QvvUKJJhAbeHPSYNZl/slQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbModel.StbMember.Slab.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbModel.StbMember.Slab.html",
+          "hash": "Jv8rl0DKrn/1/mkf0XvrbQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbModel.StbMember.SlabOffset.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbModel.StbMember.SlabOffset.html",
+          "hash": "crtoMt7r/mSeiRxinjoikA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbModel.StbMember.StripFooting.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbModel.StbMember.StripFooting.html",
+          "hash": "h3T+2W92fDnB1XgTWVuVNA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbModel.StbMember.Wall.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbModel.StbMember.Wall.html",
+          "hash": "4LjtM2JfqsBgaNNfnnECYw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbModel.StbMember.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbModel.StbMember.html",
+          "hash": "LJ7SUX+FH0XEOnJvipB/Gg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.BaseProduct.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.BaseProduct.html",
+          "hash": "BWQMCmz0Y8uWk5W8VHksVA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.BeamRc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.BeamRc.html",
+          "hash": "kMfX/ne599jqPdPmFSx7rQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.BeamS.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.BeamS.html",
+          "hash": "CupN7KNBy/Eal0yasy5XHw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.BeamSrc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.BeamSrc.html",
+          "hash": "HInhbZ+AX4uQ1jJ5VV+VBw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.BoxShapeBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.BoxShapeBase.html",
+          "hash": "WroTVqKusTFRyxSpEnE4hQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.BraceS.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.BraceS.html",
+          "hash": "QkwDZwAYiSNbUVnGDdc6GQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.BuildBox.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.BuildBox.html",
+          "hash": "l+PcsXShTqUGx4Rnnqdl8g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.BuildH.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.BuildH.html",
+          "hash": "o4NXDb8tuHjDX/04ShDhOw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.CLShapeBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.CLShapeBase.html",
+          "hash": "F0/ox5EoqhdFBqlg/HchpA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.ColumnCft.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.ColumnCft.html",
+          "hash": "jj+0hYaDWV8+Kp+0H8F8DQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.ColumnRc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.ColumnRc.html",
+          "hash": "bBTlTnvsPIlBwPCWoN/wYw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.ColumnS.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.ColumnS.html",
+          "hash": "iiAEQ5bzFPlWD2ubKhIDhQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.ColumnSrc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.ColumnSrc.html",
+          "hash": "XmrLwJVqfGCL8ibadB6txQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.FlatBar.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.FlatBar.html",
+          "hash": "eocu8rZo3OvSP4HK1RXvdA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.FoundationRc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.FoundationRc.html",
+          "hash": "FprolZ0BhRFdy9cU3VW9dQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.HShapeBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.HShapeBase.html",
+          "hash": "/eKT9W3WYfqkN+jRgE5jrQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.IBarArrangement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.IBarArrangement.html",
+          "hash": "fNa8T6of1S+1eraJMdZHRg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.IJointId.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.IJointId.html",
+          "hash": "DBp8ANoYTnZ2cSjp2OOMWA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.IKindColumn.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.IKindColumn.html",
+          "hash": "9q236gI84ogcvh7tkAjqgQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.ISecBeam.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.ISecBeam.html",
+          "hash": "Cyj5w4/5rnlj95GjCsRdQQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.ISecBrace.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.ISecBrace.html",
+          "hash": "iZqRWiJZ5gqpWzoDqKRVOQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.ISecColumn.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.ISecColumn.html",
+          "hash": "AFuKzCOXrLkm2rPjcuAdLw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.ISection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.ISection.html",
+          "hash": "AeBck4zVZMQ3Tq8TupOR/w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.ISideType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.ISideType.html",
+          "hash": "HR6rw05iLgpMqVVWFw74VQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.ISteelSection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.ISteelSection.html",
+          "hash": "4YfeotujTxbks72c6O9lRg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.IStrengthConcrete.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.IStrengthConcrete.html",
+          "hash": "xn6Uj1oXKIHPfGC+rxfrdg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.IStrengthSteel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.IStrengthSteel.html",
+          "hash": "1hi46Vk3jAfJWxdA4j1uDg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.KindColumn.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.KindColumn.html",
+          "hash": "O3M6ywz0a//046yp4YPBLQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.LipC.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.LipC.html",
+          "hash": "jryMASaZePex/tj/TzFjfA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.OpenRc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.OpenRc.html",
+          "hash": "YaeFEuRBYEKOSXuLaEsxeQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.PileRc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.PileRc.html",
+          "hash": "AHLn8biD4Hlgit4d35m09A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.Pipe.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.Pipe.html",
+          "hash": "GPY+eR4XRjdzGULDq7+jqA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.RcBeamFigureType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.RcBeamFigureType.html",
+          "hash": "XLaZR8vJ+1TSS/NeQ+Y4tg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.RcBeamSecBarArrangement.Same.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.RcBeamSecBarArrangement.Same.html",
+          "hash": "RoFzKGstRXC9yBCVGlkYqA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.RcBeamSecBarArrangement.StartCenterEnd.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.RcBeamSecBarArrangement.StartCenterEnd.html",
+          "hash": "o5pvZThxevTbI1HGt+jk2g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.RcBeamSecBarArrangement.StartEnd.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.RcBeamSecBarArrangement.StartEnd.html",
+          "hash": "Q+5R6VbKFsi/KrbHv2O6Rw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.RcBeamSecBarArrangement.XReinforced.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.RcBeamSecBarArrangement.XReinforced.html",
+          "hash": "S5frxdYDjErWMohz/Q3f3g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.RcBeamSecBarArrangement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.RcBeamSecBarArrangement.html",
+          "hash": "v9slJi0E3q5GUvxJ5Ok+Rg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.RcBeamSecFigure.Haunch.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.RcBeamSecFigure.Haunch.html",
+          "hash": "f5QfaTT0frRCxo3Ry1ojmA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.RcBeamSecFigure.Straight.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.RcBeamSecFigure.Straight.html",
+          "hash": "fl00N4uVdzW+WRBX42IgkA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.RcBeamSecFigure.Taper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.RcBeamSecFigure.Taper.html",
+          "hash": "UwWYFE6LKBd0DL+RGhAmjA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.RcBeamSecFigure.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.RcBeamSecFigure.html",
+          "hash": "aT+ENLAgRiNtTG+d2ymkWA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.RcColumnFigureType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.RcColumnFigureType.html",
+          "hash": "fiH2kpZe2brsNIrGWPPr5g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.RcColumnSecBarArrangement.CircleNotSame.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.RcColumnSecBarArrangement.CircleNotSame.html",
+          "hash": "1cmSL51oBxq4FN182Jw/gg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.RcColumnSecBarArrangement.CircleSame.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.RcColumnSecBarArrangement.CircleSame.html",
+          "hash": "NV/5W6wMiOrUwSfLQ6rgWw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.RcColumnSecBarArrangement.RectNotSame.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.RcColumnSecBarArrangement.RectNotSame.html",
+          "hash": "Le8sSlcO93i3pI8C/etAow=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.RcColumnSecBarArrangement.RectSame.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.RcColumnSecBarArrangement.RectSame.html",
+          "hash": "5CSMZyLgGn0oL4KyF/0m3A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.RcColumnSecBarArrangement.RectXReinforced.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.RcColumnSecBarArrangement.RectXReinforced.html",
+          "hash": "cflStsQ69TMWQa866h+CnQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.RcColumnSecBarArrangement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.RcColumnSecBarArrangement.html",
+          "hash": "oaV5AQ5+xxq7Q+wednAgbw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.RcColumnSecFigure.Circle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.RcColumnSecFigure.Circle.html",
+          "hash": "UytYCVt/cr4NJ/89sHe/aQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.RcColumnSecFigure.Rectangle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.RcColumnSecFigure.Rectangle.html",
+          "hash": "ARdK7iTql4j+x3SQl2q6Jg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.RcColumnSecFigure.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.RcColumnSecFigure.html",
+          "hash": "uRmvtC/V8NjcBsTwVL6YZw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.RcSection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.RcSection.html",
+          "hash": "3cpUSuI2OrE1J1fIJgwjMA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.RollBox.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.RollBox.html",
+          "hash": "s8FeRHZqV2iFFdkpwqmRVg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.RollC.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.RollC.html",
+          "hash": "8aNoOzc/7BwMap7vcnldxg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.RollH.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.RollH.html",
+          "hash": "eomW7Au3KbO0a8lh8iv1OQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.RollL.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.RollL.html",
+          "hash": "d4H+mwyWmKygw37ZkCqrEA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.RollT.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.RollT.html",
+          "hash": "zSwPK9ahWCMtCAzySAao2g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.RoundBar.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.RoundBar.html",
+          "hash": "dTfjBDbibWL3aXR3z132hA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.SecSteel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.SecSteel.html",
+          "hash": "iklT5f0XPSv9vg3EY9V4eQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.Section.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.Section.html",
+          "hash": "v9CChHfDmWI8Ctnc2Z5udA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.SectionBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.SectionBase.html",
+          "hash": "GVUiuC9hHDQlTqo72NWlQg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.ShapeType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.ShapeType.html",
+          "hash": "KGSNu50CCmq80pHKsatQcw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.SlabDeck.SlabDeckProduct.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.SlabDeck.SlabDeckProduct.html",
+          "hash": "0zD7QMbdncI04Q8Isu9skg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.SlabDeck.SlabDeckSecBarArrangement.DeckOneWay.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.SlabDeck.SlabDeckSecBarArrangement.DeckOneWay.html",
+          "hash": "6pp1QRnHDz/dynuhyyrSNQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.SlabDeck.SlabDeckSecBarArrangement.DeckStandard.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.SlabDeck.SlabDeckSecBarArrangement.DeckStandard.html",
+          "hash": "YWpYDzt78h05uvxAY/fiJQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.SlabDeck.SlabDeckSecBarArrangement.DeckTwoWay.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.SlabDeck.SlabDeckSecBarArrangement.DeckTwoWay.html",
+          "hash": "7RVQGPER46vSWen9xlVhPQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.SlabDeck.SlabDeckSecBarArrangement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.SlabDeck.SlabDeckSecBarArrangement.html",
+          "hash": "K29ED/dXZlKDczxGtvya+A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.SlabDeck.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.SlabDeck.html",
+          "hash": "v+oQGzbQEYOvpt0AOOEAmA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.SlabPrecast.SlabPrecastProduct.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.SlabPrecast.SlabPrecastProduct.html",
+          "hash": "KwxeOMH164pm67Iuk2cuDg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.SlabPrecast.SlabPrecastSecBarArrangement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.SlabPrecast.SlabPrecastSecBarArrangement.html",
+          "hash": "1mcWEO8KdTga9nZE1VmQCQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.SlabPrecast.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.SlabPrecast.html",
+          "hash": "pJJ2CKCyA0dujMEQYjS1HQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.SlabRc.SlabRcSecBarArrangement.RcOneWay1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.SlabRc.SlabRcSecBarArrangement.RcOneWay1.html",
+          "hash": "l19F2gt18IpM5Khak9l3kw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.SlabRc.SlabRcSecBarArrangement.RcOneWay2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.SlabRc.SlabRcSecBarArrangement.RcOneWay2.html",
+          "hash": "jvOzF8RexKqWDiEcW1cMng=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.SlabRc.SlabRcSecBarArrangement.RcStandard.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.SlabRc.SlabRcSecBarArrangement.RcStandard.html",
+          "hash": "rmhtTrhOxGOYArGwAxhBZg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.SlabRc.SlabRcSecBarArrangement.RcTwoWay.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.SlabRc.SlabRcSecBarArrangement.RcTwoWay.html",
+          "hash": "R816acbtp2QTa+TX7q9UFg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.SlabRc.SlabRcSecBarArrangement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.SlabRc.SlabRcSecBarArrangement.html",
+          "hash": "t5S5v6Snw4+d35hEEuy3Kg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.SlabRc.SlabSecFigure.HaunchSlab.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.SlabRc.SlabSecFigure.HaunchSlab.html",
+          "hash": "Q+Yg6Y4XTxCko0AK0zNLmg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.SlabRc.SlabSecFigure.StraightSlab.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.SlabRc.SlabSecFigure.StraightSlab.html",
+          "hash": "Z0E4tsL8Eg1GIfGEtuP+Iw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.SlabRc.SlabSecFigure.TaperedSlab.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.SlabRc.SlabSecFigure.TaperedSlab.html",
+          "hash": "NvWc9ZGH3vHPXjAxc0lw4A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.SlabRc.SlabSecFigure.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.SlabRc.SlabSecFigure.html",
+          "hash": "W+7RaXJKzP2z8+be1pPRSQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.SlabRc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.SlabRc.html",
+          "hash": "H0Kg1jgP4DuFrH04C4JCPQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.SlabSecBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.SlabSecBase.html",
+          "hash": "y8ifa7OYP88ByaFNK9NAGQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.Steel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.Steel.html",
+          "hash": "XrjqRELwuUf63qgfWjqS7A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.SteelSectionBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.SteelSectionBase.html",
+          "hash": "JqAgOY+M6JuxK8MTkd4/Mg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.WallRc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.WallRc.html",
+          "hash": "Bm0qCCjEKbpwP6rS58dkOg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.WallSecBarArrangement.Base.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.WallSecBarArrangement.Base.html",
+          "hash": "6HKnz8/MOV6pnP7aX9KCpQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.WallSecBarArrangement.DoubleNet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.WallSecBarArrangement.DoubleNet.html",
+          "hash": "Q6mHMI8fymO5HnUAmTmSXg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.WallSecBarArrangement.Edge.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.WallSecBarArrangement.Edge.html",
+          "hash": "docAKke2FveiqnwECaIONA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.WallSecBarArrangement.InsideAndOutSide.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.WallSecBarArrangement.InsideAndOutSide.html",
+          "hash": "t0tAYX0tpj6Aka9M9UWMsg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.WallSecBarArrangement.OpenBar.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.WallSecBarArrangement.OpenBar.html",
+          "hash": "DnfreqV0eRma8J9Ib15v1g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.WallSecBarArrangement.Single.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.WallSecBarArrangement.Single.html",
+          "hash": "V9VJnjN2JxUCDQSoJE6asQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.WallSecBarArrangement.Zigzag.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.WallSecBarArrangement.Zigzag.html",
+          "hash": "cL/xGCgNbWODCBM8/abPbw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.WallSecBarArrangement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.WallSecBarArrangement.html",
+          "hash": "jVOqI55nCeiqH3gT+Yk4rw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.WidthHeightSection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.WidthHeightSection.html",
+          "hash": "tQywzNwGnhw+mJ8+YmHk3Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbModel.StbSection.html",
+          "hash": "i/049AyNhRxcPWODMUT4nA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbModel.Story.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbModel.Story.html",
+          "hash": "e0or861m+ksXpcHE//dcYQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbModel.StoryKind.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbModel.StoryKind.html",
+          "hash": "wN9RjeRxTl66s/qal0FkCA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbModel.XAxis.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbModel.XAxis.html",
+          "hash": "hTs5gZ9y5O4gbhONJmCQzw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbModel.YAxis.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbModel.YAxis.html",
+          "hash": "bnO96oS+75ILrgiLc2eV6Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StbModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StbModel.html",
+          "hash": "OyTlD6yIm97H6G2wymGSOg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StrengthBar.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StrengthBar.html",
+          "hash": "pHIm7IsXanUwoA3g+9QdGg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StrengthConcrete.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StrengthConcrete.html",
+          "hash": "Nb/eGlb3DWGsYyvXD0famQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.StrengthSteel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.StrengthSteel.html",
+          "hash": "QYnctR9WKKrumNjHL5X8hA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.Version.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.Version.html",
+          "hash": "EhUDu0cs58dnm6fTKHqWNg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Elements.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Elements.html",
+          "hash": "3B10FhJvLm+INHYlhfXRrw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Geometry.Line3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Geometry.Line3.html",
+          "hash": "loKmls1pqY6J+GYuLcSnRQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Geometry.Mesh.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Geometry.Mesh.html",
+          "hash": "iDJaRAUWFxy4RRT09Lbutg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Geometry.Point3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Geometry.Point3.html",
+          "hash": "FaZnPUW8QID6JhuexaxXLg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Geometry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Geometry.html",
+          "hash": "lUzuI6lIyXoDFOceGjn90Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Serialization.Serializer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Serialization.Serializer.html",
+          "hash": "copld1Da2MZgEDRzaGnj4g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Serialization.Util.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Serialization.Util.html",
+          "hash": "ojWfh9FWM5yVyIw0aJXWLA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/STBDotNet.Serialization.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/STBDotNet.Serialization.html",
+          "hash": "pWVBt8uxe8XNfh890ptCzA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/index.html",
+          "hash": "yiINvkLyhqh4nE9Qviun5A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/toc.html",
+          "hash": "FqgwQSFzX/WzcsRTaApvnw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 1,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 168,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: last post processor info is null.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
