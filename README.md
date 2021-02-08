@@ -8,7 +8,7 @@
 STBDotNet is a .NET library for ST-Bridge.
 
 SDK Document is blow link.  
-[STBDotNet SDK Documents](https://hiron.dev/STBDotNet/docs/api/index.html)
+[STBDotNet SDK Documents](https://hiron.dev/STBDotNet/docs/index.html)
 
 Nuget Package can download [here](https://www.nuget.org/packages/STBDotNet/)
 
