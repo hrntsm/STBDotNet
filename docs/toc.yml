@@ -1,3 +1,347 @@
-- name: Api Documentation
-  href: api/
-  homepage: api/index.md
+### YamlMime:TableOfContent
+- uid: STBDotNet.Elements
+  name: STBDotNet.Elements
+  items:
+  - uid: STBDotNet.Elements.IGuid
+    name: IGuid
+  - uid: STBDotNet.Elements.IStbSerializable
+    name: IStbSerializable
+  - uid: STBDotNet.Elements.IStbTag
+    name: IStbTag
+  - uid: STBDotNet.Elements.StbElements
+    name: StbElements
+  - uid: STBDotNet.Elements.StrengthBar
+    name: StrengthBar
+  - uid: STBDotNet.Elements.StrengthConcrete
+    name: StrengthConcrete
+  - uid: STBDotNet.Elements.StrengthSteel
+    name: StrengthSteel
+  - uid: STBDotNet.Elements.Version
+    name: Version
+- uid: STBDotNet.Elements.StbCommon
+  name: STBDotNet.Elements.StbCommon
+  items:
+  - uid: STBDotNet.Elements.StbCommon.Common
+    name: Common
+  - uid: STBDotNet.Elements.StbCommon.ReinforcementStrength
+    name: ReinforcementStrength
+- uid: STBDotNet.Elements.StbExtension
+  name: STBDotNet.Elements.StbExtension
+  items:
+  - uid: STBDotNet.Elements.StbExtension.ExtElement
+    name: ExtElement
+  - uid: STBDotNet.Elements.StbExtension.Extension
+    name: Extension
+  - uid: STBDotNet.Elements.StbExtension.Extensions
+    name: Extensions
+  - uid: STBDotNet.Elements.StbExtension.ExtObject
+    name: ExtObject
+  - uid: STBDotNet.Elements.StbExtension.ExtProperty
+    name: ExtProperty
+  - uid: STBDotNet.Elements.StbExtension.ExtPropertyDefinition
+    name: ExtPropertyDefinition
+- uid: STBDotNet.Elements.StbFromIfc
+  name: STBDotNet.Elements.StbFromIfc
+  items:
+  - uid: STBDotNet.Elements.StbFromIfc.FromIfc
+    name: FromIfc
+- uid: STBDotNet.Elements.StbModel
+  name: STBDotNet.Elements.StbModel
+  items:
+  - uid: STBDotNet.Elements.StbModel.Axis
+    name: Axis
+  - uid: STBDotNet.Elements.StbModel.DrawingAxis
+    name: DrawingAxis
+  - uid: STBDotNet.Elements.StbModel.IModel
+    name: IModel
+  - uid: STBDotNet.Elements.StbModel.Model
+    name: Model
+  - uid: STBDotNet.Elements.StbModel.Node
+    name: Node
+  - uid: STBDotNet.Elements.StbModel.NodeId
+    name: NodeId
+  - uid: STBDotNet.Elements.StbModel.NodeKind
+    name: NodeKind
+  - uid: STBDotNet.Elements.StbModel.Story
+    name: Story
+  - uid: STBDotNet.Elements.StbModel.StoryKind
+    name: StoryKind
+  - uid: STBDotNet.Elements.StbModel.XAxis
+    name: XAxis
+  - uid: STBDotNet.Elements.StbModel.YAxis
+    name: YAxis
+- uid: STBDotNet.Elements.StbModel.StbJoint
+  name: STBDotNet.Elements.StbModel.StbJoint
+  items:
+  - uid: STBDotNet.Elements.StbModel.StbJoint.BeamH
+    name: BeamH
+  - uid: STBDotNet.Elements.StbModel.StbJoint.ColumnCross
+    name: ColumnCross
+  - uid: STBDotNet.Elements.StbModel.StbJoint.ColumnH
+    name: ColumnH
+  - uid: STBDotNet.Elements.StbModel.StbJoint.ColumnT
+    name: ColumnT
+  - uid: STBDotNet.Elements.StbModel.StbJoint.Joint
+    name: Joint
+- uid: STBDotNet.Elements.StbModel.StbMember
+  name: STBDotNet.Elements.StbModel.StbMember
+  items:
+  - uid: STBDotNet.Elements.StbModel.StbMember.Beam
+    name: Beam
+  - uid: STBDotNet.Elements.StbModel.StbMember.Brace
+    name: Brace
+  - uid: STBDotNet.Elements.StbModel.StbMember.Column
+    name: Column
+  - uid: STBDotNet.Elements.StbModel.StbMember.Footing
+    name: Footing
+  - uid: STBDotNet.Elements.StbModel.StbMember.FoundationColumn
+    name: FoundationColumn
+  - uid: STBDotNet.Elements.StbModel.StbMember.FrameBase
+    name: FrameBase
+  - uid: STBDotNet.Elements.StbModel.StbMember.Girder
+    name: Girder
+  - uid: STBDotNet.Elements.StbModel.StbMember.IFrame
+    name: IFrame
+  - uid: STBDotNet.Elements.StbModel.StbMember.IFrameIdNode
+    name: IFrameIdNode
+  - uid: STBDotNet.Elements.StbModel.StbMember.IMemberBase
+    name: IMemberBase
+  - uid: STBDotNet.Elements.StbModel.StbMember.IPlate
+    name: IPlate
+  - uid: STBDotNet.Elements.StbModel.StbMember.KindSlab
+    name: KindSlab
+  - uid: STBDotNet.Elements.StbModel.StbMember.KindStructure
+    name: KindStructure
+  - uid: STBDotNet.Elements.StbModel.StbMember.MemberBase
+    name: MemberBase
+  - uid: STBDotNet.Elements.StbModel.StbMember.Members
+    name: Members
+  - uid: STBDotNet.Elements.StbModel.StbMember.Open
+    name: Open
+  - uid: STBDotNet.Elements.StbModel.StbMember.Parapet
+    name: Parapet
+  - uid: STBDotNet.Elements.StbModel.StbMember.Pile
+    name: Pile
+  - uid: STBDotNet.Elements.StbModel.StbMember.PlaneOpen
+    name: PlaneOpen
+  - uid: STBDotNet.Elements.StbModel.StbMember.PlateBase
+    name: PlateBase
+  - uid: STBDotNet.Elements.StbModel.StbMember.Post
+    name: Post
+  - uid: STBDotNet.Elements.StbModel.StbMember.Slab
+    name: Slab
+  - uid: STBDotNet.Elements.StbModel.StbMember.SlabOffset
+    name: SlabOffset
+  - uid: STBDotNet.Elements.StbModel.StbMember.StripFooting
+    name: StripFooting
+  - uid: STBDotNet.Elements.StbModel.StbMember.Wall
+    name: Wall
+- uid: STBDotNet.Elements.StbModel.StbSection
+  name: STBDotNet.Elements.StbModel.StbSection
+  items:
+  - uid: STBDotNet.Elements.StbModel.StbSection.BaseProduct
+    name: BaseProduct
+  - uid: STBDotNet.Elements.StbModel.StbSection.BeamRc
+    name: BeamRc
+  - uid: STBDotNet.Elements.StbModel.StbSection.BeamS
+    name: BeamS
+  - uid: STBDotNet.Elements.StbModel.StbSection.BeamSrc
+    name: BeamSrc
+  - uid: STBDotNet.Elements.StbModel.StbSection.BoxShapeBase
+    name: BoxShapeBase
+  - uid: STBDotNet.Elements.StbModel.StbSection.BraceS
+    name: BraceS
+  - uid: STBDotNet.Elements.StbModel.StbSection.BuildBox
+    name: BuildBox
+  - uid: STBDotNet.Elements.StbModel.StbSection.BuildH
+    name: BuildH
+  - uid: STBDotNet.Elements.StbModel.StbSection.CLShapeBase
+    name: CLShapeBase
+  - uid: STBDotNet.Elements.StbModel.StbSection.ColumnCft
+    name: ColumnCft
+  - uid: STBDotNet.Elements.StbModel.StbSection.ColumnRc
+    name: ColumnRc
+  - uid: STBDotNet.Elements.StbModel.StbSection.ColumnS
+    name: ColumnS
+  - uid: STBDotNet.Elements.StbModel.StbSection.ColumnSrc
+    name: ColumnSrc
+  - uid: STBDotNet.Elements.StbModel.StbSection.FlatBar
+    name: FlatBar
+  - uid: STBDotNet.Elements.StbModel.StbSection.FoundationRc
+    name: FoundationRc
+  - uid: STBDotNet.Elements.StbModel.StbSection.HShapeBase
+    name: HShapeBase
+  - uid: STBDotNet.Elements.StbModel.StbSection.IBarArrangement
+    name: IBarArrangement
+  - uid: STBDotNet.Elements.StbModel.StbSection.IJointId
+    name: IJointId
+  - uid: STBDotNet.Elements.StbModel.StbSection.IKindColumn
+    name: IKindColumn
+  - uid: STBDotNet.Elements.StbModel.StbSection.ISecBeam
+    name: ISecBeam
+  - uid: STBDotNet.Elements.StbModel.StbSection.ISecBrace
+    name: ISecBrace
+  - uid: STBDotNet.Elements.StbModel.StbSection.ISecColumn
+    name: ISecColumn
+  - uid: STBDotNet.Elements.StbModel.StbSection.ISection
+    name: ISection
+  - uid: STBDotNet.Elements.StbModel.StbSection.ISideType
+    name: ISideType
+  - uid: STBDotNet.Elements.StbModel.StbSection.ISteelSection
+    name: ISteelSection
+  - uid: STBDotNet.Elements.StbModel.StbSection.IStrengthConcrete
+    name: IStrengthConcrete
+  - uid: STBDotNet.Elements.StbModel.StbSection.IStrengthSteel
+    name: IStrengthSteel
+  - uid: STBDotNet.Elements.StbModel.StbSection.KindColumn
+    name: KindColumn
+  - uid: STBDotNet.Elements.StbModel.StbSection.LipC
+    name: LipC
+  - uid: STBDotNet.Elements.StbModel.StbSection.OpenRc
+    name: OpenRc
+  - uid: STBDotNet.Elements.StbModel.StbSection.PileRc
+    name: PileRc
+  - uid: STBDotNet.Elements.StbModel.StbSection.Pipe
+    name: Pipe
+  - uid: STBDotNet.Elements.StbModel.StbSection.RcBeamFigureType
+    name: RcBeamFigureType
+  - uid: STBDotNet.Elements.StbModel.StbSection.RcBeamSecBarArrangement
+    name: RcBeamSecBarArrangement
+  - uid: STBDotNet.Elements.StbModel.StbSection.RcBeamSecBarArrangement.Same
+    name: RcBeamSecBarArrangement.Same
+  - uid: STBDotNet.Elements.StbModel.StbSection.RcBeamSecBarArrangement.StartCenterEnd
+    name: RcBeamSecBarArrangement.StartCenterEnd
+  - uid: STBDotNet.Elements.StbModel.StbSection.RcBeamSecBarArrangement.StartEnd
+    name: RcBeamSecBarArrangement.StartEnd
+  - uid: STBDotNet.Elements.StbModel.StbSection.RcBeamSecBarArrangement.XReinforced
+    name: RcBeamSecBarArrangement.XReinforced
+  - uid: STBDotNet.Elements.StbModel.StbSection.RcBeamSecFigure
+    name: RcBeamSecFigure
+  - uid: STBDotNet.Elements.StbModel.StbSection.RcBeamSecFigure.Haunch
+    name: RcBeamSecFigure.Haunch
+  - uid: STBDotNet.Elements.StbModel.StbSection.RcBeamSecFigure.Straight
+    name: RcBeamSecFigure.Straight
+  - uid: STBDotNet.Elements.StbModel.StbSection.RcBeamSecFigure.Taper
+    name: RcBeamSecFigure.Taper
+  - uid: STBDotNet.Elements.StbModel.StbSection.RcColumnFigureType
+    name: RcColumnFigureType
+  - uid: STBDotNet.Elements.StbModel.StbSection.RcColumnSecBarArrangement
+    name: RcColumnSecBarArrangement
+  - uid: STBDotNet.Elements.StbModel.StbSection.RcColumnSecBarArrangement.CircleNotSame
+    name: RcColumnSecBarArrangement.CircleNotSame
+  - uid: STBDotNet.Elements.StbModel.StbSection.RcColumnSecBarArrangement.CircleSame
+    name: RcColumnSecBarArrangement.CircleSame
+  - uid: STBDotNet.Elements.StbModel.StbSection.RcColumnSecBarArrangement.RectNotSame
+    name: RcColumnSecBarArrangement.RectNotSame
+  - uid: STBDotNet.Elements.StbModel.StbSection.RcColumnSecBarArrangement.RectSame
+    name: RcColumnSecBarArrangement.RectSame
+  - uid: STBDotNet.Elements.StbModel.StbSection.RcColumnSecBarArrangement.RectXReinforced
+    name: RcColumnSecBarArrangement.RectXReinforced
+  - uid: STBDotNet.Elements.StbModel.StbSection.RcColumnSecFigure
+    name: RcColumnSecFigure
+  - uid: STBDotNet.Elements.StbModel.StbSection.RcColumnSecFigure.Circle
+    name: RcColumnSecFigure.Circle
+  - uid: STBDotNet.Elements.StbModel.StbSection.RcColumnSecFigure.Rectangle
+    name: RcColumnSecFigure.Rectangle
+  - uid: STBDotNet.Elements.StbModel.StbSection.RcSection
+    name: RcSection
+  - uid: STBDotNet.Elements.StbModel.StbSection.RollBox
+    name: RollBox
+  - uid: STBDotNet.Elements.StbModel.StbSection.RollC
+    name: RollC
+  - uid: STBDotNet.Elements.StbModel.StbSection.RollH
+    name: RollH
+  - uid: STBDotNet.Elements.StbModel.StbSection.RollL
+    name: RollL
+  - uid: STBDotNet.Elements.StbModel.StbSection.RollT
+    name: RollT
+  - uid: STBDotNet.Elements.StbModel.StbSection.RoundBar
+    name: RoundBar
+  - uid: STBDotNet.Elements.StbModel.StbSection.SecSteel
+    name: SecSteel
+  - uid: STBDotNet.Elements.StbModel.StbSection.Section
+    name: Section
+  - uid: STBDotNet.Elements.StbModel.StbSection.SectionBase
+    name: SectionBase
+  - uid: STBDotNet.Elements.StbModel.StbSection.ShapeType
+    name: ShapeType
+  - uid: STBDotNet.Elements.StbModel.StbSection.SlabDeck
+    name: SlabDeck
+  - uid: STBDotNet.Elements.StbModel.StbSection.SlabDeck.SlabDeckProduct
+    name: SlabDeck.SlabDeckProduct
+  - uid: STBDotNet.Elements.StbModel.StbSection.SlabDeck.SlabDeckSecBarArrangement
+    name: SlabDeck.SlabDeckSecBarArrangement
+  - uid: STBDotNet.Elements.StbModel.StbSection.SlabDeck.SlabDeckSecBarArrangement.DeckOneWay
+    name: SlabDeck.SlabDeckSecBarArrangement.DeckOneWay
+  - uid: STBDotNet.Elements.StbModel.StbSection.SlabDeck.SlabDeckSecBarArrangement.DeckStandard
+    name: SlabDeck.SlabDeckSecBarArrangement.DeckStandard
+  - uid: STBDotNet.Elements.StbModel.StbSection.SlabDeck.SlabDeckSecBarArrangement.DeckTwoWay
+    name: SlabDeck.SlabDeckSecBarArrangement.DeckTwoWay
+  - uid: STBDotNet.Elements.StbModel.StbSection.SlabPrecast
+    name: SlabPrecast
+  - uid: STBDotNet.Elements.StbModel.StbSection.SlabPrecast.SlabPrecastProduct
+    name: SlabPrecast.SlabPrecastProduct
+  - uid: STBDotNet.Elements.StbModel.StbSection.SlabPrecast.SlabPrecastSecBarArrangement
+    name: SlabPrecast.SlabPrecastSecBarArrangement
+  - uid: STBDotNet.Elements.StbModel.StbSection.SlabRc
+    name: SlabRc
+  - uid: STBDotNet.Elements.StbModel.StbSection.SlabRc.SlabRcSecBarArrangement
+    name: SlabRc.SlabRcSecBarArrangement
+  - uid: STBDotNet.Elements.StbModel.StbSection.SlabRc.SlabRcSecBarArrangement.RcOneWay1
+    name: SlabRc.SlabRcSecBarArrangement.RcOneWay1
+  - uid: STBDotNet.Elements.StbModel.StbSection.SlabRc.SlabRcSecBarArrangement.RcOneWay2
+    name: SlabRc.SlabRcSecBarArrangement.RcOneWay2
+  - uid: STBDotNet.Elements.StbModel.StbSection.SlabRc.SlabRcSecBarArrangement.RcStandard
+    name: SlabRc.SlabRcSecBarArrangement.RcStandard
+  - uid: STBDotNet.Elements.StbModel.StbSection.SlabRc.SlabRcSecBarArrangement.RcTwoWay
+    name: SlabRc.SlabRcSecBarArrangement.RcTwoWay
+  - uid: STBDotNet.Elements.StbModel.StbSection.SlabRc.SlabSecFigure
+    name: SlabRc.SlabSecFigure
+  - uid: STBDotNet.Elements.StbModel.StbSection.SlabRc.SlabSecFigure.HaunchSlab
+    name: SlabRc.SlabSecFigure.HaunchSlab
+  - uid: STBDotNet.Elements.StbModel.StbSection.SlabRc.SlabSecFigure.StraightSlab
+    name: SlabRc.SlabSecFigure.StraightSlab
+  - uid: STBDotNet.Elements.StbModel.StbSection.SlabRc.SlabSecFigure.TaperedSlab
+    name: SlabRc.SlabSecFigure.TaperedSlab
+  - uid: STBDotNet.Elements.StbModel.StbSection.SlabSecBase
+    name: SlabSecBase
+  - uid: STBDotNet.Elements.StbModel.StbSection.Steel
+    name: Steel
+  - uid: STBDotNet.Elements.StbModel.StbSection.SteelSectionBase
+    name: SteelSectionBase
+  - uid: STBDotNet.Elements.StbModel.StbSection.WallRc
+    name: WallRc
+  - uid: STBDotNet.Elements.StbModel.StbSection.WallSecBarArrangement
+    name: WallSecBarArrangement
+  - uid: STBDotNet.Elements.StbModel.StbSection.WallSecBarArrangement.Base
+    name: WallSecBarArrangement.Base
+  - uid: STBDotNet.Elements.StbModel.StbSection.WallSecBarArrangement.DoubleNet
+    name: WallSecBarArrangement.DoubleNet
+  - uid: STBDotNet.Elements.StbModel.StbSection.WallSecBarArrangement.Edge
+    name: WallSecBarArrangement.Edge
+  - uid: STBDotNet.Elements.StbModel.StbSection.WallSecBarArrangement.InsideAndOutSide
+    name: WallSecBarArrangement.InsideAndOutSide
+  - uid: STBDotNet.Elements.StbModel.StbSection.WallSecBarArrangement.OpenBar
+    name: WallSecBarArrangement.OpenBar
+  - uid: STBDotNet.Elements.StbModel.StbSection.WallSecBarArrangement.Single
+    name: WallSecBarArrangement.Single
+  - uid: STBDotNet.Elements.StbModel.StbSection.WallSecBarArrangement.Zigzag
+    name: WallSecBarArrangement.Zigzag
+  - uid: STBDotNet.Elements.StbModel.StbSection.WidthHeightSection
+    name: WidthHeightSection
+- uid: STBDotNet.Geometry
+  name: STBDotNet.Geometry
+  items:
+  - uid: STBDotNet.Geometry.Line3
+    name: Line3
+  - uid: STBDotNet.Geometry.Mesh
+    name: Mesh
+  - uid: STBDotNet.Geometry.Point3
+    name: Point3
+- uid: STBDotNet.Serialization
+  name: STBDotNet.Serialization
+  items:
+  - uid: STBDotNet.Serialization.Serializer
+    name: Serializer
+  - uid: STBDotNet.Serialization.Util
+    name: Util

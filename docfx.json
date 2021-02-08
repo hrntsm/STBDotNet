@@ -8,7 +8,7 @@
           ]
         }
       ],
-      "dest": "docs/api",
+      "dest": "docs",
       "properties": {
         "TargetFramework": "netstandard2.0"
       },
@@ -20,18 +20,12 @@
     "content": [
       {
         "files": [
-          "docs/api/**.yml",
-          "docs/api/index.md"
-        ]
-      },
-      {
-        "files": [
           "docs/toc.yml",
           "docs/*.md"
         ]
       }
     ],
-    "dest": "docs/_site",
+    "dest": "_site",
     "globalMetadataFiles": [],
     "fileMetadataFiles": [],
     "template": [

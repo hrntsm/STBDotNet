@@ -365,4 +365,4 @@ FodyWeavers.xsd
 #ADD
 STBDotNetTests/Result/
 !STBDotNetTests/Result/.gitkeep
-/docs/_site
+**/_site
