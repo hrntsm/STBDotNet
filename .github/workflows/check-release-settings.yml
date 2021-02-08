@@ -1,4 +1,4 @@
-name: check release settings
+name: Check release settings
 
 on:
   pull_request:

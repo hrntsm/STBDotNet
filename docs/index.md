@@ -1,4 +1,4 @@
-# STBDotNet
+﻿# STBDotNet
 
 [![GitHub Workflow Status](https://img.shields.io/github/workflow/status/hrntsm/STBDotNet/.NET%20Core)](https://github.com/hrntsm/STBDotNet/actions?query=workflow%3A%22.NET+Core%22)
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/9d82da70572843968d00f39295c8125d)](https://www.codacy.com/gh/hrntsm/STBDotNet/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=hrntsm/STBDotNet&amp;utm_campaign=Badge_Grade)
@@ -8,7 +8,7 @@
 STBDotNet is a .NET library for ST-Bridge.
 
 SDK Document is blow link.  
-[STBDotNet SDK Documents](https://hiron.dev/STBDotNet/docs/index.html)
+[STBDotNet SDK Documents](https://hiron.dev/STBDotNet/docs/api/index.html)
 
 Nuget Package can download [here](https://www.nuget.org/packages/STBDotNet/)
 
