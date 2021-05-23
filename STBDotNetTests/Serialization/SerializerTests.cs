@@ -39,7 +39,7 @@ namespace STBDotNet.Serialization.Tests
 
         private void CommonTest(StbElements elements)
         {
-            Common common = elements.Common;
+            StbCommon common = elements.Common;
             // stbcommon
             Assert.IsTrue(common.Guid == "64F82436-F0EE-43CD-9ABF-4F40ACF9728E");
             Assert.IsTrue(common.ProjectName == "GS");
@@ -54,13 +54,13 @@ namespace STBDotNet.Serialization.Tests
 
         private void ModelTest(StbElements elements)
         {
-            Model model = elements.Model;
+            StbModel model = elements.Model;
             NodeTest(model.Nodes);
             StoryTest(model.Stories);
             AxisTest(model.Axes);
         }
 
-        private void NodeTest(List<Node> nodes)
+        private void NodeTest(List<StbNode> nodes)
         {
             Assert.IsTrue(nodes[4].Id == 5);
             Assert.IsTrue(nodes[4].Kind == "ON_GRID");

@@ -6,10 +6,10 @@ using STBDotNet.v140.StbModel.StbSection;
 
 namespace STBDotNet.v140.StbModel
 {
-    public class Model
+    public class StbModel
     {
         [XmlArray("StbNodes")]
-        [XmlArrayItem("StbNode")] public List<Node> Nodes { get; set; }
+        [XmlArrayItem("StbNode")] public List<StbNode> Nodes { get; set; }
         //
         [XmlArray("StbAxes")]
         [XmlArrayItem("StbX_Axis", Type = typeof(XAxis))]
@@ -21,17 +21,17 @@ namespace STBDotNet.v140.StbModel
         [XmlArray("StbStories")]
         [XmlArrayItem("StbStory")] public List<Story> Stories { get; set; }
         //
-        [XmlElement("StbMembers")] public Members Members { get; set; }
+        [XmlElement("StbMembers")] public StbMembers Members { get; set; }
         //
         [XmlArray("StbSections")]
-        [XmlArrayItem("StbSecColumn_RC", Type = typeof(ColumnRc))]
-        [XmlArrayItem("StbSecColumn_S", Type = typeof(ColumnS))]
+        [XmlArrayItem("StbSecColumn_RC", Type = typeof(StbColumnRc))]
+        [XmlArrayItem("StbSecColumn_S", Type = typeof(StbColumnS))]
         [XmlArrayItem("StbSecColumn_SRC", Type = typeof(ColumnSrc))]
         [XmlArrayItem("StbSecColumn_CFT", Type = typeof(ColumnCft))]
-        [XmlArrayItem("StbSecBeam_RC", Type = typeof(BeamRc))]
-        [XmlArrayItem("StbSecBeam_S", Type = typeof(BeamS))]
+        [XmlArrayItem("StbSecBeam_RC", Type = typeof(StbBeamRc))]
+        [XmlArrayItem("StbSecBeam_S", Type = typeof(StbBeamS))]
         [XmlArrayItem("StbSecBeam_SRC", Type = typeof(BeamSrc))]
-        [XmlArrayItem("StbSecBrace_S", Type = typeof(BraceS))]
+        [XmlArrayItem("StbSecBrace_S", Type = typeof(StbBraceS))]
         [XmlArrayItem("StbSecSlab_RC", Type = typeof(SlabRc))]
         [XmlArrayItem("StbSecSlab_Deck", Type = typeof(SlabDeck))]
         [XmlArrayItem("StbSecSlab_Precast", Type = typeof(SlabPrecast))]
@@ -39,7 +39,7 @@ namespace STBDotNet.v140.StbModel
         [XmlArrayItem("StbSecFoundation_RC", Type = typeof(FoundationRc))]
         [XmlArrayItem("StbSecPile_RC", Type = typeof(PileRc))]
         [XmlArrayItem("StbSecOpen_RC", Type = typeof(OpenRc))]
-        [XmlArrayItem("StbSecSteel", Type = typeof(Steel))] public List<Section> Sections { get; set; }
+        [XmlArrayItem("StbSecSteel", Type = typeof(StbSteel))] public List<Section> Sections { get; set; }
         //
         [XmlArray("StbJoints")]
         [XmlArrayItem("StbJointBeam_H", Type = typeof(BeamH))]

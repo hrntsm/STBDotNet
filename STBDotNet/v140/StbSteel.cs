@@ -3,7 +3,7 @@ using System.Xml.Serialization;
 
 namespace STBDotNet.v140.StbModel.StbSection
 {
-    public class Steel : Section
+    public class StbSteel : Section
     {
         [XmlElement("StbSecRoll-H")] public List<RollH> RollH { get; set; }
         [XmlElement("StbSecBuild-H")] public List<BuildH> BuildH { get; set; }

@@ -3,7 +3,7 @@ using System.Xml.Serialization;
 
 namespace STBDotNet.v140.StbModel.StbSection
 {
-    public class BeamS : SectionBase, ISecBeam, IJointId
+    public class StbBeamS : StbSectionBase, ISecBeam, IJointId
     {
         [XmlAttribute("kind_beam")] public string KindBeam { get; set; }
         [XmlAttribute("isCanti")] public string IsCanti { get; set; }

@@ -4,7 +4,7 @@ using System.Xml.Serialization;
 
 namespace STBDotNet.v140.StbModel.StbSection
 {
-    public class BeamRc : RcSection, ISecBeam, IStbSerializable
+    public class StbBeamRc : RcSection, ISecBeam, IStbSerializable
     {
         [XmlAttribute("kind_beam")] public string KindBeam { get; set; }
         [XmlAttribute("isFoundation")] public string IsFoundation { get; set; }

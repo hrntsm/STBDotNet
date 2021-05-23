@@ -4,7 +4,7 @@ using System.Xml.Serialization;
 
 namespace STBDotNet.v140.StbModel.StbSection
 {
-    public class ColumnRc : RcSection, ISecColumn, IStbSerializable
+    public class StbColumnRc : RcSection, ISecColumn, IStbSerializable
     {
         [XmlAttribute("D_reinforcement_axial")] public string DBarAxial { get; set; }
         [XmlAttribute("D_reinforcement_band")] public string DBarBand { get; set; }

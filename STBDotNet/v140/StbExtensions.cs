@@ -2,7 +2,7 @@ using System.Xml.Serialization;
 
 namespace STBDotNet.v140.StbExtension
 {
-    public class Extensions
+    public class StbExtensions
     {
         [XmlElement("StbExtension")] public Extension[] Extension { get; set; }
     }

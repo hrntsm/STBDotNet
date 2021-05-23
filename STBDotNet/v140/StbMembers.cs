@@ -5,7 +5,7 @@ using System.Xml.Serialization;
 
 namespace STBDotNet.v140.StbModel.StbMember
 {
-    public class Members
+    public class StbMembers
     {
         [XmlArray("StbColumns")]
         [XmlArrayItem("StbColumn")] public List<Column> Columns { get; set; }
@@ -55,7 +55,7 @@ namespace STBDotNet.v140.StbModel.StbMember
         }
     }
 
-    public class FrameBase : MemberBase, IFrame
+    public class FrameBase : StbMemberBase, IFrame
     {
         [XmlAttribute("rotate")] public double Rotate { get; set; }
         [XmlAttribute("offset_start_X")] [DefaultValue(0d)] public double OffsetStartX { get; set; }
@@ -156,27 +156,27 @@ namespace STBDotNet.v140.StbModel.StbMember
         [XmlAttribute("isPress")] public string IsPress { get; set; }
     }
 
-    public class Footing : MemberBase
+    public class Footing : StbMemberBase
     {
     }
 
-    public class StripFooting : MemberBase
+    public class StripFooting : StbMemberBase
     {
     }
 
-    public class Pile : MemberBase
+    public class Pile : StbMemberBase
     {
     }
 
-    public class FoundationColumn : MemberBase
+    public class FoundationColumn : StbMemberBase
     {
     }
 
-    public class Parapet : MemberBase
+    public class Parapet : StbMemberBase
     {
     }
 
-    public class Open : MemberBase
+    public class Open : StbMemberBase
     {
         [XmlAttribute("position_X")] public double PositionX { get; set; }
         [XmlAttribute("position_Y")] public double PositionY { get; set; }

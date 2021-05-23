@@ -3,7 +3,7 @@ using System.Xml.Serialization;
 using STBDotNet.v140.StbCommon;
 using STBDotNet.v140.StbFromIfc;
 using STBDotNet.v140.StbModel;
-using Extensions = STBDotNet.v140.StbExtension.Extensions;
+using StbExtensions = STBDotNet.v140.StbExtension.StbExtensions;
 
 namespace STBDotNet.v140
 {
@@ -11,10 +11,10 @@ namespace STBDotNet.v140
     public class StbElements
     {
         [XmlAttribute("version")] public string Version { get; set; }
-        [XmlElement("StbCommon")] public Common Common { get; set; } = new Common();
-        [XmlElement("StbModel")] public Model Model { get; set; } = new Model();
-        [XmlElement("StbFromIfc")] public FromIfc FromIfc { get; set; } = new FromIfc();
-        [XmlElement("StbExtensions")] public Extensions Extensions { get; set; } = new Extensions();
+        [XmlElement("StbCommon")] public StbCommon.StbCommon Common { get; set; } = new StbCommon.StbCommon();
+        [XmlElement("StbModel")] public StbModel.StbModel Model { get; set; } = new StbModel.StbModel();
+        [XmlElement("StbFromIfc")] public StbFromIfc.StbFromIfc FromIfc { get; set; } = new StbFromIfc.StbFromIfc();
+        [XmlElement("StbExtensions")] public StbExtensions Extensions { get; set; } = new StbExtensions();
 
         public override string ToString()
         {

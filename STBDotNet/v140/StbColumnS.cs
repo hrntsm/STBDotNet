@@ -3,7 +3,7 @@ using System.Xml.Serialization;
 
 namespace STBDotNet.v140.StbModel.StbSection
 {
-    public class ColumnS : SectionBase, ISecColumn, IJointId
+    public class StbColumnS : StbSectionBase, ISecColumn, IJointId
     {
         [XmlAttribute("kind_column")] public string KindColumn { get; set; }
         [XmlAttribute("direction")] public string Direction { get; set; }

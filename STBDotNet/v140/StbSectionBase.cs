@@ -6,14 +6,14 @@ namespace STBDotNet.v140.StbModel.StbSection
     public abstract class Section
     { }
 
-    public abstract class SectionBase : Section, IModel, ISection
+    public abstract class StbSectionBase : Section, IModel, ISection
     {
         [XmlAttribute("id")] public int Id { get; set; }
         [XmlAttribute("name")] public string Name { get; set; }
         [XmlAttribute("floor")] public string Floor { get; set; }
     }
 
-    public abstract class RcSection : SectionBase
+    public abstract class RcSection : StbSectionBase
     {
         [XmlAttribute("strength_concrete")] public string StrengthConcrete { get; set; }
         [XmlAttribute("D_reinforcement_main")] public string DBarMain { get; set; }

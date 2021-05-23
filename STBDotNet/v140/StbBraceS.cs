@@ -2,7 +2,7 @@ using System.Xml.Serialization;
 
 namespace STBDotNet.v140.StbModel.StbSection
 {
-    public class BraceS : SectionBase, ISecBrace
+    public class StbBraceS : StbSectionBase, ISecBrace
     {
         [XmlAttribute("kind_brace")] public string KindBeam { get; set; }
         // child element

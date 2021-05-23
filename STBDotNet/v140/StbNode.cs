@@ -4,7 +4,7 @@ using STBDotNet.Geometry;
 
 namespace STBDotNet.v140.StbModel
 {
-    public class Node : NodeId, IStbSerializable
+    public class StbNode : NodeId, IStbSerializable
     {
         [XmlAttribute("x")] public double X { get; set; }
         [XmlAttribute("y")] public double Y { get; set; }

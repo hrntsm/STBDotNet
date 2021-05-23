@@ -3,7 +3,7 @@ using System.Xml.Serialization;
 
 namespace STBDotNet.v140.StbModel.StbMember
 {
-    public abstract class MemberBase : IModel, IMemberBase
+    public abstract class StbMemberBase : IModel, IMemberBase
     {
         [XmlAttribute("id")] public int Id { get; set; }
         [XmlAttribute("name")] public string Name { get; set; }
@@ -12,7 +12,7 @@ namespace STBDotNet.v140.StbModel.StbMember
         [XmlIgnore] public KindStructure KindStructure { get; set; }
     }
 
-    public abstract class PlateBase : MemberBase, IPlate
+    public abstract class PlateBase : StbMemberBase, IPlate
     {
         [XmlArray("StbNodeid_List")]
         [XmlArrayItem("StbNodeid")] public List<NodeId> NodeIdList { get; set; }

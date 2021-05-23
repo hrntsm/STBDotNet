@@ -2,13 +2,13 @@ using System.Xml.Serialization;
 
 namespace STBDotNet.v140.StbModel.StbSection
 {
-    public class ColumnSrc : SectionBase
+    public class ColumnSrc : StbSectionBase
     { }
 
-    public class ColumnCft : SectionBase
+    public class ColumnCft : StbSectionBase
     { }
 
-    public class BeamSrc : SectionBase, ISecBeam
+    public class BeamSrc : StbSectionBase, ISecBeam
     {
         [XmlAttribute("kind_beam")] public string KindBeam { get; set; }
         [XmlAttribute("isCanti")] public string IsCanti { get; set; }

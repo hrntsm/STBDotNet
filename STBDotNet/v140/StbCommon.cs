@@ -3,7 +3,7 @@ using System.Xml.Serialization;
 
 namespace STBDotNet.v140.StbCommon
 {
-    public class Common
+    public class StbCommon
     {
         [XmlAttribute("globalID")]
         public string Guid { get; set; }
