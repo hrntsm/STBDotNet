@@ -1,9 +1,9 @@
 using System.ComponentModel;
 using System.Xml.Serialization;
 
-namespace STBDotNet.v140.StbModel.StbSection
+namespace STBDotNet.v140
 {
-    public abstract class SlabSecBase : Section, IModel
+    public abstract class SlabSecBase : StbSection, IModel
     {
         [XmlAttribute("id")] public int Id { get; set; }
         [XmlAttribute("name")] public string Name { get; set; }
@@ -11,7 +11,7 @@ namespace STBDotNet.v140.StbModel.StbSection
         [XmlAttribute("depth_cover_top")] [DefaultValue(0d)] public double DepthCoverTop { get; set; }
     }
 
-    public class SlabRc : SlabSecBase
+    public class StbSecSlabRc : SlabSecBase
     {
         [XmlAttribute("isFoundation")] [DefaultValue(false)] public string IsFoundation { get; set; }
         [XmlAttribute("isEarthen")] [DefaultValue(false)] public string IsEarthen { get; set; }
@@ -72,7 +72,7 @@ namespace STBDotNet.v140.StbModel.StbSection
         }
     }
 
-    public class SlabDeck : SlabSecBase
+    public class StbSecSlabDeck : SlabSecBase
     {
         [XmlAttribute("product_type")] public string ProductType { get; set; }
         [XmlAttribute("depthConcrete")] public double DepthConcrete { get; set; }
@@ -87,7 +87,7 @@ namespace STBDotNet.v140.StbModel.StbSection
             [XmlElement("StbSec2Way_Slab")] public DeckTwoWay[] TwoWaySlab { get; set; }
             [XmlElement("StbSec1Way_Slab")] public DeckOneWay[] OneWay1Slab { get; set; }
 
-            public class DeckStandard : SlabRc.SlabRcSecBarArrangement.RcStandard
+            public class DeckStandard : StbSecSlabRc.SlabRcSecBarArrangement.RcStandard
             { }
 
             public class DeckTwoWay : DeckStandard
@@ -105,7 +105,7 @@ namespace STBDotNet.v140.StbModel.StbSection
         }
     }
 
-    public class SlabPrecast : SlabSecBase
+    public class StbSecSlabPrecast : SlabSecBase
     {
         [XmlAttribute("precast_type")] public string ProductType { get; set; }
         [XmlAttribute("depthConcrete")] public double DepthConcrete { get; set; }
@@ -113,7 +113,7 @@ namespace STBDotNet.v140.StbModel.StbSection
         [XmlElement("StbSecBar_Arrangement")] public SlabPrecastSecBarArrangement BarArrangement { get; set; }
         [XmlElement("StbSecDeck_Product")] public SlabPrecastProduct Product { get; set; }
 
-        public class SlabPrecastSecBarArrangement : SlabDeck.SlabDeckSecBarArrangement
+        public class SlabPrecastSecBarArrangement : StbSecSlabDeck.SlabDeckSecBarArrangement
         { }
 
         public class SlabPrecastProduct

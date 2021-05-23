@@ -1,9 +1,9 @@
 using System.ComponentModel;
 using System.Xml.Serialization;
 
-namespace STBDotNet.v140.StbModel.StbSection
+namespace STBDotNet.v140
 {
-    public class WallRc : Section, IModel
+    public class StbSecWallRc : StbSection, IModel
     {
         [XmlAttribute("id")] public int Id { get; set; }
         [XmlAttribute("name")] public string Name { get; set; }

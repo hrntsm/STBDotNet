@@ -1,8 +1,6 @@
 ﻿using NUnit.Framework;
 using System.Collections.Generic;
 using STBDotNet.v140;
-using STBDotNet.v140.StbCommon;
-using STBDotNet.v140.StbModel;
 
 namespace STBDotNet.Serialization.Tests
 {
@@ -24,7 +22,7 @@ namespace STBDotNet.Serialization.Tests
 
                 // Deserialize Test
                 var serializer = new Serializer();
-                StbElements model = serializer.Deserialize(stbPath);
+                StbBridge140 model = serializer.Deserialize(stbPath);
                 // Serialize Test
                 bool result = serializer.Serialize(model, outPath);
 
@@ -37,7 +35,7 @@ namespace STBDotNet.Serialization.Tests
             }
         }
 
-        private void CommonTest(StbElements elements)
+        private void CommonTest(StbBridge140 elements)
         {
             StbCommon common = elements.Common;
             // stbcommon
@@ -52,7 +50,7 @@ namespace STBDotNet.Serialization.Tests
             Assert.IsTrue(common.ReinforcementStrengthList[31].StrengthBar == "KSS785");
         }
 
-        private void ModelTest(StbElements elements)
+        private void ModelTest(StbBridge140 elements)
         {
             StbModel model = elements.Model;
             NodeTest(model.Nodes);
@@ -74,7 +72,7 @@ namespace STBDotNet.Serialization.Tests
             Assert.IsTrue(nodes[147].Z == 4970d);
         }
 
-        private void StoryTest(List<Story> stories)
+        private void StoryTest(List<StbStory> stories)
         {
             Assert.IsTrue(stories[0].Id == 1);
             Assert.IsTrue(stories[0].Name == "1F");
@@ -85,14 +83,14 @@ namespace STBDotNet.Serialization.Tests
             Assert.IsTrue(stories[0].NodeIdList[43].Id == 146);
         }
 
-        private void AxisTest(List<Axis> axes)
+        private void AxisTest(List<StbAxis> axes)
         {
-            Assert.IsTrue(typeof(XAxis) == axes[0].GetType());
+            Assert.IsTrue(typeof(StbXAxis) == axes[0].GetType());
             Assert.IsTrue(axes[0].Id == 3);
             Assert.IsTrue(axes[0].Name == "31");
             Assert.IsTrue(axes[0].Distance == 8179d);
             Assert.IsTrue(axes[0].NodeIdList[0].Id == 6);
-            Assert.IsTrue(typeof(YAxis) == axes[1].GetType());
+            Assert.IsTrue(typeof(StbYAxis) == axes[1].GetType());
             Assert.IsTrue(axes[1].Id == 4);
             Assert.IsTrue(axes[1].Name == "A");
             Assert.IsTrue(axes[1].Distance == 0d);

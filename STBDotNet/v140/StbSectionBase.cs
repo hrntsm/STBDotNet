@@ -1,12 +1,12 @@
 using System.ComponentModel;
 using System.Xml.Serialization;
 
-namespace STBDotNet.v140.StbModel.StbSection
+namespace STBDotNet.v140
 {
-    public abstract class Section
+    public abstract class StbSection
     { }
 
-    public abstract class StbSectionBase : Section, IModel, ISection
+    public abstract class StbSectionBase : StbSection, IModel, ISection
     {
         [XmlAttribute("id")] public int Id { get; set; }
         [XmlAttribute("name")] public string Name { get; set; }
@@ -24,4 +24,4 @@ namespace STBDotNet.v140.StbModel.StbSection
         [XmlAttribute("strength_bar_spacing")] public string StrengthBarSpacing { get; set; }
         [XmlAttribute("interval_reinforcement")] [DefaultValue(0d)] public double IntervalBar { get; set; }
     }
-}
+}  

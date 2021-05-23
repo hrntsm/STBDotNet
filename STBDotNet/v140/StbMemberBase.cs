@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using System.Xml.Serialization;
 
-namespace STBDotNet.v140.StbModel.StbMember
+namespace STBDotNet.v140
 {
     public abstract class StbMemberBase : IModel, IMemberBase
     {

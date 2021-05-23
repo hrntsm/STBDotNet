@@ -1,17 +1,17 @@
-﻿namespace STBDotNet.v140.StbModel.StbJoint
+﻿namespace STBDotNet.v140
 {
-    public abstract class Joint
+    public abstract class StbJoint
     { }
 
-    public class BeamH : Joint
+    public class StbJointBeamH : StbJoint
     { }
 
-    public class ColumnH : Joint
+    public class StbJointColumnH : StbJoint
     { }
 
-    public class ColumnT : Joint
+    public class StbJointColumnT : StbJoint
     { }
 
-    public class ColumnCross : Joint
+    public class StbJointColumnCross : StbJoint
     { }
 }

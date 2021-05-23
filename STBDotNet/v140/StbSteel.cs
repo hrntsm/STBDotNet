@@ -1,21 +1,21 @@
 using System.Collections.Generic;
 using System.Xml.Serialization;
 
-namespace STBDotNet.v140.StbModel.StbSection
+namespace STBDotNet.v140
 {
-    public class StbSteel : Section
+    public class StbSecSteel : StbSection
     {
-        [XmlElement("StbSecRoll-H")] public List<RollH> RollH { get; set; }
-        [XmlElement("StbSecBuild-H")] public List<BuildH> BuildH { get; set; }
-        [XmlElement("StbSecRoll-BOX")] public List<RollBox> RollBox { get; set; }
-        [XmlElement("StbSecBuild-BOX")] public List<BuildBox> BuildBox { get; set; }
-        [XmlElement("StbSecPipe")] public List<Pipe> Pipe { get; set; }
-        [XmlElement("StbSecRoll-T")] public List<RollT> RollT { get; set; }
-        [XmlElement("StbSecRoll-C")] public List<RollC> RollC { get; set; }
-        [XmlElement("StbSecRoll-L")] public List<RollL> RollL { get; set; }
-        [XmlElement("StbSecRoll-LipC")] public List<LipC> LipC { get; set; }
-        [XmlElement("StbSecRoll-FB")] public List<FlatBar> FlatBar { get; set; }
-        [XmlElement("StbSecRoll-Bar")] public List<RoundBar> RoundBar { get; set; }
+        [XmlElement("StbSecRoll-H")] public List<StbSeRollH> RollH { get; set; }
+        [XmlElement("StbSecBuild-H")] public List<StbSecBuildH> BuildH { get; set; }
+        [XmlElement("StbSecRoll-BOX")] public List<StbSecRollBox> RollBox { get; set; }
+        [XmlElement("StbSecBuild-BOX")] public List<StbSecBuildBox> BuildBox { get; set; }
+        [XmlElement("StbSecPipe")] public List<StbSecPipe> Pipe { get; set; }
+        [XmlElement("StbSecRoll-T")] public List<StbSecRollT> RollT { get; set; }
+        [XmlElement("StbSecRoll-C")] public List<StbSecRollC> RollC { get; set; }
+        [XmlElement("StbSecRoll-L")] public List<StbSecRollL> RollL { get; set; }
+        [XmlElement("StbSecRoll-LipC")] public List<StbSecRollLipC> LipC { get; set; }
+        [XmlElement("StbSecRoll-FB")] public List<StbSecRollFB> FlatBar { get; set; }
+        [XmlElement("StbSecRoll-Bar")] public List<StbSecRollRoundBar> RoundBar { get; set; }
 
         public override string ToString()
         {
@@ -31,7 +31,7 @@ namespace STBDotNet.v140.StbModel.StbSection
                 + LipC?.Count ?? 0
                 + FlatBar?.Count ?? 0
                 + RoundBar?.Count ?? 0;
-            return $"Number of Steel Sections:{numSection}";
+            return $"Number of StbSecSteel Sections:{numSection}";
         }
     }
 
@@ -68,44 +68,44 @@ namespace STBDotNet.v140.StbModel.StbSection
         string Side { get; set; }
     }
 
-    public class RollH : HShapeBase
+    public class StbSeRollH : HShapeBase
     {
         [XmlAttribute("type")] public string Type { get; set; }
         [XmlAttribute("r")] public double R { get; set; }
     }
 
-    public class BuildH : HShapeBase
+    public class StbSecBuildH : HShapeBase
     { }
 
-    public class RollBox : BoxShapeBase
+    public class StbSecRollBox : BoxShapeBase
     {
         [XmlAttribute("type")] public string Type { get; set; }
         [XmlAttribute("t")] public double T { get; set; }
         [XmlAttribute("R")] public double R { get; set; }
     }
 
-    public class BuildBox : BoxShapeBase
+    public class StbSecBuildBox : BoxShapeBase
     {
         [XmlAttribute("t1")] public double T1 { get; set; }
         [XmlAttribute("t2")] public double T2 { get; set; }
     }
 
-    public class Pipe : SteelSectionBase
+    public class StbSecPipe : SteelSectionBase
     {
         [XmlAttribute("D")] public double D { get; set; }
         [XmlAttribute("t")] public double T { get; set; }
     }
 
-    public class RollT : RollH
+    public class StbSecRollT : StbSeRollH
     { }
 
-    public class RollC : CLShapeBase
+    public class StbSecRollC : CLShapeBase
     { }
 
-    public class RollL : CLShapeBase
+    public class StbSecRollL : CLShapeBase
     { }
 
-    public class LipC : SteelSectionBase, ISideType
+    public class StbSecRollLipC : SteelSectionBase, ISideType
     {
         [XmlAttribute("type")] public string Type { get; set; }
         [XmlAttribute("H")] public double H { get; set; }
@@ -115,13 +115,13 @@ namespace STBDotNet.v140.StbModel.StbSection
         [XmlAttribute("side")] public string Side { get; set; }
     }
 
-    public class FlatBar : SteelSectionBase
+    public class StbSecRollFB : SteelSectionBase
     {
         [XmlAttribute("B")] public double B { get; set; }
         [XmlAttribute("t")] public double T { get; set; }
     }
 
-    public class RoundBar : SteelSectionBase
+    public class StbSecRollRoundBar : SteelSectionBase
     {
         [XmlAttribute("R")] public double R { get; set; }
     }

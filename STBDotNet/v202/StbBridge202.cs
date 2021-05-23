@@ -14,7 +14,7 @@ using System.Xml.Serialization;
 // このソース コードは xsd によって自動生成されました。Version=4.8.3928.0 です。
 // 
 
-namespace v202
+namespace STBDotNet.v202
 {
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0")]
@@ -23,7 +23,7 @@ namespace v202
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true, Namespace = "https://www.building-smart.or.jp/dl")]
     [System.Xml.Serialization.XmlRootAttribute(Namespace = "https://www.building-smart.or.jp/dl", IsNullable = false)]
-    public partial class ST_BRIDGE
+    public partial class StbBridge202
     {
 
         private StbCommon stbCommonField;
@@ -38,7 +38,7 @@ namespace v202
 
         private string versionField;
 
-        public ST_BRIDGE()
+        public StbBridge202()
         {
             this.versionField = "2.0.2";
         }

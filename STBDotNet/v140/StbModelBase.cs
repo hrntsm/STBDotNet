@@ -1,4 +1,4 @@
-namespace STBDotNet.v140.StbModel
+namespace STBDotNet.v140
 {
     public interface IModel
     {

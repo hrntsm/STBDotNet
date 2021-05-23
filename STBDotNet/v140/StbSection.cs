@@ -1,26 +1,26 @@
 using System.Xml.Serialization;
 
-namespace STBDotNet.v140.StbModel.StbSection
+namespace STBDotNet.v140
 {
-    public class ColumnSrc : StbSectionBase
+    public class StbSecColumnSrc : StbSectionBase
     { }
 
-    public class ColumnCft : StbSectionBase
+    public class StbSecColumnCft : StbSectionBase
     { }
 
-    public class BeamSrc : StbSectionBase, ISecBeam
+    public class StbSecBeamSrc : StbSectionBase, ISecBeam
     {
         [XmlAttribute("kind_beam")] public string KindBeam { get; set; }
         [XmlAttribute("isCanti")] public string IsCanti { get; set; }
         [XmlAttribute("isOutIn")] public string IsOutIn { get; set; }
     }
 
-    public class FoundationRc : Section
+    public class StbSecFoundationRc : StbSection
     { }
 
-    public class PileRc : Section
+    public class StbSecPileRc : StbSection
     { }
 
-    public class OpenRc : Section
+    public class StbSecOpenRc : StbSection
     { }
 }

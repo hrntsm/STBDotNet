@@ -1,9 +1,9 @@
 using System.ComponentModel;
 using System.Xml.Serialization;
 
-namespace STBDotNet.v140.StbModel.StbSection
+namespace STBDotNet.v140
 {
-    public class StbColumnS : StbSectionBase, ISecColumn, IJointId
+    public class StbSecColumnS : StbSectionBase, ISecColumn, IJointId
     {
         [XmlAttribute("kind_column")] public string KindColumn { get; set; }
         [XmlAttribute("direction")] public string Direction { get; set; }
@@ -15,7 +15,7 @@ namespace STBDotNet.v140.StbModel.StbSection
 
         public override string ToString()
         {
-            return $"Id:{Id} {Name}, Type:ColS, Section:{SteelColumn[0].Shape}";
+            return $"Id:{Id} {Name}, Type:ColS, StbSection:{SteelColumn[0].Shape}";
         }
     }
 

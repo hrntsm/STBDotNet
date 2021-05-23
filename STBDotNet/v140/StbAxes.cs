@@ -1,9 +1,8 @@
 using System.Collections.Generic;
 using System.Xml.Serialization;
-
-namespace STBDotNet.v140.StbModel
+namespace STBDotNet.v140
 {
-    public abstract class Axis
+    public abstract class StbAxis
     {
         [XmlAttribute("id")] public int Id { get; set; }
         [XmlAttribute("name")] public string Name { get; set; }
@@ -12,25 +11,25 @@ namespace STBDotNet.v140.StbModel
         [XmlArrayItem("StbNodeid")] public List<NodeId> NodeIdList { get; set; }
     }
 
-    public class XAxis : Axis
+    public class StbXAxis : StbAxis
     {
         public override string ToString()
         {
             int nodeCount = NodeIdList?.Count ?? 0;
-            return $"XAxis Dist={Distance}, Nodes:{nodeCount}";
+            return $"StbXAxis Dist={Distance}, Nodes:{nodeCount}";
         }
     }
 
-    public class YAxis : Axis
+    public class StbYAxis : StbAxis
     {
         public override string ToString()
         {
             int nodeCount = NodeIdList?.Count ?? 0;
-            return $"YAxis Dist={Distance}, Nodes:{nodeCount}";
+            return $"StbYAxis Dist={Distance}, Nodes:{nodeCount}";
         }
     }
 
-    public class DrawingAxis
+    public class StbDrawingAxis
     {
         [XmlAttribute("name")] public string Name { get; set; }
         [XmlAttribute("start_x")] public double StartX { get; set; }

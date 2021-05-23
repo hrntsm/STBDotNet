@@ -2,7 +2,7 @@ using System;
 using System.Xml.Serialization;
 using STBDotNet.Geometry;
 
-namespace STBDotNet.v140.StbModel
+namespace STBDotNet.v140
 {
     public class StbNode : NodeId, IStbSerializable
     {

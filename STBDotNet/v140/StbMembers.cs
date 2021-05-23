@@ -3,34 +3,34 @@ using System.ComponentModel;
 using System.Text;
 using System.Xml.Serialization;
 
-namespace STBDotNet.v140.StbModel.StbMember
+namespace STBDotNet.v140
 {
     public class StbMembers
     {
         [XmlArray("StbColumns")]
-        [XmlArrayItem("StbColumn")] public List<Column> Columns { get; set; }
+        [XmlArrayItem("StbColumn")] public List<StbColumn> Columns { get; set; }
         [XmlArray("StbPosts")]
-        [XmlArrayItem("StbPost")] public List<Post> Posts { get; set; }
+        [XmlArrayItem("StbPost")] public List<StbPost> Posts { get; set; }
         [XmlArray("StbGirders")]
-        [XmlArrayItem("StbGirder")] public List<Girder> Girders { get; set; }
+        [XmlArrayItem("StbGirder")] public List<StbGirder> Girders { get; set; }
         [XmlArray("StbBeams")]
-        [XmlArrayItem("StbBeam")] public List<Beam> Beams { get; set; }
+        [XmlArrayItem("StbBeam")] public List<StbBeam> Beams { get; set; }
         [XmlArray("StbBraces")]
-        [XmlArrayItem("StbBrace")] public List<Brace> Braces { get; set; }
+        [XmlArrayItem("StbBrace")] public List<StbBrace> Braces { get; set; }
         [XmlArray("StbSlabs")]
-        [XmlArrayItem("StbSlab")] public List<Slab> Slabs { get; set; }
+        [XmlArrayItem("StbSlab")] public List<StbSlab> Slabs { get; set; }
         [XmlArray("StbWalls")]
-        [XmlArrayItem("StbWall")] public List<Wall> Walls { get; set; }
+        [XmlArrayItem("StbWall")] public List<StbWall> Walls { get; set; }
         [XmlArray("StbFootings")]
-        [XmlArrayItem("StbFooting")] public List<Footing> Footings { get; set; }
+        [XmlArrayItem("StbFooting")] public List<StbFooting> Footings { get; set; }
         [XmlArray("StbStrip_Footings")]
-        [XmlArrayItem("StbStrip_Footing")] public List<StripFooting> StripFootings { get; set; }
+        [XmlArrayItem("StbStrip_Footing")] public List<StbStripFooting> StripFootings { get; set; }
         [XmlArray("StbPiles")]
-        [XmlArrayItem("StbPile")] public List<Pile> Piles { get; set; }
+        [XmlArrayItem("StbPile")] public List<StbPile> Piles { get; set; }
         [XmlArray("StbFoundationColumns")]
-        [XmlArrayItem("StbFoundationColumn")] public List<FoundationColumn> FoundationColumns { get; set; }
+        [XmlArrayItem("StbFoundationColumn")] public List<StbFoundationColumn> FoundationColumns { get; set; }
         [XmlArray("StbParapets")]
-        [XmlArrayItem("StbParapet")] public List<Parapet> Parapets { get; set; }
+        [XmlArrayItem("StbParapet")] public List<StbParapet> Parapets { get; set; }
 
         public override string ToString()
         {
@@ -75,7 +75,7 @@ namespace STBDotNet.v140.StbModel.StbMember
 
     }
 
-    public class Column : FrameBase, IFrameIdNode
+    public class StbColumn : FrameBase, IFrameIdNode
     {
         [XmlAttribute("idNode_bottom")] public int IdNodeStart { get; set; }
         [XmlAttribute("idNode_top")] public int IdNodeEnd { get; set; }
@@ -87,10 +87,10 @@ namespace STBDotNet.v140.StbModel.StbMember
         [XmlAttribute("thickness_ex_end_Y")] [DefaultValue(0d)] public double ThicknessExEndY { get; set; }
     }
 
-    public class Post : Column
+    public class StbPost : StbColumn
     { }
 
-    public class Girder : FrameBase, IFrameIdNode
+    public class StbGirder : FrameBase, IFrameIdNode
     {
         [XmlAttribute("idNode_start")] public int IdNodeStart { get; set; }
         [XmlAttribute("idNode_end")] public int IdNodeEnd { get; set; }
@@ -111,17 +111,17 @@ namespace STBDotNet.v140.StbModel.StbMember
         [XmlAttribute("type_haunch_V")] public string TypeHaunchV { get; set; }
     }
 
-    public class Beam : Girder
+    public class StbBeam : StbGirder
     { }
 
-    public class Brace : FrameBase, IFrameIdNode
+    public class StbBrace : FrameBase, IFrameIdNode
     {
         [XmlAttribute("idNode_start")] public int IdNodeStart { get; set; }
         [XmlAttribute("idNode_end")] public int IdNodeEnd { get; set; }
         [XmlAttribute("future_brace")] public string FutureBrace { get; set; }
     }
 
-    public class Slab : PlateBase
+    public class StbSlab : PlateBase
     {
         [XmlAttribute("kind_slab")] public string KindSlab { get; set; }
         [XmlAttribute("level")] public double Level { get; set; }
@@ -141,7 +141,7 @@ namespace STBDotNet.v140.StbModel.StbMember
         [XmlAttribute("offset_Y")] public double OffsetY { get; set; }
     }
 
-    public class Wall : PlateBase
+    public class StbWall : PlateBase
     {
         [XmlAttribute("kind_layout")] public string KindLayout { get; set; }
         [XmlAttribute("offset")] public double Offset { get; set; }
@@ -156,23 +156,23 @@ namespace STBDotNet.v140.StbModel.StbMember
         [XmlAttribute("isPress")] public string IsPress { get; set; }
     }
 
-    public class Footing : StbMemberBase
+    public class StbFooting : StbMemberBase
     {
     }
 
-    public class StripFooting : StbMemberBase
+    public class StbStripFooting : StbMemberBase
     {
     }
 
-    public class Pile : StbMemberBase
+    public class StbPile : StbMemberBase
     {
     }
 
-    public class FoundationColumn : StbMemberBase
+    public class StbFoundationColumn : StbMemberBase
     {
     }
 
-    public class Parapet : StbMemberBase
+    public class StbParapet : StbMemberBase
     {
     }
 

@@ -1,9 +1,9 @@
 using System.ComponentModel;
 using System.Xml.Serialization;
 
-namespace STBDotNet.v140.StbModel.StbSection
+namespace STBDotNet.v140
 {
-    public class StbBeamS : StbSectionBase, ISecBeam, IJointId
+    public class StbSecBeamS : StbSectionBase, ISecBeam, IJointId
     {
         [XmlAttribute("kind_beam")] public string KindBeam { get; set; }
         [XmlAttribute("isCanti")] public string IsCanti { get; set; }
@@ -15,7 +15,7 @@ namespace STBDotNet.v140.StbModel.StbSection
 
         public override string ToString()
         {
-            return $"Id:{Id} {Name}, Type:BeamS, Section:{SteelBeams[0].Shape}";
+            return $"Id:{Id} {Name}, Type:StbSecBeamS, StbSection:{SteelBeams[0].Shape}";
         }
     }
 }

@@ -2,9 +2,9 @@ using System;
 using System.Collections.Generic;
 using System.Xml.Serialization;
 
-namespace STBDotNet.v140.StbModel
+namespace STBDotNet.v140
 {
-    public class Story
+    public class StbStory
     {
         [XmlAttribute("id")] public int Id { get; set; }
         [XmlAttribute("name")] public string Name { get; set; }

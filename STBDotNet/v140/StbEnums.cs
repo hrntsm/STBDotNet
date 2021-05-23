@@ -1,4 +1,4 @@
-namespace STBDotNet.v140.StbModel.StbSection
+namespace STBDotNet.v140
 {
     public enum KindColumn
     {

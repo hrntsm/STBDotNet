@@ -2,9 +2,9 @@ using System;
 using System.ComponentModel;
 using System.Xml.Serialization;
 
-namespace STBDotNet.v140.StbModel.StbSection
+namespace STBDotNet.v140
 {
-    public class StbBeamRc : RcSection, ISecBeam, IStbSerializable
+    public class StbSecBeamRc : RcSection, ISecBeam, IStbSerializable
     {
         [XmlAttribute("kind_beam")] public string KindBeam { get; set; }
         [XmlAttribute("isFoundation")] public string IsFoundation { get; set; }
@@ -23,8 +23,8 @@ namespace STBDotNet.v140.StbModel.StbSection
         [XmlAttribute("bar_length_start")] [DefaultValue(0d)] public double BarLengthStart { get; set; }
         [XmlAttribute("bar_length_end")] [DefaultValue(0d)] public double BarLengthEnd { get; set; }
         // child element
-        [XmlElement("StbSecFigure")] public RcBeamSecFigure Figure { get; set; }
-        [XmlElement("StbSecBar_Arrangement")] public RcBeamSecBarArrangement BarArrangement { get; set; }
+        [XmlElement("StbSecFigure")] public StbRcBeamSecFigure Figure { get; set; }
+        [XmlElement("StbSecBar_Arrangement")] public StbRcBeamSecBarArrangement BarArrangement { get; set; }
         [XmlIgnore] public RcBeamFigureType FigureType { get; private set; }
 
         public void OnAfterDeserialize()
@@ -55,7 +55,7 @@ namespace STBDotNet.v140.StbModel.StbSection
 
         public override string ToString()
         {
-            return $"Id:{Id} {Name}, Type:BeamRc, DMain:{DBarMain}, DStirrup:{DStirrup}";
+            return $"Id:{Id} {Name}, Type:StbSecBeamRc, DMain:{DBarMain}, DStirrup:{DStirrup}";
         }
     }
 
@@ -66,19 +66,19 @@ namespace STBDotNet.v140.StbModel.StbSection
         Haunch
     }
 
-    public class RcBeamSecFigure
+    public class StbRcBeamSecFigure
     {
-        [XmlElement("StbSecStraight")] public Straight SecStraight { get; set; }
-        [XmlElement("StbSecTaper")] public Taper SecTaper { get; set; }
-        [XmlElement("StbSecHaunch")] public Haunch SecHaunch { get; set; }
+        [XmlElement("StbSecStraight")] public StbSecStraight SecStraight { get; set; }
+        [XmlElement("StbSecTaper")] public StbSecTaper SecTaper { get; set; }
+        [XmlElement("StbSecHaunch")] public StbSecHaunch SecHaunch { get; set; }
 
-        public class Straight
+        public class StbSecStraight
         {
             [XmlAttribute("width")] public double Width { get; set; }
             [XmlAttribute("depth")] public double Depth { get; set; }
         }
 
-        public class Taper
+        public class StbSecTaper
         {
             [XmlAttribute("width_start")] public double WidthStart { get; set; }
             [XmlAttribute("depth_start")] public double DepthStart { get; set; }
@@ -86,14 +86,14 @@ namespace STBDotNet.v140.StbModel.StbSection
             [XmlAttribute("depth_end")] public double DepthEnd { get; set; }
         }
 
-        public class Haunch : Taper
+        public class StbSecHaunch : StbSecTaper
         {
             [XmlAttribute("width_center")] public double WidthCenter { get; set; }
             [XmlAttribute("depth_center")] public double DepthCenter { get; set; }
         }
     }
 
-    public class RcBeamSecBarArrangement
+    public class StbRcBeamSecBarArrangement
     {
         [XmlElement("StbSecBeam_Same_Section")] public Same SameSection { get; set; }
         [XmlElement("StbSecBeam_Start_End_Section")] public StartEnd[] StartEndSection { get; set; }

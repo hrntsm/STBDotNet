@@ -1,4 +1,4 @@
-namespace STBDotNet.v140.StbFromIfc
+namespace STBDotNet.v140
 {
     public class StbFromIfc
     { }

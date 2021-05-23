@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using System.Xml.Serialization;
 
-namespace STBDotNet.v140.StbCommon
+namespace STBDotNet.v140
 {
     public class StbCommon
     {
@@ -15,10 +15,10 @@ namespace STBDotNet.v140.StbCommon
         public string StrengthConcrete { get; set; }
         [XmlArray("StbReinforcement_Strength_List")]
         [XmlArrayItem("StbReinforcement_Strength")]
-        public List<ReinforcementStrength> ReinforcementStrengthList { get; set; }
+        public List<StbReinforcementStrength> ReinforcementStrengthList { get; set; }
     }
 
-    public class ReinforcementStrength
+    public class StbReinforcementStrength
     {
         [XmlAttribute("D")]
         public string Name { get; set; }
