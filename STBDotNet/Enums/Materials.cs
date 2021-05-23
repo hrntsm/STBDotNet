@@ -1,4 +1,4 @@
-namespace STBDotNet.v140
+namespace STBDotNet.Enums
 {
     public enum StrengthConcrete
     {

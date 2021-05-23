@@ -1,9 +1,8 @@
 ﻿using System;
 using System.Xml.Linq;
-using STBDotNet.v140;
-using Version = STBDotNet.v140.Version;
+using STBDotNet.Enums;
 
-namespace STBDotNet.Serialization
+namespace STBDotNet.Utils
 {
     public static class Util
     {
@@ -16,15 +15,15 @@ namespace STBDotNet.Serialization
             return xmlns;
         }
 
-        public static Version GetStbVersion(XElement root)
+        public static Serialization.Util.Version GetStbVersion(XElement root)
         {
             var tmp = (string)root.Attribute("version");
             switch (tmp.Split('.')[0])
             {
                 case "1":
-                    return Version.Stb1;
+                    return Serialization.Util.Version.Stb140;
                 case "2":
-                    return Version.Stb2;
+                    return Serialization.Util.Version.Stb202;
                 default:
                     throw new ArgumentException("The STB version is not set");
             }

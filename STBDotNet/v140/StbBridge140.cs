@@ -30,10 +30,4 @@ namespace STBDotNet.v140
             return sb.ToString();
         }
     }
-
-    public enum Version
-    {
-        Stb1,
-        Stb2
-    }
 }

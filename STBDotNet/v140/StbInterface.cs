@@ -1,3 +1,5 @@
+using STBDotNet.Enums;
+
 namespace STBDotNet.v140
 {
     public interface ISection
