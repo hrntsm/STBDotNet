@@ -16,8 +16,8 @@ namespace STBDotNet.Geometry.Tests
         [Test]
         public void Line3Test()
         {
-            var ln = new Line3( new Point3(0,0,0), new Point3(1,0,0));
-            Assert.IsTrue(ln.Equals( new Line3(ln)));
+            var ln = new Line3(new Point3(0, 0, 0), new Point3(1, 0, 0));
+            Assert.IsTrue(ln.Equals(new Line3(ln)));
             Assert.IsTrue(ln.Length == 1);
         }
 

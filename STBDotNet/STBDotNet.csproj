@@ -4,14 +4,15 @@
         <TargetFrameworks>net5.0;netstandard2.0</TargetFrameworks>
         <DebugType>full</DebugType>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-        <Version>0.1.3</Version>
+        <Version>0.2.0</Version>
         <Authors>hrntsm</Authors>
         <Company>hrntsm</Company>
         <PackageLicenseFile>LICENSE</PackageLicenseFile>
         <PackageProjectUrl>https://github.com/hrntsm/STBDotNet</PackageProjectUrl>
         <RepositoryUrl>https://github.com/hrntsm/STBDotNet</RepositoryUrl>
         <Description>STBDotNet is a .NET library for ST-Bridge.</Description>
-        <Copyright>Copyright (c) 2020 hrntsm</Copyright>
+        <Copyright>Copyright (c) 2021 hrntsm</Copyright>
+        <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     </PropertyGroup>
 
     <ItemGroup>
@@ -19,6 +20,10 @@
         <Pack>True</Pack>
         <PackagePath></PackagePath>
       </None>
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="v201\" />
     </ItemGroup>
 
 </Project>

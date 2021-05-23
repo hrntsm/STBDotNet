@@ -1,4 +1,4 @@
-# STBDotNet
+﻿# STBDotNet
 
 [![GitHub Workflow Status](https://img.shields.io/github/workflow/status/hrntsm/STBDotNet/.NET%20Core)](https://github.com/hrntsm/STBDotNet/actions?query=workflow%3A%22.NET+Core%22)
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/9d82da70572843968d00f39295c8125d)](https://www.codacy.com/gh/hrntsm/STBDotNet/dashboard?utm_source=github.com&utm_medium=referral&utm_content=hrntsm/STBDotNet&utm_campaign=Badge_Grade)

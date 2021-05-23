@@ -1,4 +1,4 @@
-name: check release settings
+name: Check release settings
 
 on:
   pull_request:
@@ -14,6 +14,7 @@ jobs:
         echo "リリースに向けて以下更新したか？" >> comments
         echo "- nuget の設定" >> comments
         echo "- README の更新" >> comments
+        echo "- ドキュメントサイトの index.html の更新" >> comments
         sed -i -z 's/\n/\\n/g' comments
 
     - name: Post multi-line comments

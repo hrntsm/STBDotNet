@@ -1,0 +1,692 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ST_BRIDGE xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0.1" xmlns="https://www.building-smart.or.jp/dl">
+  <StbCommon guid="d89d01ffa3764309b49fdbefc2f3c798" project_name="RC_sample" app_name="Super Build�^SS7" strength_concrete="Fc21">
+    <StbApplyConditionsList>
+      <StbColumn_RC_RebarPositionApply set_default="false" />
+      <StbColumn_RC_BarSpacingApply set_default="false" />
+      <StbColumn_SRC_RebarPositionApply set_default="false" />
+      <StbColumn_SRC_BarSpacingApply set_default="false" />
+      <StbBeam_RC_RebarPositionApply set_default="false" />
+      <StbBeam_RC_BarWebApply set_default="false" />
+      <StbBeam_RC_BarSpacingApply set_default="false" />
+      <StbBeam_SRC_RebarPositionApply set_default="false" />
+      <StbBeam_SRC_BarWebApply set_default="false" />
+      <StbBeam_SRC_BarSpacingApply set_default="false" />
+    </StbApplyConditionsList>
+  </StbCommon>
+  <StbModel>
+    <StbNodes>
+      <StbNode id="10" guid="5e78355a524f47888695bb1744a0b6d3" X="0.0" Y="0.0" Z="0.0" kind="ON_GRID" />
+      <StbNode id="11" guid="1ed751e3c9b545b78ead54f7340a596d" X="6000.0" Y="0.0" Z="0.0" kind="ON_GRID" />
+      <StbNode id="12" guid="5c8d44aceb75450ca07d1e3cf4e40ac2" X="12000.0" Y="0.0" Z="0.0" kind="ON_GRID" />
+      <StbNode id="13" guid="1a98ff4099324fac856a5b0f7f98bdda" X="0.0" Y="6000.0" Z="0.0" kind="ON_GRID" />
+      <StbNode id="14" guid="45359e8bad4e4da1a2f1b28a758134aa" X="6000.0" Y="6000.0" Z="0.0" kind="ON_GRID" />
+      <StbNode id="15" guid="7dc51b4120dd428aa724416a494e84ed" X="12000.0" Y="6000.0" Z="0.0" kind="ON_GRID" />
+      <StbNode id="16" guid="58c629b04ff44773b6b53a127a068d6b" X="0.0" Y="12000.0" Z="0.0" kind="ON_GRID" />
+      <StbNode id="17" guid="f0aceb2ac37d4b09b41e263b20f83bde" X="6000.0" Y="12000.0" Z="0.0" kind="ON_GRID" />
+      <StbNode id="18" guid="f16f576a21084d388483d7bbc07f5e50" X="12000.0" Y="12000.0" Z="0.0" kind="ON_GRID" />
+      <StbNode id="19" guid="e7bd205745d74c09990742436a73338c" X="0.0" Y="0.0" Z="5000.0" kind="ON_GRID" />
+      <StbNode id="20" guid="d37f6920c2f2480d835c9252f47f473f" X="6000.0" Y="0.0" Z="5000.0" kind="ON_GRID" />
+      <StbNode id="21" guid="920ca3c94c9a4bb98ce07ff0eca551e5" X="12000.0" Y="0.0" Z="5000.0" kind="ON_GRID" />
+      <StbNode id="22" guid="055c75d6703c4882b26f20b46fff6356" X="0.0" Y="6000.0" Z="5000.0" kind="ON_GRID" />
+      <StbNode id="23" guid="0db413cf50114336a2cd79502a99004f" X="6000.0" Y="6000.0" Z="5000.0" kind="ON_GRID" />
+      <StbNode id="24" guid="42c298b4686146489b541e23a112e694" X="12000.0" Y="6000.0" Z="5000.0" kind="ON_GRID" />
+      <StbNode id="25" guid="c407c9ffd5d54e818d041a13f1f86b7f" X="0.0" Y="12000.0" Z="5000.0" kind="ON_GRID" />
+      <StbNode id="26" guid="71b9ff0de2f242b5acd975c41ada22e6" X="6000.0" Y="12000.0" Z="5000.0" kind="ON_GRID" />
+      <StbNode id="27" guid="2e664d0891f448ffbdfb87912813bda2" X="12000.0" Y="12000.0" Z="5000.0" kind="ON_GRID" />
+      <StbNode id="28" guid="26aa608876b5487dbb6a95672fb238fb" X="0.0" Y="0.0" Z="9200.0" kind="ON_GRID" />
+      <StbNode id="29" guid="b60c75a1e2da44fa967b221bb0e9de5e" X="6000.0" Y="0.0" Z="9200.0" kind="ON_GRID" />
+      <StbNode id="30" guid="bcc36da327854cee9cad2e8ee1db4c25" X="12000.0" Y="0.0" Z="9200.0" kind="ON_GRID" />
+      <StbNode id="31" guid="e3bcb6219a324315a30eff049d488f45" X="0.0" Y="6000.0" Z="9200.0" kind="ON_GRID" />
+      <StbNode id="32" guid="786ebe7490d2491182c4ca5e9803336f" X="6000.0" Y="6000.0" Z="9200.0" kind="ON_GRID" />
+      <StbNode id="33" guid="faa3c014d25e4723ac294fb58645dc08" X="12000.0" Y="6000.0" Z="9200.0" kind="ON_GRID" />
+      <StbNode id="34" guid="b8420a3e9f184294992e44424cc219ba" X="6000.0" Y="12000.0" Z="9200.0" kind="ON_GRID" />
+      <StbNode id="35" guid="d9bdecea2b8047e49c83e35e67aaf41b" X="12000.0" Y="12000.0" Z="9200.0" kind="ON_GRID" />
+      <StbNode id="36" guid="924c3e1ab8764e21990d445582bd94a9" X="-1500.0" Y="6000.0" Z="5000.0" kind="OTHER" />
+      <StbNode id="37" guid="a7da54e1f2f54a71a63ddaa249bc6c5d" X="-1500.0" Y="0.0" Z="5000.0" kind="OTHER" />
+      <StbNode id="38" guid="cd786fc30cdd4e80b0beda2db74dd0c7" X="0.0" Y="3000.0" Z="9200.0" kind="ON_GIRDER" id_member="39" />
+      <StbNode id="39" guid="817cc3f77e084ba591bec6ccdbb100d5" X="6000.0" Y="3000.0" Z="9200.0" kind="ON_GIRDER" id_member="44" />
+      <StbNode id="40" guid="9a9b4f648b2e43eea77082a4a7627670" X="6000.0" Y="3000.0" Z="9200.0" kind="ON_GIRDER" id_member="44" />
+      <StbNode id="41" guid="132f0689f9de4732a3e50d50ff19c931" X="12000.0" Y="3000.0" Z="9200.0" kind="ON_GIRDER" id_member="50" />
+      <StbNode id="42" guid="9117e32a2f774d0689a2699501a2cc7d" X="6000.0" Y="9000.0" Z="9200.0" kind="ON_GIRDER" id_member="45" />
+      <StbNode id="43" guid="8e545c4c20484ccfba54c22d1d4eb46b" X="12000.0" Y="9000.0" Z="9200.0" kind="ON_GIRDER" id_member="51" />
+      <StbNode id="44" guid="a52bcdfca3404cfdb4665c2ffd7dd7ad" X="0.0" Y="3000.0" Z="5000.0" kind="ON_GIRDER" id_member="37" />
+      <StbNode id="45" guid="cf753beb713a4822abbdc127ee14c79b" X="6000.0" Y="3000.0" Z="5000.0" kind="ON_GIRDER" id_member="42" />
+      <StbNode id="46" guid="f5c619758ec740459ad114f2dc7f6c92" X="6000.0" Y="3000.0" Z="5000.0" kind="ON_GIRDER" id_member="42" />
+      <StbNode id="47" guid="ad978eb110eb495f9cf0c439721bc9c6" X="12000.0" Y="3000.0" Z="5000.0" kind="ON_GIRDER" id_member="48" />
+      <StbNode id="48" guid="627594170bd24f4fb92e4cb148a69942" X="0.0" Y="9000.0" Z="5000.0" kind="ON_GIRDER" id_member="38" />
+      <StbNode id="49" guid="c4e07a1c4ea0473593b10754c48a7c15" X="6000.0" Y="9000.0" Z="5000.0" kind="ON_GIRDER" id_member="43" />
+      <StbNode id="50" guid="b7ebd45208854daca819e2f42fee4795" X="6000.0" Y="9000.0" Z="5000.0" kind="ON_GIRDER" id_member="43" />
+      <StbNode id="51" guid="0b720a95777b478f9262ffd12b3daffb" X="12000.0" Y="9000.0" Z="5000.0" kind="ON_GIRDER" id_member="49" />
+      <StbNode id="52" guid="dc9e902046f54e34b36cd5c879be4848" X="0.0" Y="3000.0" Z="0.0" kind="ON_GIRDER" id_member="35" />
+      <StbNode id="53" guid="4eac4f5c7c214c3ab83837e8a87febe3" X="6000.0" Y="3000.0" Z="0.0" kind="ON_GIRDER" id_member="40" />
+      <StbNode id="54" guid="09c0fbb0bdde4d58b66b145bbb2658fe" X="6000.0" Y="3000.0" Z="0.0" kind="ON_GIRDER" id_member="40" />
+      <StbNode id="55" guid="818545f770e44379918b122b225e9282" X="12000.0" Y="3000.0" Z="0.0" kind="ON_GIRDER" id_member="46" />
+      <StbNode id="56" guid="f31ee15d99c84fd5bf6184f54ecbae6b" X="0.0" Y="9000.0" Z="0.0" kind="ON_GIRDER" id_member="36" />
+      <StbNode id="57" guid="4db2a679e9004a3ca9daf5557ca48ca4" X="6000.0" Y="9000.0" Z="0.0" kind="ON_GIRDER" id_member="41" />
+      <StbNode id="58" guid="3b439a35cdc34c02835ba5e5ba8d2e0c" X="6000.0" Y="9000.0" Z="0.0" kind="ON_GIRDER" id_member="41" />
+      <StbNode id="59" guid="30722190fc524a2c93680e4ca9c31176" X="12000.0" Y="9000.0" Z="0.0" kind="ON_GIRDER" id_member="47" />
+    </StbNodes>
+    <StbAxes>
+      <StbParallelAxes group_name="Y" X="0.0" Y="0.0" angle="0.0">
+        <StbParallelAxis id="1" guid="f73d16bf738e40088e4671dcefed4876" name="Y1" distance="0.0">
+          <StbNodeIdList>
+            <StbNodeId id="10" />
+            <StbNodeId id="11" />
+            <StbNodeId id="12" />
+            <StbNodeId id="19" />
+            <StbNodeId id="20" />
+            <StbNodeId id="21" />
+            <StbNodeId id="28" />
+            <StbNodeId id="29" />
+            <StbNodeId id="30" />
+          </StbNodeIdList>
+        </StbParallelAxis>
+        <StbParallelAxis id="2" guid="d3770e776bd24027a672b7d551301ceb" name="Y2" distance="6000.0">
+          <StbNodeIdList>
+            <StbNodeId id="13" />
+            <StbNodeId id="14" />
+            <StbNodeId id="15" />
+            <StbNodeId id="22" />
+            <StbNodeId id="23" />
+            <StbNodeId id="24" />
+            <StbNodeId id="31" />
+            <StbNodeId id="32" />
+            <StbNodeId id="33" />
+          </StbNodeIdList>
+        </StbParallelAxis>
+        <StbParallelAxis id="3" guid="f61c8799b10246d99e3a36743fb30dbd" name="Y3" distance="12000.0">
+          <StbNodeIdList>
+            <StbNodeId id="16" />
+            <StbNodeId id="17" />
+            <StbNodeId id="18" />
+            <StbNodeId id="25" />
+            <StbNodeId id="26" />
+            <StbNodeId id="27" />
+            <StbNodeId id="34" />
+            <StbNodeId id="35" />
+          </StbNodeIdList>
+        </StbParallelAxis>
+      </StbParallelAxes>
+      <StbParallelAxes group_name="X" X="0.0" Y="0.0" angle="270.0">
+        <StbParallelAxis id="4" guid="7db44f2343eb4761a71b2f2a71616d91" name="X1" distance="0.0">
+          <StbNodeIdList>
+            <StbNodeId id="10" />
+            <StbNodeId id="13" />
+            <StbNodeId id="16" />
+            <StbNodeId id="19" />
+            <StbNodeId id="22" />
+            <StbNodeId id="25" />
+            <StbNodeId id="28" />
+            <StbNodeId id="31" />
+          </StbNodeIdList>
+        </StbParallelAxis>
+        <StbParallelAxis id="5" guid="9a9e71c2ccd5465a8a89f5cff771b04e" name="X2" distance="6000.0">
+          <StbNodeIdList>
+            <StbNodeId id="11" />
+            <StbNodeId id="14" />
+            <StbNodeId id="17" />
+            <StbNodeId id="20" />
+            <StbNodeId id="23" />
+            <StbNodeId id="26" />
+            <StbNodeId id="29" />
+            <StbNodeId id="32" />
+            <StbNodeId id="34" />
+          </StbNodeIdList>
+        </StbParallelAxis>
+        <StbParallelAxis id="6" guid="2bd819b780374d72b9aa25ddbfed67bf" name="X3" distance="12000.0">
+          <StbNodeIdList>
+            <StbNodeId id="12" />
+            <StbNodeId id="15" />
+            <StbNodeId id="18" />
+            <StbNodeId id="21" />
+            <StbNodeId id="24" />
+            <StbNodeId id="27" />
+            <StbNodeId id="30" />
+            <StbNodeId id="33" />
+            <StbNodeId id="35" />
+          </StbNodeIdList>
+        </StbParallelAxis>
+      </StbParallelAxes>
+    </StbAxes>
+    <StbStories>
+      <StbStory id="7" guid="5ac1867d1a2242baa3fb4715c076a9ef" name="1FL" height="0.0" kind="GENERAL">
+        <StbNodeIdList>
+          <StbNodeId id="10" />
+          <StbNodeId id="11" />
+          <StbNodeId id="12" />
+          <StbNodeId id="13" />
+          <StbNodeId id="14" />
+          <StbNodeId id="15" />
+          <StbNodeId id="16" />
+          <StbNodeId id="17" />
+          <StbNodeId id="18" />
+          <StbNodeId id="52" />
+          <StbNodeId id="53" />
+          <StbNodeId id="54" />
+          <StbNodeId id="55" />
+          <StbNodeId id="56" />
+          <StbNodeId id="57" />
+          <StbNodeId id="58" />
+          <StbNodeId id="59" />
+        </StbNodeIdList>
+      </StbStory>
+      <StbStory id="8" guid="9a5caedeed804b75a0f50ee30e8ac509" name="2FL" height="5000.0" kind="GENERAL">
+        <StbNodeIdList>
+          <StbNodeId id="19" />
+          <StbNodeId id="20" />
+          <StbNodeId id="21" />
+          <StbNodeId id="22" />
+          <StbNodeId id="23" />
+          <StbNodeId id="24" />
+          <StbNodeId id="25" />
+          <StbNodeId id="26" />
+          <StbNodeId id="27" />
+          <StbNodeId id="44" />
+          <StbNodeId id="45" />
+          <StbNodeId id="46" />
+          <StbNodeId id="47" />
+          <StbNodeId id="48" />
+          <StbNodeId id="49" />
+          <StbNodeId id="50" />
+          <StbNodeId id="51" />
+          <StbNodeId id="36" />
+          <StbNodeId id="37" />
+        </StbNodeIdList>
+      </StbStory>
+      <StbStory id="9" guid="90240cb3f3a6448b854bc7051f027ec5" name="RFL" height="9200.0" kind="ROOF">
+        <StbNodeIdList>
+          <StbNodeId id="28" />
+          <StbNodeId id="29" />
+          <StbNodeId id="30" />
+          <StbNodeId id="31" />
+          <StbNodeId id="32" />
+          <StbNodeId id="33" />
+          <StbNodeId id="34" />
+          <StbNodeId id="35" />
+          <StbNodeId id="38" />
+          <StbNodeId id="39" />
+          <StbNodeId id="40" />
+          <StbNodeId id="41" />
+          <StbNodeId id="42" />
+          <StbNodeId id="43" />
+        </StbNodeIdList>
+      </StbStory>
+    </StbStories>
+    <StbMembers>
+      <StbColumns>
+        <StbColumn id="1" guid="ea137590d2e64564a960e27f37e1edac" name="1C1" id_node_bottom="10" id_node_top="19" rotate="0.0" id_section="1" kind_structure="RC" offset_bottom_X="0.0" offset_bottom_Y="0.0" offset_top_X="0.0" offset_top_Y="0.0" condition_bottom="FIX" condition_top="FIX" />
+        <StbColumn id="2" guid="e7fe6849dbdd450890b435706f2ee5a7" name="2C1" id_node_bottom="19" id_node_top="28" rotate="0.0" id_section="2" kind_structure="RC" offset_bottom_X="0.0" offset_bottom_Y="0.0" offset_top_X="0.0" offset_top_Y="0.0" condition_bottom="FIX" condition_top="FIX" />
+        <StbColumn id="3" guid="f99ff9ad31ab493998808efdb722b2f4" name="1C2" id_node_bottom="11" id_node_top="20" rotate="0.0" id_section="3" kind_structure="RC" offset_bottom_X="0.0" offset_bottom_Y="0.0" offset_top_X="0.0" offset_top_Y="0.0" condition_bottom="FIX" condition_top="FIX" />
+        <StbColumn id="4" guid="99a221ee715c4005acf63658be938c76" name="2C2" id_node_bottom="20" id_node_top="29" rotate="0.0" id_section="4" kind_structure="RC" offset_bottom_X="0.0" offset_bottom_Y="0.0" offset_top_X="0.0" offset_top_Y="0.0" condition_bottom="FIX" condition_top="FIX" />
+        <StbColumn id="5" guid="2a7335c51260476582c0b1bdf55d0db9" name="1C1" id_node_bottom="12" id_node_top="21" rotate="0.0" id_section="1" kind_structure="RC" offset_bottom_X="0.0" offset_bottom_Y="0.0" offset_top_X="0.0" offset_top_Y="0.0" condition_bottom="PIN" condition_top="PIN" />
+        <StbColumn id="6" guid="37f80ca090dc44e4927a02abdbf57569" name="2C1" id_node_bottom="21" id_node_top="30" rotate="0.0" id_section="2" kind_structure="RC" offset_bottom_X="0.0" offset_bottom_Y="0.0" offset_top_X="0.0" offset_top_Y="0.0" condition_bottom="PIN" condition_top="PIN" />
+        <StbColumn id="7" guid="4c01465af0be4a40af560c4be5deecf8" name="1C2" id_node_bottom="13" id_node_top="22" rotate="0.0" id_section="3" kind_structure="RC" offset_bottom_X="0.0" offset_bottom_Y="0.0" offset_top_X="0.0" offset_top_Y="0.0" condition_bottom="FIX" condition_top="FIX" />
+        <StbColumn id="8" guid="ebd478b35055446f90b1c80c940e4734" name="2C2" id_node_bottom="22" id_node_top="31" rotate="0.0" id_section="4" kind_structure="RC" offset_bottom_X="0.0" offset_bottom_Y="0.0" offset_top_X="0.0" offset_top_Y="0.0" condition_bottom="FIX" condition_top="FIX" />
+        <StbColumn id="9" guid="d35cfca411e14e8ea172c3b802d22680" name="1C2" id_node_bottom="14" id_node_top="23" rotate="0.0" id_section="3" kind_structure="RC" offset_bottom_X="0.0" offset_bottom_Y="0.0" offset_top_X="0.0" offset_top_Y="0.0" condition_bottom="FIX" condition_top="FIX" />
+        <StbColumn id="10" guid="ae9df9a112cc412fba4f3a069bd9ff1e" name="2C2" id_node_bottom="23" id_node_top="32" rotate="0.0" id_section="4" kind_structure="RC" offset_bottom_X="0.0" offset_bottom_Y="0.0" offset_top_X="0.0" offset_top_Y="0.0" condition_bottom="FIX" condition_top="FIX" />
+        <StbColumn id="11" guid="cd036f76ea0c4abb932deb9bfb6fb760" name="1C2" id_node_bottom="15" id_node_top="24" rotate="0.0" id_section="3" kind_structure="RC" offset_bottom_X="0.0" offset_bottom_Y="0.0" offset_top_X="0.0" offset_top_Y="0.0" condition_bottom="FIX" condition_top="FIX" />
+        <StbColumn id="12" guid="678e6da7a3c147db8dd7daebea9d8288" name="2C2" id_node_bottom="24" id_node_top="33" rotate="0.0" id_section="4" kind_structure="RC" offset_bottom_X="0.0" offset_bottom_Y="0.0" offset_top_X="0.0" offset_top_Y="0.0" condition_bottom="FIX" condition_top="FIX" />
+        <StbColumn id="13" guid="2d1f26c6a3934b70bea2761dc1429a9a" name="1C1" id_node_bottom="16" id_node_top="25" rotate="0.0" id_section="1" kind_structure="RC" offset_bottom_X="0.0" offset_bottom_Y="0.0" offset_top_X="0.0" offset_top_Y="0.0" condition_bottom="PIN" condition_top="PIN" />
+        <StbColumn id="14" guid="ff385956b0ef42d590de8dd7f49f1db3" name="1C2" id_node_bottom="17" id_node_top="26" rotate="0.0" id_section="3" kind_structure="RC" offset_bottom_X="0.0" offset_bottom_Y="0.0" offset_top_X="0.0" offset_top_Y="0.0" condition_bottom="FIX" condition_top="FIX" />
+        <StbColumn id="15" guid="3b21ae738dce40979847fc7b8b7901d4" name="2C2" id_node_bottom="26" id_node_top="34" rotate="0.0" id_section="4" kind_structure="RC" offset_bottom_X="0.0" offset_bottom_Y="0.0" offset_top_X="0.0" offset_top_Y="0.0" condition_bottom="FIX" condition_top="FIX" />
+        <StbColumn id="16" guid="55edd853bfda4bce86b77ba1a56b6a72" name="1C1" id_node_bottom="18" id_node_top="27" rotate="0.0" id_section="1" kind_structure="RC" offset_bottom_X="0.0" offset_bottom_Y="0.0" offset_top_X="0.0" offset_top_Y="0.0" condition_bottom="FIX" condition_top="FIX" />
+        <StbColumn id="17" guid="ef08b02878414f328ef6d6538184f9e2" name="2C1" id_node_bottom="27" id_node_top="35" rotate="0.0" id_section="2" kind_structure="RC" offset_bottom_X="0.0" offset_bottom_Y="0.0" offset_top_X="0.0" offset_top_Y="0.0" condition_bottom="FIX" condition_top="FIX" />
+      </StbColumns>
+      <StbGirders>
+        <StbGirder id="18" guid="a4936c306c6042089c6ffe957b6d15d2" name="1FG1" id_node_start="10" id_node_end="11" id_section="5" kind_structure="RC" isFoundation="true" offset_start_X="0.0" offset_start_Y="0.0" offset_start_Z="0.0" offset_end_X="0.0" offset_end_Y="0.0" offset_end_Z="0.0" condition_start="FIX" condition_end="FIX" />
+        <StbGirder id="19" guid="178272a6917c4f2d9d85301a4305b9be" name="1FG1" id_node_start="11" id_node_end="12" id_section="5" kind_structure="RC" isFoundation="true" offset_start_X="0.0" offset_start_Y="0.0" offset_start_Z="0.0" offset_end_X="0.0" offset_end_Y="0.0" offset_end_Z="0.0" condition_start="FIX" condition_end="FIX" />
+        <StbGirder id="20" guid="2101dfc17aa14feba2451c5cc6bae829" name="2G1" id_node_start="19" id_node_end="20" id_section="6" kind_structure="RC" isFoundation="false" offset_start_X="0.0" offset_start_Y="0.0" offset_start_Z="0.0" offset_end_X="0.0" offset_end_Y="0.0" offset_end_Z="0.0" condition_start="FIX" condition_end="FIX" />
+        <StbGirder id="21" guid="13c4b7a0bb5541fcb27095f89e53e8fe" name="2G1" id_node_start="20" id_node_end="21" id_section="6" kind_structure="RC" isFoundation="false" offset_start_X="0.0" offset_start_Y="0.0" offset_start_Z="0.0" offset_end_X="0.0" offset_end_Y="0.0" offset_end_Z="0.0" condition_start="FIX" condition_end="FIX" />
+        <StbGirder id="22" guid="938746a97fe2466d90b928b6e9551721" name="RG1" id_node_start="28" id_node_end="29" id_section="7" kind_structure="RC" isFoundation="false" offset_start_X="0.0" offset_start_Y="0.0" offset_start_Z="0.0" offset_end_X="0.0" offset_end_Y="0.0" offset_end_Z="0.0" condition_start="FIX" condition_end="FIX" />
+        <StbGirder id="23" guid="0eebae711c0c46b3bb85292f575c2f74" name="RG1" id_node_start="29" id_node_end="30" id_section="7" kind_structure="RC" isFoundation="false" offset_start_X="0.0" offset_start_Y="0.0" offset_start_Z="0.0" offset_end_X="0.0" offset_end_Y="0.0" offset_end_Z="0.0" condition_start="FIX" condition_end="FIX" />
+        <StbGirder id="24" guid="94349610fcca42308bcc79c6a5c26c24" name="1FG1" id_node_start="13" id_node_end="14" id_section="5" kind_structure="RC" isFoundation="true" offset_start_X="0.0" offset_start_Y="0.0" offset_start_Z="0.0" offset_end_X="0.0" offset_end_Y="0.0" offset_end_Z="0.0" condition_start="FIX" condition_end="FIX" />
+        <StbGirder id="25" guid="ad8bb0dd56a14c4986b0aaf4e15a57c5" name="1FG1" id_node_start="14" id_node_end="15" id_section="5" kind_structure="RC" isFoundation="true" offset_start_X="0.0" offset_start_Y="0.0" offset_start_Z="0.0" offset_end_X="0.0" offset_end_Y="0.0" offset_end_Z="0.0" condition_start="FIX" condition_end="FIX" />
+        <StbGirder id="26" guid="ee9f23589f05414a9c1e0cf99bc3fb93" name="2G1" id_node_start="22" id_node_end="23" id_section="6" kind_structure="RC" isFoundation="false" offset_start_X="0.0" offset_start_Y="0.0" offset_start_Z="0.0" offset_end_X="0.0" offset_end_Y="0.0" offset_end_Z="0.0" condition_start="FIX" condition_end="FIX" />
+        <StbGirder id="27" guid="bb0dc41ff8e44dbdb83d471b9e2dd2cc" name="2G1" id_node_start="23" id_node_end="24" id_section="6" kind_structure="RC" isFoundation="false" offset_start_X="0.0" offset_start_Y="0.0" offset_start_Z="0.0" offset_end_X="0.0" offset_end_Y="0.0" offset_end_Z="0.0" condition_start="FIX" condition_end="FIX" />
+        <StbGirder id="28" guid="f805154b319e4b75af44d056e343f00e" name="RG1" id_node_start="31" id_node_end="32" id_section="7" kind_structure="RC" isFoundation="false" offset_start_X="0.0" offset_start_Y="0.0" offset_start_Z="0.0" offset_end_X="0.0" offset_end_Y="0.0" offset_end_Z="0.0" condition_start="FIX" condition_end="FIX" />
+        <StbGirder id="29" guid="816b9f41346849bc97f585da65b94df5" name="RG1" id_node_start="32" id_node_end="33" id_section="7" kind_structure="RC" isFoundation="false" offset_start_X="0.0" offset_start_Y="0.0" offset_start_Z="0.0" offset_end_X="0.0" offset_end_Y="0.0" offset_end_Z="0.0" condition_start="FIX" condition_end="FIX" />
+        <StbGirder id="30" guid="34a83c0c9f5c428fb4d06e8409aee2d7" name="1FG1" id_node_start="16" id_node_end="17" id_section="5" kind_structure="RC" isFoundation="true" offset_start_X="0.0" offset_start_Y="0.0" offset_start_Z="0.0" offset_end_X="0.0" offset_end_Y="0.0" offset_end_Z="0.0" condition_start="FIX" condition_end="FIX" />
+        <StbGirder id="31" guid="d1bebcf670a74eeba43d3a340e4ab201" name="1FG1" id_node_start="17" id_node_end="18" id_section="5" kind_structure="RC" isFoundation="true" offset_start_X="0.0" offset_start_Y="0.0" offset_start_Z="0.0" offset_end_X="0.0" offset_end_Y="0.0" offset_end_Z="0.0" condition_start="FIX" condition_end="FIX" />
+        <StbGirder id="32" guid="8a4670192da6484e8a553c3863de85d0" name="2G1" id_node_start="25" id_node_end="26" id_section="6" kind_structure="RC" isFoundation="false" offset_start_X="0.0" offset_start_Y="0.0" offset_start_Z="0.0" offset_end_X="0.0" offset_end_Y="0.0" offset_end_Z="0.0" condition_start="FIX" condition_end="FIX" />
+        <StbGirder id="33" guid="960491ff32c84d84b84299349debee82" name="2G1" id_node_start="26" id_node_end="27" id_section="6" kind_structure="RC" isFoundation="false" offset_start_X="0.0" offset_start_Y="0.0" offset_start_Z="0.0" offset_end_X="0.0" offset_end_Y="0.0" offset_end_Z="0.0" condition_start="FIX" condition_end="FIX" />
+        <StbGirder id="34" guid="f794761349c94002a85b33140c06efa8" name="RG1" id_node_start="34" id_node_end="35" id_section="7" kind_structure="RC" isFoundation="false" offset_start_X="0.0" offset_start_Y="0.0" offset_start_Z="0.0" offset_end_X="0.0" offset_end_Y="0.0" offset_end_Z="0.0" condition_start="FIX" condition_end="FIX" />
+        <StbGirder id="35" guid="6abcdfe9d14945a39fa2cafaf8a8e69b" name="1FG2" id_node_start="10" id_node_end="13" id_section="8" kind_structure="RC" isFoundation="true" offset_start_X="0.0" offset_start_Y="0.0" offset_start_Z="0.0" offset_end_X="0.0" offset_end_Y="0.0" offset_end_Z="0.0" condition_start="FIX" condition_end="FIX" />
+        <StbGirder id="36" guid="619192735fac4eed9fe1ac259cd465b9" name="1FG2" id_node_start="13" id_node_end="16" id_section="8" kind_structure="RC" isFoundation="true" offset_start_X="0.0" offset_start_Y="0.0" offset_start_Z="0.0" offset_end_X="0.0" offset_end_Y="0.0" offset_end_Z="0.0" condition_start="FIX" condition_end="FIX" />
+        <StbGirder id="37" guid="b4cd95a191504014af12f4ac9e4bc1a5" name="2G2" id_node_start="19" id_node_end="22" id_section="9" kind_structure="RC" isFoundation="false" offset_start_X="0.0" offset_start_Y="0.0" offset_start_Z="0.0" offset_end_X="0.0" offset_end_Y="0.0" offset_end_Z="0.0" condition_start="FIX" condition_end="FIX" />
+        <StbGirder id="38" guid="e8a323eed5a24b569130199b19e36592" name="2G2" id_node_start="22" id_node_end="25" id_section="9" kind_structure="RC" isFoundation="false" offset_start_X="0.0" offset_start_Y="0.0" offset_start_Z="0.0" offset_end_X="0.0" offset_end_Y="0.0" offset_end_Z="0.0" condition_start="FIX" condition_end="FIX" />
+        <StbGirder id="39" guid="5d9631837eff48e5b4704b93ee943a40" name="RG2" id_node_start="28" id_node_end="31" id_section="10" kind_structure="RC" isFoundation="false" offset_start_X="0.0" offset_start_Y="0.0" offset_start_Z="0.0" offset_end_X="0.0" offset_end_Y="0.0" offset_end_Z="0.0" condition_start="FIX" condition_end="FIX" />
+        <StbGirder id="40" guid="37968f3b501e481b87a26a01d6cd80f2" name="1FG2" id_node_start="11" id_node_end="14" id_section="8" kind_structure="RC" isFoundation="true" offset_start_X="0.0" offset_start_Y="0.0" offset_start_Z="0.0" offset_end_X="0.0" offset_end_Y="0.0" offset_end_Z="0.0" condition_start="FIX" condition_end="FIX" />
+        <StbGirder id="41" guid="7789386122fc4c5f8c226514da387f67" name="1FG2" id_node_start="14" id_node_end="17" id_section="8" kind_structure="RC" isFoundation="true" offset_start_X="0.0" offset_start_Y="0.0" offset_start_Z="0.0" offset_end_X="0.0" offset_end_Y="0.0" offset_end_Z="0.0" condition_start="FIX" condition_end="FIX" />
+        <StbGirder id="42" guid="dc7681858e7948078f34f9817c151159" name="2G2" id_node_start="20" id_node_end="23" id_section="9" kind_structure="RC" isFoundation="false" offset_start_X="0.0" offset_start_Y="0.0" offset_start_Z="0.0" offset_end_X="0.0" offset_end_Y="0.0" offset_end_Z="0.0" condition_start="FIX" condition_end="FIX" />
+        <StbGirder id="43" guid="b10148f574764e30bd90d00f05b53db4" name="2G2" id_node_start="23" id_node_end="26" id_section="9" kind_structure="RC" isFoundation="false" offset_start_X="0.0" offset_start_Y="0.0" offset_start_Z="0.0" offset_end_X="0.0" offset_end_Y="0.0" offset_end_Z="0.0" condition_start="FIX" condition_end="FIX" />
+        <StbGirder id="44" guid="b59608b4551549b9995d44df42482acf" name="RG2" id_node_start="29" id_node_end="32" id_section="10" kind_structure="RC" isFoundation="false" offset_start_X="0.0" offset_start_Y="0.0" offset_start_Z="0.0" offset_end_X="0.0" offset_end_Y="0.0" offset_end_Z="0.0" condition_start="FIX" condition_end="FIX" />
+        <StbGirder id="45" guid="0848054d431d4d25a8cea906a39b1727" name="RG2" id_node_start="32" id_node_end="34" id_section="10" kind_structure="RC" isFoundation="false" offset_start_X="0.0" offset_start_Y="0.0" offset_start_Z="0.0" offset_end_X="0.0" offset_end_Y="0.0" offset_end_Z="0.0" condition_start="FIX" condition_end="FIX" />
+        <StbGirder id="46" guid="0809dd864f8d490ba4f3fd6e096e8995" name="1FG2" id_node_start="12" id_node_end="15" id_section="8" kind_structure="RC" isFoundation="true" offset_start_X="0.0" offset_start_Y="0.0" offset_start_Z="0.0" offset_end_X="0.0" offset_end_Y="0.0" offset_end_Z="0.0" condition_start="FIX" condition_end="FIX" />
+        <StbGirder id="47" guid="c00bf0c0790d409fa65df952f2361454" name="1FG2" id_node_start="15" id_node_end="18" id_section="8" kind_structure="RC" isFoundation="true" offset_start_X="0.0" offset_start_Y="0.0" offset_start_Z="0.0" offset_end_X="0.0" offset_end_Y="0.0" offset_end_Z="0.0" condition_start="FIX" condition_end="FIX" />
+        <StbGirder id="48" guid="b0f8c8e90896455e878df4dc42b0471a" name="2G2" id_node_start="21" id_node_end="24" id_section="9" kind_structure="RC" isFoundation="false" offset_start_X="0.0" offset_start_Y="0.0" offset_start_Z="0.0" offset_end_X="0.0" offset_end_Y="0.0" offset_end_Z="0.0" condition_start="FIX" condition_end="FIX" />
+        <StbGirder id="49" guid="f44ffa388cbf4b2198903488858297b9" name="2G2" id_node_start="24" id_node_end="27" id_section="9" kind_structure="RC" isFoundation="false" offset_start_X="0.0" offset_start_Y="0.0" offset_start_Z="0.0" offset_end_X="0.0" offset_end_Y="0.0" offset_end_Z="0.0" condition_start="FIX" condition_end="FIX" />
+        <StbGirder id="50" guid="92a0b7c61374487fa6f8ac2baabebd8b" name="RG2" id_node_start="30" id_node_end="33" id_section="10" kind_structure="RC" isFoundation="false" offset_start_X="0.0" offset_start_Y="0.0" offset_start_Z="0.0" offset_end_X="0.0" offset_end_Y="0.0" offset_end_Z="0.0" condition_start="FIX" condition_end="FIX" />
+        <StbGirder id="51" guid="32034638d7d14d52989ad436d2106138" name="RG2" id_node_start="33" id_node_end="35" id_section="10" kind_structure="RC" isFoundation="false" offset_start_X="0.0" offset_start_Y="0.0" offset_start_Z="0.0" offset_end_X="0.0" offset_end_Y="0.0" offset_end_Z="0.0" condition_start="FIX" condition_end="FIX" />
+      </StbGirders>
+      <StbBeams>
+        <StbBeam id="52" guid="4195cc88d59749b187184810f4485362" name="B1" id_node_start="38" id_node_end="39" id_section="11" kind_structure="RC" isFoundation="false" />
+        <StbBeam id="53" guid="a02f1b37fc694e3c97edb7181ae3c3e1" name="B1" id_node_start="40" id_node_end="41" id_section="11" kind_structure="RC" isFoundation="false" />
+        <StbBeam id="54" guid="b11a6134cd7d45a689b7e3bf23876453" name="B1" id_node_start="42" id_node_end="43" id_section="11" kind_structure="RC" isFoundation="false" />
+        <StbBeam id="55" guid="a7b648c733cd4d81bda7b126eaeb965b" name="B1" id_node_start="44" id_node_end="45" id_section="11" kind_structure="RC" isFoundation="false" />
+        <StbBeam id="56" guid="7009b80200c648ff8be6f9ea5895abcc" name="B1" id_node_start="46" id_node_end="47" id_section="11" kind_structure="RC" isFoundation="false" />
+        <StbBeam id="57" guid="cee33986e1db42f6ab702aee705b10f8" name="B1" id_node_start="48" id_node_end="49" id_section="11" kind_structure="RC" isFoundation="false" />
+        <StbBeam id="58" guid="9b7a29ccf3b94842b76e74c942cb4dc7" name="B1" id_node_start="50" id_node_end="51" id_section="11" kind_structure="RC" isFoundation="false" />
+        <StbBeam id="59" guid="834eab175ccd4a0195438144f5096c60" name="B1" id_node_start="52" id_node_end="53" id_section="11" kind_structure="RC" isFoundation="false" />
+        <StbBeam id="60" guid="f55bb06bd8ba491c9d2c7e2479c58f2c" name="B1" id_node_start="54" id_node_end="55" id_section="11" kind_structure="RC" isFoundation="false" />
+        <StbBeam id="61" guid="da9d27d18a16418b9730ead83beabb7c" name="B1" id_node_start="56" id_node_end="57" id_section="11" kind_structure="RC" isFoundation="false" />
+        <StbBeam id="62" guid="80a5f3977a384ebd96321d528a114264" name="B1" id_node_start="58" id_node_end="59" id_section="11" kind_structure="RC" isFoundation="false" />
+      </StbBeams>
+      <StbSlabs>
+        <StbSlab id="63" guid="263cc76b1c5b4455a54534d2e7aba34e" name="FS1" id_section="12" kind_structure="RC" kind_slab="NORMAL" direction_load="2WAY" isFoundation="false">
+          <StbNodeIdOrder>10 11 14 13</StbNodeIdOrder>
+          <StbSlabOffsetList>
+            <StbSlabOffset id_node="10" offset_X="0.0" offset_Y="0.0" offset_Z="-1300.0" />
+            <StbSlabOffset id_node="11" offset_X="0.0" offset_Y="0.0" offset_Z="-1300.0" />
+            <StbSlabOffset id_node="14" offset_X="0.0" offset_Y="0.0" offset_Z="-1300.0" />
+            <StbSlabOffset id_node="13" offset_X="0.0" offset_Y="0.0" offset_Z="-1300.0" />
+          </StbSlabOffsetList>
+        </StbSlab>
+        <StbSlab id="64" guid="39608565aefe4f59816572552c3644f6" name="FS1" id_section="12" kind_structure="RC" kind_slab="NORMAL" direction_load="2WAY" isFoundation="false">
+          <StbNodeIdOrder>11 12 15 14</StbNodeIdOrder>
+          <StbSlabOffsetList>
+            <StbSlabOffset id_node="11" offset_X="0.0" offset_Y="0.0" offset_Z="-1300.0" />
+            <StbSlabOffset id_node="12" offset_X="0.0" offset_Y="0.0" offset_Z="-1300.0" />
+            <StbSlabOffset id_node="15" offset_X="0.0" offset_Y="0.0" offset_Z="-1300.0" />
+            <StbSlabOffset id_node="14" offset_X="0.0" offset_Y="0.0" offset_Z="-1300.0" />
+          </StbSlabOffsetList>
+        </StbSlab>
+        <StbSlab id="65" guid="3b22ad4f3b1e4d27b18bf0ecaca1f27e" name="FS1" id_section="12" kind_structure="RC" kind_slab="NORMAL" direction_load="2WAY" isFoundation="false">
+          <StbNodeIdOrder>13 14 17 16</StbNodeIdOrder>
+          <StbSlabOffsetList>
+            <StbSlabOffset id_node="13" offset_X="0.0" offset_Y="0.0" offset_Z="-1300.0" />
+            <StbSlabOffset id_node="14" offset_X="0.0" offset_Y="0.0" offset_Z="-1300.0" />
+            <StbSlabOffset id_node="17" offset_X="0.0" offset_Y="0.0" offset_Z="-1300.0" />
+            <StbSlabOffset id_node="16" offset_X="0.0" offset_Y="0.0" offset_Z="-1300.0" />
+          </StbSlabOffsetList>
+        </StbSlab>
+        <StbSlab id="66" guid="0a66cc3174d1422382d34ee4938a3e11" name="FS1" id_section="12" kind_structure="RC" kind_slab="NORMAL" direction_load="2WAY" isFoundation="false">
+          <StbNodeIdOrder>14 15 18 17</StbNodeIdOrder>
+          <StbSlabOffsetList>
+            <StbSlabOffset id_node="14" offset_X="0.0" offset_Y="0.0" offset_Z="-1300.0" />
+            <StbSlabOffset id_node="15" offset_X="0.0" offset_Y="0.0" offset_Z="-1300.0" />
+            <StbSlabOffset id_node="18" offset_X="0.0" offset_Y="0.0" offset_Z="-1300.0" />
+            <StbSlabOffset id_node="17" offset_X="0.0" offset_Y="0.0" offset_Z="-1300.0" />
+          </StbSlabOffsetList>
+        </StbSlab>
+        <StbSlab id="67" guid="59d97b9baddc4b4580af4f4ecbe8b510" name="S3" id_section="13" kind_structure="RC" kind_slab="NORMAL" direction_load="2WAY" isFoundation="false">
+          <StbNodeIdOrder>28 29 39 38</StbNodeIdOrder>
+        </StbSlab>
+        <StbSlab id="68" guid="ae9e3755cebf4d42920dd31c551babe0" name="S3" id_section="13" kind_structure="RC" kind_slab="NORMAL" direction_load="2WAY" isFoundation="false">
+          <StbNodeIdOrder>39 32 31 38</StbNodeIdOrder>
+        </StbSlab>
+        <StbSlab id="69" guid="78f9a761871a47378c9670379f911cc3" name="S3" id_section="13" kind_structure="RC" kind_slab="NORMAL" direction_load="2WAY" isFoundation="false">
+          <StbNodeIdOrder>29 30 41 40</StbNodeIdOrder>
+        </StbSlab>
+        <StbSlab id="70" guid="d842be93f1ce41e08be58a21a757009b" name="S3" id_section="13" kind_structure="RC" kind_slab="NORMAL" direction_load="2WAY" isFoundation="false">
+          <StbNodeIdOrder>41 33 32 40</StbNodeIdOrder>
+        </StbSlab>
+        <StbSlab id="71" guid="01aa05abeaac44e6929608d8e6820b83" name="S3" id_section="13" kind_structure="RC" kind_slab="NORMAL" direction_load="2WAY" isFoundation="false">
+          <StbNodeIdOrder>32 33 43 42</StbNodeIdOrder>
+        </StbSlab>
+        <StbSlab id="72" guid="3bfd995a39274657b28dc31e3c3fcc7d" name="S3" id_section="13" kind_structure="RC" kind_slab="NORMAL" direction_load="2WAY" isFoundation="false">
+          <StbNodeIdOrder>43 35 34 42</StbNodeIdOrder>
+        </StbSlab>
+        <StbSlab id="73" guid="9557cd852ede47dcbeb478c5d7cac99b" name="S3" id_section="13" kind_structure="RC" kind_slab="NORMAL" direction_load="2WAY" isFoundation="false">
+          <StbNodeIdOrder>19 20 45 44</StbNodeIdOrder>
+        </StbSlab>
+        <StbSlab id="74" guid="80d6aaeae9384f83b18d66f5cd20c2dd" name="S3" id_section="13" kind_structure="RC" kind_slab="NORMAL" direction_load="2WAY" isFoundation="false">
+          <StbNodeIdOrder>45 23 22 44</StbNodeIdOrder>
+        </StbSlab>
+        <StbSlab id="75" guid="8728fd5c4e8c47c396124950a790f1f5" name="S3" id_section="13" kind_structure="RC" kind_slab="NORMAL" direction_load="2WAY" isFoundation="false">
+          <StbNodeIdOrder>20 21 47 46</StbNodeIdOrder>
+        </StbSlab>
+        <StbSlab id="76" guid="4687bb4c8b3e4c648ef18a0dc60707dc" name="S3" id_section="13" kind_structure="RC" kind_slab="NORMAL" direction_load="2WAY" isFoundation="false">
+          <StbNodeIdOrder>47 24 23 46</StbNodeIdOrder>
+        </StbSlab>
+        <StbSlab id="77" guid="be50f7d717614441923417e779ea3d70" name="S3" id_section="13" kind_structure="RC" kind_slab="NORMAL" direction_load="2WAY" isFoundation="false">
+          <StbNodeIdOrder>22 23 49 48</StbNodeIdOrder>
+        </StbSlab>
+        <StbSlab id="78" guid="601590d8e9984999b6da260825a91e35" name="S3" id_section="13" kind_structure="RC" kind_slab="NORMAL" direction_load="2WAY" isFoundation="false">
+          <StbNodeIdOrder>49 26 25 48</StbNodeIdOrder>
+        </StbSlab>
+        <StbSlab id="79" guid="00bb3107f73c4078b3c06f7cb772887e" name="S3" id_section="13" kind_structure="RC" kind_slab="NORMAL" direction_load="2WAY" isFoundation="false">
+          <StbNodeIdOrder>23 24 51 50</StbNodeIdOrder>
+        </StbSlab>
+        <StbSlab id="80" guid="f1232892ef8e4259b85536b0eeb3cee7" name="S3" id_section="13" kind_structure="RC" kind_slab="NORMAL" direction_load="2WAY" isFoundation="false">
+          <StbNodeIdOrder>51 27 26 50</StbNodeIdOrder>
+        </StbSlab>
+        <StbSlab id="81" guid="dac775e1eaa84b81b83f61968a4afb79" name="S2" id_section="14" kind_structure="RC" kind_slab="NORMAL" direction_load="2WAY" isFoundation="false">
+          <StbNodeIdOrder>10 11 53 52</StbNodeIdOrder>
+        </StbSlab>
+        <StbSlab id="82" guid="e51b7b7024a14a55bd03fa64a2700185" name="S2" id_section="14" kind_structure="RC" kind_slab="NORMAL" direction_load="2WAY" isFoundation="false">
+          <StbNodeIdOrder>53 14 13 52</StbNodeIdOrder>
+        </StbSlab>
+        <StbSlab id="83" guid="3b34485adffb44c59a951940f0c850ae" name="S2" id_section="14" kind_structure="RC" kind_slab="NORMAL" direction_load="2WAY" isFoundation="false">
+          <StbNodeIdOrder>11 12 55 54</StbNodeIdOrder>
+        </StbSlab>
+        <StbSlab id="84" guid="f3c86dbb07c6468aa4803a75601d2d55" name="S2" id_section="14" kind_structure="RC" kind_slab="NORMAL" direction_load="2WAY" isFoundation="false">
+          <StbNodeIdOrder>55 15 14 54</StbNodeIdOrder>
+        </StbSlab>
+        <StbSlab id="85" guid="a1a230c499184326a35bf8c4d65402b3" name="S2" id_section="14" kind_structure="RC" kind_slab="NORMAL" direction_load="2WAY" isFoundation="false">
+          <StbNodeIdOrder>13 14 57 56</StbNodeIdOrder>
+        </StbSlab>
+        <StbSlab id="86" guid="42b48240eaa24925ab68001a86acf19e" name="S2" id_section="14" kind_structure="RC" kind_slab="NORMAL" direction_load="2WAY" isFoundation="false">
+          <StbNodeIdOrder>57 17 16 56</StbNodeIdOrder>
+        </StbSlab>
+        <StbSlab id="87" guid="2f68ff1c8fd2433d8c6fbb4bc2cbce4b" name="S2" id_section="14" kind_structure="RC" kind_slab="NORMAL" direction_load="2WAY" isFoundation="false">
+          <StbNodeIdOrder>14 15 59 58</StbNodeIdOrder>
+        </StbSlab>
+        <StbSlab id="88" guid="5505e15730d3422bbd16b242a2abded3" name="S2" id_section="14" kind_structure="RC" kind_slab="NORMAL" direction_load="2WAY" isFoundation="false">
+          <StbNodeIdOrder>59 18 17 58</StbNodeIdOrder>
+        </StbSlab>
+        <StbSlab id="89" guid="cc83b747132443fb94d9d29a0969c781" name="CS1" id_section="15" kind_structure="RC" kind_slab="CANTI" direction_load="2WAY" isFoundation="false">
+          <StbNodeIdOrder>19 22 36 37</StbNodeIdOrder>
+        </StbSlab>
+      </StbSlabs>
+      <StbWalls>
+        <StbWall id="90" guid="56cfcde2aa534b779eb517cecd246931" name="EW18" id_section="16" kind_structure="RC" kind_layout="ON_GIRDER" kind_wall="WALL_SHEAR">
+          <StbNodeIdOrder>11 12 21 20</StbNodeIdOrder>
+        </StbWall>
+        <StbWall id="91" guid="077229dfb5c2409a867b6bac0dd53d7d" name="EW18" id_section="17" kind_structure="RC" kind_layout="ON_GIRDER" kind_wall="WALL_SHEAR">
+          <StbNodeIdOrder>20 21 30 29</StbNodeIdOrder>
+        </StbWall>
+        <StbWall id="92" guid="05b7acdd79504735a8a84e61a4e89f87" name="EW18" id_section="16" kind_structure="RC" kind_layout="ON_GIRDER" kind_wall="WALL_SHEAR">
+          <StbNodeIdOrder>16 17 26 25</StbNodeIdOrder>
+        </StbWall>
+        <StbWall id="93" guid="1d3c6792d7a04819a58ff2d98e895a48" name="EW18" id_section="16" kind_structure="RC" kind_layout="ON_GIRDER" kind_wall="WALL_SHEAR">
+          <StbNodeIdOrder>13 16 25 22</StbNodeIdOrder>
+        </StbWall>
+        <StbWall id="94" guid="6a708e12ae2f4c6892a02fb14534f1a5" name="EW18" id_section="16" kind_structure="RC" kind_layout="ON_GIRDER" kind_wall="WALL_SHEAR">
+          <StbNodeIdOrder>12 15 24 21</StbNodeIdOrder>
+        </StbWall>
+        <StbWall id="95" guid="c91b4344b0ba4371a08a58cc7431194f" name="EW18" id_section="17" kind_structure="RC" kind_layout="ON_GIRDER" kind_wall="WALL_SHEAR">
+          <StbNodeIdOrder>21 24 33 30</StbNodeIdOrder>
+        </StbWall>
+      </StbWalls>
+      <StbFootings>
+        <StbFooting id="96" guid="fa2b6e8672554f51bc673f9db08f87c4" name="F1" id_node="10" rotate="0.0" id_section="18" offset_X="0.0" offset_Y="0.0" level_bottom="-1650.0" />
+        <StbFooting id="97" guid="54ba0e11556446d9bf4a41822661b3a6" name="F1" id_node="11" rotate="0.0" id_section="18" offset_X="0.0" offset_Y="0.0" level_bottom="-1650.0" />
+        <StbFooting id="98" guid="491c8290bbe54ef7a313e588e4c8376a" name="F1" id_node="12" rotate="0.0" id_section="18" offset_X="0.0" offset_Y="0.0" level_bottom="-1650.0" />
+        <StbFooting id="99" guid="71ad544cb63d4d90bf980b13bf6edb9d" name="F1" id_node="13" rotate="0.0" id_section="18" offset_X="0.0" offset_Y="0.0" level_bottom="-1650.0" />
+        <StbFooting id="100" guid="5dc8d10ef17246f18e3f64eba6945349" name="F1" id_node="14" rotate="0.0" id_section="18" offset_X="0.0" offset_Y="0.0" level_bottom="-1650.0" />
+        <StbFooting id="101" guid="eeb433e877ce4fbd854a1ca16d02b4b4" name="F1" id_node="15" rotate="0.0" id_section="18" offset_X="0.0" offset_Y="0.0" level_bottom="-1650.0" />
+        <StbFooting id="102" guid="d0902a8bb5f044a8b15029e33d6581db" name="F1" id_node="16" rotate="0.0" id_section="18" offset_X="0.0" offset_Y="0.0" level_bottom="-1650.0" />
+        <StbFooting id="103" guid="7afbe6ad255f4ab6ba8f6d95bf65c018" name="F1" id_node="17" rotate="0.0" id_section="18" offset_X="0.0" offset_Y="0.0" level_bottom="-1650.0" />
+        <StbFooting id="104" guid="4a0eb7d5001d47c2b68bab3413c5f2cd" name="F1" id_node="18" rotate="0.0" id_section="18" offset_X="0.0" offset_Y="0.0" level_bottom="-1650.0" />
+      </StbFootings>
+      <StbParapets>
+        <StbParapet id="105" guid="1afe045fba334dd7921ae329bd45d18b" name="P1" id_node_start="28" id_node_end="29" id_section="19" kind_structure="RC" kind_layout="ON_GIRDER" offset="0.0" />
+        <StbParapet id="106" guid="d501da7e1bc8459b9f5b25e2d59c4acb" name="P1" id_node_start="29" id_node_end="30" id_section="20" kind_structure="RC" kind_layout="ON_GIRDER" offset="0.0" />
+        <StbParapet id="107" guid="10f54a25e09b4aa394732b4726e85c5e" name="P1" id_node_start="31" id_node_end="32" id_section="21" kind_structure="RC" kind_layout="ON_GIRDER" offset="0.0" />
+        <StbParapet id="108" guid="2acafaf21e934eedb6bd6ca327e5e71f" name="P1" id_node_start="34" id_node_end="35" id_section="22" kind_structure="RC" kind_layout="ON_GIRDER" offset="0.0" />
+        <StbParapet id="109" guid="6b828dc74eb849159eadc8d2c0d84000" name="P1" id_node_start="28" id_node_end="31" id_section="23" kind_structure="RC" kind_layout="ON_GIRDER" offset="0.0" />
+        <StbParapet id="110" guid="073c2deb3757485fb53528c181d258ba" name="P1" id_node_start="32" id_node_end="34" id_section="24" kind_structure="RC" kind_layout="ON_GIRDER" offset="0.0" />
+        <StbParapet id="111" guid="10fe5c5bf2084169a16d578bcc41cc6f" name="P1" id_node_start="30" id_node_end="33" id_section="25" kind_structure="RC" kind_layout="ON_GIRDER" offset="0.0" />
+        <StbParapet id="112" guid="65be26bdaf67444bb106a0bb5c18f13f" name="P1" id_node_start="33" id_node_end="35" id_section="26" kind_structure="RC" kind_layout="ON_GIRDER" offset="0.0" />
+      </StbParapets>
+    </StbMembers>
+    <StbSections>
+      <StbSecColumn_RC id="1" guid="67ce878738ff413faa0090b926106c53" name="C1" floor="1" kind_column="COLUMN" strength_concrete="Fc24">
+        <StbSecFigureColumn_RC>
+          <StbSecColumn_RC_Rect width_X="800" width_Y="800" />
+        </StbSecFigureColumn_RC>
+        <StbSecBarArrangementColumn_RC depth_cover_start_X="40.0" depth_cover_end_X="40.0" depth_cover_start_Y="40.0" depth_cover_end_Y="40.0" kind_corner="NONE">
+          <StbSecBarColumn_RC_RectSame D_main="D29" D_band="U11.8" strength_main="SD345" strength_band="SBPD1275/1420" N_main_X_1st="5" N_main_Y_1st="5" N_main_total="16" pitch_band="100.0" N_band_direction_X="3" N_band_direction_Y="3" />
+        </StbSecBarArrangementColumn_RC>
+      </StbSecColumn_RC>
+      <StbSecColumn_RC id="2" guid="a58831bd6191486180800cf29991a873" name="C1" floor="2" kind_column="COLUMN" strength_concrete="Fc24">
+        <StbSecFigureColumn_RC>
+          <StbSecColumn_RC_Rect width_X="800" width_Y="800" />
+        </StbSecFigureColumn_RC>
+        <StbSecBarArrangementColumn_RC depth_cover_start_X="40.0" depth_cover_end_X="40.0" depth_cover_start_Y="40.0" depth_cover_end_Y="40.0" kind_corner="NONE">
+          <StbSecBarColumn_RC_RectSame D_main="D29" D_band="U11.8" strength_main="SD345" strength_band="SBPD1275/1420" N_main_X_1st="5" N_main_Y_1st="5" N_main_total="16" pitch_band="100.0" N_band_direction_X="3" N_band_direction_Y="3" />
+        </StbSecBarArrangementColumn_RC>
+      </StbSecColumn_RC>
+      <StbSecColumn_RC id="3" guid="79675a8b293841798b2c5d095e787c94" name="C2" floor="1" kind_column="COLUMN" strength_concrete="Fc24">
+        <StbSecFigureColumn_RC>
+          <StbSecColumn_RC_Rect width_X="700" width_Y="700" />
+        </StbSecFigureColumn_RC>
+        <StbSecBarArrangementColumn_RC depth_cover_start_X="40.0" depth_cover_end_X="40.0" depth_cover_start_Y="40.0" depth_cover_end_Y="40.0" kind_corner="NONE">
+          <StbSecBarColumn_RC_RectSame D_main="D25" D_band="D13" strength_main="SD345" strength_band="SD295A" N_main_X_1st="5" N_main_Y_1st="5" N_main_total="16" pitch_band="100.0" N_band_direction_X="3" N_band_direction_Y="3" />
+        </StbSecBarArrangementColumn_RC>
+      </StbSecColumn_RC>
+      <StbSecColumn_RC id="4" guid="5f74d2819eff4327ab90ffa176bb162d" name="C2" floor="2" kind_column="COLUMN" strength_concrete="Fc24">
+        <StbSecFigureColumn_RC>
+          <StbSecColumn_RC_Rect width_X="700" width_Y="700" />
+        </StbSecFigureColumn_RC>
+        <StbSecBarArrangementColumn_RC depth_cover_start_X="40.0" depth_cover_end_X="40.0" depth_cover_start_Y="40.0" depth_cover_end_Y="40.0" kind_corner="NONE">
+          <StbSecBarColumn_RC_RectSame D_main="D25" D_band="D13" strength_main="SD345" strength_band="SD295A" N_main_X_1st="5" N_main_Y_1st="5" N_main_total="16" pitch_band="100.0" N_band_direction_X="3" N_band_direction_Y="3" />
+        </StbSecBarArrangementColumn_RC>
+      </StbSecColumn_RC>
+      <StbSecBeam_RC id="5" guid="0d62bb5e8a5346958f4c64a9281cc269" name="FG1" floor="1" kind_beam="GIRDER" isFoundation="true" isCanti="false" strength_concrete="Fc21">
+        <StbSecFigureBeam_RC>
+          <StbSecBeam_RC_Straight width="450" depth="1500" />
+        </StbSecFigureBeam_RC>
+        <StbSecBarArrangementBeam_RC depth_cover_top="50.0" depth_cover_bottom="50.0">
+          <StbSecBarBeam_RC_Same D_main="D25" D_stirrup="D13" strength_main="SD345" strength_stirrup="SD295A" N_main_top_1st="5" N_main_bottom_1st="5" N_stirrup="3" pitch_stirrup="200.0" />
+        </StbSecBarArrangementBeam_RC>
+      </StbSecBeam_RC>
+      <StbSecBeam_RC id="8" guid="ac35825d923b485083e2138ba2f06b41" name="FG2" floor="1" kind_beam="GIRDER" isFoundation="true" isCanti="false" strength_concrete="Fc21">
+        <StbSecFigureBeam_RC>
+          <StbSecBeam_RC_Straight width="450" depth="1500" />
+        </StbSecFigureBeam_RC>
+        <StbSecBarArrangementBeam_RC depth_cover_top="50.0" depth_cover_bottom="50.0">
+          <StbSecBarBeam_RC_Same D_main="D25" D_stirrup="D13" strength_main="SD345" strength_stirrup="SD295A" N_main_top_1st="5" N_main_bottom_1st="5" N_stirrup="3" pitch_stirrup="200.0" />
+        </StbSecBarArrangementBeam_RC>
+      </StbSecBeam_RC>
+      <StbSecBeam_RC id="6" guid="52cf285d6afb428a97852eedd97737dd" name="G1" floor="2" kind_beam="GIRDER" isFoundation="false" isCanti="false" strength_concrete="Fc21">
+        <StbSecFigureBeam_RC>
+          <StbSecBeam_RC_Straight width="450" depth="800" />
+        </StbSecFigureBeam_RC>
+        <StbSecBarArrangementBeam_RC depth_cover_top="40.0" depth_cover_bottom="40.0">
+          <StbSecBarBeam_RC_ThreeTypes pos="START" D_main="D22" D_stirrup="D13" strength_main="SD345" strength_stirrup="SD295A" N_main_top_1st="5" N_main_bottom_1st="3" N_stirrup="3" pitch_stirrup="100.0" />
+          <StbSecBarBeam_RC_ThreeTypes pos="CENTER" D_main="D22" D_stirrup="D13" strength_main="SD345" strength_stirrup="SD295A" N_main_top_1st="3" N_main_bottom_1st="5" N_stirrup="3" pitch_stirrup="100.0" />
+          <StbSecBarBeam_RC_ThreeTypes pos="END" D_main="D22" D_stirrup="D13" strength_main="SD345" strength_stirrup="SD295A" N_main_top_1st="5" N_main_bottom_1st="3" N_stirrup="3" pitch_stirrup="100.0" />
+        </StbSecBarArrangementBeam_RC>
+      </StbSecBeam_RC>
+      <StbSecBeam_RC id="7" guid="fb75e170390b4d658222807f76385794" name="G1" floor="R" kind_beam="GIRDER" isFoundation="false" isCanti="false" strength_concrete="Fc21">
+        <StbSecFigureBeam_RC>
+          <StbSecBeam_RC_Straight width="450" depth="800" />
+        </StbSecFigureBeam_RC>
+        <StbSecBarArrangementBeam_RC depth_cover_top="40.0" depth_cover_bottom="40.0">
+          <StbSecBarBeam_RC_ThreeTypes pos="START" D_main="D22" D_stirrup="D13" strength_main="SD345" strength_stirrup="SD295A" N_main_top_1st="5" N_main_bottom_1st="3" N_stirrup="3" pitch_stirrup="100.0" />
+          <StbSecBarBeam_RC_ThreeTypes pos="CENTER" D_main="D22" D_stirrup="D13" strength_main="SD345" strength_stirrup="SD295A" N_main_top_1st="3" N_main_bottom_1st="5" N_stirrup="3" pitch_stirrup="100.0" />
+          <StbSecBarBeam_RC_ThreeTypes pos="END" D_main="D22" D_stirrup="D13" strength_main="SD345" strength_stirrup="SD295A" N_main_top_1st="5" N_main_bottom_1st="3" N_stirrup="3" pitch_stirrup="100.0" />
+        </StbSecBarArrangementBeam_RC>
+      </StbSecBeam_RC>
+      <StbSecBeam_RC id="9" guid="081b3befb02a404492f44c581bbd8c0b" name="G2" floor="2" kind_beam="GIRDER" isFoundation="false" isCanti="false" strength_concrete="Fc21">
+        <StbSecFigureBeam_RC>
+          <StbSecBeam_RC_Straight width="450" depth="800" />
+        </StbSecFigureBeam_RC>
+        <StbSecBarArrangementBeam_RC depth_cover_top="40.0" depth_cover_bottom="40.0">
+          <StbSecBarBeam_RC_ThreeTypes pos="START" D_main="D22" D_stirrup="D13" strength_main="SD345" strength_stirrup="SD295A" N_main_top_1st="5" N_main_bottom_1st="3" N_stirrup="3" pitch_stirrup="100.0" />
+          <StbSecBarBeam_RC_ThreeTypes pos="CENTER" D_main="D22" D_stirrup="D13" strength_main="SD345" strength_stirrup="SD295A" N_main_top_1st="3" N_main_bottom_1st="5" N_stirrup="3" pitch_stirrup="100.0" />
+          <StbSecBarBeam_RC_ThreeTypes pos="END" D_main="D22" D_stirrup="D13" strength_main="SD345" strength_stirrup="SD295A" N_main_top_1st="5" N_main_bottom_1st="3" N_stirrup="3" pitch_stirrup="100.0" />
+        </StbSecBarArrangementBeam_RC>
+      </StbSecBeam_RC>
+      <StbSecBeam_RC id="10" guid="a1ebcaf120e840038b0902806131bcba" name="G2" floor="R" kind_beam="GIRDER" isFoundation="false" isCanti="false" strength_concrete="Fc21">
+        <StbSecFigureBeam_RC>
+          <StbSecBeam_RC_Straight width="450" depth="800" />
+        </StbSecFigureBeam_RC>
+        <StbSecBarArrangementBeam_RC depth_cover_top="40.0" depth_cover_bottom="40.0">
+          <StbSecBarBeam_RC_ThreeTypes pos="START" D_main="D22" D_stirrup="D13" strength_main="SD345" strength_stirrup="SD295A" N_main_top_1st="5" N_main_bottom_1st="3" N_stirrup="3" pitch_stirrup="100.0" />
+          <StbSecBarBeam_RC_ThreeTypes pos="CENTER" D_main="D22" D_stirrup="D13" strength_main="SD345" strength_stirrup="SD295A" N_main_top_1st="3" N_main_bottom_1st="5" N_stirrup="3" pitch_stirrup="100.0" />
+          <StbSecBarBeam_RC_ThreeTypes pos="END" D_main="D22" D_stirrup="D13" strength_main="SD345" strength_stirrup="SD295A" N_main_top_1st="5" N_main_bottom_1st="3" N_stirrup="3" pitch_stirrup="100.0" />
+        </StbSecBarArrangementBeam_RC>
+      </StbSecBeam_RC>
+      <StbSecBeam_RC id="11" guid="dfa629ee24a346858d2d2b3386046734" name="B1" kind_beam="BEAM" isFoundation="false" isCanti="false" strength_concrete="Fc21">
+        <StbSecFigureBeam_RC>
+          <StbSecBeam_RC_Straight width="300" depth="600" />
+        </StbSecFigureBeam_RC>
+        <StbSecBarArrangementBeam_RC depth_cover_top="40.0" depth_cover_bottom="40.0">
+          <StbSecBarBeam_RC_Same D_main="D19" D_stirrup="D13" strength_main="SD345" strength_stirrup="SD295A" N_main_top_1st="3" N_main_bottom_1st="3" N_stirrup="2" pitch_stirrup="150.0" />
+        </StbSecBarArrangementBeam_RC>
+      </StbSecBeam_RC>
+      <StbSecSlab_RC id="12" guid="13647063c7e345d482cdc6af66ccf5c3" name="FS1" strength_concrete="Fc21">
+        <StbSecFigureSlab_RC>
+          <StbSecSlab_RC_Straight depth="200.0" />
+        </StbSecFigureSlab_RC>
+        <StbSecBarArrangementSlab_RC depth_cover_top="30.0" depth_cover_bottom="30.0">
+          <StbSecBarSlab_RC_Standard pos="SHORT_TOP_COLUMN" strength="SD295A" D="D13D13" pitch="200" />
+          <StbSecBarSlab_RC_Standard pos="SHORT_TOP_MID_END" strength="SD295A" D="D13D13" pitch="200" />
+          <StbSecBarSlab_RC_Standard pos="SHORT_TOP_MID_CENTER" strength="SD295A" D="D13D13" pitch="200" />
+          <StbSecBarSlab_RC_Standard pos="SHORT_BOTTOM_COLUMN" strength="SD295A" D="D13D13" pitch="200" />
+          <StbSecBarSlab_RC_Standard pos="LONG_TOP_COLUMN" strength="SD295A" D="D13D13" pitch="200" />
+          <StbSecBarSlab_RC_Standard pos="LONG_TOP_MID_END" strength="SD295A" D="D13D13" pitch="200" />
+          <StbSecBarSlab_RC_Standard pos="LONG_TOP_MID_CENTER" strength="SD295A" D="D13D13" pitch="200" />
+          <StbSecBarSlab_RC_Standard pos="LONG_BOTTOM_COLUMN" strength="SD295A" D="D13D13" pitch="200" />
+        </StbSecBarArrangementSlab_RC>
+      </StbSecSlab_RC>
+      <StbSecSlab_RC id="14" guid="1dad95d8b55e4bcf8494d6f10a609453" name="S2" strength_concrete="Fc21">
+        <StbSecFigureSlab_RC>
+          <StbSecSlab_RC_Straight depth="200.0" />
+        </StbSecFigureSlab_RC>
+        <StbSecBarArrangementSlab_RC depth_cover_top="30.0" depth_cover_bottom="30.0">
+          <StbSecBarSlab_RC_Standard pos="SHORT_TOP_COLUMN" strength="SD295A" D="D10D13" pitch="200" />
+          <StbSecBarSlab_RC_Standard pos="SHORT_TOP_MID_END" strength="SD295A" D="D10D13" pitch="200" />
+          <StbSecBarSlab_RC_Standard pos="SHORT_TOP_MID_CENTER" strength="SD295A" D="D10D13" pitch="200" />
+          <StbSecBarSlab_RC_Standard pos="SHORT_BOTTOM_COLUMN" strength="SD295A" D="D10D13" pitch="200" />
+          <StbSecBarSlab_RC_Standard pos="LONG_TOP_COLUMN" strength="SD295A" D="D10D13" pitch="200" />
+          <StbSecBarSlab_RC_Standard pos="LONG_TOP_MID_END" strength="SD295A" D="D10D13" pitch="200" />
+          <StbSecBarSlab_RC_Standard pos="LONG_TOP_MID_CENTER" strength="SD295A" D="D10D13" pitch="200" />
+          <StbSecBarSlab_RC_Standard pos="LONG_BOTTOM_COLUMN" strength="SD295A" D="D10D13" pitch="200" />
+        </StbSecBarArrangementSlab_RC>
+      </StbSecSlab_RC>
+      <StbSecSlab_RC id="13" guid="c239e6a957134a4487e711fbce0d1f9a" name="S3" strength_concrete="Fc21">
+        <StbSecFigureSlab_RC>
+          <StbSecSlab_RC_Straight depth="150.0" />
+        </StbSecFigureSlab_RC>
+        <StbSecBarArrangementSlab_RC depth_cover_top="30.0" depth_cover_bottom="30.0">
+          <StbSecBarSlab_RC_Standard pos="SHORT_TOP_COLUMN" strength="SD295A" D="D10D13" pitch="200" />
+          <StbSecBarSlab_RC_Standard pos="SHORT_TOP_MID_END" strength="SD295A" D="D10D13" pitch="200" />
+          <StbSecBarSlab_RC_Standard pos="SHORT_TOP_MID_CENTER" strength="SD295A" D="D10D13" pitch="200" />
+          <StbSecBarSlab_RC_Standard pos="SHORT_BOTTOM_COLUMN" strength="SD295A" D="D10D13" pitch="200" />
+          <StbSecBarSlab_RC_Standard pos="LONG_TOP_COLUMN" strength="SD295A" D="D10D13" pitch="200" />
+          <StbSecBarSlab_RC_Standard pos="LONG_TOP_MID_END" strength="SD295A" D="D10D13" pitch="200" />
+          <StbSecBarSlab_RC_Standard pos="LONG_TOP_MID_CENTER" strength="SD295A" D="D10D13" pitch="200" />
+          <StbSecBarSlab_RC_Standard pos="LONG_BOTTOM_COLUMN" strength="SD295A" D="D10D13" pitch="200" />
+        </StbSecBarArrangementSlab_RC>
+      </StbSecSlab_RC>
+      <StbSecSlab_RC id="15" guid="a08c2a654d8a4423a43aab652043119c" name="CS1" isCanti="true" strength_concrete="Fc21">
+        <StbSecFigureSlab_RC>
+          <StbSecSlab_RC_Straight depth="200.0" />
+        </StbSecFigureSlab_RC>
+        <StbSecBarArrangementSlab_RC depth_cover_top="30.0" depth_cover_bottom="30.0">
+          <StbSecBarSlab_RC_1Way2 pos="MAIN_BASE_TOP" strength="SD295A" D="D13" pitch="200" />
+          <StbSecBarSlab_RC_1Way2 pos="MAIN_BASE_BOTTOM" strength="SD295A" D="D13" pitch="200" />
+          <StbSecBarSlab_RC_1Way2 pos="MAIN_TIP_TOP" strength="SD295A" D="D13" pitch="200" />
+          <StbSecBarSlab_RC_1Way2 pos="MAIN_TIP_BOTTOM" strength="SD295A" D="D13" pitch="200" />
+          <StbSecBarSlab_RC_1Way2 pos="TRANSVERSE_TOP" strength="SD295A" D="D10" pitch="200" />
+          <StbSecBarSlab_RC_1Way2 pos="TRANSVERSE_BOTTOM" strength="SD295A" D="D10" pitch="200" />
+        </StbSecBarArrangementSlab_RC>
+      </StbSecSlab_RC>
+      <StbSecWall_RC id="16" guid="2e1b82ed9126428292fa2098c440577e" name="EW18" strength_concrete="Fc24">
+        <StbSecFigureWall_RC>
+          <StbSecWall_RC_Straight t="180.0" />
+        </StbSecFigureWall_RC>
+        <StbSecBarArrangementWall_RC depth_cover_outside="40.0" depth_cover_inside="40.0">
+          <StbSecBarWall_RC_DoubleNet pos="VERTICAL" strength="SD295A" D="D13" pitch="200.0" />
+          <StbSecBarWall_RC_DoubleNet pos="HORIZONTAL" strength="SD295A" D="D13" pitch="200.0" />
+        </StbSecBarArrangementWall_RC>
+      </StbSecWall_RC>
+      <StbSecWall_RC id="17" guid="a06539500b3e45309bd695ee42626381" name="EW18" strength_concrete="Fc24">
+        <StbSecFigureWall_RC>
+          <StbSecWall_RC_Straight t="180.0" />
+        </StbSecFigureWall_RC>
+        <StbSecBarArrangementWall_RC depth_cover_outside="40.0" depth_cover_inside="40.0">
+          <StbSecBarWall_RC_DoubleNet pos="VERTICAL" strength="SD295A" D="D13" pitch="200.0" />
+          <StbSecBarWall_RC_DoubleNet pos="HORIZONTAL" strength="SD295A" D="D13" pitch="200.0" />
+        </StbSecBarArrangementWall_RC>
+      </StbSecWall_RC>
+      <StbSecFoundation_RC id="18" guid="d15ae770dd1c440b9a3b5c6533eb45f7" name="F1" strength_concrete="Fc24">
+        <StbSecFigureFoundation_RC>
+          <StbSecFoundation_RC_Rect width_X="1500.0" width_Y="1500.0" depth="800.0" />
+        </StbSecFigureFoundation_RC>
+        <StbSecBarArrangementFoundation_RC depth_cover_bottom="92.0">
+          <StbSecBarFoundation_RC_Rect pos="X_BOTTOM" strength="SD295A" D="D16" N="5" />
+          <StbSecBarFoundation_RC_Rect pos="Y_BOTTOM" strength="SD295A" D="D16" N="5" />
+        </StbSecBarArrangementFoundation_RC>
+      </StbSecFoundation_RC>
+      <StbSecParapet_RC id="19" guid="756d3fc394cd41239bdea25abc9858d8" name="P1" strength_concrete="Fc21">
+        <StbSecFigureParapet_RC>
+          <StbSecParapet_RC_TypeI t_T="180.0" depth_H="1000.0" />
+        </StbSecFigureParapet_RC>
+        <StbSecBarArrangementParapet_RC>
+          <StbSecBarParapet_RC_Single pos="VERTICAL" D="D1" pitch="0.0" />
+          <StbSecBarParapet_RC_Single pos="HORIZONTAL" D="D1" pitch="0.0" />
+        </StbSecBarArrangementParapet_RC>
+      </StbSecParapet_RC>
+      <StbSecParapet_RC id="20" guid="c95c4d11c99a47448fe0858ca50fcbe5" name="P1" strength_concrete="Fc21">
+        <StbSecFigureParapet_RC>
+          <StbSecParapet_RC_TypeI t_T="180.0" depth_H="1000.0" />
+        </StbSecFigureParapet_RC>
+        <StbSecBarArrangementParapet_RC>
+          <StbSecBarParapet_RC_Single pos="VERTICAL" D="D1" pitch="0.0" />
+          <StbSecBarParapet_RC_Single pos="HORIZONTAL" D="D1" pitch="0.0" />
+        </StbSecBarArrangementParapet_RC>
+      </StbSecParapet_RC>
+      <StbSecParapet_RC id="21" guid="edbffcd73312476f8e400a15b3e3e01c" name="P1" strength_concrete="Fc21">
+        <StbSecFigureParapet_RC>
+          <StbSecParapet_RC_TypeI t_T="180.0" depth_H="1000.0" />
+        </StbSecFigureParapet_RC>
+        <StbSecBarArrangementParapet_RC>
+          <StbSecBarParapet_RC_Single pos="VERTICAL" D="D1" pitch="0.0" />
+          <StbSecBarParapet_RC_Single pos="HORIZONTAL" D="D1" pitch="0.0" />
+        </StbSecBarArrangementParapet_RC>
+      </StbSecParapet_RC>
+      <StbSecParapet_RC id="22" guid="cb3ba2b386254ea997ad9363e6ccd53e" name="P1" strength_concrete="Fc21">
+        <StbSecFigureParapet_RC>
+          <StbSecParapet_RC_TypeI t_T="180.0" depth_H="1000.0" />
+        </StbSecFigureParapet_RC>
+        <StbSecBarArrangementParapet_RC>
+          <StbSecBarParapet_RC_Single pos="VERTICAL" D="D1" pitch="0.0" />
+          <StbSecBarParapet_RC_Single pos="HORIZONTAL" D="D1" pitch="0.0" />
+        </StbSecBarArrangementParapet_RC>
+      </StbSecParapet_RC>
+      <StbSecParapet_RC id="23" guid="24a6b4afaec24047a9684b9b969dac1b" name="P1" strength_concrete="Fc21">
+        <StbSecFigureParapet_RC>
+          <StbSecParapet_RC_TypeI t_T="180.0" depth_H="1000.0" />
+        </StbSecFigureParapet_RC>
+        <StbSecBarArrangementParapet_RC>
+          <StbSecBarParapet_RC_Single pos="VERTICAL" D="D1" pitch="0.0" />
+          <StbSecBarParapet_RC_Single pos="HORIZONTAL" D="D1" pitch="0.0" />
+        </StbSecBarArrangementParapet_RC>
+      </StbSecParapet_RC>
+      <StbSecParapet_RC id="24" guid="ac295ef2e9044713937eed1f0d2a733a" name="P1" strength_concrete="Fc21">
+        <StbSecFigureParapet_RC>
+          <StbSecParapet_RC_TypeI t_T="180.0" depth_H="1000.0" />
+        </StbSecFigureParapet_RC>
+        <StbSecBarArrangementParapet_RC>
+          <StbSecBarParapet_RC_Single pos="VERTICAL" D="D1" pitch="0.0" />
+          <StbSecBarParapet_RC_Single pos="HORIZONTAL" D="D1" pitch="0.0" />
+        </StbSecBarArrangementParapet_RC>
+      </StbSecParapet_RC>
+      <StbSecParapet_RC id="25" guid="9f6a237bf8814a1e8f6cf08d880ef335" name="P1" strength_concrete="Fc21">
+        <StbSecFigureParapet_RC>
+          <StbSecParapet_RC_TypeI t_T="180.0" depth_H="1000.0" />
+        </StbSecFigureParapet_RC>
+        <StbSecBarArrangementParapet_RC>
+          <StbSecBarParapet_RC_Single pos="VERTICAL" D="D1" pitch="0.0" />
+          <StbSecBarParapet_RC_Single pos="HORIZONTAL" D="D1" pitch="0.0" />
+        </StbSecBarArrangementParapet_RC>
+      </StbSecParapet_RC>
+      <StbSecParapet_RC id="26" guid="9cc2e23b5ea944e3afa65780ae604c08" name="P1" strength_concrete="Fc21">
+        <StbSecFigureParapet_RC>
+          <StbSecParapet_RC_TypeI t_T="180.0" depth_H="1000.0" />
+        </StbSecFigureParapet_RC>
+        <StbSecBarArrangementParapet_RC>
+          <StbSecBarParapet_RC_Single pos="VERTICAL" D="D1" pitch="0.0" />
+          <StbSecBarParapet_RC_Single pos="HORIZONTAL" D="D1" pitch="0.0" />
+        </StbSecBarArrangementParapet_RC>
+      </StbSecParapet_RC>
+      <StbSecSteel />
+    </StbSections>
+    <StbJoints />
+  </StbModel>
+</ST_BRIDGE>
