@@ -20,4 +20,8 @@
     <ProjectReference Include="..\STBDotNet\STBDotNet.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Result\ver2\" />
+  </ItemGroup>
+
 </Project>

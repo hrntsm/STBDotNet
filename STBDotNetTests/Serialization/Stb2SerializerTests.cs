@@ -13,7 +13,7 @@ namespace STBDotNet.Serialization.Tests
             var outPath = $@"../../../Result/ver2/Sample1.stb";
 
             // Deserialize Test
-            var model = (StBridge202)Serializer.Deserialize(stbPath);
+            var model = (ST_BRIDGE)Serializer.Deserialize(stbPath);
             // Serialize Test
             bool result = Serializer.Serialize(model, outPath);
 

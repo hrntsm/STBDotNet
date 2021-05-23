@@ -21,7 +21,7 @@ namespace STBDotNet.Serialization.Tests
                 var outPath = $@"../../../Result/{path}.stb";
 
                 // Deserialize Test
-                var model = (StBridge140)Serializer.Deserialize(stbPath);
+                var model = (ST_BRIDGE)Serializer.Deserialize(stbPath);
                 // Serialize Test
                 bool result = Serializer.Serialize(model, outPath);
 
@@ -34,7 +34,7 @@ namespace STBDotNet.Serialization.Tests
             }
         }
 
-        private void CommonTest(StBridge140 elements)
+        private void CommonTest(ST_BRIDGE elements)
         {
             StbCommon common = elements.Common;
             // stbcommon
@@ -49,7 +49,7 @@ namespace STBDotNet.Serialization.Tests
             Assert.IsTrue(common.ReinforcementStrengthList[31].StrengthBar == "KSS785");
         }
 
-        private void ModelTest(StBridge140 elements)
+        private void ModelTest(ST_BRIDGE elements)
         {
             StbModel model = elements.Model;
             NodeTest(model.Nodes);

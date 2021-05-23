@@ -3,8 +3,6 @@ using System.IO;
 using System.Xml.Linq;
 using System.Xml.Serialization;
 using STBDotNet.Utils;
-using STBDotNet.v140;
-using STBDotNet.v202;
 using Version = STBDotNet.Enums.Version;
 
 namespace STBDotNet.Serialization
@@ -15,19 +13,19 @@ namespace STBDotNet.Serialization
         {
             switch (stBridge)
             {
-                case StBridge140 _:
+                case v140.ST_BRIDGE _:
                     var namespaces1 = new XmlSerializerNamespaces();
                     namespaces1.Add(string.Empty, string.Empty);
-                    var serializer1 = new XmlSerializer(typeof(StBridge140));
+                    var serializer1 = new XmlSerializer(typeof(v140.ST_BRIDGE));
                     using (var sw = new StreamWriter(outPath, false, new System.Text.UTF8Encoding(false)))
                     {
                         serializer1.Serialize(sw, stBridge, namespaces1);
                     }
                     return true;
-                case StBridge202 _:
+                case v202.ST_BRIDGE _:
                     var namespaces2 = new XmlSerializerNamespaces();
                     namespaces2.Add(string.Empty, "https://www.building-smart.or.jp/dl");
-                    var serializer2 = new XmlSerializer(typeof(StBridge202));
+                    var serializer2 = new XmlSerializer(typeof(v202.ST_BRIDGE));
                     using (var sw = new StreamWriter(outPath, false, new System.Text.UTF8Encoding(false)))
                     {
                         serializer2.Serialize(sw, stBridge, namespaces2);
@@ -48,11 +46,11 @@ namespace STBDotNet.Serialization
             {
                 
                 case Version.Stb140:
-                    var deserializer1 = new XmlSerializer(typeof(StBridge140));
-                    return (StBridge140)deserializer1.Deserialize(fs);
+                    var deserializer1 = new XmlSerializer(typeof(v140.ST_BRIDGE));
+                    return (v140.ST_BRIDGE)deserializer1.Deserialize(fs);
                 case Version.Stb202:
-                    var deserializer2 = new XmlSerializer(typeof(StBridge202));
-                    return deserializer2.Deserialize(fs);
+                    var deserializer2 = new XmlSerializer(typeof(v202.ST_BRIDGE));
+                    return (v202.ST_BRIDGE)deserializer2.Deserialize(fs);
                 default:
                     throw new ArgumentOutOfRangeException();
             }
