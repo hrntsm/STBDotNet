@@ -18,7 +18,7 @@ namespace STBDotNet.Serialization.Tests
             foreach (string path in _pathList)
             {
                 var stbPath = $@"../../../../TestStbFiles/ver1/{path}.stb";
-                var outPath = $@"../../../Result/{path}.stb";
+                var outPath = $@"../../../Result/ver1/{path}.stb";
 
                 // Deserialize Test
                 var model = (ST_BRIDGE)Serializer.Deserialize(stbPath);

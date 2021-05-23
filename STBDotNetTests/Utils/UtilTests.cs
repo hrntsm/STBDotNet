@@ -29,7 +29,7 @@ namespace STBDotNet.Utils.Tests
             Assert.AreEqual(Version.Stb140, v1);
 
             Version v2 = Util.GetStbVersion(_stb2.Root);
-            Assert.AreEqual(Version.Stb202, v2);
+            Assert.AreEqual(Version.Stb201, v2);
         }
     }
 }
