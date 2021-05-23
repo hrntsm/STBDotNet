@@ -5,7 +5,7 @@ using STBDotNet.v140;
 namespace STBDotNet.Serialization.Tests
 {
     [TestFixture]
-    public class SerializerTests
+    public class Stb1SerializerTests
     {
         private readonly List<string> _pathList = new List<string>
         {
@@ -13,7 +13,7 @@ namespace STBDotNet.Serialization.Tests
         };
 
         [Test]
-        public void SerializeTest()
+        public void Stb1SerializeTest()
         {
             foreach (string path in _pathList)
             {
@@ -21,10 +21,9 @@ namespace STBDotNet.Serialization.Tests
                 var outPath = $@"../../../Result/{path}.stb";
 
                 // Deserialize Test
-                var serializer = new Serializer();
-                StbBridge140 model = serializer.Deserialize(stbPath);
+                var model = (StBridge140)Serializer.Deserialize(stbPath);
                 // Serialize Test
-                bool result = serializer.Serialize(model, outPath);
+                bool result = Serializer.Serialize(model, outPath);
 
                 Assert.IsTrue(result);
                 if (path == _pathList[0])
@@ -35,7 +34,7 @@ namespace STBDotNet.Serialization.Tests
             }
         }
 
-        private void CommonTest(StbBridge140 elements)
+        private void CommonTest(StBridge140 elements)
         {
             StbCommon common = elements.Common;
             // stbcommon
@@ -50,7 +49,7 @@ namespace STBDotNet.Serialization.Tests
             Assert.IsTrue(common.ReinforcementStrengthList[31].StrengthBar == "KSS785");
         }
 
-        private void ModelTest(StbBridge140 elements)
+        private void ModelTest(StBridge140 elements)
         {
             StbModel model = elements.Model;
             NodeTest(model.Nodes);

@@ -1,11 +1,8 @@
-﻿namespace STBDotNet.Serialization
+﻿namespace STBDotNet.Enums
 {
-    public static partial class Util
+    public enum Version
     {
-        public enum Version
-        {
-            Stb140,
-            Stb202
-        }
+        Stb140,
+        Stb202
     }
 }

@@ -23,7 +23,7 @@ namespace STBDotNet.v202
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true, Namespace = "https://www.building-smart.or.jp/dl")]
     [System.Xml.Serialization.XmlRootAttribute(Namespace = "https://www.building-smart.or.jp/dl", IsNullable = false)]
-    public partial class StbBridge202
+    public partial class StBridge202
     {
 
         private StbCommon stbCommonField;
@@ -38,7 +38,7 @@ namespace STBDotNet.v202
 
         private string versionField;
 
-        public StbBridge202()
+        public StBridge202()
         {
             this.versionField = "2.0.2";
         }

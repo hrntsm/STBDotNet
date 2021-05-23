@@ -15,15 +15,15 @@ namespace STBDotNet.Utils
             return xmlns;
         }
 
-        public static Serialization.Util.Version GetStbVersion(XElement root)
+        public static Enums.Version GetStbVersion(XElement root)
         {
             var tmp = (string)root.Attribute("version");
             switch (tmp.Split('.')[0])
             {
                 case "1":
-                    return Serialization.Util.Version.Stb140;
+                    return Enums.Version.Stb140;
                 case "2":
-                    return Serialization.Util.Version.Stb202;
+                    return Enums.Version.Stb202;
                 default:
                     throw new ArgumentException("The STB version is not set");
             }

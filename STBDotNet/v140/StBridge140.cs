@@ -4,7 +4,7 @@ using System.Xml.Serialization;
 namespace STBDotNet.v140
 {
     [XmlRoot("ST_BRIDGE")]
-    public class StbBridge140
+    public class StBridge140
     {
         [XmlAttribute("version")] public string Version { get; set; }
         [XmlElement("StbCommon")] public StbCommon Common { get; set; } = new StbCommon();
