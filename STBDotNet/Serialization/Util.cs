@@ -1,8 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Xml.Linq;
-using STBDotNet.Elements;
-using Version = STBDotNet.Elements.Version;
+using STBDotNet.v140;
+using Version = STBDotNet.v140.Version;
 
 namespace STBDotNet.Serialization
 {
@@ -13,10 +12,10 @@ namespace STBDotNet.Serialization
             string xmlns = root.Attribute("xmlns") != null
                 ? "{" + (string)root.Attribute("xmlns") + "}"
                 : string.Empty;
-        
+
             return xmlns;
         }
-        
+
         public static Version GetStbVersion(XElement root)
         {
             var tmp = (string)root.Attribute("version");
@@ -30,7 +29,7 @@ namespace STBDotNet.Serialization
                     throw new ArgumentException("The STB version is not set");
             }
         }
-        
+
         public static StrengthConcrete GetStrengthConcrete(string concreteName)
         {
             switch (concreteName)
@@ -55,7 +54,7 @@ namespace STBDotNet.Serialization
                 default: return StrengthConcrete.Other;
             }
         }
-        
+
         public static StrengthBar GetStrengthBar(string barName)
         {
             switch (barName)

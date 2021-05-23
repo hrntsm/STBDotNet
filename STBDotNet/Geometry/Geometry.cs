@@ -2,7 +2,7 @@ using System;
 
 namespace STBDotNet.Geometry
 {
-    public struct Point3:IEquatable<Point3>
+    public struct Point3 : IEquatable<Point3>
     {
         public double X { get; set; }
         public double Y { get; set; }
@@ -14,7 +14,7 @@ namespace STBDotNet.Geometry
             Y = y;
             Z = z;
         }
-        
+
         public Point3(Point3 pt)
         {
             X = pt.X;
@@ -27,7 +27,7 @@ namespace STBDotNet.Geometry
         {
             return new Point3(pt1.X + pt2.X, pt1.Y + pt2.Y, pt1.Z + pt2.Z);
         }
-        
+
         public static Point3 operator -(Point3 pt1, Point3 pt2)
         {
             return new Point3(pt1.X - pt2.X, pt1.Y - pt2.Y, pt1.Z - pt2.Z);
@@ -54,7 +54,7 @@ namespace STBDotNet.Geometry
             return obj is Point3 other && Equals(other);
         }
 
-        #if NET5_0
+#if NET5_0
         public override int GetHashCode()
         {
             return HashCode.Combine(X, Y, Z);
@@ -62,7 +62,7 @@ namespace STBDotNet.Geometry
 #endif
     }
 
-    public struct Line3:IEquatable<Line3>
+    public struct Line3 : IEquatable<Line3>
     {
         public Point3 Start { get; set; }
         public Point3 End { get; set; }
@@ -77,14 +77,14 @@ namespace STBDotNet.Geometry
                 + Math.Pow(End.Y - Start.Y, 2)
                 + Math.Pow(End.Z - Start.Z, 2));
         }
-        
+
         public Line3(Line3 ln)
         {
             Start = ln.Start;
             End = ln.End;
             Length = ln.Length;
         }
-        
+
         public bool Equals(Line3 other)
         {
             return Start.Equals(other.Start) && End.Equals(other.End);
@@ -103,12 +103,12 @@ namespace STBDotNet.Geometry
 #endif
     }
 
-    public struct Mesh:IEquatable<Mesh>
+    public struct Mesh : IEquatable<Mesh>
     {
         public Point3 A { get; set; }
         public Point3 B { get; set; }
         public Point3 C { get; set; }
-        
+
         public Mesh(Point3 a, Point3 b, Point3 c)
         {
             A = a;
