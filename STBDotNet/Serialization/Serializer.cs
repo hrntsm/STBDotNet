@@ -7,28 +7,43 @@ using Version = STBDotNet.Enums.Version;
 
 namespace STBDotNet.Serialization
 {
-    public class Serializer
+    public static class Serializer
     {
         public static bool Serialize(object stBridge, string outPath)
         {
+            var namespaces = new XmlSerializerNamespaces();
             switch (stBridge)
             {
                 case v140.ST_BRIDGE _:
-                    var namespaces1 = new XmlSerializerNamespaces();
-                    namespaces1.Add(string.Empty, string.Empty);
+                    namespaces.Add(string.Empty, string.Empty);
                     var serializer1 = new XmlSerializer(typeof(v140.ST_BRIDGE));
                     using (var sw = new StreamWriter(outPath, false, new System.Text.UTF8Encoding(false)))
                     {
-                        serializer1.Serialize(sw, stBridge, namespaces1);
+                        serializer1.Serialize(sw, stBridge, namespaces);
+                    }
+                    return true;
+                case v200.ST_BRIDGE _:
+                    namespaces.Add(string.Empty, "https://www.building-smart.or.jp/dl");
+                    var serializer200 = new XmlSerializer(typeof(v200.ST_BRIDGE));
+                    using (var sw = new StreamWriter(outPath, false, new System.Text.UTF8Encoding(false)))
+                    {
+                        serializer200.Serialize(sw, stBridge, namespaces);
+                    }
+                    return true;
+                case v201.ST_BRIDGE _:
+                    namespaces.Add(string.Empty, "https://www.building-smart.or.jp/dl");
+                    var serializer201 = new XmlSerializer(typeof(v201.ST_BRIDGE));
+                    using (var sw = new StreamWriter(outPath, false, new System.Text.UTF8Encoding(false)))
+                    {
+                        serializer201.Serialize(sw, stBridge, namespaces);
                     }
                     return true;
                 case v202.ST_BRIDGE _:
-                    var namespaces2 = new XmlSerializerNamespaces();
-                    namespaces2.Add(string.Empty, "https://www.building-smart.or.jp/dl");
+                    namespaces.Add(string.Empty, "https://www.building-smart.or.jp/dl");
                     var serializer2 = new XmlSerializer(typeof(v202.ST_BRIDGE));
                     using (var sw = new StreamWriter(outPath, false, new System.Text.UTF8Encoding(false)))
                     {
-                        serializer2.Serialize(sw, stBridge, namespaces2);
+                        serializer2.Serialize(sw, stBridge, namespaces);
                     }
                     return true;
                 default:
@@ -48,9 +63,15 @@ namespace STBDotNet.Serialization
                 case Version.Stb140:
                     var deserializer1 = new XmlSerializer(typeof(v140.ST_BRIDGE));
                     return (v140.ST_BRIDGE)deserializer1.Deserialize(fs);
+                case Version.Stb200:
+                    var deserializer200 = new XmlSerializer(typeof(v200.ST_BRIDGE));
+                    return (v200.ST_BRIDGE)deserializer200.Deserialize(fs);
+                case Version.Stb201:
+                    var deserializer201 = new XmlSerializer(typeof(v201.ST_BRIDGE));
+                    return (v201.ST_BRIDGE)deserializer201.Deserialize(fs);
                 case Version.Stb202:
-                    var deserializer2 = new XmlSerializer(typeof(v202.ST_BRIDGE));
-                    return (v202.ST_BRIDGE)deserializer2.Deserialize(fs);
+                    var deserializer202 = new XmlSerializer(typeof(v202.ST_BRIDGE));
+                    return (v202.ST_BRIDGE)deserializer202.Deserialize(fs);
                 default:
                     throw new ArgumentOutOfRangeException();
             }

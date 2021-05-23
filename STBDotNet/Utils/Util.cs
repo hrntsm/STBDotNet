@@ -18,14 +18,25 @@ namespace STBDotNet.Utils
         public static Enums.Version GetStbVersion(XElement root)
         {
             var tmp = (string)root.Attribute("version");
-            switch (tmp.Split('.')[0])
+            string[] versionString = tmp.Split('.');
+            switch (versionString[0])
             {
                 case "1":
                     return Enums.Version.Stb140;
                 case "2":
-                    return Enums.Version.Stb202;
+                    switch (versionString[2])
+                    {
+                        case "0":
+                            return Enums.Version.Stb200;
+                        case "1":
+                            return Enums.Version.Stb201;
+                        case "2":
+                            return Enums.Version.Stb202;
+                        default:
+                            throw new ArgumentException("Unsupported ST_Bridge version.");
+                    }
                 default:
-                    throw new ArgumentException("The STB version is not set");
+                    throw new ArgumentException("Unsupported ST_Bridge version.");
             }
         }
 

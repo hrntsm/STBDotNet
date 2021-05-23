@@ -3,6 +3,8 @@
     public enum Version
     {
         Stb140,
-        Stb202
+        Stb200,
+        Stb201,
+        Stb202,
     }
 }
