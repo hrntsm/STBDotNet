@@ -15,6 +15,14 @@ namespace STBDotNet.Utils
             return xmlns;
         }
 
+        public static string GetXmlNameSpace(string stbPath)
+        {
+            XDocument stbDocument = XDocument.Load(stbPath);
+            XElement root = stbDocument.Root;
+
+            return GetXmlNameSpace(root);
+        }
+
         public static Enums.Version GetStbVersion(XElement root)
         {
             var tmp = (string)root.Attribute("version");
@@ -38,6 +46,13 @@ namespace STBDotNet.Utils
                 default:
                     throw new ArgumentException("Unsupported ST_Bridge version.");
             }
+        }
+        public static Enums.Version GetStbVersion(string stbPath)
+        {
+            XDocument stbDocument = XDocument.Load(stbPath);
+            XElement root = stbDocument.Root;
+
+            return GetStbVersion(root);
         }
 
         public static StrengthConcrete GetStrengthConcrete(string concreteName)
