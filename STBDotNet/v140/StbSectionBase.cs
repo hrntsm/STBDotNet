@@ -24,4 +24,4 @@ namespace STBDotNet.v140
         [XmlAttribute("strength_bar_spacing")] public string StrengthBarSpacing { get; set; }
         [XmlAttribute("interval_reinforcement")] [DefaultValue(0d)] public double IntervalBar { get; set; }
     }
-}  
+}
