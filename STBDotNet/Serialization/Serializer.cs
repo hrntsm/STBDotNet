@@ -12,88 +12,64 @@ namespace STBDotNet.Serialization
         public static bool Serialize(object stBridge, string outPath)
         {
             var namespaces = new XmlSerializerNamespaces();
+            var serializer = new XmlSerializer(typeof(v140.ST_BRIDGE));
             switch (stBridge)
             {
                 case v140.ST_BRIDGE _:
                     namespaces.Add(string.Empty, string.Empty);
-                    var serializer1 = new XmlSerializer(typeof(v140.ST_BRIDGE));
-                    using (var sw = new StreamWriter(outPath, false, new System.Text.UTF8Encoding(false)))
-                    {
-                        serializer1.Serialize(sw, stBridge, namespaces);
-                    }
-                    return true;
+                    break;
                 case v200.ST_BRIDGE _:
                     namespaces.Add(string.Empty, "https://www.building-smart.or.jp/dl");
-                    var serializer200 = new XmlSerializer(typeof(v200.ST_BRIDGE));
-                    using (var sw = new StreamWriter(outPath, false, new System.Text.UTF8Encoding(false)))
-                    {
-                        serializer200.Serialize(sw, stBridge, namespaces);
-                    }
-                    return true;
+                    serializer = new XmlSerializer(typeof(v200.ST_BRIDGE));
+                    break;
                 case v201.ST_BRIDGE _:
                     namespaces.Add(string.Empty, "https://www.building-smart.or.jp/dl");
-                    var serializer201 = new XmlSerializer(typeof(v201.ST_BRIDGE));
-                    using (var sw = new StreamWriter(outPath, false, new System.Text.UTF8Encoding(false)))
-                    {
-                        serializer201.Serialize(sw, stBridge, namespaces);
-                    }
-                    return true;
+                    serializer = new XmlSerializer(typeof(v201.ST_BRIDGE));
+                    break;
                 case v202.ST_BRIDGE _:
                     namespaces.Add(string.Empty, "https://www.building-smart.or.jp/dl");
-                    var serializer2 = new XmlSerializer(typeof(v202.ST_BRIDGE));
-                    using (var sw = new StreamWriter(outPath, false, new System.Text.UTF8Encoding(false)))
-                    {
-                        serializer2.Serialize(sw, stBridge, namespaces);
-                    }
-                    return true;
+                    serializer = new XmlSerializer(typeof(v202.ST_BRIDGE));
+                    break;
                 default:
                     throw new ArgumentException("Unsupported type");
             }
+            using (var sw = new StreamWriter(outPath, false, new System.Text.UTF8Encoding(false)))
+            {
+                serializer.Serialize(sw, stBridge, namespaces);
+            }
+            return true;
         }
 
         public static bool Serialize(object stBridge, string outPath, Version stbVersion)
         {
             var namespaces = new XmlSerializerNamespaces();
+            var serializer = new XmlSerializer(typeof(v140.ST_BRIDGE));
             try
             {
                 switch (stbVersion)
                 {
                     case Version.Stb140:
                         namespaces.Add(string.Empty, string.Empty);
-                        var serializer1 = new XmlSerializer(typeof(v140.ST_BRIDGE));
-                        using (var sw = new StreamWriter(outPath, false, new System.Text.UTF8Encoding(false)))
-                        {
-                            serializer1.Serialize(sw, stBridge, namespaces);
-                        }
-                        return true;
+                        break;
                     case Version.Stb200:
-                        namespaces.Add(string.Empty, "https://www.building-smart.or.jp/dl");
-                        var serializer200 = new XmlSerializer(typeof(v200.ST_BRIDGE));
-                        using (var sw = new StreamWriter(outPath, false, new System.Text.UTF8Encoding(false)))
-                        {
-                            serializer200.Serialize(sw, stBridge, namespaces);
-                        }
-                        return true;
+                        serializer = new XmlSerializer(typeof(v200.ST_BRIDGE));
+                        break;
                     case Version.Stb201:
                         namespaces.Add(string.Empty, "https://www.building-smart.or.jp/dl");
-                        var serializer201 = new XmlSerializer(typeof(v201.ST_BRIDGE));
-                        using (var sw = new StreamWriter(outPath, false, new System.Text.UTF8Encoding(false)))
-                        {
-                            serializer201.Serialize(sw, stBridge, namespaces);
-                        }
-                        return true;
+                        serializer = new XmlSerializer(typeof(v201.ST_BRIDGE));
+                        break;
                     case Version.Stb202:
                         namespaces.Add(string.Empty, "https://www.building-smart.or.jp/dl");
-                        var serializer202 = new XmlSerializer(typeof(v202.ST_BRIDGE));
-                        using (var sw = new StreamWriter(outPath, false, new System.Text.UTF8Encoding(false)))
-                        {
-                            serializer202.Serialize(sw, stBridge, namespaces);
-                        }
-                        return true;
+                        serializer = new XmlSerializer(typeof(v202.ST_BRIDGE));
+                        break;
                     default:
                         throw new ArgumentException("Unsupported type");
                 }
-
+                using (var sw = new StreamWriter(outPath, false, new System.Text.UTF8Encoding(false)))
+                {
+                    serializer.Serialize(sw, stBridge, namespaces);
+                }
+                return true;
             }
             catch (Exception e)
             {
