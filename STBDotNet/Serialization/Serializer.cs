@@ -80,23 +80,25 @@ namespace STBDotNet.Serialization
 
         public static object Deserialize(string stbPath, Version stbVersion)
         {
-            var fs = new FileStream(stbPath, FileMode.Open);
-            switch (stbVersion)
+            using (var fs = new FileStream(stbPath, FileMode.Open))
             {
-                case Version.Stb140:
-                    var deserializer1 = new XmlSerializer(typeof(v140.ST_BRIDGE));
-                    return (v140.ST_BRIDGE)deserializer1.Deserialize(fs);
-                case Version.Stb200:
-                    var deserializer200 = new XmlSerializer(typeof(v200.ST_BRIDGE));
-                    return (v200.ST_BRIDGE)deserializer200.Deserialize(fs);
-                case Version.Stb201:
-                    var deserializer201 = new XmlSerializer(typeof(v201.ST_BRIDGE));
-                    return (v201.ST_BRIDGE)deserializer201.Deserialize(fs);
-                case Version.Stb202:
-                    var deserializer202 = new XmlSerializer(typeof(v202.ST_BRIDGE));
-                    return (v202.ST_BRIDGE)deserializer202.Deserialize(fs);
-                default:
-                    throw new ArgumentOutOfRangeException();
+                switch (stbVersion)
+                {
+                    case Version.Stb140:
+                        var deserializer1 = new XmlSerializer(typeof(v140.ST_BRIDGE));
+                        return (v140.ST_BRIDGE)deserializer1.Deserialize(fs);
+                    case Version.Stb200:
+                        var deserializer200 = new XmlSerializer(typeof(v200.ST_BRIDGE));
+                        return (v200.ST_BRIDGE)deserializer200.Deserialize(fs);
+                    case Version.Stb201:
+                        var deserializer201 = new XmlSerializer(typeof(v201.ST_BRIDGE));
+                        return (v201.ST_BRIDGE)deserializer201.Deserialize(fs);
+                    case Version.Stb202:
+                        var deserializer202 = new XmlSerializer(typeof(v202.ST_BRIDGE));
+                        return (v202.ST_BRIDGE)deserializer202.Deserialize(fs);
+                    default:
+                        throw new ArgumentOutOfRangeException();
+                }
             }
         }
 
@@ -105,20 +107,21 @@ namespace STBDotNet.Serialization
             XDocument xDocument = XDocument.Load(stbPath);
             Version version = Util.GetStbVersion(xDocument.Root);
 
-            var fs = new FileStream(stbPath, FileMode.Open);
-            switch (version)
+            using (var fs = new FileStream(stbPath, FileMode.Open))
             {
-
-                case Version.Stb140:
-                    var deserializer1 = new XmlSerializer(typeof(v140.ST_BRIDGE));
-                    return (v140.ST_BRIDGE)deserializer1.Deserialize(fs);
-                case Version.Stb200:
-                case Version.Stb201:
-                case Version.Stb202:
-                    var deserializer202 = new XmlSerializer(typeof(v202.ST_BRIDGE));
-                    return (v202.ST_BRIDGE)deserializer202.Deserialize(fs);
-                default:
-                    throw new ArgumentOutOfRangeException();
+                switch (version)
+                {
+                    case Version.Stb140:
+                        var deserializer1 = new XmlSerializer(typeof(v140.ST_BRIDGE));
+                        return (v140.ST_BRIDGE)deserializer1.Deserialize(fs);
+                    case Version.Stb200:
+                    case Version.Stb201:
+                    case Version.Stb202:
+                        var deserializer202 = new XmlSerializer(typeof(v202.ST_BRIDGE));
+                        return (v202.ST_BRIDGE)deserializer202.Deserialize(fs);
+                    default:
+                        throw new ArgumentOutOfRangeException();
+                }
             }
         }
     }
