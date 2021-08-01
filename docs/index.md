@@ -24,9 +24,8 @@ By specifying the StbElements class and the path you want to output, the st-brid
 It returns a bool indicating the success or failure of the output.
 
 ```cs
-STBDotNet.StbElements model = hoge; // Set ST-Bridge data
-var sr = new STBDotNet.Serialization.Serializer();
-bool result = sr.Serialize(model, outPath);
+STBDotNet.v202.ST_BRIDGE model = hoge; // Set ST-Bridge version 2.0.2 data
+bool result = STBDotNet.Serialization.Serialize(model, outPath, STBDotNet.Enums.Version.Stb202); // If serialize is success, return true.
 ```
 
 ### Deserialize ST-Bridge file
@@ -37,8 +36,7 @@ Deserializer returns as an object type, so cast it in the same version as the ST
 If you are using version 2.0.2, it is as follows.
 
 ```cs
-var sr = new STBDotNet.Serialization.Serializer();
-var model = (v202.ST_BRIDGE)sr.Deserialize(stbPath);
+var model = STBDotNet.Serialization.Serializer.Deserialize(stbPath, STBDotNet.Enums.Version.Stb202);
 ```
 
 ## What is ST-Bridge

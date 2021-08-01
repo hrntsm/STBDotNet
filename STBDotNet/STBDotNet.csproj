@@ -4,7 +4,7 @@
         <TargetFrameworks>net5.0;netstandard2.0</TargetFrameworks>
         <DebugType>full</DebugType>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-        <Version>0.2.0</Version>
+        <Version>0.2.1</Version>
         <Authors>hrntsm</Authors>
         <Company>hrntsm</Company>
         <PackageLicenseFile>LICENSE</PackageLicenseFile>
