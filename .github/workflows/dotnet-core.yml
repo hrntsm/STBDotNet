@@ -23,11 +23,12 @@ jobs:
         with:
           name: STBDotNet
           path: STBDotNet/bin/Release/
+      - name: Restore Tool
+        run: dotnet tool restore
       - name: coverage
         shell: bash
         run: |
           dotnet coverage collect "dotnet test" -f xml
-
       - name: Upload coverage result
         shell: bash
         run: |
