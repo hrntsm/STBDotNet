@@ -33,7 +33,9 @@ jobs:
           fetch-depth: 0
           
       - name: Setup MSBuild.exe
-        uses: microsoft/setup-msbuild@v1
+        uses: microsoft/setup-msbuild@v1.1
+        with: 
+          vs-prerelease: true
 
       - name: Setup NuGet
         uses: NuGet/setup-nuget@v1
