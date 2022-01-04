@@ -1,0 +1,824 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class StbSecBeamRc
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class StbSecBeamRc
+   ">
+    <meta name="generator" content="docfx 2.56.7.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="STBDotNet.v140.StbSecBeamRc">
+  
+  
+  <h1 id="STBDotNet_v140_StbSecBeamRc" data-uid="STBDotNet.v140.StbSecBeamRc" class="text-break">Class StbSecBeamRc
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="STBDotNet.v140.StbSection.html">StbSection</a></div>
+    <div class="level2"><a class="xref" href="STBDotNet.v140.StbSectionBase.html">StbSectionBase</a></div>
+    <div class="level3"><a class="xref" href="STBDotNet.v140.RcSection.html">RcSection</a></div>
+    <div class="level4"><span class="xref">StbSecBeamRc</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="STBDotNet.v140.IModel.html">IModel</a></div>
+    <div><a class="xref" href="STBDotNet.v140.ISection.html">ISection</a></div>
+    <div><a class="xref" href="STBDotNet.v140.ISecBeam.html">ISecBeam</a></div>
+    <div><a class="xref" href="STBDotNet.v140.IStbSerializable.html">IStbSerializable</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="STBDotNet.v140.RcSection.html#STBDotNet_v140_RcSection_StrengthConcrete">RcSection.StrengthConcrete</a>
+    </div>
+    <div>
+      <a class="xref" href="STBDotNet.v140.RcSection.html#STBDotNet_v140_RcSection_DBarMain">RcSection.DBarMain</a>
+    </div>
+    <div>
+      <a class="xref" href="STBDotNet.v140.RcSection.html#STBDotNet_v140_RcSection_DBar2ndMain">RcSection.DBar2ndMain</a>
+    </div>
+    <div>
+      <a class="xref" href="STBDotNet.v140.RcSection.html#STBDotNet_v140_RcSection_DBarSpacing">RcSection.DBarSpacing</a>
+    </div>
+    <div>
+      <a class="xref" href="STBDotNet.v140.RcSection.html#STBDotNet_v140_RcSection_StrengthBarMain">RcSection.StrengthBarMain</a>
+    </div>
+    <div>
+      <a class="xref" href="STBDotNet.v140.RcSection.html#STBDotNet_v140_RcSection_StrengthBar2ndMain">RcSection.StrengthBar2ndMain</a>
+    </div>
+    <div>
+      <a class="xref" href="STBDotNet.v140.RcSection.html#STBDotNet_v140_RcSection_StrengthBarSpacing">RcSection.StrengthBarSpacing</a>
+    </div>
+    <div>
+      <a class="xref" href="STBDotNet.v140.RcSection.html#STBDotNet_v140_RcSection_IntervalBar">RcSection.IntervalBar</a>
+    </div>
+    <div>
+      <a class="xref" href="STBDotNet.v140.StbSectionBase.html#STBDotNet_v140_StbSectionBase_Id">StbSectionBase.Id</a>
+    </div>
+    <div>
+      <a class="xref" href="STBDotNet.v140.StbSectionBase.html#STBDotNet_v140_StbSectionBase_Name">StbSectionBase.Name</a>
+    </div>
+    <div>
+      <a class="xref" href="STBDotNet.v140.StbSectionBase.html#STBDotNet_v140_StbSectionBase_Floor">StbSectionBase.Floor</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="STBDotNet.v140.html">STBDotNet.v140</a></h6>
+  <h6><strong>Assembly</strong>: STBDotNet.dll</h6>
+  <h5 id="STBDotNet_v140_StbSecBeamRc_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class StbSecBeamRc : RcSection, IModel, ISection, ISecBeam, IStbSerializable</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/hrntsm/STBDotNet/new/fdbf416897e8268faacfab2df3c34851fb25e45f/apiSpec/new?filename=STBDotNet_v140_StbSecBeamRc_BarArrangement.md&amp;value=---%0Auid%3A%20STBDotNet.v140.StbSecBeamRc.BarArrangement%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/hrntsm/STBDotNet/blob/fdbf416897e8268faacfab2df3c34851fb25e45f/STBDotNet/v140/StbSecBeamRc.cs/#L27">View Source</a>
+  </span>
+  <a id="STBDotNet_v140_StbSecBeamRc_BarArrangement_" data-uid="STBDotNet.v140.StbSecBeamRc.BarArrangement*"></a>
+  <h4 id="STBDotNet_v140_StbSecBeamRc_BarArrangement" data-uid="STBDotNet.v140.StbSecBeamRc.BarArrangement">BarArrangement</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public StbRcBeamSecBarArrangement BarArrangement { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="STBDotNet.v140.StbRcBeamSecBarArrangement.html">StbRcBeamSecBarArrangement</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/hrntsm/STBDotNet/new/fdbf416897e8268faacfab2df3c34851fb25e45f/apiSpec/new?filename=STBDotNet_v140_StbSecBeamRc_BarLengthEnd.md&amp;value=---%0Auid%3A%20STBDotNet.v140.StbSecBeamRc.BarLengthEnd%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/hrntsm/STBDotNet/blob/fdbf416897e8268faacfab2df3c34851fb25e45f/STBDotNet/v140/StbSecBeamRc.cs/#L24">View Source</a>
+  </span>
+  <a id="STBDotNet_v140_StbSecBeamRc_BarLengthEnd_" data-uid="STBDotNet.v140.StbSecBeamRc.BarLengthEnd*"></a>
+  <h4 id="STBDotNet_v140_StbSecBeamRc_BarLengthEnd" data-uid="STBDotNet.v140.StbSecBeamRc.BarLengthEnd">BarLengthEnd</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double BarLengthEnd { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/hrntsm/STBDotNet/new/fdbf416897e8268faacfab2df3c34851fb25e45f/apiSpec/new?filename=STBDotNet_v140_StbSecBeamRc_BarLengthStart.md&amp;value=---%0Auid%3A%20STBDotNet.v140.StbSecBeamRc.BarLengthStart%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/hrntsm/STBDotNet/blob/fdbf416897e8268faacfab2df3c34851fb25e45f/STBDotNet/v140/StbSecBeamRc.cs/#L23">View Source</a>
+  </span>
+  <a id="STBDotNet_v140_StbSecBeamRc_BarLengthStart_" data-uid="STBDotNet.v140.StbSecBeamRc.BarLengthStart*"></a>
+  <h4 id="STBDotNet_v140_StbSecBeamRc_BarLengthStart" data-uid="STBDotNet.v140.StbSecBeamRc.BarLengthStart">BarLengthStart</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double BarLengthStart { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/hrntsm/STBDotNet/new/fdbf416897e8268faacfab2df3c34851fb25e45f/apiSpec/new?filename=STBDotNet_v140_StbSecBeamRc_CenterBarBottom.md&amp;value=---%0Auid%3A%20STBDotNet.v140.StbSecBeamRc.CenterBarBottom%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/hrntsm/STBDotNet/blob/fdbf416897e8268faacfab2df3c34851fb25e45f/STBDotNet/v140/StbSecBeamRc.cs/#L22">View Source</a>
+  </span>
+  <a id="STBDotNet_v140_StbSecBeamRc_CenterBarBottom_" data-uid="STBDotNet.v140.StbSecBeamRc.CenterBarBottom*"></a>
+  <h4 id="STBDotNet_v140_StbSecBeamRc_CenterBarBottom" data-uid="STBDotNet.v140.StbSecBeamRc.CenterBarBottom">CenterBarBottom</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double CenterBarBottom { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/hrntsm/STBDotNet/new/fdbf416897e8268faacfab2df3c34851fb25e45f/apiSpec/new?filename=STBDotNet_v140_StbSecBeamRc_CenterBarTop.md&amp;value=---%0Auid%3A%20STBDotNet.v140.StbSecBeamRc.CenterBarTop%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/hrntsm/STBDotNet/blob/fdbf416897e8268faacfab2df3c34851fb25e45f/STBDotNet/v140/StbSecBeamRc.cs/#L21">View Source</a>
+  </span>
+  <a id="STBDotNet_v140_StbSecBeamRc_CenterBarTop_" data-uid="STBDotNet.v140.StbSecBeamRc.CenterBarTop*"></a>
+  <h4 id="STBDotNet_v140_StbSecBeamRc_CenterBarTop" data-uid="STBDotNet.v140.StbSecBeamRc.CenterBarTop">CenterBarTop</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double CenterBarTop { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/hrntsm/STBDotNet/new/fdbf416897e8268faacfab2df3c34851fb25e45f/apiSpec/new?filename=STBDotNet_v140_StbSecBeamRc_DBarWeb.md&amp;value=---%0Auid%3A%20STBDotNet.v140.StbSecBeamRc.DBarWeb%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/hrntsm/STBDotNet/blob/fdbf416897e8268faacfab2df3c34851fb25e45f/STBDotNet/v140/StbSecBeamRc.cs/#L14">View Source</a>
+  </span>
+  <a id="STBDotNet_v140_StbSecBeamRc_DBarWeb_" data-uid="STBDotNet.v140.StbSecBeamRc.DBarWeb*"></a>
+  <h4 id="STBDotNet_v140_StbSecBeamRc_DBarWeb" data-uid="STBDotNet.v140.StbSecBeamRc.DBarWeb">DBarWeb</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string DBarWeb { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/hrntsm/STBDotNet/new/fdbf416897e8268faacfab2df3c34851fb25e45f/apiSpec/new?filename=STBDotNet_v140_StbSecBeamRc_DepthCoverBottom.md&amp;value=---%0Auid%3A%20STBDotNet.v140.StbSecBeamRc.DepthCoverBottom%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/hrntsm/STBDotNet/blob/fdbf416897e8268faacfab2df3c34851fb25e45f/STBDotNet/v140/StbSecBeamRc.cs/#L20">View Source</a>
+  </span>
+  <a id="STBDotNet_v140_StbSecBeamRc_DepthCoverBottom_" data-uid="STBDotNet.v140.StbSecBeamRc.DepthCoverBottom*"></a>
+  <h4 id="STBDotNet_v140_StbSecBeamRc_DepthCoverBottom" data-uid="STBDotNet.v140.StbSecBeamRc.DepthCoverBottom">DepthCoverBottom</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double DepthCoverBottom { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/hrntsm/STBDotNet/new/fdbf416897e8268faacfab2df3c34851fb25e45f/apiSpec/new?filename=STBDotNet_v140_StbSecBeamRc_DepthCoverLeft.md&amp;value=---%0Auid%3A%20STBDotNet.v140.StbSecBeamRc.DepthCoverLeft%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/hrntsm/STBDotNet/blob/fdbf416897e8268faacfab2df3c34851fb25e45f/STBDotNet/v140/StbSecBeamRc.cs/#L17">View Source</a>
+  </span>
+  <a id="STBDotNet_v140_StbSecBeamRc_DepthCoverLeft_" data-uid="STBDotNet.v140.StbSecBeamRc.DepthCoverLeft*"></a>
+  <h4 id="STBDotNet_v140_StbSecBeamRc_DepthCoverLeft" data-uid="STBDotNet.v140.StbSecBeamRc.DepthCoverLeft">DepthCoverLeft</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double DepthCoverLeft { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/hrntsm/STBDotNet/new/fdbf416897e8268faacfab2df3c34851fb25e45f/apiSpec/new?filename=STBDotNet_v140_StbSecBeamRc_DepthCoverRight.md&amp;value=---%0Auid%3A%20STBDotNet.v140.StbSecBeamRc.DepthCoverRight%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/hrntsm/STBDotNet/blob/fdbf416897e8268faacfab2df3c34851fb25e45f/STBDotNet/v140/StbSecBeamRc.cs/#L18">View Source</a>
+  </span>
+  <a id="STBDotNet_v140_StbSecBeamRc_DepthCoverRight_" data-uid="STBDotNet.v140.StbSecBeamRc.DepthCoverRight*"></a>
+  <h4 id="STBDotNet_v140_StbSecBeamRc_DepthCoverRight" data-uid="STBDotNet.v140.StbSecBeamRc.DepthCoverRight">DepthCoverRight</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double DepthCoverRight { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/hrntsm/STBDotNet/new/fdbf416897e8268faacfab2df3c34851fb25e45f/apiSpec/new?filename=STBDotNet_v140_StbSecBeamRc_DepthCoverTop.md&amp;value=---%0Auid%3A%20STBDotNet.v140.StbSecBeamRc.DepthCoverTop%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/hrntsm/STBDotNet/blob/fdbf416897e8268faacfab2df3c34851fb25e45f/STBDotNet/v140/StbSecBeamRc.cs/#L19">View Source</a>
+  </span>
+  <a id="STBDotNet_v140_StbSecBeamRc_DepthCoverTop_" data-uid="STBDotNet.v140.StbSecBeamRc.DepthCoverTop*"></a>
+  <h4 id="STBDotNet_v140_StbSecBeamRc_DepthCoverTop" data-uid="STBDotNet.v140.StbSecBeamRc.DepthCoverTop">DepthCoverTop</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double DepthCoverTop { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/hrntsm/STBDotNet/new/fdbf416897e8268faacfab2df3c34851fb25e45f/apiSpec/new?filename=STBDotNet_v140_StbSecBeamRc_DStirrup.md&amp;value=---%0Auid%3A%20STBDotNet.v140.StbSecBeamRc.DStirrup%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/hrntsm/STBDotNet/blob/fdbf416897e8268faacfab2df3c34851fb25e45f/STBDotNet/v140/StbSecBeamRc.cs/#L13">View Source</a>
+  </span>
+  <a id="STBDotNet_v140_StbSecBeamRc_DStirrup_" data-uid="STBDotNet.v140.StbSecBeamRc.DStirrup*"></a>
+  <h4 id="STBDotNet_v140_StbSecBeamRc_DStirrup" data-uid="STBDotNet.v140.StbSecBeamRc.DStirrup">DStirrup</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string DStirrup { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/hrntsm/STBDotNet/new/fdbf416897e8268faacfab2df3c34851fb25e45f/apiSpec/new?filename=STBDotNet_v140_StbSecBeamRc_Figure.md&amp;value=---%0Auid%3A%20STBDotNet.v140.StbSecBeamRc.Figure%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/hrntsm/STBDotNet/blob/fdbf416897e8268faacfab2df3c34851fb25e45f/STBDotNet/v140/StbSecBeamRc.cs/#L26">View Source</a>
+  </span>
+  <a id="STBDotNet_v140_StbSecBeamRc_Figure_" data-uid="STBDotNet.v140.StbSecBeamRc.Figure*"></a>
+  <h4 id="STBDotNet_v140_StbSecBeamRc_Figure" data-uid="STBDotNet.v140.StbSecBeamRc.Figure">Figure</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public StbRcBeamSecFigure Figure { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="STBDotNet.v140.StbRcBeamSecFigure.html">StbRcBeamSecFigure</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/hrntsm/STBDotNet/new/fdbf416897e8268faacfab2df3c34851fb25e45f/apiSpec/new?filename=STBDotNet_v140_StbSecBeamRc_FigureType.md&amp;value=---%0Auid%3A%20STBDotNet.v140.StbSecBeamRc.FigureType%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/hrntsm/STBDotNet/blob/fdbf416897e8268faacfab2df3c34851fb25e45f/STBDotNet/v140/StbSecBeamRc.cs/#L28">View Source</a>
+  </span>
+  <a id="STBDotNet_v140_StbSecBeamRc_FigureType_" data-uid="STBDotNet.v140.StbSecBeamRc.FigureType*"></a>
+  <h4 id="STBDotNet_v140_StbSecBeamRc_FigureType" data-uid="STBDotNet.v140.StbSecBeamRc.FigureType">FigureType</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RcBeamFigureType FigureType { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="STBDotNet.v140.RcBeamFigureType.html">RcBeamFigureType</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/hrntsm/STBDotNet/new/fdbf416897e8268faacfab2df3c34851fb25e45f/apiSpec/new?filename=STBDotNet_v140_StbSecBeamRc_IsCanti.md&amp;value=---%0Auid%3A%20STBDotNet.v140.StbSecBeamRc.IsCanti%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/hrntsm/STBDotNet/blob/fdbf416897e8268faacfab2df3c34851fb25e45f/STBDotNet/v140/StbSecBeamRc.cs/#L11">View Source</a>
+  </span>
+  <a id="STBDotNet_v140_StbSecBeamRc_IsCanti_" data-uid="STBDotNet.v140.StbSecBeamRc.IsCanti*"></a>
+  <h4 id="STBDotNet_v140_StbSecBeamRc_IsCanti" data-uid="STBDotNet.v140.StbSecBeamRc.IsCanti">IsCanti</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string IsCanti { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/hrntsm/STBDotNet/new/fdbf416897e8268faacfab2df3c34851fb25e45f/apiSpec/new?filename=STBDotNet_v140_StbSecBeamRc_IsFoundation.md&amp;value=---%0Auid%3A%20STBDotNet.v140.StbSecBeamRc.IsFoundation%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/hrntsm/STBDotNet/blob/fdbf416897e8268faacfab2df3c34851fb25e45f/STBDotNet/v140/StbSecBeamRc.cs/#L10">View Source</a>
+  </span>
+  <a id="STBDotNet_v140_StbSecBeamRc_IsFoundation_" data-uid="STBDotNet.v140.StbSecBeamRc.IsFoundation*"></a>
+  <h4 id="STBDotNet_v140_StbSecBeamRc_IsFoundation" data-uid="STBDotNet.v140.StbSecBeamRc.IsFoundation">IsFoundation</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string IsFoundation { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/hrntsm/STBDotNet/new/fdbf416897e8268faacfab2df3c34851fb25e45f/apiSpec/new?filename=STBDotNet_v140_StbSecBeamRc_IsOutIn.md&amp;value=---%0Auid%3A%20STBDotNet.v140.StbSecBeamRc.IsOutIn%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/hrntsm/STBDotNet/blob/fdbf416897e8268faacfab2df3c34851fb25e45f/STBDotNet/v140/StbSecBeamRc.cs/#L12">View Source</a>
+  </span>
+  <a id="STBDotNet_v140_StbSecBeamRc_IsOutIn_" data-uid="STBDotNet.v140.StbSecBeamRc.IsOutIn*"></a>
+  <h4 id="STBDotNet_v140_StbSecBeamRc_IsOutIn" data-uid="STBDotNet.v140.StbSecBeamRc.IsOutIn">IsOutIn</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string IsOutIn { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/hrntsm/STBDotNet/new/fdbf416897e8268faacfab2df3c34851fb25e45f/apiSpec/new?filename=STBDotNet_v140_StbSecBeamRc_KindBeam.md&amp;value=---%0Auid%3A%20STBDotNet.v140.StbSecBeamRc.KindBeam%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/hrntsm/STBDotNet/blob/fdbf416897e8268faacfab2df3c34851fb25e45f/STBDotNet/v140/StbSecBeamRc.cs/#L9">View Source</a>
+  </span>
+  <a id="STBDotNet_v140_StbSecBeamRc_KindBeam_" data-uid="STBDotNet.v140.StbSecBeamRc.KindBeam*"></a>
+  <h4 id="STBDotNet_v140_StbSecBeamRc_KindBeam" data-uid="STBDotNet.v140.StbSecBeamRc.KindBeam">KindBeam</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string KindBeam { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/hrntsm/STBDotNet/new/fdbf416897e8268faacfab2df3c34851fb25e45f/apiSpec/new?filename=STBDotNet_v140_StbSecBeamRc_StrengthBarWeb.md&amp;value=---%0Auid%3A%20STBDotNet.v140.StbSecBeamRc.StrengthBarWeb%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/hrntsm/STBDotNet/blob/fdbf416897e8268faacfab2df3c34851fb25e45f/STBDotNet/v140/StbSecBeamRc.cs/#L16">View Source</a>
+  </span>
+  <a id="STBDotNet_v140_StbSecBeamRc_StrengthBarWeb_" data-uid="STBDotNet.v140.StbSecBeamRc.StrengthBarWeb*"></a>
+  <h4 id="STBDotNet_v140_StbSecBeamRc_StrengthBarWeb" data-uid="STBDotNet.v140.StbSecBeamRc.StrengthBarWeb">StrengthBarWeb</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string StrengthBarWeb { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/hrntsm/STBDotNet/new/fdbf416897e8268faacfab2df3c34851fb25e45f/apiSpec/new?filename=STBDotNet_v140_StbSecBeamRc_StrengthStirrup.md&amp;value=---%0Auid%3A%20STBDotNet.v140.StbSecBeamRc.StrengthStirrup%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/hrntsm/STBDotNet/blob/fdbf416897e8268faacfab2df3c34851fb25e45f/STBDotNet/v140/StbSecBeamRc.cs/#L15">View Source</a>
+  </span>
+  <a id="STBDotNet_v140_StbSecBeamRc_StrengthStirrup_" data-uid="STBDotNet.v140.StbSecBeamRc.StrengthStirrup*"></a>
+  <h4 id="STBDotNet_v140_StbSecBeamRc_StrengthStirrup" data-uid="STBDotNet.v140.StbSecBeamRc.StrengthStirrup">StrengthStirrup</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string StrengthStirrup { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/hrntsm/STBDotNet/new/fdbf416897e8268faacfab2df3c34851fb25e45f/apiSpec/new?filename=STBDotNet_v140_StbSecBeamRc_OnAfterDeserialize.md&amp;value=---%0Auid%3A%20STBDotNet.v140.StbSecBeamRc.OnAfterDeserialize%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/hrntsm/STBDotNet/blob/fdbf416897e8268faacfab2df3c34851fb25e45f/STBDotNet/v140/StbSecBeamRc.cs/#L30">View Source</a>
+  </span>
+  <a id="STBDotNet_v140_StbSecBeamRc_OnAfterDeserialize_" data-uid="STBDotNet.v140.StbSecBeamRc.OnAfterDeserialize*"></a>
+  <h4 id="STBDotNet_v140_StbSecBeamRc_OnAfterDeserialize" data-uid="STBDotNet.v140.StbSecBeamRc.OnAfterDeserialize">OnAfterDeserialize()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnAfterDeserialize()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/hrntsm/STBDotNet/new/fdbf416897e8268faacfab2df3c34851fb25e45f/apiSpec/new?filename=STBDotNet_v140_StbSecBeamRc_OnBeforeSerialize.md&amp;value=---%0Auid%3A%20STBDotNet.v140.StbSecBeamRc.OnBeforeSerialize%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/hrntsm/STBDotNet/blob/fdbf416897e8268faacfab2df3c34851fb25e45f/STBDotNet/v140/StbSecBeamRc.cs/#L51">View Source</a>
+  </span>
+  <a id="STBDotNet_v140_StbSecBeamRc_OnBeforeSerialize_" data-uid="STBDotNet.v140.StbSecBeamRc.OnBeforeSerialize*"></a>
+  <h4 id="STBDotNet_v140_StbSecBeamRc_OnBeforeSerialize" data-uid="STBDotNet.v140.StbSecBeamRc.OnBeforeSerialize">OnBeforeSerialize()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnBeforeSerialize()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/hrntsm/STBDotNet/new/fdbf416897e8268faacfab2df3c34851fb25e45f/apiSpec/new?filename=STBDotNet_v140_StbSecBeamRc_ToString.md&amp;value=---%0Auid%3A%20STBDotNet.v140.StbSecBeamRc.ToString%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/hrntsm/STBDotNet/blob/fdbf416897e8268faacfab2df3c34851fb25e45f/STBDotNet/v140/StbSecBeamRc.cs/#L56">View Source</a>
+  </span>
+  <a id="STBDotNet_v140_StbSecBeamRc_ToString_" data-uid="STBDotNet.v140.StbSecBeamRc.ToString*"></a>
+  <h4 id="STBDotNet_v140_StbSecBeamRc_ToString" data-uid="STBDotNet.v140.StbSecBeamRc.ToString">ToString()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="STBDotNet.v140.IModel.html">IModel</a>
+  </div>
+  <div>
+      <a class="xref" href="STBDotNet.v140.ISection.html">ISection</a>
+  </div>
+  <div>
+      <a class="xref" href="STBDotNet.v140.ISecBeam.html">ISecBeam</a>
+  </div>
+  <div>
+      <a class="xref" href="STBDotNet.v140.IStbSerializable.html">IStbSerializable</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/hrntsm/STBDotNet/new/fdbf416897e8268faacfab2df3c34851fb25e45f/apiSpec/new?filename=STBDotNet_v140_StbSecBeamRc.md&amp;value=---%0Auid%3A%20STBDotNet.v140.StbSecBeamRc%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/hrntsm/STBDotNet/blob/fdbf416897e8268faacfab2df3c34851fb25e45f/STBDotNet/v140/StbSecBeamRc.cs/#L7" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

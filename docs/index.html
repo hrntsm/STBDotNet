@@ -1,0 +1,157 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>STBDotNet </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="STBDotNet ">
+    <meta name="generator" content="docfx 2.56.7.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="stbdotnet">STBDotNet</h1>
+
+<p><a href="https://github.com/hrntsm/STBDotNet/actions?query=workflow%3A%22.NET+Core%22"><img src="https://img.shields.io/github/workflow/status/hrntsm/STBDotNet/.NET%20Core" alt="GitHub Workflow Status"></a>
+<a href="https://www.codacy.com/gh/hrntsm/STBDotNet/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=hrntsm/STBDotNet&amp;utm_campaign=Badge_Grade"><img src="https://app.codacy.com/project/badge/Grade/9d82da70572843968d00f39295c8125d" alt="Codacy Badge"></a>
+<a href="https://codeclimate.com/github/hrntsm/STBDotNet/maintainability"><img src="https://api.codeclimate.com/v1/badges/500f11fa2a460e5d5c62/maintainability" alt="Maintainability"></a>
+<a href="https://codecov.io/gh/hrntsm/STBDotNet"><img src="https://codecov.io/gh/hrntsm/STBDotNet/branch/develop/graph/badge.svg?token=SMTSZSDXVL" alt="codecov"></a></p>
+<p>STBDotNet is a .NET library for ST-Bridge.</p>
+<p>SDK Document is blow link.<br>
+<a href="https://hiron.dev/STBDotNet/docs/index.html">STBDotNet SDK Documents</a></p>
+<p>Nuget Package can download <a href="https://www.nuget.org/packages/STBDotNet/">here</a></p>
+<h2 id="this-library-work-in-progress">This library Work in Progress</h2>
+<p>We are currently developing more additional useful features.</p>
+<h2 id="usage">Usage</h2>
+<h3 id="serialize--output-st-bridge-file">Serialize &amp; output ST-Bridge file</h3>
+<p>By specifying the StbElements class and the path you want to output, the st-bridge data will be output.
+It returns a bool indicating the success or failure of the output.</p>
+<pre><code class="lang-cs">STBDotNet.v202.ST_BRIDGE model = hoge; // Set ST-Bridge version 2.0.2 data
+bool result = STBDotNet.Serialization.Serialize(model, outPath, STBDotNet.Enums.Version.Stb202); // If serialize is success, return true.
+</code></pre>
+<h3 id="deserialize-st-bridge-file">Deserialize ST-Bridge file</h3>
+<p>Input the path to the stb file, and the loaded data will be serialized and retrieved as the StbElements class.</p>
+<p>Deserializer returns as an object type, so cast it in the same version as the STB file.
+If you are using version 2.0.2, it is as follows.</p>
+<pre><code class="lang-cs">var model = STBDotNet.Serialization.Serializer.Deserialize(stbPath, STBDotNet.Enums.Version.Stb202);
+</code></pre>
+<h2 id="what-is-st-bridge">What is ST-Bridge</h2>
+<p>Quote from <a href="https://en.building-smart.or.jp/meeting/buildall/structural-design/">building SMART Japan Structural Design Subcommittee</a> doing making specifications of ST-Bridge.</p>
+<blockquote>
+<p>ST Bridge is the standardized format for data sharing in Japan’s structural engineering industry.</p>
+<ul>
+<li>Simpler to use than IFC due to the clearly defined the range of use</li>
+<li>Integrate Japanese original methods of drawing methodology (Grids, part placement and section annotations, reinforcement information)</li>
+<li>Aim for coordination between domestic structural applications, building skeleton surveying applications, 3D Object CAD</li>
+</ul>
+</blockquote>
+<h2 id="contact-information">Contact information</h2>
+<p><a href="https://twitter.com/hiron_rgkr"><img src="https://img.shields.io/twitter/follow/hiron_rgkr?style=social" alt="Twitter"></a></p>
+<ul>
+<li>HP : <a href="https://hiron.dev">https://hiron.dev</a></li>
+<li>Mail : support(at)hrntsm.com
+<ul>
+<li>change (at) to @</li>
+</ul>
+</li>
+</ul>
+<h2 id="license">License</h2>
+<p>STBDotNet is licensed under the <a href="https://github.com/hrntsm/STBDotNet/blob/main/LICENSE">MIT</a> license.<br>
+Copyright© 2021, hrntsm</p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/hrntsm/STBDotNet/blob/fdbf416897e8268faacfab2df3c34851fb25e45f/docs/index.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
