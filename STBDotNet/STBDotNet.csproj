@@ -1,10 +1,10 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <TargetFrameworks>net6.0;netstandard2.0</TargetFrameworks>
+        <TargetFrameworks>net6.0;netstandard2.0;netframework4.8</TargetFrameworks>
         <DebugType>full</DebugType>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-        <Version>0.2.2</Version>
+        <Version>0.2.3</Version>
         <Authors>hrntsm</Authors>
         <Company>hrntsm</Company>
         <PackageLicenseFile>LICENSE</PackageLicenseFile>
@@ -13,6 +13,8 @@
         <Description>STBDotNet is a .NET library for ST-Bridge.</Description>
         <Copyright>Copyright (c) 2021 hrntsm</Copyright>
         <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+        <RunAnalyzersDuringBuild>false</RunAnalyzersDuringBuild>
+        <AssemblyVersion>0.2.3.0</AssemblyVersion>
     </PropertyGroup>
 
     <ItemGroup>

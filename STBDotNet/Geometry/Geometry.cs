@@ -54,7 +54,7 @@ namespace STBDotNet.Geometry
             return obj is Point3 other && Equals(other);
         }
 
-#if NET5_0
+#if NET6_0
         public override int GetHashCode()
         {
             return HashCode.Combine(X, Y, Z);
@@ -95,7 +95,7 @@ namespace STBDotNet.Geometry
             return obj is Line3 other && Equals(other);
         }
 
-#if NET5_0
+#if NET6_0
         public override int GetHashCode()
         {
             return HashCode.Combine(Start, End);
@@ -133,7 +133,7 @@ namespace STBDotNet.Geometry
             return obj is Mesh other && Equals(other);
         }
 
-#if NET5_0
+#if NET6_0
         public override int GetHashCode()
         {
             return HashCode.Combine(A, B, C);
